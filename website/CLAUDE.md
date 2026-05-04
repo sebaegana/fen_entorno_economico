@@ -84,6 +84,53 @@ Todos los archivos de una clase usan el prefijo `claseXX_` (ej. `clase01_`).
 6. Copiar archivos de datos a `clases/data/`
 7. Actualizar `clases/index.qmd` con el enlace a la nueva clase
 
+## Formato de casos (cases/)
+
+Los casos son documentos PDF independientes (no páginas web). Estructura de archivos en `cases/YYYYMM_caseXX/`:
+
+- `case01.qmd` — único archivo que renderiza enunciado y pauta
+- `_quarto.yml` — define el perfil `pauta`
+
+**Formato** (HTML standalone + PDF con logo y footer — equivalente al notebook de clases, no es parte del sitio web):
+```yaml
+format:
+  html:
+    theme: cosmo
+    self-contained: true
+    toc: true
+    toc-title: "Contenido"
+  pdf:
+    toc: false
+    papersize: a4
+    geometry: "top=1.5in, bottom=1in, left=1in, right=1in"
+    include-in-header:
+      text: |
+        \usepackage{fancyhdr}
+        \usepackage{graphicx}
+        \usepackage{transparent}
+        \usepackage{mdframed}
+        \pagestyle{fancy}
+        \fancyhf{}
+        \lhead{\center{\transparent{0.4}\includegraphics[width=14cm]{../../website/clases/imagenes/Imagen1.jpg}}}
+        \rfoot{Página \thepage}
+        \cfoot{© Sebastián Egaña Santibáñez --- Entorno Económico}
+        \renewcommand{\headrulewidth}{0pt}
+        \renewcommand{\footrulewidth}{0pt}
+```
+
+**Toggle enunciado/pauta** — usar Quarto profiles:
+```
+::: {.content-visible when-profile="pauta"}
+::: {.callout-note appearance="simple" title="Respuesta"}
+Contenido de la respuesta
+:::
+:::
+```
+
+Renderizar:
+- `quarto render case01.qmd` → enunciado
+- `quarto render case01.qmd --profile pauta` → pauta
+
 ## Fuente original
 
 Las clases se trabajan a partir de presentaciones PPTX. Para extraer el
