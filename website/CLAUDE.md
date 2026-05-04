@@ -14,11 +14,13 @@ website/
 ├── contacto.qmd
 ├── styles.css           # estilos globales (paleta teal #0d6e6e)
 └── clases/
-    ├── index.qmd        # índice de clases
-    ├── styles.html      # estilos para slides revealjs
-    ├── diapositiva_XX.qmd   # slides de cada clase
-    ├── notebook_XX.qmd      # notebooks en formato PDF
-    ├── imagenes/        # imágenes usadas en slides y notebooks
+    ├── index.qmd                        # índice de clases
+    ├── styles.html                      # estilos para slides revealjs
+    ├── claseXX_diapositiva.qmd          # slides de la clase
+    ├── claseXX_actividad_[nombre].qmd   # actividades (una o más, en orden de la sesión)
+    ├── claseXX_notas_docente.qmd        # notas de apoyo docente
+    ├── claseXX_plan_mejora.qmd          # reflexión post-clase
+    ├── imagenes/        # imágenes usadas en slides y actividades
     ├── materiales/      # PDFs, PPTX y ZIPs de apoyo
     └── data/            # archivos Excel de ejercicios
 ```
@@ -40,11 +42,17 @@ Ejecutar desde la carpeta `website/`. El output va a `docs/`.
 
 ## Convenciones de archivos
 
-- Diapositivas: `diapositiva_XX.qmd` — formato `revealjs` + `pdf`
-- Notebooks: `notebook_XX.qmd` — formato `pdf`
-- Imágenes referenciadas en slides: `imagenes/nombre_descriptivo.png`
-- Materiales originales (PPTX, PDF fuente): van en `materiales/`, no se
-  referencian directamente en el QMD
+Todos los archivos de una clase usan el prefijo `claseXX_` (ej. `clase01_`).
+
+**Cadencia dentro de cada clase** (orden de la sesión):
+1. `claseXX_diapositiva.qmd` — slides principales, siempre este nombre exacto
+2. `claseXX_actividad_[nombre].qmd` — una o más actividades; `[nombre]` describe el contenido (ej. `apertura`, `pib`, `ipc`); el orden alfabético de `[nombre]` no importa, el orden real es el que se usa en la sesión
+3. `claseXX_notas_docente.qmd` — material de apoyo docente, siempre este nombre exacto
+4. `claseXX_plan_mejora.qmd` — reflexión post-clase, siempre este nombre exacto
+
+**Otros recursos:**
+- Imágenes referenciadas en QMDs: `imagenes/nombre_descriptivo.png`
+- Materiales originales (PPTX, PDF fuente): `materiales/`, no se referencian en QMD
 - Datos para ejercicios: `data/ejercicio XX nombre.xlsx`
 
 ## Convenciones de slides (revealjs)
@@ -66,11 +74,13 @@ Ejecutar desde la carpeta `website/`. El output va a `docs/`.
 
 ## Cuando se agrega una clase nueva
 
-1. Crear `clases/diapositiva_XX.qmd` con el YAML de la diapositiva_01 como base
-2. Copiar imágenes nuevas a `clases/imagenes/`
-3. Copiar materiales originales a `clases/materiales/`
-4. Copiar archivos de datos a `clases/data/`
-5. Actualizar `clases/index.qmd` con el enlace a la nueva diapositiva
+1. Crear `clases/claseXX_diapositiva.qmd` con el YAML de `clase01_diapositiva.qmd` como base
+2. Crear `clases/claseXX_actividad_[nombre].qmd` por cada actividad de la sesión
+3. Crear `clases/claseXX_notas_docente.qmd` y `clases/claseXX_plan_mejora.qmd`
+4. Copiar imágenes nuevas a `clases/imagenes/`
+5. Copiar materiales originales a `clases/materiales/`
+6. Copiar archivos de datos a `clases/data/`
+7. Actualizar `clases/index.qmd` con el enlace a la nueva clase
 
 ## Fuente original
 
