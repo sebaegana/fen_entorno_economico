@@ -1,0 +1,9 @@
+---
+title: "Sobre el sitio"
+---
+
+Este sitio reúne los materiales docentes del curso de Entorno Económico, orientado al análisis de indicadores macroeconómicos, fuentes estadísticas oficiales y herramientas cuantitativas aplicadas.
+
+Su objetivo es ofrecer un punto único para consultar clases, ejercicios y recursos complementarios, de modo que el trabajo en aula y el estudio posterior queden conectados en una misma estructura.
+
+El contenido está organizado para apoyar tanto la comprensión conceptual como la aplicación de estos temas a problemas económicos concretos.

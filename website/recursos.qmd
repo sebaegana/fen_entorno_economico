@@ -1,0 +1,42 @@
+---
+title: "Recursos"
+format: html
+---
+
+# Recursos adicionales
+
+Esta página reúne referencias útiles para profundizar los temas del curso. La idea no es cubrir todo, sino dejar una base confiable para seguir estudiando los principales indicadores y el entorno macroeconómico.
+
+## Fuentes de datos oficiales
+
+- [INE Chile](https://www.ine.gob.cl/): Instituto Nacional de Estadísticas. Fuente principal para IPC, empleo, salarios y cuentas nacionales.
+- [Banco Central de Chile](https://www.bcentral.cl/): estadísticas macroeconómicas, cuentas nacionales y tipo de cambio.
+- [OCDE](https://stats.oecd.org/): datos comparados entre países para indicadores económicos clave.
+
+## Cuentas nacionales y PIB
+
+- Metodología de cuentas nacionales del Banco Central de Chile.
+- Manual del Sistema de Cuentas Nacionales (SCN 2008) — referencia metodológica internacional.
+- [Our World in Data - GDP](https://ourworldindata.org/economic-growth): visualizaciones comparadas de crecimiento económico.
+
+## IPC e inflación
+
+- Metodología IPC del INE: definición de la canasta, ponderaciones y cálculo.
+- [BLS Handbook of Methods](https://www.bls.gov/opub/hom/): referencia para entender cómo se mide la inflación en distintos contextos.
+
+## Empleo y mercado laboral
+
+- Encuesta Nacional de Empleo (ENE) del INE: definiciones, metodología y series históricas.
+- OIT — [ILOSTAT](https://ilostat.ilo.org/): estadísticas internacionales de empleo y mercado laboral.
+
+## Salarios y remuneraciones
+
+- Índice de Remuneraciones del INE: metodología y publicaciones periódicas.
+- Encuesta de Remuneraciones y Costo de la Mano de Obra.
+
+## Herramientas de trabajo reproducible
+
+- [R for Data Science](https://r4ds.had.co.nz/)
+- [Hands-On Programming with R](https://rstudio-education.github.io/hopr/)
+- [Quarto](https://quarto.org/): documentación para publicar apuntes y análisis reproducibles.
+- [Posit Cheatsheets](https://posit.co/resources/cheatsheets/): referencia rápida para R y Quarto.

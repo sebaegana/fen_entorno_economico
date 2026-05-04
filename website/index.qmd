@@ -1,0 +1,30 @@
+---
+title: "Entorno Económico"
+subtitle: "Materiales de clase, referencias y recursos de apoyo"
+date: last-modified
+lang: es
+format:
+  html:
+    toc: true
+    theme: cosmo
+    number-sections: false
+---
+
+Bienvenidas y bienvenidos al sitio del curso. Acá reunimos las clases, materiales complementarios y recursos de apoyo para trabajar conceptos y casos sobre:
+
+- análisis del entorno macroeconómico
+- indicadores económicos: PIB, IPC, empleo y salarios
+- fuentes de datos oficiales y su interpretación
+- herramientas cuantitativas para el análisis económico
+
+## Cómo usar este sitio
+
+La navegación está organizada para acompañar el trabajo del curso:
+
+- en `Clases` encontrarás las sesiones y materiales asociados
+- en `Recursos` verás documentación, artículos y guías para profundizar
+- en `Contacto` están los canales del docente
+
+## Enfoque del curso
+
+El objetivo no es solo describir qué miden los indicadores económicos, sino también cómo interpretarlos en contexto, cómo relacionarlos entre sí y cómo usarlos para analizar situaciones económicas concretas.

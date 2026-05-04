@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "clases/*.qmd"
+
+  resources:
+    - "clases/imagenes/**"
+    - "clases/materiales/**"
+    - "clases/data/**"
+
+website:
+  title: "Entorno Económico"
+  navbar:
+    left:
+      - text: "Inicio"
+        href: index.qmd
+      - text: "Clases"
+        file: clases/index.qmd
+      - text: "Recursos"
+        href: recursos.qmd
+      - text: "Contacto"
+        href: contacto.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true

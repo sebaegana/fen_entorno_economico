@@ -1,0 +1,35 @@
+/* css styles */
+
+:root {
+  --site-accent: #0d6e6e;
+  --site-accent-soft: #e7f4f4;
+  --site-text: #1d2a33;
+}
+
+body {
+  color: var(--site-text);
+}
+
+.navbar {
+  border-bottom: 1px solid #d9e2e7;
+}
+
+.navbar-brand,
+.nav-link.active {
+  font-weight: 700;
+}
+
+.quarto-title-block .quarto-title-banner {
+  background: linear-gradient(135deg, var(--site-accent-soft), #ffffff);
+  border-bottom: 1px solid #d9e2e7;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--site-accent);
+}
+
+a {
+  color: var(--site-accent);
+}

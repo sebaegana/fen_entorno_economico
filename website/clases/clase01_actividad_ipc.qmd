@@ -1,0 +1,282 @@
+---
+title: "Actividad IPC — Clase 01"
+subtitle: "Construyamos un índice de precios paso a paso"
+lang: es
+date: "Abril 2026"
+format:
+  revealjs:
+    theme: simple
+    center: false
+    slide-number: true
+    self-contained: true
+    incremental: false
+    transition: slide
+    logo: "imagenes/Imagen1.jpg"
+    footer: "© Sebastián Egaña Santibáñez — Entorno Económico"
+    include-in-header: styles.html
+  pdf:
+    toc: false
+    papersize: a4
+    geometry: margin=1in
+---
+
+## Objetivo
+
+El IPC no es magia estadística — es una **suma ponderada** de variaciones de precios.
+
+En esta actividad vamos a construirlo desde cero:
+
+1. Armar una canasta de bienes
+2. Registrar los precios en dos momentos
+3. Calcular el índice
+4. Interpretar quién empujó más la inflación
+
+------------------------------------------------------------------------
+
+## Instrucciones
+
+La actividad tiene **tres partes**:
+
+| Parte | Qué hacen | Tiempo |
+|---|---|---|
+| 1 | Arman su canasta personal | 3 min |
+| 2 | Calculan el IPC con la canasta del curso | 10 min |
+| 3 | Interpretan y comparan | 5 min |
+
+Necesitan papel y calculadora (o el teléfono).
+
+------------------------------------------------------------------------
+
+# Parte 1: Arma tu canasta
+
+------------------------------------------------------------------------
+
+## ¿En qué gastan su sueldo?
+
+Piensen en un mes típico. Escriban **5 bienes o servicios** en los que gastan dinero regularmente y estimen cuánto destinan a cada uno.
+
+::: {.smaller}
+| Bien o servicio | Gasto mensual estimado ($) |
+|---|---|
+| 1. | |
+| 2. | |
+| 3. | |
+| 4. | |
+| 5. | |
+| **Total** | |
+:::
+
+Guarden estos números — los vamos a usar al final.
+
+------------------------------------------------------------------------
+
+## ¿Todos tienen la misma canasta?
+
+Antes de seguir, discutan brevemente:
+
+- ¿Qué bien apareció en más canastas?
+- ¿Qué bien no apareció en casi ninguna?
+- ¿Gastan todos el mismo porcentaje en arriendo? ¿En transporte?
+
+> Esto es exactamente el problema que enfrenta el INE al construir el IPC oficial: una sola canasta debe representar a millones de hogares con patrones de consumo distintos.
+
+------------------------------------------------------------------------
+
+# Parte 2: Calculemos el IPC
+
+------------------------------------------------------------------------
+
+## La canasta del curso
+
+Vamos a usar esta canasta para todos:
+
+::: {.smaller}
+| Bien | Cantidad mensual ($q_0$) | Precio Enero ($p_0$) |
+|---|:---:|---:|
+| Pan | 8 kg | \$1.000/kg |
+| Transporte | 40 viajes | \$500/viaje |
+| Bencina | 20 litros | \$1.000/litro |
+| Arriendo | 1 mes | \$40.000/mes |
+| Internet | 1 plan | \$12.000/plan |
+:::
+
+**Paso 1:** Calculen el gasto total en enero para cada bien ($p_0 \times q_0$) y sumen.
+
+------------------------------------------------------------------------
+
+## Paso 1 — Respuesta: gasto en enero
+
+::: {.smaller}
+| Bien | $q_0$ | $p_0$ | $p_0 \times q_0$ |
+|---|:---:|---:|---:|
+| Pan | 8 | \$1.000 | \$8.000 |
+| Transporte | 40 | \$500 | \$20.000 |
+| Bencina | 20 | \$1.000 | \$20.000 |
+| Arriendo | 1 | \$40.000 | \$40.000 |
+| Internet | 1 | \$12.000 | \$12.000 |
+| **Total** | | | **\$100.000** |
+:::
+
+El gasto total de la canasta en enero es **\$100.000**. Este es nuestro **año base** → IPC enero = 100.
+
+------------------------------------------------------------------------
+
+## Un año después...
+
+Los precios cambiaron. Así quedaron en diciembre:
+
+::: {.smaller}
+| Bien | Precio Enero ($p_0$) | Precio Diciembre ($p_1$) | Variación |
+|---|---:|---:|:---:|
+| Pan | \$1.000 | \$1.000 | 0% |
+| Transporte | \$500 | \$600 | +20% |
+| Bencina | \$1.000 | \$1.500 | **+50%** |
+| Arriendo | \$40.000 | \$44.000 | +10% |
+| Internet | \$12.000 | \$12.000 | 0% |
+:::
+
+**Paso 2:** Con los **mismos precios de diciembre** y las **mismas cantidades de enero** ($q_0$), calculen el nuevo gasto total ($\sum p_1 \cdot q_0$).
+
+------------------------------------------------------------------------
+
+## Paso 2 — Respuesta: gasto a precios de diciembre
+
+::: {.smaller}
+| Bien | $q_0$ | $p_1$ | $p_1 \times q_0$ |
+|---|:---:|---:|---:|
+| Pan | 8 | \$1.000 | \$8.000 |
+| Transporte | 40 | \$600 | \$24.000 |
+| Bencina | 20 | \$1.500 | **\$30.000** |
+| Arriendo | 1 | \$44.000 | \$44.000 |
+| Internet | 1 | \$12.000 | \$12.000 |
+| **Total** | | | **\$118.000** |
+:::
+
+Mantuvimos las cantidades fijas — solo cambiaron los precios. Eso es exactamente lo que hace **Laspeyres**.
+
+------------------------------------------------------------------------
+
+## Paso 3 — Calculen el índice
+
+La fórmula del Índice de Laspeyres (base IPC):
+
+$$IL = \frac{\sum p_1 \cdot q_0}{\sum p_0 \cdot q_0} \times 100$$
+
+Con los números que calcularon:
+
+$$IL = \frac{\$118.000}{\$100.000} \times 100 = \ ?$$
+
+------------------------------------------------------------------------
+
+## Paso 3 — Respuesta
+
+$$IL = \frac{118.000}{100.000} \times 100 = \mathbf{118}$$
+
+**La inflación del año fue:**
+
+$$\pi = \frac{IL_1 - IL_0}{IL_0} \times 100 = \frac{118 - 100}{100} \times 100 = \mathbf{18\%}$$
+
+La canasta que costaba \$100.000 en enero cuesta **\$118.000** en diciembre.
+
+------------------------------------------------------------------------
+
+# Parte 3: Interpretación
+
+------------------------------------------------------------------------
+
+## ¿Quién empujó más la inflación?
+
+No todos los bienes pesan igual. La **ponderación** de cada bien es su participación en el gasto base:
+
+::: {.smaller}
+| Bien | Gasto base | Ponderación | Variación | Contribución |
+|---|---:|:---:|:---:|:---:|
+| Pan | \$8.000 | 8% | 0% | **0,0 pp** |
+| Transporte | \$20.000 | 20% | +20% | **4,0 pp** |
+| Bencina | \$20.000 | 20% | +50% | **10,0 pp** |
+| Arriendo | \$40.000 | 40% | +10% | **4,0 pp** |
+| Internet | \$12.000 | 12% | 0% | **0,0 pp** |
+| **Total** | **\$100.000** | **100%** | | **18,0 pp** |
+:::
+
+**La bencina explica el 56% de la inflación total** (10 de 18 puntos porcentuales), aunque subió el precio de un solo bien.
+
+------------------------------------------------------------------------
+
+## ¿Por qué la bencina tiene tanto peso?
+
+La bencina subió 50% — pero solo pesa 20% de la canasta.
+
+Su contribución es: $20\% \times 50\% = 10$ puntos porcentuales.
+
+> Este mecanismo es exactamente lo que ocurrió en EE.UU. en marzo 2026: la gasolina subió 21% y fue responsable de la mayor parte del alza del CPI ese mes.
+
+**La inflación no depende solo de cuánto sube un precio — depende de cuánto pesa ese bien en el gasto de los hogares.**
+
+------------------------------------------------------------------------
+
+## Tu inflación vs. la inflación oficial
+
+Ahora vuelvan a su canasta personal de la Parte 1.
+
+::: {.callout-note}
+## Pregunta
+¿Su inflación personal habría sido mayor o menor que el 18% que calculamos?
+:::
+
+Piensen en:
+
+- ¿Tienen auto? ¿Cuánto pesa la bencina en sus gastos?
+- ¿Viven con sus padres? ¿Cuánto pesa el arriendo?
+- ¿Usan transporte público o privado?
+
+> No existe **una** inflación — existe **tu** inflación, que depende de cómo estructuras tu gasto.
+
+------------------------------------------------------------------------
+
+## La canasta real del INE
+
+El IPC oficial de Chile usa una canasta con más de **500 productos** agrupados en 12 divisiones:
+
+| División | Ponderación aproximada |
+|---|:---:|
+| Vivienda y servicios básicos | 33% |
+| Alimentos y bebidas | 20% |
+| Transporte | 13% |
+| Restaurantes y hoteles | 8% |
+| Salud | 6% |
+| Otros | 20% |
+
+La canasta se actualiza cada varios años con la Encuesta de Presupuestos Familiares (EPF).
+
+------------------------------------------------------------------------
+
+## ¿La canasta del INE los representa?
+
+Discutan:
+
+- ¿Qué grupo de la población tiene más peso en la canasta del INE: hogares de altos o bajos ingresos?
+- ¿Debería haber un IPC diferente para Santiago y para regiones?
+- ¿Qué pasaría si la canasta estuviera desactualizada 10 años?
+
+> El INE publica el IPC general pero también desgloses por grupo de gasto, por ciudad y por quintil de ingreso — porque saben que **la inflación que siente cada hogar puede ser muy distinta**.
+
+------------------------------------------------------------------------
+
+## Para llevar
+
+::: {style="font-size: 1.05em;"}
+Cuando vean un titular que dice *"la inflación fue X%"*, ahora saben preguntar:
+
+1. ¿Qué canasta usaron para medirla?
+2. ¿Qué bien la empujó más?
+3. ¿Esa canasta me representa a mí?
+:::
+
+---
+
+**Datos reales para explorar:**
+
+- [INE — IPC por división de gasto](https://www.ine.cl/estadisticas/economia/indices-de-precio-e-inflacion/indice-de-precios-al-consumidor)
+- [Calculadora de inflación personal — Banco Central de Chile](https://www.bcentral.cl)
+- Ver ejercicio con datos reales: `data/ejercicio 02 IPC.xlsx`

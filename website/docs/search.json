@@ -1,0 +1,1052 @@
+[
+  {
+    "objectID": "recursos.html",
+    "href": "recursos.html",
+    "title": "Recursos",
+    "section": "",
+    "text": "Esta página reúne referencias útiles para profundizar los temas del curso. La idea no es cubrir todo, sino dejar una base confiable para seguir estudiando los principales indicadores y el entorno macroeconómico.\n\n\n\nINE Chile: Instituto Nacional de Estadísticas. Fuente principal para IPC, empleo, salarios y cuentas nacionales.\nBanco Central de Chile: estadísticas macroeconómicas, cuentas nacionales y tipo de cambio.\nOCDE: datos comparados entre países para indicadores económicos clave.\n\n\n\n\n\nMetodología de cuentas nacionales del Banco Central de Chile.\nManual del Sistema de Cuentas Nacionales (SCN 2008) — referencia metodológica internacional.\nOur World in Data - GDP: visualizaciones comparadas de crecimiento económico.\n\n\n\n\n\nMetodología IPC del INE: definición de la canasta, ponderaciones y cálculo.\nBLS Handbook of Methods: referencia para entender cómo se mide la inflación en distintos contextos.\n\n\n\n\n\nEncuesta Nacional de Empleo (ENE) del INE: definiciones, metodología y series históricas.\nOIT — ILOSTAT: estadísticas internacionales de empleo y mercado laboral.\n\n\n\n\n\nÍndice de Remuneraciones del INE: metodología y publicaciones periódicas.\nEncuesta de Remuneraciones y Costo de la Mano de Obra.\n\n\n\n\n\nR for Data Science\nHands-On Programming with R\nQuarto: documentación para publicar apuntes y análisis reproducibles.\nPosit Cheatsheets: referencia rápida para R y Quarto."
+  },
+  {
+    "objectID": "recursos.html#fuentes-de-datos-oficiales",
+    "href": "recursos.html#fuentes-de-datos-oficiales",
+    "title": "Recursos",
+    "section": "",
+    "text": "INE Chile: Instituto Nacional de Estadísticas. Fuente principal para IPC, empleo, salarios y cuentas nacionales.\nBanco Central de Chile: estadísticas macroeconómicas, cuentas nacionales y tipo de cambio.\nOCDE: datos comparados entre países para indicadores económicos clave."
+  },
+  {
+    "objectID": "recursos.html#cuentas-nacionales-y-pib",
+    "href": "recursos.html#cuentas-nacionales-y-pib",
+    "title": "Recursos",
+    "section": "",
+    "text": "Metodología de cuentas nacionales del Banco Central de Chile.\nManual del Sistema de Cuentas Nacionales (SCN 2008) — referencia metodológica internacional.\nOur World in Data - GDP: visualizaciones comparadas de crecimiento económico."
+  },
+  {
+    "objectID": "recursos.html#ipc-e-inflación",
+    "href": "recursos.html#ipc-e-inflación",
+    "title": "Recursos",
+    "section": "",
+    "text": "Metodología IPC del INE: definición de la canasta, ponderaciones y cálculo.\nBLS Handbook of Methods: referencia para entender cómo se mide la inflación en distintos contextos."
+  },
+  {
+    "objectID": "recursos.html#empleo-y-mercado-laboral",
+    "href": "recursos.html#empleo-y-mercado-laboral",
+    "title": "Recursos",
+    "section": "",
+    "text": "Encuesta Nacional de Empleo (ENE) del INE: definiciones, metodología y series históricas.\nOIT — ILOSTAT: estadísticas internacionales de empleo y mercado laboral."
+  },
+  {
+    "objectID": "recursos.html#salarios-y-remuneraciones",
+    "href": "recursos.html#salarios-y-remuneraciones",
+    "title": "Recursos",
+    "section": "",
+    "text": "Índice de Remuneraciones del INE: metodología y publicaciones periódicas.\nEncuesta de Remuneraciones y Costo de la Mano de Obra."
+  },
+  {
+    "objectID": "recursos.html#herramientas-de-trabajo-reproducible",
+    "href": "recursos.html#herramientas-de-trabajo-reproducible",
+    "title": "Recursos",
+    "section": "",
+    "text": "R for Data Science\nHands-On Programming with R\nQuarto: documentación para publicar apuntes y análisis reproducibles.\nPosit Cheatsheets: referencia rápida para R y Quarto."
+  },
+  {
+    "objectID": "contacto.html",
+    "href": "contacto.html",
+    "title": "Contacto",
+    "section": "",
+    "text": "Contacto\nSebastián Egaña Santibáñez Docente del curso\n\nCorreo: segana@fen.uchile.cl\nLinkedIn: linkedin.com/in/sebaegana\nSitio web: segana.netlify.app\nGitHub: github.com/sebaegana\n\nSi estás usando este sitio como apoyo del curso, conviene escribir indicando el módulo, la clase o el material al que haces referencia para poder responder con más contexto."
+  },
+  {
+    "objectID": "clases/clase01_plan_mejora.html#actividad-de-apertura-diagnóstico-de-titular-10-min",
+    "href": "clases/clase01_plan_mejora.html#actividad-de-apertura-diagnóstico-de-titular-10-min",
+    "title": "Plan de mejora — Clase 01",
+    "section": "Actividad de apertura — Diagnóstico de titular (10 min)",
+    "text": "Actividad de apertura — Diagnóstico de titular (10 min)\nMostrar un titular económico reciente de un diario de EE.UU. y preguntar:\n\n¿Qué indica este dato?\n¿A quién afecta y cómo?\n¿Qué necesitarías saber para interpretarlo bien?\n\nSirve para activar conocimiento previo y motivar el marco conceptual de la clase. Implementada en: clase01_actividad_apertura.qmd"
+  },
+  {
+    "objectID": "clases/clase01_plan_mejora.html#actividad-pib-cuenta-o-no-cuenta-15-min",
+    "href": "clases/clase01_plan_mejora.html#actividad-pib-cuenta-o-no-cuenta-15-min",
+    "title": "Plan de mejora — Clase 01",
+    "section": "Actividad PIB — ¿Cuenta o no cuenta? (15 min)",
+    "text": "Actividad PIB — ¿Cuenta o no cuenta? (15 min)\nPresentar una lista de situaciones y pedir clasificar si se incluyen o no en el PIB:\n\n\n\nSituación\n¿Cuenta en el PIB?\n\n\n\n\nUna madre cuida a sus hijos en casa\n\n\n\nUn taxista informal cobra en efectivo\n\n\n\nChile exporta cobre a China\n\n\n\nUn chileno trabaja en Argentina\n\n\n\nWhatsApp presta servicio gratuito\n\n\n\n\nConecta directamente con el debate del PIB y bienestar, y la pregunta de ChatGPT que ya está en la slide. Formato: parejas, 5 min de discusión + plenario."
+  },
+  {
+    "objectID": "clases/clase01_plan_mejora.html#actividad-imacec-lectura-de-datos-reales-10-min",
+    "href": "clases/clase01_plan_mejora.html#actividad-imacec-lectura-de-datos-reales-10-min",
+    "title": "Plan de mejora — Clase 01",
+    "section": "Actividad Imacec — Lectura de datos reales (10 min)",
+    "text": "Actividad Imacec — Lectura de datos reales (10 min)\nMostrar el gráfico del Imacec de los últimos 12 meses (Banco Central) y pedir:\n\nIdentificar el período de mayor caída y el de mayor crecimiento\nProponer una hipótesis de por qué ocurrió cada uno\nRelacionarlo con algún evento económico o político del período\n\nDesarrolla la habilidad de leer indicadores oficiales antes del ejercicio Excel."
+  },
+  {
+    "objectID": "clases/clase01_plan_mejora.html#actividad-mercado-laboral-clasifica-el-caso-15-min",
+    "href": "clases/clase01_plan_mejora.html#actividad-mercado-laboral-clasifica-el-caso-15-min",
+    "title": "Plan de mejora — Clase 01",
+    "section": "Actividad mercado laboral — Clasifica el caso (15 min)",
+    "text": "Actividad mercado laboral — Clasifica el caso (15 min)\nPresentar 6–8 perfiles de personas y pedir ubicarlos en el diagrama del INE (ocupado, desocupado, inactivo, etc.):\n\n“María tiene 17 años y estudia. Los fines de semana ayuda en el negocio familiar sin sueldo.”\n\n\n“Juan perdió su trabajo hace 3 meses. Ha buscado trabajo, pero dejó de buscar esta semana porque está desmotivado.”\n\n\n“Carla trabaja 2 horas a la semana como freelance y busca trabajo de jornada completa.”\n\nObliga a aplicar los criterios exactos del INE, donde más se confunden los estudiantes. Formato: individual + corrección en plenario."
+  },
+  {
+    "objectID": "clases/clase01_plan_mejora.html#actividad-ipc-arma-tu-canasta-20-min",
+    "href": "clases/clase01_plan_mejora.html#actividad-ipc-arma-tu-canasta-20-min",
+    "title": "Plan de mejora — Clase 01",
+    "section": "Actividad IPC — Arma tu canasta (20 min)",
+    "text": "Actividad IPC — Arma tu canasta (20 min)\nAntes de entrar a la fórmula de Laspeyres, pedir a los estudiantes que:\n\nPropongan 5 bienes que consumen regularmente\nEstimen cuánto gastan en cada uno al mes\nCalculen qué pasaría con su “costo de vida” si el precio de cada bien sube 10%\n\nLuego mostrar la canasta oficial del INE y comparar ponderaciones. Funciona como motivación para la fórmula y como discusión sobre representatividad."
+  },
+  {
+    "objectID": "clases/clase01_plan_mejora.html#actividad-tipo-de-cambio-importador-vs-exportador-15-min",
+    "href": "clases/clase01_plan_mejora.html#actividad-tipo-de-cambio-importador-vs-exportador-15-min",
+    "title": "Plan de mejora — Clase 01",
+    "section": "Actividad tipo de cambio — Importador vs exportador (15 min)",
+    "text": "Actividad tipo de cambio — Importador vs exportador (15 min)\nPresentar dos empresas ficticias (una importa insumos, otra exporta productos) y un escenario de depreciación del peso. Pedir:\n\n¿Cómo afecta a cada empresa en costos, ingresos y márgenes?\n¿Qué acciones podría tomar cada una?\n\nConecta el concepto nominal/real con decisiones empresariales concretas."
+  },
+  {
+    "objectID": "clases/clase01_plan_mejora.html#caso-integrador-de-cierre-lectura-de-coyuntura-20-min",
+    "href": "clases/clase01_plan_mejora.html#caso-integrador-de-cierre-lectura-de-coyuntura-20-min",
+    "title": "Plan de mejora — Clase 01",
+    "section": "Caso integrador de cierre — Lectura de coyuntura (20 min)",
+    "text": "Caso integrador de cierre — Lectura de coyuntura (20 min)\nEntregar un párrafo de un informe económico real (IPOM o similar) con datos de PIB, desempleo, IPC y tipo de cambio, y pedir construir un diagnóstico:\n\n¿En qué momento del ciclo está la economía?\n¿Qué variables están bajo presión?\n¿Qué decisión tomarías si fueras el CFO de una empresa chilena?\n\nEs la actividad que conecta todos los indicadores vistos en la clase en un uso aplicado."
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#equipo-docente",
+    "href": "clases/clase01_diapositiva.html#equipo-docente",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Equipo docente",
+    "text": "Equipo docente\nDocentes:\n\nSebastián Egaña Santibáñez\nFelipe Jaque\n\nAyudante:\n\nJean Pierre Bravo"
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#contenidos-del-curso",
+    "href": "clases/clase01_diapositiva.html#contenidos-del-curso",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Contenidos del curso",
+    "text": "Contenidos del curso\n\nAnálisis de principales variables macroeconómicas\nPolíticas macroeconómicas\nRevisión de modelos de mercado de bienes y de activos financieros\nComportamiento de los agentes económicos: consumo y gobierno"
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#sobre-el-docente",
+    "href": "clases/clase01_diapositiva.html#sobre-el-docente",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Sobre el docente",
+    "text": "Sobre el docente\nSebastián Egaña Santibáñez\n\nData Tech Lead & Analytics Translator — LATAM Airlines\nCorreo: segana@fen.uchile.cl\nWeb: https://segana.netlify.app\nLinkedIn: enlace"
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#hilo-conductor-de-la-clase",
+    "href": "clases/clase01_diapositiva.html#hilo-conductor-de-la-clase",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Hilo conductor de la clase",
+    "text": "Hilo conductor de la clase\nPartimos con un titular. Al terminar la sesión deberían poder leerlo con precisión.\n\n“US inflation tripled last month on record spike in gas prices”\n\n\n— CNN Business, 10 de abril de 2026\n\nPara entenderlo necesitamos saber qué mide el IPC, cómo se construye, qué tan grave es un alza mensual de 0,9%, y cómo conecta con el empleo, el crecimiento y el tipo de cambio."
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#qué-veremos-esta-clase",
+    "href": "clases/clase01_diapositiva.html#qué-veremos-esta-clase",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "¿Qué veremos esta clase?",
+    "text": "¿Qué veremos esta clase?\n\n\n\n\n\n\n\nBloque\nConceptos clave\n\n\n\n\nEntorno económico\nVariables que afectan decisiones\n\n\nNivel de actividad\nPIB, Imacec, bienestar\n\n\nMercado laboral\nClasificación, tasas, Okun\n\n\nVariables nominales y reales\nIPC, deflactor, salario real, tipo de cambio\n\n\nSituación actual de Chile\nDatos reales: IPoM y CFA, 2026"
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#por-qué-importa-el-entorno",
+    "href": "clases/clase01_diapositiva.html#por-qué-importa-el-entorno",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "¿Por qué importa el entorno?",
+    "text": "¿Por qué importa el entorno?\nEl entorno económico es el conjunto de variables económicas y financieras que influyen en la toma de decisiones de personas, empresas y gobiernos.\n\nEl crecimiento económico se relaciona con el desempeño de los mercados\nLa inflación erosiona el poder adquisitivo y encarece los costos de las empresas\nEl tipo de cambio afecta directamente a importadores y exportadores\nLa tasa de interés determina el costo del financiamiento\n\n\nNo se puede tomar una decisión de inversión sin leer el entorno. Los indicadores macroeconómicos son el lenguaje en que ese entorno habla."
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#chile-en-2026-punto-de-partida",
+    "href": "clases/clase01_diapositiva.html#chile-en-2026-punto-de-partida",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Chile en 2026: punto de partida",
+    "text": "Chile en 2026: punto de partida\n\n\n\n\n\n\n\n\n\nIndicador\nDato\nFuente\n\n\n\n\nCrecimiento PIB 2025\n+2,5% real\nIPoM, BCCh, mar. 2026\n\n\nProyección PIB 2026\n1,5 – 2,5%\nIPoM, BCCh, mar. 2026\n\n\nInflación (feb. 2026)\n2,4% anual\nIPoM, BCCh, mar. 2026\n\n\nInflación proyectada (Q2 2026)\n~4% por combustibles\nIPoM, BCCh, mar. 2026\n\n\nTasa de desocupación\nEstable, sin cambios\nIPoM, BCCh, mar. 2026\n\n\nPrecio del cobre\nUS$5,4/lb promedio 2026\nIPoM, BCCh, mar. 2026\n\n\nPrecio del petróleo\n~US$100/barril (+60% vs. dic.)\nIPoM, BCCh, mar. 2026\n\n\n\n\nEl shock dominante de 2026 es la guerra en Medio Oriente (inicio: 28 feb.), que presiona la energía, la inflación y el tipo de cambio a nivel global y local."
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#qué-mide-el-nivel-de-actividad",
+    "href": "clases/clase01_diapositiva.html#qué-mide-el-nivel-de-actividad",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "¿Qué mide el nivel de actividad?",
+    "text": "¿Qué mide el nivel de actividad?\nCuando hablamos de nivel de actividad, preguntamos por la producción de una economía. Las métricas principales son:\n\nPIB (Producto Interno Bruto): valor de la producción final de bienes y servicios dentro del territorio en un período\nPNB (Producto Nacional Bruto): igual al PIB pero ajustado por la producción de residentes nacionales, estén donde estén\n\nEl ajuste refleja la diferencia entre dónde se produce y quién lo produce."
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#tres-palabras-clave-del-pib",
+    "href": "clases/clase01_diapositiva.html#tres-palabras-clave-del-pib",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Tres palabras clave del PIB",
+    "text": "Tres palabras clave del PIB\nProducción: solo bienes y servicios nuevos — no transferencias, no activos financieros.\nFinal: no se cuentan los bienes intermedios para evitar la doble contabilidad.\nFronteras: el PIB captura lo que pasa dentro del país, independiente de la nacionalidad del productor.\n\nActividad: ¿Cuenta o no cuenta en el PIB? Ver clase01_actividad_pib"
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#formas-de-medición",
+    "href": "clases/clase01_diapositiva.html#formas-de-medición",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "3 formas de medición",
+    "text": "3 formas de medición\nLos tres métodos deben dar el mismo resultado — son tres ventanas al mismo fenómeno:\n\nPor el lado del gasto (la más usada y citada)\nPor el valor agregado o producción — así se calcula el Imacec\nPor el lado de los ingresos\n\nPor el lado del gasto:\n\\[PIB = C + I + G + (X - M)\\]\nDonde C = consumo, I = inversión, G = gasto de gobierno, X = exportaciones, M = importaciones."
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#el-imacec-actividad-en-tiempo-real",
+    "href": "clases/clase01_diapositiva.html#el-imacec-actividad-en-tiempo-real",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "El Imacec: actividad en tiempo real",
+    "text": "El Imacec: actividad en tiempo real\nEl PIB se publica anualmente y con desfase. Para tener información más reciente, el Banco Central de Chile publica el Imacec (Índice Mensual de Actividad Económica) con ~30 días de retraso.\nSe calcula por el método de valor agregado y sirve como termómetro mensual de la economía.\nEn 2025, el PIB creció 2,5% real — coherente con lo que el Imacec fue mostrando mes a mes.\n\nFuente: INE — Imacec · Encuesta de Expectativas Económicas, BCCh"
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#pib-y-bienestar",
+    "href": "clases/clase01_diapositiva.html#pib-y-bienestar",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "PIB y bienestar",
+    "text": "PIB y bienestar\nEl PIB per cápita aproxima la relación entre la productividad del país y la situación de su población:\n\\[\\text{PIB per cápita} = \\frac{PIB}{\\text{Población}}\\]\nSus limitaciones son conocidas:\n\nNo captura el trabajo doméstico ni la economía informal\nNo distingue el valor de mercado del valor social (externalidades)\nNo captura la distribución del ingreso\n\n\nEl PIB puede crecer y la mayoría de la población puede no sentirlo."
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#más-allá-del-pib",
+    "href": "clases/clase01_diapositiva.html#más-allá-del-pib",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Más allá del PIB",
+    "text": "Más allá del PIB\nIndicadores complementarios:\n\nÍndice de Gini: mide la desigualdad en la distribución del ingreso\nIDH (PNUD): combina ingreso, educación y esperanza de vida\nÍndice de Bienestar de la OCDE: considera trabajo, salud, vivienda, comunidad\nPIB Verde: ajustado por degradación ambiental\n\n\n¿Qué indicador usarían para saber si un país “va bien”?"
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#relación-con-la-actividad",
+    "href": "clases/clase01_diapositiva.html#relación-con-la-actividad",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Relación con la actividad",
+    "text": "Relación con la actividad\nUn país con mayor actividad tiende a generar más empleo y mejores salarios. La otra cara es el desempleo.\nDefinición: Mercado donde interactúan empleador y empleado, coordinando sus incentivos a través de un salario determinado por el mercado.\n\n¿Quién es el oferente y quién es el demandante en el mercado laboral?"
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#interacciones-dentro-de-la-empresa",
+    "href": "clases/clase01_diapositiva.html#interacciones-dentro-de-la-empresa",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Interacciones dentro de la empresa",
+    "text": "Interacciones dentro de la empresa\n\n\n\n\n\n\n\n\nDepartamento\nLa empresa sabe\nDetermina\n\n\n\n\nRecursos Humanos\nPrecios, salarios y empleabilidad externa\nSalario nominal, W\n\n\nMarketing\nLo anterior y demanda de sus productos\nPrecio de venta, P\n\n\nProducción\nLo anterior, productividad y ventas posibles\nEmpleo, n"
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#clasificación-de-la-población",
+    "href": "clases/clase01_diapositiva.html#clasificación-de-la-población",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Clasificación de la población",
+    "text": "Clasificación de la población"
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#definiciones-clave-ine",
+    "href": "clases/clase01_diapositiva.html#definiciones-clave-ine",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Definiciones clave (INE)",
+    "text": "Definiciones clave (INE)\n\nOcupados: dedicaron al menos 1 hora en la semana de referencia a producir bienes o servicios a cambio de remuneración\nDesocupados: no ocupados, buscaron trabajo activamente en las últimas 4 semanas y están disponibles para trabajar en las próximas 2\nInactivos: en edad de trabajar pero no clasificados como ocupados ni desocupados\n\n\nEl trabajador desalentado es inactivo — quiere trabajar pero dejó de buscar. Esto hace que la tasa oficial subestime el desempleo real."
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#criterios-de-clasificación",
+    "href": "clases/clase01_diapositiva.html#criterios-de-clasificación",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Criterios de clasificación",
+    "text": "Criterios de clasificación\nOcupados — criterios simultáneos:\n\n\n\nCriterio\nPeríodo de referencia\n\n\n\n\nProducir un bien o servicio\nSemana de referencia\n\n\nAl menos 1 hora de actividad\nSemana de referencia\n\n\nRecibir remuneración o beneficio\nEl pago puede ser posterior\n\n\n\nDesocupados — criterios simultáneos:\n\n\n\nCriterio\nPeríodo de referencia\n\n\n\n\nNo haber trabajado al menos 1 hora\nSemana de referencia\n\n\nBúsqueda activa de trabajo\nÚltimas 4 semanas\n\n\nDisponibilidad para trabajar\nPróximas 2 semanas"
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#indicadores-del-mercado-laboral",
+    "href": "clases/clase01_diapositiva.html#indicadores-del-mercado-laboral",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Indicadores del mercado laboral",
+    "text": "Indicadores del mercado laboral\n\\[TP = \\frac{\\text{Fuerza de trabajo}}{\\text{Población en edad de trabajar}}\\]\n\\[TO = \\frac{\\text{Ocupados}}{\\text{Población en edad de trabajar}}\\]\n\\[u = \\frac{\\text{Desocupados}}{\\text{Fuerza de trabajo}}\\]\nLa tasa de desempleo también puede escribirse como:\n\\[u = \\frac{FT - n}{FT}\\]\ndonde \\(n\\) es el número de ocupados."
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#en-números-noruega-vs.-españa",
+    "href": "clases/clase01_diapositiva.html#en-números-noruega-vs.-españa",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "En números: Noruega vs. España",
+    "text": "En números: Noruega vs. España\n\n\n\n\nNoruega\nEspaña\n\n\n\n\nPoblación en edad de trabajar (millones)\n3,5\n37,6\n\n\nFuerza de trabajo\n2,5\n21,6\n\n\nInactivos\n1,0\n16,0\n\n\nOcupados\n2,4\n18,1\n\n\nDesocupados\n0,1\n3,5\n\n\nTasa de participación\n71%\n58%\n\n\nTasa de empleo\n69%\n48%\n\n\nTasa de desempleo\n4%\n16%"
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#ley-de-okun",
+    "href": "clases/clase01_diapositiva.html#ley-de-okun",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Ley de Okun",
+    "text": "Ley de Okun\nExiste una relación negativa entre el nivel de actividad y el desempleo:\n\\[u_t - u_{t-1} = \\mu - (y_t - y_{t-1})\\]\nO también: \\(\\Delta u \\approx \\mu - \\Delta y\\)\nUn mayor crecimiento del PIB reduce la tasa de desempleo — y viceversa.\n\nEl problema va más allá de la ecuación: importa la fuente del crecimiento. Un boom minero genera poco empleo directo. Un boom de servicios genera mucho más."
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#es-normal-el-desempleo",
+    "href": "clases/clase01_diapositiva.html#es-normal-el-desempleo",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "¿Es normal el desempleo?",
+    "text": "¿Es normal el desempleo?\nUn desempleo de 0% implicaría que:\n\nPerder el trabajo no tiene costo — se encontraría otro de inmediato\nNo habría búsqueda de primer empleo\nNo habría fricciones ni tiempo de transición entre trabajos\n\nEl desempleo friccional es estructural a toda economía de mercado: refleja el tiempo que toma emparejar oferta y demanda de trabajo."
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#el-costo-no-monetario-del-desempleo",
+    "href": "clases/clase01_diapositiva.html#el-costo-no-monetario-del-desempleo",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "El costo no monetario del desempleo",
+    "text": "El costo no monetario del desempleo\n\nClark y Oswald (2002): un británico promedio necesitaría recibir £15.000 para compensar la pérdida de un trabajo que reportaba £2.000 de ingreso.\n\n\n\nFuente: The Economy, Core Econ"
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#el-trabajo-en-el-marxismo",
+    "href": "clases/clase01_diapositiva.html#el-trabajo-en-el-marxismo",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "El trabajo en el Marxismo",
+    "text": "El trabajo en el Marxismo\nPremisa: En la sociedad capitalista, hay quienes solo pueden vender su trabajo para sobrevivir y quienes pueden comprar trabajo ajeno — de ahí nace el capital.\nEl concepto central es la plusvalía (\\(s\\)): el valor que el trabajador genera por sobre lo que recibe como salario.\n\\[Mercancía = c + v + s\\]\n\\[\\text{Tasa de plusvalía} = \\frac{s}{v}\\]\nDonde \\(c\\) = capital constante (maquinaria), \\(v\\) = capital variable (trabajadores)."
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#ejemplo-numérico-plusvalía",
+    "href": "clases/clase01_diapositiva.html#ejemplo-numérico-plusvalía",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Ejemplo numérico: plusvalía",
+    "text": "Ejemplo numérico: plusvalía\nEmpresa: $US\\(80\\) en maquinaria (\\(c\\)), $US\\(50\\) en salarios (\\(v\\)), vende por $US\\(150\\).\n\\[s = 150 - (80 + 50) = 20 \\quad \\Rightarrow \\quad \\frac{s}{v} = \\frac{20}{50} = 0{,}4\\]\nEl empresario retiene el 40% del producto generado por los trabajadores.\n\n¿En qué sectores esperarían una tasa de plusvalía más alta? ¿La automatización la aumenta o la disminuye?"
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#fuentes-de-datos-laborales",
+    "href": "clases/clase01_diapositiva.html#fuentes-de-datos-laborales",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Fuentes de datos laborales",
+    "text": "Fuentes de datos laborales\n\nINE Chile: ine.gob.cl — Encuesta Nacional de Empleo (ENE), publicación mensual\nObservatorio Laboral: datos sectoriales de empleo y remuneraciones\nOIT — ILOSTAT: ilostat.ilo.org — comparación internacional"
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#la-distinción-fundamental",
+    "href": "clases/clase01_diapositiva.html#la-distinción-fundamental",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "La distinción fundamental",
+    "text": "La distinción fundamental\n\nVariable nominal: medida a precios corrientes del año\nVariable real: medida a precios constantes de un año base\n\nEsta distinción importa porque el valor nominal puede subir simplemente porque subieron los precios — sin que haya más producción real.\n\nCuando hablamos de crecimiento del PIB en Chile, ¿nos referimos a la variable real o nominal?"
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#inflación-dos-medidas",
+    "href": "clases/clase01_diapositiva.html#inflación-dos-medidas",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Inflación: dos medidas",
+    "text": "Inflación: dos medidas\nDeflactor del PIB (método Paasche):\n\\[D = \\frac{PIB_{\\text{nominal}}}{PIB_{\\text{real}}} \\times 100\\]\nUsa la canasta del período corriente (\\(q_t\\)) — refleja lo que realmente se produce hoy.\nIPC (método Laspeyres):\n\\[IL = \\frac{\\sum p_t \\cdot q_0}{\\sum p_0 \\cdot q_0} \\times 100\\]\nUsa una canasta fija del período base (\\(q_0\\)) — refleja el costo de la misma vida a precios nuevos."
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#ipc-en-chile",
+    "href": "clases/clase01_diapositiva.html#ipc-en-chile",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "IPC en Chile",
+    "text": "IPC en Chile\n\n“El IPC mide mes a mes la variación conjunta de los precios de una canasta de bienes y servicios representativa del consumo de los hogares del país.” — INE Chile\n\n¿Para qué se usa?\n\nReajuste de arriendos, créditos, sueldos y salarios\nCálculo de la UF y la UTM\nContratos públicos y privados\nTarifas reguladas: electricidad, agua, locomoción\n\n\nFuente: INE — IPC"
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#ipc-en-chile-hoy",
+    "href": "clases/clase01_diapositiva.html#ipc-en-chile-hoy",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "IPC en Chile hoy",
+    "text": "IPC en Chile hoy\n\n\n\nPeríodo\nIPC anual\nNota\n\n\n\n\nNoviembre 2025\n3,4%\nIPoM mar. 2026, p. 4\n\n\nFebrero 2026 (12 meses)\n2,4%\nBajo la meta de 3%\n\n\nProyección Q2 2026\n~4%\nShock de combustibles por guerra\n\n\nConvergencia a 3%\nQ2 2027\nEscenario central IPoM\n\n\n\nEl IPC subyacente (sin volátiles) fue 3,3% en feb. 2026 (12 meses) — más persistente que el IPC general, con 0% para la variación mensual del mes.\n\nFuente: Banco Central de Chile, IPoM marzo 2026"
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#laspeyres-el-problema-de-la-sustitución",
+    "href": "clases/clase01_diapositiva.html#laspeyres-el-problema-de-la-sustitución",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Laspeyres: el problema de la sustitución",
+    "text": "Laspeyres: el problema de la sustitución\nLaspeyres asume que los consumidores mantienen la misma canasta aunque los precios cambien.\nEn la práctica, si la bencina sube 50%, muchos dejan de manejar tanto.\nPor eso Laspeyres tiende a sobreestimar la inflación: mide el costo de vivir igual cuando la gente ajusta su comportamiento.\nPaasche (deflactor) tiene el problema inverso: subestima porque usa la canasta nueva, donde ya ocurrió la sustitución.\n\nActividad: Construyamos un IPC Ver clase01_actividad_ipc"
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#salario-real",
+    "href": "clases/clase01_diapositiva.html#salario-real",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Salario real",
+    "text": "Salario real\nLa relación entre precios y salarios:\n\\[P = \\frac{W_n}{W_r} \\quad \\Rightarrow \\quad W_r = \\frac{W_n}{P}\\]\nComo no observamos el nivel de precios directamente, usamos el IPC:\n\\[W_r = \\frac{W_n}{IPC} \\times 100\\]\n\nSi el salario nominal sube 5% pero la inflación es 8%, el salario real cae 3%. Eso es lo que ocurre cuando el IPC crece más rápido que los ingresos.\n\nVer ejercicio en Excel: data/ejercicio 03 Salario.xlsx"
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#tipo-de-cambio-nominal",
+    "href": "clases/clase01_diapositiva.html#tipo-de-cambio-nominal",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Tipo de cambio nominal",
+    "text": "Tipo de cambio nominal\nCuando hablamos del “precio del dólar” nos referimos al tipo de cambio nominal (\\(e\\)): cuántos pesos cuesta un dólar.\nApreciación: el peso se fortalece → el dólar baja en pesos\nDepreciación: el peso se debilita → el dólar sube en pesos\nSe habla de devaluación/revaluación cuando la variación es por decisión de la autoridad."
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#tipo-de-cambio-real",
+    "href": "clases/clase01_diapositiva.html#tipo-de-cambio-real",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Tipo de cambio real",
+    "text": "Tipo de cambio real\nEl TCR mide el poder de compra de bienes entre países:\n\\[TCR = \\frac{e \\cdot P^*}{P}\\]\nDonde \\(e\\) = tipo de cambio nominal, \\(P^*\\) = nivel de precios internacional, \\(P\\) = nivel de precios nacional.\nSi Chile tiene más inflación que EE.UU. y el tipo de cambio nominal no se mueve, el peso se aprecia en términos reales — los productos chilenos se encarecen para el mundo."
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#por-qué-agregar-esta-sección",
+    "href": "clases/clase01_diapositiva.html#por-qué-agregar-esta-sección",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "¿Por qué agregar esta sección?",
+    "text": "¿Por qué agregar esta sección?\nLos indicadores de actividad, empleo y precios describen cómo funciona la economía hoy.\nLa situación fiscal describe cuánto margen tiene el Estado para responder a shocks futuros.\nEn 2026, este tema es especialmente relevante porque el debate público incluye afirmaciones como “Chile está en quiebra” — y los conceptos de esta clase permiten evaluarlas con precisión."
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#balance-estructural-2025",
+    "href": "clases/clase01_diapositiva.html#balance-estructural-2025",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Balance Estructural 2025",
+    "text": "Balance Estructural 2025\n\n\nEl Balance Estructural (BE) mide el déficit o superávit fiscal eliminando los efectos del ciclo económico y el precio del cobre.\n\n\n\nIndicador\nDato\n\n\n\n\nBE 2025\n-3,6% del PIB\n\n\nMeta original 2025\n-1,1% del PIB\n\n\nDesvío respecto a la meta\n2,5 pp del PIB (US$8.863 millones)\n\n\nAños consecutivos de incumplimiento\n3 años (2023, 2024, 2025)\n\n\nContexto del incumplimiento\nSin crisis ni eventos extraordinarios\n\n\n\n\n\n“La magnitud de este desvío es elevada en términos históricos para un año sin eventos macroeconómicos extraordinarios.” — CFA, Informe sobre el desvío de la meta de BE de 2025, 4 de marzo de 2026, p. 9"
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#deuda-y-activos",
+    "href": "clases/clase01_diapositiva.html#deuda-y-activos",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Deuda y activos",
+    "text": "Deuda y activos\n\n\n\n\n\nIndicador\nDato\n\n\n\n\nDeuda bruta / PIB 2025\n41,7%\n\n\nNivel prudente de deuda\n45% del PIB\n\n\nProbabilidad de superar el 45% hacia 2027\n~50%\n\n\nDeuda / PIB en 2007\n3,9% → ×10 en 17 años\n\n\n\n\n\n\n\nIndicador\nDato\n\n\n\n\nActivos Tesoro Público (Q2 2025)\nUS$2.946 millones\n\n\nActivos Tesoro Público (cierre 2025)\nUS$46 millones\n\n\nGasto en intereses 2015\n0,66% del PIB\n\n\nGasto en intereses 2025\n1,24% del PIB\n\n\n\n\nFuente: CFA, Informe de Balance Estructural y nivel prudente de deuda, 4T25, 26 de marzo de 2026"
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#riesgo-soberano",
+    "href": "clases/clase01_diapositiva.html#riesgo-soberano",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Riesgo soberano",
+    "text": "Riesgo soberano\n\n\n\n\n\n\n\nIndicador\nDato\n\n\n\n\nClasificación crediticia (Fitch, sep. 2025)\nA− con perspectiva estable\n\n\nPosición en América Latina\nMejor clasificación de la región\n\n\nCDS a 5 años\nBajos, similares a 2018\n\n\nProbabilidad de default (próxima década)\nPrácticamente nula\n\n\n\nLa distinción técnica central:\n\n\n\n\n\n\n\n\nConcepto\nDefinición\n¿Aplica a Chile?\n\n\n\n\nDefault / quiebra\nEl Estado no puede pagar su deuda\nNo\n\n\nEstrés fiscal\nDéficits persistentes, regla incumplida, activos agotados\nSí\n\n\n\n\nActividad de coyuntura: ¿Chile está en quiebra? Ver clase01_actividad_coyuntura.qmd"
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#volvamos-al-titular",
+    "href": "clases/clase01_diapositiva.html#volvamos-al-titular",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Volvamos al titular",
+    "text": "Volvamos al titular\n\n“US inflation tripled last month on record spike in gas prices”\n\nAhora pueden leer esto con precisión:\n\n“Inflation”: variación del IPC mensual — método Laspeyres, canasta fija\n“Tripled”: el ritmo mensual fue inusual (0,9%), no el nivel anual (3,3%)\n“Gas prices”: un bien con 20% de ponderación subió 21% → explica ~4,2 pp del IPC\nConexión con Chile: el shock de petróleo presiona el IPC local hacia ~4% en Q2 2026, complica el Balance Estructural vía MEPCO, y deprecia el peso"
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#lo-que-conecta-todo",
+    "href": "clases/clase01_diapositiva.html#lo-que-conecta-todo",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Lo que conecta todo",
+    "text": "Lo que conecta todo\nLos indicadores de esta clase no son compartimentos separados — se retroalimentan:\nPIB crece    →   empleo sube   →   salarios nominales suben\n                                         ↓\n                              inflación sube si supera productividad\n                                         ↓\n                              salario real puede caer igual\n                                         ↓\n                         tipo de cambio y tasas de interés reaccionan\n                                         ↓\n                    finanzas públicas se ven afectadas (ingresos y gastos)"
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#fechas-relevantes",
+    "href": "clases/clase01_diapositiva.html#fechas-relevantes",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Fechas relevantes",
+    "text": "Fechas relevantes\n\n\n\nActividad\nDetalle\n\n\n\n\nClase 1\nGeneración de grupos\n\n\nClase 2\nCaso formativo en clases\n\n\nClase 3\n—\n\n\nClase 4\nCaso sumativo en clases"
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#fuentes-y-referencias",
+    "href": "clases/clase01_diapositiva.html#fuentes-y-referencias",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Fuentes y referencias",
+    "text": "Fuentes y referencias\n\nBanco Central de Chile. (2026, marzo). Informe de Política Monetaria. bcentral.cl\nCFA. (2026, 4 mar.). Informe sobre el desvío de la meta de Balance Estructural de 2025. cfachile.cl\nCFA. (2026, 26 mar.). Informe de Balance Estructural y nivel prudente de deuda, 4T25. cfachile.cl\nCNN Business. (2026, 10 abr.). CPI report: US inflation tripled last month on record spike in gas prices.\nINE Chile. Índice de Precios al Consumidor. ine.cl\nClark, A. & Oswald, A. (2002). A simple statistical method for measuring how life events affect happiness. International Journal of Epidemiology, 31(6), 1139–1144.\nCore Econ. The Economy. core-econ.org"
+  },
+  {
+    "objectID": "clases/clase01_actividad_ipc.html#objetivo",
+    "href": "clases/clase01_actividad_ipc.html#objetivo",
+    "title": "Actividad IPC — Clase 01",
+    "section": "Objetivo",
+    "text": "Objetivo\nEl IPC no es magia estadística — es una suma ponderada de variaciones de precios.\nEn esta actividad vamos a construirlo desde cero:\n\nArmar una canasta de bienes\nRegistrar los precios en dos momentos\nCalcular el índice\nInterpretar quién empujó más la inflación"
+  },
+  {
+    "objectID": "clases/clase01_actividad_ipc.html#instrucciones",
+    "href": "clases/clase01_actividad_ipc.html#instrucciones",
+    "title": "Actividad IPC — Clase 01",
+    "section": "Instrucciones",
+    "text": "Instrucciones\nLa actividad tiene tres partes:\n\n\n\nParte\nQué hacen\nTiempo\n\n\n\n\n1\nArman su canasta personal\n3 min\n\n\n2\nCalculan el IPC con la canasta del curso\n10 min\n\n\n3\nInterpretan y comparan\n5 min\n\n\n\nNecesitan papel y calculadora (o el teléfono)."
+  },
+  {
+    "objectID": "clases/clase01_actividad_ipc.html#en-qué-gastan-su-sueldo",
+    "href": "clases/clase01_actividad_ipc.html#en-qué-gastan-su-sueldo",
+    "title": "Actividad IPC — Clase 01",
+    "section": "¿En qué gastan su sueldo?",
+    "text": "¿En qué gastan su sueldo?\nPiensen en un mes típico. Escriban 5 bienes o servicios en los que gastan dinero regularmente y estimen cuánto destinan a cada uno.\n\n\n\n\nBien o servicio\nGasto mensual estimado ($)\n\n\n\n\n1.\n\n\n\n2.\n\n\n\n3.\n\n\n\n4.\n\n\n\n5.\n\n\n\nTotal\n\n\n\n\n\nGuarden estos números — los vamos a usar al final."
+  },
+  {
+    "objectID": "clases/clase01_actividad_ipc.html#todos-tienen-la-misma-canasta",
+    "href": "clases/clase01_actividad_ipc.html#todos-tienen-la-misma-canasta",
+    "title": "Actividad IPC — Clase 01",
+    "section": "¿Todos tienen la misma canasta?",
+    "text": "¿Todos tienen la misma canasta?\nAntes de seguir, discutan brevemente:\n\n¿Qué bien apareció en más canastas?\n¿Qué bien no apareció en casi ninguna?\n¿Gastan todos el mismo porcentaje en arriendo? ¿En transporte?\n\n\nEsto es exactamente el problema que enfrenta el INE al construir el IPC oficial: una sola canasta debe representar a millones de hogares con patrones de consumo distintos."
+  },
+  {
+    "objectID": "clases/clase01_actividad_ipc.html#la-canasta-del-curso",
+    "href": "clases/clase01_actividad_ipc.html#la-canasta-del-curso",
+    "title": "Actividad IPC — Clase 01",
+    "section": "La canasta del curso",
+    "text": "La canasta del curso\nVamos a usar esta canasta para todos:\n\n\n\n\nBien\nCantidad mensual (\\(q_0\\))\nPrecio Enero (\\(p_0\\))\n\n\n\n\nPan\n8 kg\n$1.000/kg\n\n\nTransporte\n40 viajes\n$500/viaje\n\n\nBencina\n20 litros\n$1.000/litro\n\n\nArriendo\n1 mes\n$40.000/mes\n\n\nInternet\n1 plan\n$12.000/plan\n\n\n\n\nPaso 1: Calculen el gasto total en enero para cada bien (\\(p_0 \\times q_0\\)) y sumen."
+  },
+  {
+    "objectID": "clases/clase01_actividad_ipc.html#paso-1-respuesta-gasto-en-enero",
+    "href": "clases/clase01_actividad_ipc.html#paso-1-respuesta-gasto-en-enero",
+    "title": "Actividad IPC — Clase 01",
+    "section": "Paso 1 — Respuesta: gasto en enero",
+    "text": "Paso 1 — Respuesta: gasto en enero\n\n\n\n\nBien\n\\(q_0\\)\n\\(p_0\\)\n\\(p_0 \\times q_0\\)\n\n\n\n\nPan\n8\n$1.000\n$8.000\n\n\nTransporte\n40\n$500\n$20.000\n\n\nBencina\n20\n$1.000\n$20.000\n\n\nArriendo\n1\n$40.000\n$40.000\n\n\nInternet\n1\n$12.000\n$12.000\n\n\nTotal\n\n\n$100.000\n\n\n\n\nEl gasto total de la canasta en enero es $100.000. Este es nuestro año base → IPC enero = 100."
+  },
+  {
+    "objectID": "clases/clase01_actividad_ipc.html#un-año-después",
+    "href": "clases/clase01_actividad_ipc.html#un-año-después",
+    "title": "Actividad IPC — Clase 01",
+    "section": "Un año después…",
+    "text": "Un año después…\nLos precios cambiaron. Así quedaron en diciembre:\n\n\n\n\nBien\nPrecio Enero (\\(p_0\\))\nPrecio Diciembre (\\(p_1\\))\nVariación\n\n\n\n\nPan\n$1.000\n$1.000\n0%\n\n\nTransporte\n$500\n$600\n+20%\n\n\nBencina\n$1.000\n$1.500\n+50%\n\n\nArriendo\n$40.000\n$44.000\n+10%\n\n\nInternet\n$12.000\n$12.000\n0%\n\n\n\n\nPaso 2: Con los mismos precios de diciembre y las mismas cantidades de enero (\\(q_0\\)), calculen el nuevo gasto total (\\(\\sum p_1 \\cdot q_0\\))."
+  },
+  {
+    "objectID": "clases/clase01_actividad_ipc.html#paso-2-respuesta-gasto-a-precios-de-diciembre",
+    "href": "clases/clase01_actividad_ipc.html#paso-2-respuesta-gasto-a-precios-de-diciembre",
+    "title": "Actividad IPC — Clase 01",
+    "section": "Paso 2 — Respuesta: gasto a precios de diciembre",
+    "text": "Paso 2 — Respuesta: gasto a precios de diciembre\n\n\n\n\nBien\n\\(q_0\\)\n\\(p_1\\)\n\\(p_1 \\times q_0\\)\n\n\n\n\nPan\n8\n$1.000\n$8.000\n\n\nTransporte\n40\n$600\n$24.000\n\n\nBencina\n20\n$1.500\n$30.000\n\n\nArriendo\n1\n$44.000\n$44.000\n\n\nInternet\n1\n$12.000\n$12.000\n\n\nTotal\n\n\n$118.000\n\n\n\n\nMantuvimos las cantidades fijas — solo cambiaron los precios. Eso es exactamente lo que hace Laspeyres."
+  },
+  {
+    "objectID": "clases/clase01_actividad_ipc.html#paso-3-calculen-el-índice",
+    "href": "clases/clase01_actividad_ipc.html#paso-3-calculen-el-índice",
+    "title": "Actividad IPC — Clase 01",
+    "section": "Paso 3 — Calculen el índice",
+    "text": "Paso 3 — Calculen el índice\nLa fórmula del Índice de Laspeyres (base IPC):\n\\[IL = \\frac{\\sum p_1 \\cdot q_0}{\\sum p_0 \\cdot q_0} \\times 100\\]\nCon los números que calcularon:\n\\[IL = \\frac{\\$118.000}{\\$100.000} \\times 100 = \\ ?\\]"
+  },
+  {
+    "objectID": "clases/clase01_actividad_ipc.html#paso-3-respuesta",
+    "href": "clases/clase01_actividad_ipc.html#paso-3-respuesta",
+    "title": "Actividad IPC — Clase 01",
+    "section": "Paso 3 — Respuesta",
+    "text": "Paso 3 — Respuesta\n\\[IL = \\frac{118.000}{100.000} \\times 100 = \\mathbf{118}\\]\nLa inflación del año fue:\n\\[\\pi = \\frac{IL_1 - IL_0}{IL_0} \\times 100 = \\frac{118 - 100}{100} \\times 100 = \\mathbf{18\\%}\\]\nLa canasta que costaba $100.000 en enero cuesta $118.000 en diciembre."
+  },
+  {
+    "objectID": "clases/clase01_actividad_ipc.html#quién-empujó-más-la-inflación",
+    "href": "clases/clase01_actividad_ipc.html#quién-empujó-más-la-inflación",
+    "title": "Actividad IPC — Clase 01",
+    "section": "¿Quién empujó más la inflación?",
+    "text": "¿Quién empujó más la inflación?\nNo todos los bienes pesan igual. La ponderación de cada bien es su participación en el gasto base:\n\n\n\n\nBien\nGasto base\nPonderación\nVariación\nContribución\n\n\n\n\nPan\n$8.000\n8%\n0%\n0,0 pp\n\n\nTransporte\n$20.000\n20%\n+20%\n4,0 pp\n\n\nBencina\n$20.000\n20%\n+50%\n10,0 pp\n\n\nArriendo\n$40.000\n40%\n+10%\n4,0 pp\n\n\nInternet\n$12.000\n12%\n0%\n0,0 pp\n\n\nTotal\n$100.000\n100%\n\n18,0 pp\n\n\n\n\nLa bencina explica el 56% de la inflación total (10 de 18 puntos porcentuales), aunque subió el precio de un solo bien."
+  },
+  {
+    "objectID": "clases/clase01_actividad_ipc.html#por-qué-la-bencina-tiene-tanto-peso",
+    "href": "clases/clase01_actividad_ipc.html#por-qué-la-bencina-tiene-tanto-peso",
+    "title": "Actividad IPC — Clase 01",
+    "section": "¿Por qué la bencina tiene tanto peso?",
+    "text": "¿Por qué la bencina tiene tanto peso?\nLa bencina subió 50% — pero solo pesa 20% de la canasta.\nSu contribución es: \\(20\\% \\times 50\\% = 10\\) puntos porcentuales.\n\nEste mecanismo es exactamente lo que ocurrió en EE.UU. en marzo 2026: la gasolina subió 21% y fue responsable de la mayor parte del alza del CPI ese mes.\n\nLa inflación no depende solo de cuánto sube un precio — depende de cuánto pesa ese bien en el gasto de los hogares."
+  },
+  {
+    "objectID": "clases/clase01_actividad_ipc.html#tu-inflación-vs.-la-inflación-oficial",
+    "href": "clases/clase01_actividad_ipc.html#tu-inflación-vs.-la-inflación-oficial",
+    "title": "Actividad IPC — Clase 01",
+    "section": "Tu inflación vs. la inflación oficial",
+    "text": "Tu inflación vs. la inflación oficial\nAhora vuelvan a su canasta personal de la Parte 1.\n\n\n\n\n\n\nPregunta\n\n\n¿Su inflación personal habría sido mayor o menor que el 18% que calculamos?\n\n\n\nPiensen en:\n\n¿Tienen auto? ¿Cuánto pesa la bencina en sus gastos?\n¿Viven con sus padres? ¿Cuánto pesa el arriendo?\n¿Usan transporte público o privado?\n\n\nNo existe una inflación — existe tu inflación, que depende de cómo estructuras tu gasto."
+  },
+  {
+    "objectID": "clases/clase01_actividad_ipc.html#la-canasta-real-del-ine",
+    "href": "clases/clase01_actividad_ipc.html#la-canasta-real-del-ine",
+    "title": "Actividad IPC — Clase 01",
+    "section": "La canasta real del INE",
+    "text": "La canasta real del INE\nEl IPC oficial de Chile usa una canasta con más de 500 productos agrupados en 12 divisiones:\n\n\n\nDivisión\nPonderación aproximada\n\n\n\n\nVivienda y servicios básicos\n33%\n\n\nAlimentos y bebidas\n20%\n\n\nTransporte\n13%\n\n\nRestaurantes y hoteles\n8%\n\n\nSalud\n6%\n\n\nOtros\n20%\n\n\n\nLa canasta se actualiza cada varios años con la Encuesta de Presupuestos Familiares (EPF)."
+  },
+  {
+    "objectID": "clases/clase01_actividad_ipc.html#la-canasta-del-ine-los-representa",
+    "href": "clases/clase01_actividad_ipc.html#la-canasta-del-ine-los-representa",
+    "title": "Actividad IPC — Clase 01",
+    "section": "¿La canasta del INE los representa?",
+    "text": "¿La canasta del INE los representa?\nDiscutan:\n\n¿Qué grupo de la población tiene más peso en la canasta del INE: hogares de altos o bajos ingresos?\n¿Debería haber un IPC diferente para Santiago y para regiones?\n¿Qué pasaría si la canasta estuviera desactualizada 10 años?\n\n\nEl INE publica el IPC general pero también desgloses por grupo de gasto, por ciudad y por quintil de ingreso — porque saben que la inflación que siente cada hogar puede ser muy distinta."
+  },
+  {
+    "objectID": "clases/clase01_actividad_ipc.html#para-llevar",
+    "href": "clases/clase01_actividad_ipc.html#para-llevar",
+    "title": "Actividad IPC — Clase 01",
+    "section": "Para llevar",
+    "text": "Para llevar\n\nCuando vean un titular que dice “la inflación fue X%”, ahora saben preguntar:\n\n¿Qué canasta usaron para medirla?\n¿Qué bien la empujó más?\n¿Esa canasta me representa a mí?"
+  },
+  {
+    "objectID": "clases/clase01_actividad_apertura.html#antes-de-comenzar",
+    "href": "clases/clase01_actividad_apertura.html#antes-de-comenzar",
+    "title": "Actividad de apertura — Clase 01",
+    "section": "Antes de comenzar",
+    "text": "Antes de comenzar\nTomemos 10 minutos para leer y discutir este titular.\nNo se necesita saber economía para opinar — la idea es partir desde lo que ya intuyen."
+  },
+  {
+    "objectID": "clases/clase01_actividad_apertura.html#el-titular",
+    "href": "clases/clase01_actividad_apertura.html#el-titular",
+    "title": "Actividad de apertura — Clase 01",
+    "section": "El titular",
+    "text": "El titular\n\n“US inflation tripled last month on record spike in gas prices”\n\n\n— CNN Business, 10 de abril de 2026\n\nContexto: El CPI de marzo 2026 mostró un alza de 0,9% mensual (3,3% anual). El precio de la gasolina subió 21,2% en un mes — el mayor aumento desde 1967. El detonante: el conflicto armado entre EE.UU. e Israel con Irán, iniciado el 28 de febrero."
+  },
+  {
+    "objectID": "clases/clase01_actividad_apertura.html#tres-preguntas-para-discutir",
+    "href": "clases/clase01_actividad_apertura.html#tres-preguntas-para-discutir",
+    "title": "Actividad de apertura — Clase 01",
+    "section": "Tres preguntas para discutir",
+    "text": "Tres preguntas para discutir\n1. ¿Qué mide exactamente este indicador?\n\n¿Qué es el CPI y por qué se publica mensualmente?\n¿Quién lo elabora y para qué lo usa el gobierno o las empresas?"
+  },
+  {
+    "objectID": "clases/clase01_actividad_apertura.html#por-qué-este-titular",
+    "href": "clases/clase01_actividad_apertura.html#por-qué-este-titular",
+    "title": "Actividad de apertura — Clase 01",
+    "section": "¿Por qué este titular?",
+    "text": "¿Por qué este titular?\nEste caso conecta directamente con los cuatro bloques de la clase de hoy:\n\n\n\n\n\n\n\nBloque\nConexión con el titular\n\n\n\n\nEntorno económico\nUn conflicto geopolítico impacta precios a nivel global\n\n\nNivel de actividad\nLa inflación afecta el PIB real vs. nominal\n\n\nMercado laboral\nEl alza de precios erosiona el salario real\n\n\nVariables nominales y reales\n¿Qué es el CPI? ¿Cómo se calcula?"
+  },
+  {
+    "objectID": "clases/clase01_actividad_apertura.html#para-llevar",
+    "href": "clases/clase01_actividad_apertura.html#para-llevar",
+    "title": "Actividad de apertura — Clase 01",
+    "section": "Para llevar",
+    "text": "Para llevar\nAl terminar la clase, vuelvan a este titular y respondan:\n\n“Con lo que aprendí hoy, ¿qué le diría a alguien que solo vio el titular sin entender el contexto?”"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Sobre el sitio",
+    "section": "",
+    "text": "Este sitio reúne los materiales docentes del curso de Entorno Económico, orientado al análisis de indicadores macroeconómicos, fuentes estadísticas oficiales y herramientas cuantitativas aplicadas.\nSu objetivo es ofrecer un punto único para consultar clases, ejercicios y recursos complementarios, de modo que el trabajo en aula y el estudio posterior queden conectados en una misma estructura.\nEl contenido está organizado para apoyar tanto la comprensión conceptual como la aplicación de estos temas a problemas económicos concretos."
+  },
+  {
+    "objectID": "clases/clase01_actividad_coyuntura.html#la-afirmación",
+    "href": "clases/clase01_actividad_coyuntura.html#la-afirmación",
+    "title": "Actividad de coyuntura — Clase 01",
+    "section": "La afirmación",
+    "text": "La afirmación\n\n“Chile tiene un Estado en la quiebra”\n\n\n— Afirmación circulada en el debate político chileno, marzo 2026\n\nEsta afirmación fue evaluada por FastCheck.cl como #Falso.\nPero, ¿qué dicen los datos? ¿Y qué significa técnicamente que un Estado “quiebre”?"
+  },
+  {
+    "objectID": "clases/clase01_actividad_coyuntura.html#objetivo-de-la-actividad",
+    "href": "clases/clase01_actividad_coyuntura.html#objetivo-de-la-actividad",
+    "title": "Actividad de coyuntura — Clase 01",
+    "section": "Objetivo de la actividad",
+    "text": "Objetivo de la actividad\nUsar indicadores económicos reales para responder, con evidencia, si Chile está o no en una situación de quiebra — y si esa es la pregunta correcta.\nDatos: Informes oficiales del Banco Central de Chile y el Consejo Fiscal Autónomo, marzo 2026.\nTiempo: ~25 minutos en grupos de 3 personas."
+  },
+  {
+    "objectID": "clases/clase01_actividad_coyuntura.html#instrucciones",
+    "href": "clases/clase01_actividad_coyuntura.html#instrucciones",
+    "title": "Actividad de coyuntura — Clase 01",
+    "section": "Instrucciones",
+    "text": "Instrucciones\nLa actividad tiene tres bloques de indicadores:\n\n\n\nBloque\nQué mide\nFuente\n\n\n\n\n1\nActividad, precios y empleo\nIPoM, Banco Central\n\n\n2\nSituación fiscal\nCFA, Dipres\n\n\n3\nRiesgo soberano\nFitch, CDS, CFA\n\n\n\nPara cada bloque:\n\nLean los datos\nDiscutan qué señal dan: ¿alarma, preocupación o tranquilidad?\nAnoten su diagnóstico parcial\n\nAl final integrarán los tres bloques para responder la pregunta central."
+  },
+  {
+    "objectID": "clases/clase01_actividad_coyuntura.html#los-datos",
+    "href": "clases/clase01_actividad_coyuntura.html#los-datos",
+    "title": "Actividad de coyuntura — Clase 01",
+    "section": "Los datos",
+    "text": "Los datos\n\n\n\n\n\n\n\n\n\nIndicador\nDato\nReferencia\n\n\n\n\nCrecimiento PIB 2025\n+2,5% real anual\nIPoM mar. 2026, p. 4\n\n\nProyección PIB 2026\n1,5–2,5% (bajado desde 2–3%)\nIPoM mar. 2026, Tabla resumen\n\n\nInflación feb. 2026\n2,4% anual (bajo la meta de 3%)\nIPoM mar. 2026, p. 4\n\n\nInflación proyectada Q2 2026\n~4% por alza de combustibles\nIPoM mar. 2026, p. 5\n\n\nTasa de desocupación\nEstable, sin cambios relevantes\nIPoM mar. 2026, p. 5\n\n\nPrecio del cobre\nUS$5,4/lb promedio 2026 (sobre lo previsto)\nIPoM mar. 2026, Tabla 2\n\n\nPrecio del petróleo\n~US$100/barril en Q2 (+60% vs. diciembre)\nIPoM mar. 2026, p. 5\n\n\n\n\n\nEl shock externo dominante en este período es la guerra en Medio Oriente iniciada el 28 de febrero de 2026, que elevó el petróleo y presionó la inflación local."
+  },
+  {
+    "objectID": "clases/clase01_actividad_coyuntura.html#pregunta-del-bloque-1",
+    "href": "clases/clase01_actividad_coyuntura.html#pregunta-del-bloque-1",
+    "title": "Actividad de coyuntura — Clase 01",
+    "section": "Pregunta del bloque 1",
+    "text": "Pregunta del bloque 1\n\nCon estos indicadores, ¿diría que Chile está creciendo o en recesión? ¿La inflación es un problema estructural o un shock externo?\n\nDiscutan en el grupo y registren:\n\nSeñal de actividad: tranquilizadora / preocupante / de alarma\nSeñal de precios: tranquilizadora / preocupante / de alarma\n¿Esto apoya la tesis de “quiebra”? Sí / No / Depende"
+  },
+  {
+    "objectID": "clases/clase01_actividad_coyuntura.html#déficit-y-regla-fiscal",
+    "href": "clases/clase01_actividad_coyuntura.html#déficit-y-regla-fiscal",
+    "title": "Actividad de coyuntura — Clase 01",
+    "section": "Déficit y regla fiscal",
+    "text": "Déficit y regla fiscal\n\n\n\n\n\n\n\n\n\nIndicador\nDato\nReferencia\n\n\n\n\nBalance Estructural (BE) 2025\n-3,6% del PIB\nCFA, Informe desvío BE, mar. 2026, p. 4\n\n\nMeta original de BE para 2025\n-1,1% del PIB\nCFA, Informe desvío BE, mar. 2026, p. 4\n\n\nDesvío respecto de la meta\n2,5 pp del PIB (US$8.863 millones)\nCFA, Informe desvío BE, mar. 2026, p. 4\n\n\nAños consecutivos de incumplimiento\n3 años (2023, 2024, 2025)\nCFA, Informe desvío BE, mar. 2026, p. 5\n\n\nContexto del incumplimiento\nSin crisis ni eventos extraordinarios\nCFA, Informe desvío BE, mar. 2026, p. 5\n\n\nBE proyectado para 2026\n-2,7% del PIB (meta: -1,1%)\nCFA, Informe BE 4T25, mar. 2026, p. 4\n\n\n\n\n\nEl Consejo Fiscal Autónomo (CFA) señala que la magnitud del desvío en 2025 “es elevada en términos históricos para un año sin eventos macroeconómicos extraordinarios, casi triplicando los promedios observados en períodos comparables”.\n— CFA, Informe sobre el desvío de la meta de Balance Estructural de 2025, 4 de marzo de 2026, p. 9"
+  },
+  {
+    "objectID": "clases/clase01_actividad_coyuntura.html#deuda-y-activos-fiscales",
+    "href": "clases/clase01_actividad_coyuntura.html#deuda-y-activos-fiscales",
+    "title": "Actividad de coyuntura — Clase 01",
+    "section": "Deuda y activos fiscales",
+    "text": "Deuda y activos fiscales\n\n\n\n\n\n\n\n\n\nIndicador\nDato\nReferencia\n\n\n\n\nDeuda bruta / PIB 2025\n41,7%\nCFA, Informe BE 4T25, mar. 2026, p. 5\n\n\nNivel prudente de deuda\n45% del PIB\nCFA, Informe BE 4T25, mar. 2026\n\n\nProbabilidad de superar el 45% hacia 2027\n~50%\nCFA, Informe Congreso oct. 2025\n\n\nDeuda bruta en 2007\n3,9% del PIB\nCFA, Informe BE 4T25, mar. 2026, p. 29\n\n\nDeuda bruta en 2024\n41,7% del PIB (×10 en 17 años)\nCFA, Informe BE 4T25, mar. 2026, p. 29\n\n\nActivos Tesoro Público (Q2 2025)\nUS$2.946 millones\nCFA, Informe desvío BE, mar. 2026, p. 7\n\n\nActivos Tesoro Público (cierre 2025)\nUS$46 millones\nCFA, Informe desvío BE, mar. 2026, p. 7\n\n\nGasto en intereses 2015\n0,66% del PIB\nCFA, Informe BE 4T25, mar. 2026, p. 24\n\n\nGasto en intereses 2025\n1,24% del PIB (casi el doble)\nCFA, Informe BE 4T25, mar. 2026, p. 24\n\n\nGasto en intereses proyectado 2030\n1,44% del PIB (6% del gasto total)\nCFA, Informe BE 4T25, mar. 2026, p. 24"
+  },
+  {
+    "objectID": "clases/clase01_actividad_coyuntura.html#el-diagnóstico-del-cfa",
+    "href": "clases/clase01_actividad_coyuntura.html#el-diagnóstico-del-cfa",
+    "title": "Actividad de coyuntura — Clase 01",
+    "section": "El diagnóstico del CFA",
+    "text": "El diagnóstico del CFA\n\n“La persistencia de déficits estructurales elevados, la tendencia a la baja de los activos del Tesoro Público y el aumento sostenido del gasto por intereses configuran un escenario de estrés fiscal que refuerza la urgencia de retomar una senda creíble y verificable de consolidación fiscal.”\n— CFA, Informe sobre el desvío de la meta de Balance Estructural de 2025, 4 de marzo de 2026, p. 7\n\n\n“Si bien la deuda bruta como porcentaje del PIB en 2025 se mantuvo por debajo de su nivel prudente […] ello no fue a causa de una consolidación fiscal, sino que respondió mayoritariamente a la apreciación del tipo de cambio y al mayor crecimiento del PIB nominal, factores que podrían ser de carácter transitorio.”\n— CFA, Informe sobre el desvío de la meta de Balance Estructural de 2025, 4 de marzo de 2026, p. 7"
+  },
+  {
+    "objectID": "clases/clase01_actividad_coyuntura.html#pregunta-del-bloque-2",
+    "href": "clases/clase01_actividad_coyuntura.html#pregunta-del-bloque-2",
+    "title": "Actividad de coyuntura — Clase 01",
+    "section": "Pregunta del bloque 2",
+    "text": "Pregunta del bloque 2\n\nLa deuda está bajo el nivel prudente, pero los activos del Tesoro cayeron de US$2.946 millones a US$46 millones en un año. ¿Cómo interpretan esa combinación?\n\nDiscutan en el grupo y registren:\n\nSeñal fiscal: tranquilizadora / preocupante / de alarma\n¿La deuda es sostenible en el mediano plazo? Sí / No / Depende\n¿Esto apoya la tesis de “quiebra”? Sí / No / Depende"
+  },
+  {
+    "objectID": "clases/clase01_actividad_coyuntura.html#los-datos-1",
+    "href": "clases/clase01_actividad_coyuntura.html#los-datos-1",
+    "title": "Actividad de coyuntura — Clase 01",
+    "section": "Los datos",
+    "text": "Los datos\n\n\n\n\n\n\n\n\n\nIndicador\nDato\nReferencia\n\n\n\n\nClasificación crediticia (Fitch)\nA− con perspectiva estable\nFitch, sep. 2025\n\n\nPosición en América Latina\nMejor clasificación de la región\nEl Dínamo, mar. 2026\n\n\nCDS a 5 años (seguro contra default)\nBajos, similares a 2018\nBCCh, IEF 2S 2025\n\n\nProbabilidad de default próxima década\nPrácticamente nula\nEconomistas consultados, mar. 2026\n\n\nPaíses con clasificación comparable\nIsrael, Lituania, Malta, Eslovaquia\nCFA, Informe BE 4T25, mar. 2026, p. 29\n\n\nDeuda de esos países (2007→2024)\nSubió de 44,7% a 53,2% del PIB (+8,5 pp)\nCFA, Informe BE 4T25, mar. 2026, p. 29\n\n\nDeuda de Chile en ese mismo período\nSubió de 3,9% a 41,7% del PIB (+37,7 pp)\nCFA, Informe BE 4T25, mar. 2026, p. 29\n\n\n\n\n\n\n\n\n\n\nPara entender el CDS\n\n\nUn Credit Default Swap es un contrato que funciona como un seguro: el comprador paga una prima periódica y, si el país no paga su deuda, recibe una compensación. Si el CDS es bajo, el mercado estima baja probabilidad de default."
+  },
+  {
+    "objectID": "clases/clase01_actividad_coyuntura.html#pregunta-del-bloque-3",
+    "href": "clases/clase01_actividad_coyuntura.html#pregunta-del-bloque-3",
+    "title": "Actividad de coyuntura — Clase 01",
+    "section": "Pregunta del bloque 3",
+    "text": "Pregunta del bloque 3\n\nChile tiene la mejor clasificación crediticia de América Latina y CDS bajos, pero su deuda creció ×10 en 17 años mientras sus pares solo la subieron 8,5 pp. ¿Cómo leen esa tensión?\n\nDiscutan en el grupo y registren:\n\nSeñal de riesgo soberano: tranquilizadora / preocupante / de alarma\n¿Los mercados ven un riesgo que el CFA advierte? Sí / No / Parcialmente\n¿Esto apoya la tesis de “quiebra”? Sí / No / Depende"
+  },
+  {
+    "objectID": "clases/clase01_actividad_coyuntura.html#su-diagnóstico-consolidado",
+    "href": "clases/clase01_actividad_coyuntura.html#su-diagnóstico-consolidado",
+    "title": "Actividad de coyuntura — Clase 01",
+    "section": "Su diagnóstico consolidado",
+    "text": "Su diagnóstico consolidado\nCon los tres bloques completos, respondan:\n1. ¿Está Chile en quiebra?\nFundamenten con al menos dos datos concretos de los bloques anteriores."
+  },
+  {
+    "objectID": "clases/clase01_actividad_coyuntura.html#la-distinción-técnica-central",
+    "href": "clases/clase01_actividad_coyuntura.html#la-distinción-técnica-central",
+    "title": "Actividad de coyuntura — Clase 01",
+    "section": "La distinción técnica central",
+    "text": "La distinción técnica central\n“Quiebra” en términos soberanos significa default: el Estado no puede pagar su deuda.\nPara que eso ocurra en Chile se necesitaría:\n\nQue los acreedores se nieguen a refinanciar la deuda\nQue el Estado no pueda generar ingresos suficientes\nQue la clasificación crediticia caiga a niveles de alto riesgo\n\nNada de eso ocurre hoy. La probabilidad de default es prácticamente nula."
+  },
+  {
+    "objectID": "clases/clase01_actividad_coyuntura.html#el-mapa-de-indicadores",
+    "href": "clases/clase01_actividad_coyuntura.html#el-mapa-de-indicadores",
+    "title": "Actividad de coyuntura — Clase 01",
+    "section": "El mapa de indicadores",
+    "text": "El mapa de indicadores\n\n\n\n\nIndicador\nSeñal\nImplicancia\n\n\n\n\nCrecimiento PIB\n🟡\nModerado y desacelerando\n\n\nInflación\n🟡\nConvergida, pero shock externo en curso\n\n\nEmpleo\n🟢\nEstable\n\n\nBalance Estructural\n🔴\n-3,6% del PIB, 3er incumplimiento\n\n\nDeuda / PIB\n🟡\nBajo el límite, pero creciendo ×10 en 17 años\n\n\nActivos del Tesoro\n🔴\nDe US$2.946M a US$46M en un año\n\n\nGasto en intereses\n🔴\nCasi el doble que en 2015\n\n\nClasificación crediticia\n🟢\nA−, mejor de la región\n\n\nCDS / default\n🟢\nProbabilidad prácticamente nula\n\n\n\n\n🟢 Sin preocupación inmediata · 🟡 Señal de alerta · 🔴 Problema estructural"
+  },
+  {
+    "objectID": "clases/clase01_actividad_coyuntura.html#la-pregunta-correcta",
+    "href": "clases/clase01_actividad_coyuntura.html#la-pregunta-correcta",
+    "title": "Actividad de coyuntura — Clase 01",
+    "section": "La pregunta correcta",
+    "text": "La pregunta correcta\nNo es “¿está Chile en quiebra?” — esa pregunta tiene una respuesta técnica simple: No.\nLa pregunta relevante es:\n\n¿Tiene Chile margen fiscal para responder a una crisis sin comprometer su solvencia de largo plazo?\n\nCon activos del Tesoro en US$46 millones, tres incumplimientos consecutivos de la regla fiscal y una probabilidad del 50% de superar el nivel prudente de deuda hacia 2027, la respuesta del CFA es: el margen se está agotando."
+  },
+  {
+    "objectID": "clases/clase01_actividad_coyuntura.html#para-llevar",
+    "href": "clases/clase01_actividad_coyuntura.html#para-llevar",
+    "title": "Actividad de coyuntura — Clase 01",
+    "section": "Para llevar",
+    "text": "Para llevar\nEl análisis económico de coyuntura no busca concluir si algo es “bueno” o “malo” en abstracto — busca identificar:\n\n¿Qué está pasando? (diagnóstico con datos)\n¿Qué podría pasar? (escenarios y riesgos)\n¿Qué se puede hacer? (opciones de política)\n\nEl debate político convierte problemas graduales en crisis absolutas. El análisis técnico los descompone en indicadores concretos y trayectorias verificables."
+  },
+  {
+    "objectID": "clases/clase01_actividad_coyuntura.html#referencias",
+    "href": "clases/clase01_actividad_coyuntura.html#referencias",
+    "title": "Actividad de coyuntura — Clase 01",
+    "section": "Referencias",
+    "text": "Referencias\nDocumentos oficiales utilizados:\n\nBanco Central de Chile. (2026, marzo). Informe de Política Monetaria (IPoM). Santiago: BCCh.\nConsejo Fiscal Autónomo. (2026, 4 de marzo). Informe sobre el desvío de la meta de Balance Estructural de 2025. Santiago: CFA. cfachile.cl\nConsejo Fiscal Autónomo. (2026, 26 de marzo). Informe de Balance Estructural y nivel prudente de deuda: estimaciones 2026–2030 del IFP del cuarto trimestre de 2025. Santiago: CFA. cfachile.cl\nDirección de Presupuestos (Dipres). (2026, febrero). Informe de Finanzas Públicas del cuarto trimestre de 2025 (IFP4T25). Santiago: Dipres. dipres.gob.cl\n\nVerificación:\n\nFastCheck.cl. (2026, 25 de marzo). Chile tiene un Estado en la quiebra: #Falso. fastcheck.cl\nEl Dínamo. (2026, 25 de marzo). Chile: el país con la mejor clasificación de riesgo de la región y el enredo del gobierno por la “quiebra”. eldinamo.cl\nBioBioChile. (2026, 25 de marzo). Qué significa que un Estado esté en quiebra y qué tiene que pasar para que esto ocurra. biobiochile.cl"
+  },
+  {
+    "objectID": "clases/clase01_actividad_pib.html#la-pregunta-central",
+    "href": "clases/clase01_actividad_pib.html#la-pregunta-central",
+    "title": "Actividad PIB — Clase 01",
+    "section": "La pregunta central",
+    "text": "La pregunta central\nEl PIB mide el valor de la producción final de bienes y servicios en un período, dentro de las fronteras del país.\nTres palabras clave: producción, final, fronteras.\nVamos a poner eso a prueba con casos reales."
+  },
+  {
+    "objectID": "clases/clase01_actividad_pib.html#instrucciones",
+    "href": "clases/clase01_actividad_pib.html#instrucciones",
+    "title": "Actividad PIB — Clase 01",
+    "section": "Instrucciones",
+    "text": "Instrucciones\nPara cada caso:\n\nIdentifique si cuenta o no cuenta en el PIB de Chile\nJustifiquen con una razón breve"
+  },
+  {
+    "objectID": "clases/clase01_actividad_pib.html#caso-1",
+    "href": "clases/clase01_actividad_pib.html#caso-1",
+    "title": "Actividad PIB — Clase 01",
+    "section": "Caso 1",
+    "text": "Caso 1\n\nUna madre prepara almuerzo para su familia todos los días.\n\n¿Cuenta en el PIB de Chile?"
+  },
+  {
+    "objectID": "clases/clase01_actividad_pib.html#caso-1-respuesta",
+    "href": "clases/clase01_actividad_pib.html#caso-1-respuesta",
+    "title": "Actividad PIB — Clase 01",
+    "section": "Caso 1 — Respuesta",
+    "text": "Caso 1 — Respuesta\n\n\n\n\n\n\n❌ No cuenta\n\n\n\n\n\n\nNo hay transacción de mercado: el servicio no se compra ni se vende.\nEl PIB solo registra producción con precio de mercado. El trabajo doméstico no remunerado es una de las principales omisiones del indicador.\n\nSi esa misma madre contrata a alguien para cocinar y le paga, ese servicio sí cuenta como Consumo (C)."
+  },
+  {
+    "objectID": "clases/clase01_actividad_pib.html#caso-2",
+    "href": "clases/clase01_actividad_pib.html#caso-2",
+    "title": "Actividad PIB — Clase 01",
+    "section": "Caso 2",
+    "text": "Caso 2\n\nCodelco vende 500.000 toneladas de cobre a China.\n\n¿Cuenta en el PIB de Chile?"
+  },
+  {
+    "objectID": "clases/clase01_actividad_pib.html#caso-2-respuesta",
+    "href": "clases/clase01_actividad_pib.html#caso-2-respuesta",
+    "title": "Actividad PIB — Clase 01",
+    "section": "Caso 2 — Respuesta",
+    "text": "Caso 2 — Respuesta\n\n\n\n\n\n\n✅ Sí cuenta\n\n\n\n\n\n\nCuenta como Exportaciones (X), parte de la demanda externa (XN = X − M).\nEl cobre es producción dentro de las fronteras de Chile, destinada al exterior. Es el componente de mayor peso en las exportaciones chilenas.\n\nSi China lo compra más barato porque el peso se deprecia, Chile exporta más en términos nominales — pero el volumen físico puede ser el mismo."
+  },
+  {
+    "objectID": "clases/clase01_actividad_pib.html#caso-3",
+    "href": "clases/clase01_actividad_pib.html#caso-3",
+    "title": "Actividad PIB — Clase 01",
+    "section": "Caso 3",
+    "text": "Caso 3\n\nEl Ministerio de Obras Públicas construye una carretera en la Región de la Araucanía.\n\n¿Cuenta en el PIB de Chile?"
+  },
+  {
+    "objectID": "clases/clase01_actividad_pib.html#caso-3-respuesta",
+    "href": "clases/clase01_actividad_pib.html#caso-3-respuesta",
+    "title": "Actividad PIB — Clase 01",
+    "section": "Caso 3 — Respuesta",
+    "text": "Caso 3 — Respuesta\n\n\n\n\n\n\n✅ Sí cuenta\n\n\n\n\n\n\nCuenta como Gasto de gobierno (G) — inversión pública en infraestructura.\nEl gobierno compra cemento, maquinaria y trabajo. Toda esa actividad es producción registrada con precio de mercado.\n\nEl gasto en defensa, educación pública y salud pública también entra por la misma vía."
+  },
+  {
+    "objectID": "clases/clase01_actividad_pib.html#caso-4",
+    "href": "clases/clase01_actividad_pib.html#caso-4",
+    "title": "Actividad PIB — Clase 01",
+    "section": "Caso 4",
+    "text": "Caso 4\n\nUn taxista trabaja de manera informal y no declara sus ingresos al SII.\n\n¿Cuenta en el PIB de Chile?"
+  },
+  {
+    "objectID": "clases/clase01_actividad_pib.html#caso-4-respuesta",
+    "href": "clases/clase01_actividad_pib.html#caso-4-respuesta",
+    "title": "Actividad PIB — Clase 01",
+    "section": "Caso 4 — Respuesta",
+    "text": "Caso 4 — Respuesta\n\n\n\n\n\n\n⚠️ Debería contar, pero no se mide bien\n\n\n\n\n\n\nEl servicio de transporte existe y tiene valor económico — debería ir como Consumo (C).\nEl problema es de medición, no de definición. El PIB oficial subestima la economía informal, que en Chile representa entre el 20% y 25% del PIB según estimaciones.\n\nLas cuentas nacionales intentan corregir esto con encuestas de hogares y métodos estadísticos, pero siempre hay un margen no capturado."
+  },
+  {
+    "objectID": "clases/clase01_actividad_pib.html#caso-5",
+    "href": "clases/clase01_actividad_pib.html#caso-5",
+    "title": "Actividad PIB — Clase 01",
+    "section": "Caso 5",
+    "text": "Caso 5\n\nUna empresa compra acciones de otra empresa en la Bolsa de Santiago.\n\n¿Cuenta en el PIB de Chile?"
+  },
+  {
+    "objectID": "clases/clase01_actividad_pib.html#caso-5-respuesta",
+    "href": "clases/clase01_actividad_pib.html#caso-5-respuesta",
+    "title": "Actividad PIB — Clase 01",
+    "section": "Caso 5 — Respuesta",
+    "text": "Caso 5 — Respuesta\n\n\n\n\n\n\n❌ No cuenta\n\n\n\n\n\n\nEs una transacción financiera, no producción de bienes o servicios.\nComprar acciones es transferir un activo entre dos partes — no se crea nada nuevo. El PIB mide el flujo de producción, no el stock de activos.\n\nSi la empresa usara ese capital para construir una nueva planta, esa inversión sí contaría como Inversión (I)."
+  },
+  {
+    "objectID": "clases/clase01_actividad_pib.html#caso-6",
+    "href": "clases/clase01_actividad_pib.html#caso-6",
+    "title": "Actividad PIB — Clase 01",
+    "section": "Caso 6",
+    "text": "Caso 6\n\nUn chileno trabaja como ingeniero en una empresa en Argentina y envía remesas a su familia en Santiago.\n\n¿Cuenta en el PIB de Chile?"
+  },
+  {
+    "objectID": "clases/clase01_actividad_pib.html#caso-6-respuesta",
+    "href": "clases/clase01_actividad_pib.html#caso-6-respuesta",
+    "title": "Actividad PIB — Clase 01",
+    "section": "Caso 6 — Respuesta",
+    "text": "Caso 6 — Respuesta\n\n\n\n\n\n\n❌ No cuenta en el PIB — pero sí en el PNB\n\n\n\n\n\n\nEl PIB mide producción dentro del territorio de Chile. Este ingeniero produce en Argentina → su producción va al PIB argentino.\nSin embargo, sí cuenta en el PNB de Chile (Producto Nacional Bruto), que mide la producción de los residentes chilenos, estén donde estén.\n\nLas remesas que envía sí afectan el consumo de su familia en Chile, pero eso ya es un uso del ingreso, no producción nueva."
+  },
+  {
+    "objectID": "clases/clase01_actividad_pib.html#caso-7",
+    "href": "clases/clase01_actividad_pib.html#caso-7",
+    "title": "Actividad PIB — Clase 01",
+    "section": "Caso 7",
+    "text": "Caso 7\n\nWhatsApp presta servicio de mensajería gratuito a 15 millones de usuarios en Chile.\n\n¿Cuenta en el PIB de Chile?"
+  },
+  {
+    "objectID": "clases/clase01_actividad_pib.html#caso-7-respuesta",
+    "href": "clases/clase01_actividad_pib.html#caso-7-respuesta",
+    "title": "Actividad PIB — Clase 01",
+    "section": "Caso 7 — Respuesta",
+    "text": "Caso 7 — Respuesta\n\n\n\n\n\n\n❌ No cuenta (o cuenta muy poco)\n\n\n\n\n\n\nNo hay precio de mercado → el PIB no lo registra directamente.\nEn la práctica, Meta (dueña de WhatsApp) monetiza con publicidad. Esa publicidad sí entra al PIB de EE.UU. como producción de servicios digitales, pero el valor que reciben los usuarios chilenos no se refleja en el PIB de Chile.\n\nEste es uno de los argumentos más citados sobre por qué el PIB subestima el bienestar en la economía digital: servicios de alto valor para los usuarios tienen precio cero en el mercado."
+  },
+  {
+    "objectID": "clases/clase01_actividad_pib.html#caso-8",
+    "href": "clases/clase01_actividad_pib.html#caso-8",
+    "title": "Actividad PIB — Clase 01",
+    "section": "Caso 8",
+    "text": "Caso 8\n\nUn jubilado recibe su pensión mensual del sistema de AFP.\n\n¿Cuenta en el PIB de Chile?"
+  },
+  {
+    "objectID": "clases/clase01_actividad_pib.html#caso-8-respuesta",
+    "href": "clases/clase01_actividad_pib.html#caso-8-respuesta",
+    "title": "Actividad PIB — Clase 01",
+    "section": "Caso 8 — Respuesta",
+    "text": "Caso 8 — Respuesta\n\n\n\n\n\n\n❌ No cuenta directamente\n\n\n\n\n\n\nLa pensión es una transferencia de ingresos entre períodos — no es producción nueva en este período.\nEl jubilado ahorró (o el Estado financió) en el pasado; ahora recibe ese flujo. El PIB no registra transferencias, solo producción.\n\nCuando el jubilado gasta la pensión en bienes y servicios, ese gasto sí entra al PIB como Consumo (C)."
+  },
+  {
+    "objectID": "clases/clase01_actividad_pib.html#qué-aprendimos",
+    "href": "clases/clase01_actividad_pib.html#qué-aprendimos",
+    "title": "Actividad PIB — Clase 01",
+    "section": "¿Qué aprendimos?",
+    "text": "¿Qué aprendimos?\n\n\n\nCaso\n¿Cuenta?\nComponente\n\n\n\n\nAlmuerzo familiar en casa\n❌\n— (sin precio de mercado)\n\n\nCobre exportado a China\n✅\nExportaciones (X)\n\n\nCarretera del MOP\n✅\nGasto gobierno (G)\n\n\nTaxista informal\n⚠️\nC (subestimado)\n\n\nCompra de acciones\n❌\n— (transacción financiera)\n\n\nChileno trabaja en Argentina\n❌ PIB / ✅ PNB\n—\n\n\nWhatsApp gratuito\n❌\n— (sin precio de mercado)\n\n\nPensión AFP\n❌\n— (transferencia)"
+  },
+  {
+    "objectID": "clases/clase01_actividad_pib.html#la-gran-limitación",
+    "href": "clases/clase01_actividad_pib.html#la-gran-limitación",
+    "title": "Actividad PIB — Clase 01",
+    "section": "La gran limitación",
+    "text": "La gran limitación\nEl PIB mide lo que se puede medir con precios de mercado.\nDeja fuera:\n\nTrabajo doméstico y de cuidado\nEconomía informal\nServicios digitales gratuitos\nBienestar subjetivo y tiempo libre\nSostenibilidad ambiental\n\n\nUn país puede tener un PIB alto y, al mismo tiempo, una población con bajo bienestar. La distribución y la calidad del crecimiento importan tanto como el número."
+  },
+  {
+    "objectID": "clases/clase01_actividad_pib.html#para-reflexionar",
+    "href": "clases/clase01_actividad_pib.html#para-reflexionar",
+    "title": "Actividad PIB — Clase 01",
+    "section": "Para reflexionar",
+    "text": "Para reflexionar\n\n¿Qué indicador usarían ustedes para medir si un país está “yendo bien”?\n\nAlternativas que existen:\n\nÍndice de Desarrollo Humano (IDH)\nÍndice de Bienestar Mejor (OCDE)\nPIB Verde (ajustado por degradación ambiental)\nÍndice de Progreso Social"
+  },
+  {
+    "objectID": "clases/clase01_notas_docente.html#pregunta-1-qué-mide-exactamente-este-indicador",
+    "href": "clases/clase01_notas_docente.html#pregunta-1-qué-mide-exactamente-este-indicador",
+    "title": "Notas al docente — Clase 01",
+    "section": "Pregunta 1: ¿Qué mide exactamente este indicador?",
+    "text": "Pregunta 1: ¿Qué mide exactamente este indicador?\nRespuesta esperada:\n\nEl CPI (Consumer Price Index) mide la variación mensual de precios de una canasta de bienes y servicios representativa del consumo de los hogares urbanos de EE.UU.\nLo elabora el Bureau of Labor Statistics (BLS) y se publica mensualmente.\nSus usos principales: ajuste de contratos, decisiones de política monetaria de la Fed, indexación de beneficios sociales.\n\nError común: Confundir el titular (“tripled”) con el nivel de inflación. El CPI no triplicó: fue el ritmo mensual el que fue inusualmente alto. Si se sostuviera ese ritmo, la inflación anual sería cercana al 11%, pero el dato anual sigue en 3,3%.\nCómo guiar la discusión: Preguntar “¿triplicó respecto a qué?” para que los estudiantes distingan entre variación mensual, variación anual y nivel del índice."
+  },
+  {
+    "objectID": "clases/clase01_notas_docente.html#pregunta-2-a-quién-afecta-y-cómo",
+    "href": "clases/clase01_notas_docente.html#pregunta-2-a-quién-afecta-y-cómo",
+    "title": "Notas al docente — Clase 01",
+    "section": "Pregunta 2: ¿A quién afecta y cómo?",
+    "text": "Pregunta 2: ¿A quién afecta y cómo?\nRespuestas esperadas por actor:\n\n\n\n\n\n\n\nActor\nImpacto esperado\n\n\n\n\nFamilia de ingresos medios en EE.UU.\nPérdida de poder adquisitivo, especialmente si depende del automóvil. El ingreso nominal puede no ajustarse a la misma velocidad que los precios.\n\n\nEmpresa chilena que importa en USD\nDoble presión: si el dólar se fortalece por la incertidumbre, sus costos suben tanto por precio como por tipo de cambio.\n\n\nFed (Banco Central de EE.UU.)\nPresión para mantener o elevar la tasa de política monetaria, aunque el shock es de oferta (energía), no de demanda. Dilema clásico: subir tasa frena inflación pero también frena actividad.\n\n\nExportador chileno de cobre\nSi el USD se fortalece, recibe más pesos por cada dólar exportado — efecto positivo en ingresos nominales en pesos.\n\n\n\nError común: Asumir que toda inflación perjudica a todos por igual. El docente puede destacar que la distribución del impacto depende de quién es deudor/acreedor, importador/exportador, y cuán indexados están sus ingresos.\nCómo guiar la discusión: Preguntar “¿quién gana con la inflación?” para romper la intuición de que siempre es un fenómeno universalmente negativo."
+  },
+  {
+    "objectID": "clases/clase01_notas_docente.html#pregunta-3-qué-necesitarían-saber-para-interpretarlo-bien",
+    "href": "clases/clase01_notas_docente.html#pregunta-3-qué-necesitarían-saber-para-interpretarlo-bien",
+    "title": "Notas al docente — Clase 01",
+    "section": "Pregunta 3: ¿Qué necesitarían saber para interpretarlo bien?",
+    "text": "Pregunta 3: ¿Qué necesitarían saber para interpretarlo bien?\nRespuestas esperadas:\n¿Es igual 0,9% mensual que 0,9% anual?\nNo. El dato mensual hay que anualizarlo: \\((1{,}009)^{12} - 1 \\approx 11{,}4\\%\\) si se sostuviera. El dato anual acumulado es 3,3%, que refleja que los meses anteriores tuvieron inflación baja o negativa.\n¿Por qué importa la fuente del alza?\nLa energía es volátil y reversible si el conflicto se resuelve. La inflación “core” (que excluye energía y alimentos) es más persistente y más relevante para decisiones de política monetaria. Un shock de oferta energético no se combate igual que un exceso de demanda.\n¿Cómo se relaciona con el tipo de cambio?\nEl petróleo se transa en USD. Un conflicto en el Golfo Pérsico presiona el precio del crudo, lo que aumenta la demanda de USD para pagarlo, lo que puede apreciar el dólar frente a otras monedas, incluyendo el peso chileno.\nCierre sugerido: “Todo esto lo vamos a poder leer con precisión al terminar la clase de hoy.”"
+  },
+  {
+    "objectID": "clases/clase01_notas_docente.html#casos-que-generan-más-debate",
+    "href": "clases/clase01_notas_docente.html#casos-que-generan-más-debate",
+    "title": "Notas al docente — Clase 01",
+    "section": "Casos que generan más debate",
+    "text": "Casos que generan más debate\nCaso 4 — Taxista informal: El punto clave es separar definición de medición. El servicio debería contar pero no se registra. Preguntar: “¿El PIB oficial sobreestima o subestima la economía chilena?” → Subestima, porque la economía informal es grande.\nCaso 6 — Chileno en Argentina: Es el caso que mejor ilustra la diferencia PIB vs PNB. Preguntar primero si creen que cuenta, luego preguntar “¿y si fuera al revés, un argentino trabajando en Chile?” — el PIB de Chile sí lo capturaría.\nCaso 7 — WhatsApp: El más disruptivo conceptualmente. Preguntar: “¿WhatsApp crea valor?” — Sí, enorme. “¿El PIB lo captura?” — No, o casi nada. Esto abre la discusión sobre si el PIB mide bien el bienestar en la era digital."
+  },
+  {
+    "objectID": "clases/clase01_notas_docente.html#errores-frecuentes",
+    "href": "clases/clase01_notas_docente.html#errores-frecuentes",
+    "title": "Notas al docente — Clase 01",
+    "section": "Errores frecuentes",
+    "text": "Errores frecuentes\n\nDecir que la pensión “cuenta” porque el jubilado la gasta → confunden la transferencia con el gasto posterior. Aclarar: el gasto sí cuenta, la pensión en sí no.\nDecir que las remesas cuentan en el PIB chileno → confunden con el PNB o con el efecto sobre el consumo.\nEn el caso de las acciones, creer que “inversión” en sentido financiero = Inversión (I) del PIB. En cuentas nacionales, I es formación bruta de capital fijo (maquinaria, construcción), no activos financieros."
+  },
+  {
+    "objectID": "clases/clase01_notas_docente.html#pregunta-de-cierre-sugerida",
+    "href": "clases/clase01_notas_docente.html#pregunta-de-cierre-sugerida",
+    "title": "Notas al docente — Clase 01",
+    "section": "Pregunta de cierre sugerida",
+    "text": "Pregunta de cierre sugerida\nLuego del resumen, preguntar: “¿Qué indicador usarían ustedes para medir si un país está yendo bien?”\nDejar que propongan alternativas libremente antes de mencionar el IDH, el Índice de Bienestar de la OCDE o el PIB Verde. El objetivo es que entiendan que el PIB es una herramienta útil pero parcial."
+  },
+  {
+    "objectID": "clases/clase01_notas_docente.html#números-clave-de-la-canasta",
+    "href": "clases/clase01_notas_docente.html#números-clave-de-la-canasta",
+    "title": "Notas al docente — Clase 01",
+    "section": "Números clave de la canasta",
+    "text": "Números clave de la canasta\n\n\n\n\n\n\n\n\n\n\n\n\n\nBien\n\\(q_0\\)\n\\(p_0\\)\n\\(p_1\\)\n\\(p_0 q_0\\)\n\\(p_1 q_0\\)\nPonderación\nContribución\n\n\n\n\nPan\n8 kg\n$1.000\n$1.000\n$8.000\n$8.000\n8%\n0,0 pp\n\n\nTransporte\n40 viajes\n$500\n$600\n$20.000\n$24.000\n20%\n4,0 pp\n\n\nBencina\n20 litros\n$1.000\n$1.500\n$20.000\n$30.000\n20%\n10,0 pp\n\n\nArriendo\n1 mes\n$40.000\n$44.000\n$40.000\n$44.000\n40%\n4,0 pp\n\n\nInternet\n1 plan\n$12.000\n$12.000\n$12.000\n$12.000\n12%\n0,0 pp\n\n\nTotal\n\n\n\n$100.000\n$118.000\n100%\n18,0 pp\n\n\n\nIPC = 118 — Inflación = 18%\nLa base es exactamente $100.000 para facilitar el cálculo en clase."
+  },
+  {
+    "objectID": "clases/clase01_notas_docente.html#cómo-guiar-cada-paso",
+    "href": "clases/clase01_notas_docente.html#cómo-guiar-cada-paso",
+    "title": "Notas al docente — Clase 01",
+    "section": "Cómo guiar cada paso",
+    "text": "Cómo guiar cada paso\nPaso 1 (gasto base): Si algún grupo llega a un número distinto, revisar si sumaron correctamente. El total debe ser exactamente $100.000 — si no, hay un error aritmético que vale la pena corregir en plenario porque es oportunidad de aprendizaje.\nPaso 2 (gasto nuevo): Recordar que las cantidades no cambian — solo los precios. Este es el punto central de Laspeyres: medimos el costo de la misma vida a precios nuevos.\nPaso 3 (el índice): Como la base es $100.000, el índice es trivialmente 118.000/100.000 × 100 = 118. Si alguien lo calcula diferente, verificar que no hayan dividido al revés."
+  },
+  {
+    "objectID": "clases/clase01_notas_docente.html#la-discusión-más-importante-inflación-personal",
+    "href": "clases/clase01_notas_docente.html#la-discusión-más-importante-inflación-personal",
+    "title": "Notas al docente — Clase 01",
+    "section": "La discusión más importante: inflación personal",
+    "text": "La discusión más importante: inflación personal\nCuando lleguen a la parte de “tu inflación vs. la inflación oficial”, el objetivo es que caigan en cuenta de que no existe una inflación universal.\n\nUn estudiante que vive con sus padres y no maneja tiene inflación ~2% (solo transporte e internet subieron para él).\nUn trabajador que arrenda y maneja tiene inflación mucho mayor que 18%.\n\nPregunta que genera buena discusión: “¿A quién perjudica más una subida del 50% en la bencina: a alguien que gana $600.000 o a alguien que gana $2.000.000?” → No es solo el porcentaje, es el peso en el presupuesto."
+  },
+  {
+    "objectID": "clases/clase01_notas_docente.html#conexión-con-la-apertura",
+    "href": "clases/clase01_notas_docente.html#conexión-con-la-apertura",
+    "title": "Notas al docente — Clase 01",
+    "section": "Conexión con la apertura",
+    "text": "Conexión con la apertura\nLa bencina subiendo 50% y explicando 10 de los 18 puntos de inflación reproduce exactamente la lógica del titular de CNN: la gasolina (+21% mensual en EE.UU.) fue responsable de la mayor parte del CPI de marzo 2026. Señalarlo explícitamente cierra el círculo de la clase."
+  },
+  {
+    "objectID": "clases/clase01_notas_docente.html#error-frecuente-laspeyres-sobreestima",
+    "href": "clases/clase01_notas_docente.html#error-frecuente-laspeyres-sobreestima",
+    "title": "Notas al docente — Clase 01",
+    "section": "Error frecuente: Laspeyres sobreestima",
+    "text": "Error frecuente: Laspeyres sobreestima\nSi hay tiempo, plantear: “¿Qué pasaría si la bencina sube 50% y ustedes dejan de manejar y usan transporte?” → El gasto real cae, pero Laspeyres sigue calculando como si compraran 20 litros. Por eso Laspeyres tiende a sobreestimar la inflación: no captura la sustitución.\nEse problema lo resuelve Paasche (usa \\(q_1\\)), pero requiere saber las cantidades del período nuevo, que se conocen con retraso."
+  },
+  {
+    "objectID": "clases/clase01_notas_docente.html#pib-los-tres-métodos",
+    "href": "clases/clase01_notas_docente.html#pib-los-tres-métodos",
+    "title": "Notas al docente — Clase 01",
+    "section": "PIB: los tres métodos",
+    "text": "PIB: los tres métodos\nPunto clave a enfatizar: Los tres métodos (gasto, producción, ingreso) deben dar el mismo resultado — son tres “ventanas” al mismo fenómeno. En la práctica difieren por errores de medición.\nPregunta para activar: “Si Chile crece 3% en PIB real, ¿eso significa que todos los chilenos están 3% mejor?” → No: depende de distribución, inflación, demografía.\nError común: Confundir PIB nominal con crecimiento real. Si el PIB en pesos sube 8% pero la inflación es 5%, el crecimiento real es solo ~3%."
+  },
+  {
+    "objectID": "clases/clase01_notas_docente.html#imacec",
+    "href": "clases/clase01_notas_docente.html#imacec",
+    "title": "Notas al docente — Clase 01",
+    "section": "Imacec",
+    "text": "Imacec\nPor qué existe: El PIB trimestral tiene desfase de meses. El Imacec permite leer la economía casi en tiempo real (se publica con ~30 días de retraso).\nDato útil para la clase: El Imacec cae fuertemente en períodos de crisis (estallido social 2019, pandemia 2020) y eso es visible en el gráfico. Pedir a los estudiantes que identifiquen esos eventos antes de nombrarlos."
+  },
+  {
+    "objectID": "clases/clase01_notas_docente.html#pib-per-cápita-y-bienestar",
+    "href": "clases/clase01_notas_docente.html#pib-per-cápita-y-bienestar",
+    "title": "Notas al docente — Clase 01",
+    "section": "PIB per cápita y bienestar",
+    "text": "PIB per cápita y bienestar\nLimitación central a enfatizar: El PIB per cápita es un promedio. Si el 10% más rico concentra el 60% del ingreso, el promedio no refleja la situación del hogar típico.\nCaso para ilustrar: Qatar tiene PIB per cápita muy alto pero con enorme desigualdad entre nacionales y trabajadores migrantes. El promedio oculta estructuras muy distintas."
+  },
+  {
+    "objectID": "clases/clase01_notas_docente.html#clasificación-de-la-población",
+    "href": "clases/clase01_notas_docente.html#clasificación-de-la-población",
+    "title": "Notas al docente — Clase 01",
+    "section": "Clasificación de la población",
+    "text": "Clasificación de la población\nError más frecuente: Clasificar como “desocupado” a alguien que no trabaja pero tampoco está buscando → es inactivo, no desocupado. La búsqueda activa en las últimas 4 semanas es criterio definitorio.\nCaso que genera más debate: El trabajador desalentado — alguien que quiere trabajar pero dejó de buscar porque cree que no encontrará. El INE lo clasifica como inactivo, lo que subestima el desempleo real.\nPregunta para discutir: “¿La tasa de desempleo oficial refleja bien la situación laboral del país?” → Puede complementarse con la tasa de desempleo ampliada o la tasa de ocupación."
+  },
+  {
+    "objectID": "clases/clase01_notas_docente.html#ley-de-okun",
+    "href": "clases/clase01_notas_docente.html#ley-de-okun",
+    "title": "Notas al docente — Clase 01",
+    "section": "Ley de Okun",
+    "text": "Ley de Okun\nIntuición práctica: Si el PIB crece por encima de su tasa potencial (~3% en Chile), el desempleo cae. Si crece por debajo, sube. La relación no es perfecta — depende de la fuente del crecimiento.\nCaso para ilustrar: Un crecimiento impulsado por exportaciones mineras genera poco empleo directo (capital-intensivo). Un crecimiento por consumo interno genera más empleo en servicios."
+  },
+  {
+    "objectID": "clases/clase01_notas_docente.html#plusvalía-marxista",
+    "href": "clases/clase01_notas_docente.html#plusvalía-marxista",
+    "title": "Notas al docente — Clase 01",
+    "section": "Plusvalía marxista",
+    "text": "Plusvalía marxista\nPor qué está en el programa: No como postura ideológica, sino como marco analítico para entender la distribución entre capital y trabajo — relevante en debates sobre salario mínimo, productividad y desigualdad.\nCómo abordarlo en clase: Presentarlo como una herramienta de análisis, no como una conclusión normativa. Preguntar: “¿En qué sectores esperarían una tasa de plusvalía alta? ¿Por qué?”\nConexión con datos actuales: El ratio de participación laboral en el PIB (wage share) ha caído en muchos países en las últimas décadas — dato empírico que abre la discusión."
+  },
+  {
+    "objectID": "clases/clase01_notas_docente.html#nominal-vs.-real",
+    "href": "clases/clase01_notas_docente.html#nominal-vs.-real",
+    "title": "Notas al docente — Clase 01",
+    "section": "Nominal vs. real",
+    "text": "Nominal vs. real\nLa pregunta más importante de este bloque: “¿El PIB creció porque se produjo más o porque los precios subieron?” → Esa es exactamente la distinción entre PIB nominal y real.\nEjercicio mental: Si una empresa vende las mismas unidades que el año pasado pero a precios 10% más altos, ¿creció? En términos nominales sí; en términos reales, no."
+  },
+  {
+    "objectID": "clases/clase01_notas_docente.html#laspeyres-vs.-paasche",
+    "href": "clases/clase01_notas_docente.html#laspeyres-vs.-paasche",
+    "title": "Notas al docente — Clase 01",
+    "section": "Laspeyres vs. Paasche",
+    "text": "Laspeyres vs. Paasche\nDiferencia práctica:\n\nLaspeyres (IPC): canasta fija del año base → tiende a sobrestimar la inflación porque no captura que los consumidores sustituyen bienes caros por más baratos.\nPaasche (Deflactor): canasta actualizada → tiende a subestimar la inflación por el efecto opuesto.\nÍndice de Fisher: promedio geométrico de ambos — más preciso pero más costoso de calcular.\n\nCómo explicarlo sin fórmulas primero: “Si el precio del salmón sube mucho, ¿sigues comprando la misma cantidad? Laspeyres asume que sí. Paasche asume que cambias a merluza.”"
+  },
+  {
+    "objectID": "clases/clase01_notas_docente.html#salario-real",
+    "href": "clases/clase01_notas_docente.html#salario-real",
+    "title": "Notas al docente — Clase 01",
+    "section": "Salario real",
+    "text": "Salario real\nDato para contextualizar: En períodos de alta inflación (Chile 2022: ~13% IPC anual), el salario real cae aunque el salario nominal suba, si el alza nominal es menor que la inflación.\nPregunta para discutir: “¿Prefieren un aumento de sueldo de 8% con inflación de 10%, o mantener el sueldo con inflación de 0%?” → Introduce la distinción sin ecuaciones."
+  },
+  {
+    "objectID": "clases/clase01_notas_docente.html#tipo-de-cambio-real",
+    "href": "clases/clase01_notas_docente.html#tipo-de-cambio-real",
+    "title": "Notas al docente — Clase 01",
+    "section": "Tipo de cambio real",
+    "text": "Tipo de cambio real\nIntuición: El tipo de cambio nominal dice cuántos pesos cuesta un dólar. El real dice cuántos bienes chilenos equivalen a un bien norteamericano. Si Chile tiene más inflación que EE.UU. y el nominal no se mueve, el peso se aprecia en términos reales — los productos chilenos se encarecen para el mundo.\nAplicación directa: Cuando el TCR se aprecia mucho, las exportaciones pierden competitividad. Cuando se deprecia, las importaciones se encarecen. El Banco Central monitorea esto para orientar política cambiaria."
+  },
+  {
+    "objectID": "clases/clase01_notas_docente.html#respuestas-esperadas-por-bloque",
+    "href": "clases/clase01_notas_docente.html#respuestas-esperadas-por-bloque",
+    "title": "Notas al docente — Clase 01",
+    "section": "Respuestas esperadas por bloque",
+    "text": "Respuestas esperadas por bloque\nBloque 1 — Actividad, precios y empleo:\nLa señal es mixta pero no de alarma. El PIB crece moderadamente (2,5% en 2025), la inflación está bajo la meta (2,4% en febrero), pero hay un shock externo en curso por la guerra en Medio Oriente que presionará los precios al alza en Q2 2026. Este bloque no apoya la tesis de quiebra — es una economía funcionando con ruido externo.\nBloque 2 — Situación fiscal:\nEste es el bloque más preocupante. Los puntos clave que los estudiantes deben identificar: - El déficit estructural de 3,6% del PIB es el más alto desde la pandemia, sin eventos extraordinarios que lo justifiquen - Los activos del Tesoro cayendo de US$2.946M a US$46M en un año es la señal más concreta de estrés: el Estado está “gastando sus ahorros” para cerrar el año - El gasto en intereses casi se duplicó desde 2015: una proporción creciente del presupuesto se destina a pagar deuda, no a bienes y servicios públicos\nError común: confundir “deuda bajo el nivel prudente” con “situación fiscal sana”. El CFA explica explícitamente que la deuda se mantuvo estable no por consolidación fiscal, sino por el tipo de cambio y el PIB nominal — factores transitorios.\nBloque 3 — Riesgo soberano:\nLa señal es tranquilizadora en el corto plazo (mercados no castigan a Chile), pero la trayectoria genera preocupación. La comparación clave: los países con clasificación similar aumentaron su deuda 8,5 pp en 17 años; Chile la aumentó 37,7 pp. Los mercados aún confían, pero el CFA advierte que ese margen se reduce."
+  },
+  {
+    "objectID": "clases/clase01_notas_docente.html#la-integración-la-distinción-central",
+    "href": "clases/clase01_notas_docente.html#la-integración-la-distinción-central",
+    "title": "Notas al docente — Clase 01",
+    "section": "La integración: la distinción central",
+    "text": "La integración: la distinción central\nEl objetivo pedagógico más importante de esta actividad es que los estudiantes distingan:\n\n\n\n\n\n\n\n\nConcepto\nDefinición técnica\n¿Aplica a Chile?\n\n\n\n\nDefault / quiebra\nEl Estado no puede pagar su deuda\nNo\n\n\nEstrés fiscal\nDéficits persistentes, regla incumplida, activos agotados\nSí\n\n\nRiesgo soberano\nProbabilidad de incumplimiento percibida por mercados\nBajo\n\n\n\nLa afirmación “Chile está en quiebra” es técnicamente falsa. Pero ignorar el estrés fiscal porque “no es quiebra” también es un error: el CFA proyecta 50% de probabilidad de superar el nivel prudente de deuda hacia 2027."
+  },
+  {
+    "objectID": "clases/clase01_notas_docente.html#cómo-guiar-la-pregunta-de-los-asesores",
+    "href": "clases/clase01_notas_docente.html#cómo-guiar-la-pregunta-de-los-asesores",
+    "title": "Notas al docente — Clase 01",
+    "section": "Cómo guiar la pregunta de los asesores",
+    "text": "Cómo guiar la pregunta de los asesores\nEn la pregunta de integración sobre qué harían como asesores, las respuestas más interesantes para discutir en plenario son:\n\nCorto plazo: reducir el gasto corriente (pero ¿qué recortar sin afectar servicios esenciales?); mejorar la recaudación tributaria\nLargo plazo: recomponer los fondos soberanos (FEES, FRP); fortalecer la regla fiscal con mecanismos de corrección más rápidos; reducir la sobreestimación sistemática de ingresos\n\nPregunta de cierre útil: “Si los mercados no castigan a Chile todavía, ¿por qué urgirles actuar ahora?” → Porque el ajuste es más costoso cuando te fuerzan los mercados que cuando lo haces de manera preventiva."
+  },
+  {
+    "objectID": "clases/clase01_notas_docente.html#ejercicio-01-pib",
+    "href": "clases/clase01_notas_docente.html#ejercicio-01-pib",
+    "title": "Notas al docente — Clase 01",
+    "section": "Ejercicio 01: PIB",
+    "text": "Ejercicio 01: PIB\nObjetivo: Calcular PIB nominal, deflactor y PIB real a partir de datos de producción y precios.\nError frecuente: Usar el deflactor multiplicando en vez de dividiendo. Recordar: \\(PIB_{real} = PIB_{nominal} / Deflactor \\times 100\\).\nVariante para discutir: Mostrar cómo un mismo conjunto de datos da crecimiento distinto según el año base que se elija."
+  },
+  {
+    "objectID": "clases/clase01_notas_docente.html#ejercicio-02-ipc",
+    "href": "clases/clase01_notas_docente.html#ejercicio-02-ipc",
+    "title": "Notas al docente — Clase 01",
+    "section": "Ejercicio 02: IPC",
+    "text": "Ejercicio 02: IPC\nObjetivo: Construir un índice de precios desde cero usando la fórmula de Laspeyres.\nError frecuente: Confundir el índice con la tasa de inflación. El índice es el nivel; la inflación es la variación porcentual entre dos períodos del índice.\nExtensión opcional: Calcular la inflación acumulada en un período de varios años y comparar con la variación del salario nominal para llegar al salario real (precursor del ejercicio 03)."
+  },
+  {
+    "objectID": "clases/clase01_notas_docente.html#ejercicio-03-salario",
+    "href": "clases/clase01_notas_docente.html#ejercicio-03-salario",
+    "title": "Notas al docente — Clase 01",
+    "section": "Ejercicio 03: Salario",
+    "text": "Ejercicio 03: Salario\nObjetivo: Calcular salario real deflactando el salario nominal por el IPC.\nPunto clave: El salario real no depende del nivel del IPC sino de su variación relativa. Si el IPC sube más que el salario nominal, el salario real cae aunque ambos suban en términos absolutos.\nPregunta de cierre: “¿En qué año de los datos el trabajador estuvo mejor? ¿Cómo lo saben?”"
+  },
+  {
+    "objectID": "clases/index.html",
+    "href": "clases/index.html",
+    "title": "Clases y materiales",
+    "section": "",
+    "text": "En esta sección se agrupan las sesiones del curso y los materiales de apoyo.\n\n\n\nActividad de apertura\nActividad PIB — ¿Cuenta o no cuenta?\nActividad IPC — Construyamos un índice\nActividad de coyuntura — ¿Chile está en quiebra?\nDiapositiva 01\nNotas al docente\nPlan de mejora\n\n\n\nDisponibles en materiales/:\n\nclase_01_202509.pdf — presentación original de la clase\nINE_empleo_01.pdf — material INE sobre empleo\n\n\n\n\nDisponibles en data/:\n\nejercicio 01 PIB.xlsx — Producto Interno Bruto\nejercicio 02 IPC.xlsx — Índice de Precios al Consumidor\nejercicio 03 Salario.xlsx — salarios nominales y reales\n\n\n\n\n\nLa diapositiva está en formato revealjs y se puede navegar en el browser. El notebook está en formato PDF y contiene ejercicios de R. Si buscas un punto de partida, comienza por la Diapositiva 01 y usa el Notebook para los ejercicios prácticos."
+  },
+  {
+    "objectID": "clases/index.html#clase-01-nivel-de-actividad-mercado-laboral-y-variables-nominales",
+    "href": "clases/index.html#clase-01-nivel-de-actividad-mercado-laboral-y-variables-nominales",
+    "title": "Clases y materiales",
+    "section": "",
+    "text": "Actividad de apertura\nActividad PIB — ¿Cuenta o no cuenta?\nActividad IPC — Construyamos un índice\nActividad de coyuntura — ¿Chile está en quiebra?\nDiapositiva 01\nNotas al docente\nPlan de mejora\n\n\n\nDisponibles en materiales/:\n\nclase_01_202509.pdf — presentación original de la clase\nINE_empleo_01.pdf — material INE sobre empleo\n\n\n\n\nDisponibles en data/:\n\nejercicio 01 PIB.xlsx — Producto Interno Bruto\nejercicio 02 IPC.xlsx — Índice de Precios al Consumidor\nejercicio 03 Salario.xlsx — salarios nominales y reales"
+  },
+  {
+    "objectID": "clases/index.html#nota-de-uso",
+    "href": "clases/index.html#nota-de-uso",
+    "title": "Clases y materiales",
+    "section": "",
+    "text": "La diapositiva está en formato revealjs y se puede navegar en el browser. El notebook está en formato PDF y contiene ejercicios de R. Si buscas un punto de partida, comienza por la Diapositiva 01 y usa el Notebook para los ejercicios prácticos."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Entorno Económico",
+    "section": "",
+    "text": "Bienvenidas y bienvenidos al sitio del curso. Acá reunimos las clases, materiales complementarios y recursos de apoyo para trabajar conceptos y casos sobre:"
+  },
+  {
+    "objectID": "index.html#cómo-usar-este-sitio",
+    "href": "index.html#cómo-usar-este-sitio",
+    "title": "Entorno Económico",
+    "section": "Cómo usar este sitio",
+    "text": "Cómo usar este sitio\nLa navegación está organizada para acompañar el trabajo del curso:\n\nen Clases encontrarás las sesiones y materiales asociados\nen Recursos verás documentación, artículos y guías para profundizar\nen Contacto están los canales del docente"
+  },
+  {
+    "objectID": "index.html#enfoque-del-curso",
+    "href": "index.html#enfoque-del-curso",
+    "title": "Entorno Económico",
+    "section": "Enfoque del curso",
+    "text": "Enfoque del curso\nEl objetivo no es solo describir qué miden los indicadores económicos, sino también cómo interpretarlos en contexto, cómo relacionarlos entre sí y cómo usarlos para analizar situaciones económicas concretas."
+  }
+]

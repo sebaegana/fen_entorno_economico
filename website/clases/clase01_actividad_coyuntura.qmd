@@ -1,0 +1,324 @@
+---
+title: "Actividad de coyuntura — Clase 01"
+subtitle: "¿Chile está en quiebra? Análisis con múltiples indicadores"
+lang: es
+date: "Abril 2026"
+format:
+  revealjs:
+    theme: simple
+    center: false
+    slide-number: true
+    self-contained: true
+    incremental: false
+    transition: slide
+    logo: "imagenes/Imagen1.jpg"
+    footer: "© Sebastián Egaña Santibáñez — Entorno Económico"
+    include-in-header: styles.html
+  pdf:
+    toc: false
+    papersize: a4
+    geometry: margin=1in
+---
+
+## La afirmación
+
+::: {style="font-size: 1.3em; font-weight: bold; color: #c0392b; border-left: 6px solid #c0392b; padding-left: 1em; margin: 1.2em 0;"}
+"Chile tiene un Estado en la quiebra"
+:::
+
+::: {style="font-size: 0.85em; color: #666;"}
+— Afirmación circulada en el debate político chileno, marzo 2026
+:::
+
+Esta afirmación fue evaluada por [FastCheck.cl](https://www.fastcheck.cl/2026/03/25/chile-tiene-un-estado-en-la-quiebra-falso/) como **#Falso**.
+
+Pero, ¿qué dicen los datos? ¿Y qué significa técnicamente que un Estado "quiebre"?
+
+------------------------------------------------------------------------
+
+## Objetivo de la actividad
+
+Usar indicadores económicos reales para responder, con evidencia, si Chile está o no en una situación de quiebra — y si esa es la pregunta correcta.
+
+**Datos:** Informes oficiales del Banco Central de Chile y el Consejo Fiscal Autónomo, marzo 2026.
+
+**Tiempo:** ~25 minutos en grupos de 3 personas.
+
+------------------------------------------------------------------------
+
+## Instrucciones
+
+La actividad tiene **tres bloques** de indicadores:
+
+| Bloque | Qué mide | Fuente |
+|---|---|---|
+| 1 | Actividad, precios y empleo | IPoM, Banco Central |
+| 2 | Situación fiscal | CFA, Dipres |
+| 3 | Riesgo soberano | Fitch, CDS, CFA |
+
+Para cada bloque:
+
+1. Lean los datos
+2. Discutan qué señal dan: ¿alarma, preocupación o tranquilidad?
+3. Anoten su diagnóstico parcial
+
+Al final integrarán los tres bloques para responder la pregunta central.
+
+------------------------------------------------------------------------
+
+# Bloque 1: Actividad, precios y empleo
+
+------------------------------------------------------------------------
+
+## Los datos
+
+::: {.smaller}
+| Indicador | Dato | Referencia |
+|---|---|---|
+| Crecimiento PIB 2025 | **+2,5%** real anual | IPoM mar. 2026, p. 4 |
+| Proyección PIB 2026 | **1,5–2,5%** (bajado desde 2–3%) | IPoM mar. 2026, Tabla resumen |
+| Inflación feb. 2026 | **2,4%** anual (bajo la meta de 3%) | IPoM mar. 2026, p. 4 |
+| Inflación proyectada Q2 2026 | **~4%** por alza de combustibles | IPoM mar. 2026, p. 5 |
+| Tasa de desocupación | Estable, sin cambios relevantes | IPoM mar. 2026, p. 5 |
+| Precio del cobre | US$5,4/lb promedio 2026 (sobre lo previsto) | IPoM mar. 2026, Tabla 2 |
+| Precio del petróleo | ~US$100/barril en Q2 (+60% vs. diciembre) | IPoM mar. 2026, p. 5 |
+:::
+
+> El shock externo dominante en este período es la guerra en Medio Oriente iniciada el 28 de febrero de 2026, que elevó el petróleo y presionó la inflación local.
+
+------------------------------------------------------------------------
+
+## Pregunta del bloque 1
+
+::: {style="font-size: 1.1em; font-weight: bold; color: #0d6e6e;"}
+Con estos indicadores, ¿diría que Chile está creciendo o en recesión? ¿La inflación es un problema estructural o un shock externo?
+:::
+
+Discutan en el grupo y registren:
+
+- **Señal de actividad:** tranquilizadora / preocupante / de alarma
+- **Señal de precios:** tranquilizadora / preocupante / de alarma
+- **¿Esto apoya la tesis de "quiebra"?** Sí / No / Depende
+
+------------------------------------------------------------------------
+
+# Bloque 2: Situación fiscal
+
+------------------------------------------------------------------------
+
+## Déficit y regla fiscal
+
+::: {.smaller}
+| Indicador | Dato | Referencia |
+|---|---|---|
+| Balance Estructural (BE) 2025 | **-3,6% del PIB** | CFA, Informe desvío BE, mar. 2026, p. 4 |
+| Meta original de BE para 2025 | -1,1% del PIB | CFA, Informe desvío BE, mar. 2026, p. 4 |
+| Desvío respecto de la meta | **2,5 pp del PIB (US$8.863 millones)** | CFA, Informe desvío BE, mar. 2026, p. 4 |
+| Años consecutivos de incumplimiento | **3 años** (2023, 2024, 2025) | CFA, Informe desvío BE, mar. 2026, p. 5 |
+| Contexto del incumplimiento | Sin crisis ni eventos extraordinarios | CFA, Informe desvío BE, mar. 2026, p. 5 |
+| BE proyectado para 2026 | **-2,7% del PIB** (meta: -1,1%) | CFA, Informe BE 4T25, mar. 2026, p. 4 |
+:::
+
+> El Consejo Fiscal Autónomo (CFA) señala que la magnitud del desvío en 2025 "es elevada en términos históricos para un año sin eventos macroeconómicos extraordinarios, casi triplicando los promedios observados en períodos comparables".
+>
+> — CFA, *Informe sobre el desvío de la meta de Balance Estructural de 2025*, 4 de marzo de 2026, p. 9
+
+------------------------------------------------------------------------
+
+## Deuda y activos fiscales
+
+::: {.smaller}
+| Indicador | Dato | Referencia |
+|---|---|---|
+| Deuda bruta / PIB 2025 | **41,7%** | CFA, Informe BE 4T25, mar. 2026, p. 5 |
+| Nivel prudente de deuda | **45% del PIB** | CFA, Informe BE 4T25, mar. 2026 |
+| Probabilidad de superar el 45% hacia 2027 | **~50%** | CFA, Informe Congreso oct. 2025 |
+| Deuda bruta en 2007 | 3,9% del PIB | CFA, Informe BE 4T25, mar. 2026, p. 29 |
+| Deuda bruta en 2024 | 41,7% del PIB (**×10 en 17 años**) | CFA, Informe BE 4T25, mar. 2026, p. 29 |
+| Activos Tesoro Público (Q2 2025) | US$2.946 millones | CFA, Informe desvío BE, mar. 2026, p. 7 |
+| Activos Tesoro Público (cierre 2025) | **US$46 millones** | CFA, Informe desvío BE, mar. 2026, p. 7 |
+| Gasto en intereses 2015 | 0,66% del PIB | CFA, Informe BE 4T25, mar. 2026, p. 24 |
+| Gasto en intereses 2025 | **1,24% del PIB** (casi el doble) | CFA, Informe BE 4T25, mar. 2026, p. 24 |
+| Gasto en intereses proyectado 2030 | 1,44% del PIB (6% del gasto total) | CFA, Informe BE 4T25, mar. 2026, p. 24 |
+:::
+
+------------------------------------------------------------------------
+
+## El diagnóstico del CFA
+
+> "La persistencia de déficits estructurales elevados, la tendencia a la baja de los activos del Tesoro Público y el aumento sostenido del gasto por intereses configuran un **escenario de estrés fiscal** que refuerza la urgencia de retomar una senda creíble y verificable de consolidación fiscal."
+>
+> — CFA, *Informe sobre el desvío de la meta de Balance Estructural de 2025*, 4 de marzo de 2026, p. 7
+
+> "Si bien la deuda bruta como porcentaje del PIB en 2025 se mantuvo por debajo de su nivel prudente [...] ello no fue a causa de una consolidación fiscal, sino que respondió mayoritariamente a la apreciación del tipo de cambio y al mayor crecimiento del PIB nominal, factores que podrían ser de carácter transitorio."
+>
+> — CFA, *Informe sobre el desvío de la meta de Balance Estructural de 2025*, 4 de marzo de 2026, p. 7
+
+------------------------------------------------------------------------
+
+## Pregunta del bloque 2
+
+::: {style="font-size: 1.1em; font-weight: bold; color: #0d6e6e;"}
+La deuda está bajo el nivel prudente, pero los activos del Tesoro cayeron de US$2.946 millones a US$46 millones en un año. ¿Cómo interpretan esa combinación?
+:::
+
+Discutan en el grupo y registren:
+
+- **Señal fiscal:** tranquilizadora / preocupante / de alarma
+- **¿La deuda es sostenible en el mediano plazo?** Sí / No / Depende
+- **¿Esto apoya la tesis de "quiebra"?** Sí / No / Depende
+
+------------------------------------------------------------------------
+
+# Bloque 3: Riesgo soberano
+
+------------------------------------------------------------------------
+
+## Los datos
+
+::: {.smaller}
+| Indicador | Dato | Referencia |
+|---|---|---|
+| Clasificación crediticia (Fitch) | **A− con perspectiva estable** | Fitch, sep. 2025 |
+| Posición en América Latina | **Mejor clasificación de la región** | El Dínamo, mar. 2026 |
+| CDS a 5 años (seguro contra default) | **Bajos, similares a 2018** | BCCh, IEF 2S 2025 |
+| Probabilidad de default próxima década | **Prácticamente nula** | Economistas consultados, mar. 2026 |
+| Países con clasificación comparable | Israel, Lituania, Malta, Eslovaquia | CFA, Informe BE 4T25, mar. 2026, p. 29 |
+| Deuda de esos países (2007→2024) | Subió de 44,7% a 53,2% del PIB (+8,5 pp) | CFA, Informe BE 4T25, mar. 2026, p. 29 |
+| Deuda de Chile en ese mismo período | Subió de 3,9% a 41,7% del PIB (+37,7 pp) | CFA, Informe BE 4T25, mar. 2026, p. 29 |
+:::
+
+::: {.callout-note}
+## Para entender el CDS
+Un Credit Default Swap es un contrato que funciona como un seguro: el comprador paga una prima periódica y, si el país no paga su deuda, recibe una compensación. Si el CDS es bajo, el mercado estima baja probabilidad de default.
+:::
+
+------------------------------------------------------------------------
+
+## Pregunta del bloque 3
+
+::: {style="font-size: 1.1em; font-weight: bold; color: #0d6e6e;"}
+Chile tiene la mejor clasificación crediticia de América Latina y CDS bajos, pero su deuda creció ×10 en 17 años mientras sus pares solo la subieron 8,5 pp. ¿Cómo leen esa tensión?
+:::
+
+Discutan en el grupo y registren:
+
+- **Señal de riesgo soberano:** tranquilizadora / preocupante / de alarma
+- **¿Los mercados ven un riesgo que el CFA advierte?** Sí / No / Parcialmente
+- **¿Esto apoya la tesis de "quiebra"?** Sí / No / Depende
+
+------------------------------------------------------------------------
+
+# Integración
+
+------------------------------------------------------------------------
+
+## Su diagnóstico consolidado
+
+Con los tres bloques completos, respondan:
+
+**1. ¿Está Chile en quiebra?**
+
+Fundamenten con al menos **dos datos concretos** de los bloques anteriores.
+
+---
+
+**2. ¿Es esa la pregunta correcta?**
+
+¿Hay una pregunta más precisa que "¿está en quiebra?" que permita un análisis más útil?
+
+---
+
+**3. ¿Qué harían si fueran asesores del nuevo gobierno?**
+
+Nombren una medida de corto plazo y una de largo plazo, cada una justificada con un indicador.
+
+------------------------------------------------------------------------
+
+# Respuestas y cierre
+
+------------------------------------------------------------------------
+
+## La distinción técnica central
+
+"Quiebra" en términos soberanos significa **default**: el Estado no puede pagar su deuda.
+
+Para que eso ocurra en Chile se necesitaría:
+
+- Que los acreedores se nieguen a refinanciar la deuda
+- Que el Estado no pueda generar ingresos suficientes
+- Que la clasificación crediticia caiga a niveles de alto riesgo
+
+**Nada de eso ocurre hoy.** La probabilidad de default es prácticamente nula.
+
+---
+
+Lo que sí ocurre es un **estrés fiscal estructural**:
+
+- Déficits persistentes sin crisis que los justifiquen
+- Regla fiscal incumplida por 3 años consecutivos
+- Activos soberanos casi agotados
+- Deuda creciendo sin convergencia hacia el equilibrio
+
+------------------------------------------------------------------------
+
+## El mapa de indicadores
+
+::: {.smaller}
+| Indicador | Señal | Implicancia |
+|---|:---:|---|
+| Crecimiento PIB | 🟡 | Moderado y desacelerando |
+| Inflación | 🟡 | Convergida, pero shock externo en curso |
+| Empleo | 🟢 | Estable |
+| Balance Estructural | 🔴 | -3,6% del PIB, 3er incumplimiento |
+| Deuda / PIB | 🟡 | Bajo el límite, pero creciendo ×10 en 17 años |
+| Activos del Tesoro | 🔴 | De US$2.946M a US$46M en un año |
+| Gasto en intereses | 🔴 | Casi el doble que en 2015 |
+| Clasificación crediticia | 🟢 | A−, mejor de la región |
+| CDS / default | 🟢 | Probabilidad prácticamente nula |
+:::
+
+🟢 Sin preocupación inmediata · 🟡 Señal de alerta · 🔴 Problema estructural
+
+------------------------------------------------------------------------
+
+## La pregunta correcta
+
+No es **"¿está Chile en quiebra?"** — esa pregunta tiene una respuesta técnica simple: No.
+
+La pregunta relevante es:
+
+::: {style="font-size: 1.15em; font-weight: bold; color: #0d6e6e; border-left: 6px solid #0d6e6e; padding-left: 1em; margin: 1em 0;"}
+¿Tiene Chile margen fiscal para responder a una crisis sin comprometer su solvencia de largo plazo?
+:::
+
+Con activos del Tesoro en US$46 millones, tres incumplimientos consecutivos de la regla fiscal y una probabilidad del 50% de superar el nivel prudente de deuda hacia 2027, la respuesta del CFA es: **el margen se está agotando**.
+
+------------------------------------------------------------------------
+
+## Para llevar
+
+El análisis económico de coyuntura no busca concluir si algo es "bueno" o "malo" en abstracto — busca identificar:
+
+- **¿Qué está pasando?** (diagnóstico con datos)
+- **¿Qué podría pasar?** (escenarios y riesgos)
+- **¿Qué se puede hacer?** (opciones de política)
+
+El debate político convierte problemas graduales en crisis absolutas. El análisis técnico los descompone en indicadores concretos y trayectorias verificables.
+
+------------------------------------------------------------------------
+
+## Referencias
+
+**Documentos oficiales utilizados:**
+
+- Banco Central de Chile. (2026, marzo). *Informe de Política Monetaria (IPoM)*. Santiago: BCCh.
+- Consejo Fiscal Autónomo. (2026, 4 de marzo). *Informe sobre el desvío de la meta de Balance Estructural de 2025*. Santiago: CFA. [cfachile.cl](https://cfachile.cl)
+- Consejo Fiscal Autónomo. (2026, 26 de marzo). *Informe de Balance Estructural y nivel prudente de deuda: estimaciones 2026–2030 del IFP del cuarto trimestre de 2025*. Santiago: CFA. [cfachile.cl](https://cfachile.cl)
+- Dirección de Presupuestos (Dipres). (2026, febrero). *Informe de Finanzas Públicas del cuarto trimestre de 2025 (IFP4T25)*. Santiago: Dipres. [dipres.gob.cl](https://www.dipres.gob.cl)
+
+**Verificación:**
+
+- FastCheck.cl. (2026, 25 de marzo). *Chile tiene un Estado en la quiebra: #Falso*. [fastcheck.cl](https://www.fastcheck.cl/2026/03/25/chile-tiene-un-estado-en-la-quiebra-falso/)
+- El Dínamo. (2026, 25 de marzo). *Chile: el país con la mejor clasificación de riesgo de la región y el enredo del gobierno por la "quiebra"*. [eldinamo.cl](https://www.eldinamo.cl/economia/2026/03/25/chile-el-pais-con-la-mejor-clasificacion-de-riesgo-de-la-region-y-el-enredo-del-gobierno-por-la-quiebra/)
+- BioBioChile. (2026, 25 de marzo). *Qué significa que un Estado esté en quiebra y qué tiene que pasar para que esto ocurra*. [biobiochile.cl](https://www.biobiochile.cl/noticias/bbcl-explica/bbcl-explica-notas/2026/03/25/que-significa-que-un-estado-este-en-quiebra-y-que-tiene-que-pasar-para-que-esto-ocurra.shtml)

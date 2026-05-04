@@ -1,0 +1,284 @@
+---
+title: "Actividad PIB — Clase 01"
+subtitle: "¿Cuenta o no cuenta en el PIB?"
+lang: es
+date: "Abril 2026"
+format:
+  revealjs:
+    theme: simple
+    center: false
+    slide-number: true
+    self-contained: true
+    incremental: false
+    transition: slide
+    logo: "imagenes/Imagen1.jpg"
+    footer: "© Sebastián Egaña Santibáñez — Entorno Económico"
+    include-in-header: styles.html
+  pdf:
+    toc: false
+    papersize: a4
+    geometry: margin=1in
+---
+
+## La pregunta central
+
+El PIB mide el **valor de la producción final de bienes y servicios** en un período, dentro de las fronteras del país.
+
+Tres palabras clave: **producción**, **final**, **fronteras**.
+
+Vamos a poner eso a prueba con casos reales.
+
+------------------------------------------------------------------------
+
+## Instrucciones
+
+Para cada caso:
+
+1. Identifique si **cuenta o no cuenta** en el PIB de Chile
+2. Justifiquen con una razón breve
+
+------------------------------------------------------------------------
+
+# Casos
+
+------------------------------------------------------------------------
+
+## Caso 1
+
+::: {style="font-size: 1.3em; font-weight: bold; color: #0d6e6e; border-left: 6px solid #0d6e6e; padding-left: 1em; margin: 1em 0;"}
+Una madre prepara almuerzo para su familia todos los días.
+:::
+
+¿Cuenta en el PIB de Chile?
+
+------------------------------------------------------------------------
+
+## Caso 1 — Respuesta
+
+::: {.callout-important}
+## ❌ No cuenta
+:::
+
+No hay transacción de mercado: el servicio no se compra ni se vende.
+
+El PIB **solo registra producción con precio de mercado**. El trabajo doméstico no remunerado es una de las principales omisiones del indicador.
+
+> Si esa misma madre contrata a alguien para cocinar y le paga, *ese* servicio sí cuenta como **Consumo (C)**.
+
+------------------------------------------------------------------------
+
+## Caso 2
+
+::: {style="font-size: 1.3em; font-weight: bold; color: #0d6e6e; border-left: 6px solid #0d6e6e; padding-left: 1em; margin: 1em 0;"}
+Codelco vende 500.000 toneladas de cobre a China.
+:::
+
+¿Cuenta en el PIB de Chile?
+
+------------------------------------------------------------------------
+
+## Caso 2 — Respuesta
+
+::: {.callout-tip}
+## ✅ Sí cuenta
+:::
+
+Cuenta como **Exportaciones (X)**, parte de la demanda externa (XN = X − M).
+
+El cobre es producción **dentro de las fronteras de Chile**, destinada al exterior. Es el componente de mayor peso en las exportaciones chilenas.
+
+> Si China lo compra más barato porque el peso se deprecia, Chile exporta más en términos nominales — pero el volumen físico puede ser el mismo.
+
+------------------------------------------------------------------------
+
+## Caso 3
+
+::: {style="font-size: 1.3em; font-weight: bold; color: #0d6e6e; border-left: 6px solid #0d6e6e; padding-left: 1em; margin: 1em 0;"}
+El Ministerio de Obras Públicas construye una carretera en la Región de la Araucanía.
+:::
+
+¿Cuenta en el PIB de Chile?
+
+------------------------------------------------------------------------
+
+## Caso 3 — Respuesta
+
+::: {.callout-tip}
+## ✅ Sí cuenta
+:::
+
+Cuenta como **Gasto de gobierno (G)** — inversión pública en infraestructura.
+
+El gobierno compra cemento, maquinaria y trabajo. Toda esa actividad es producción registrada con precio de mercado.
+
+> El gasto en defensa, educación pública y salud pública también entra por la misma vía.
+
+------------------------------------------------------------------------
+
+## Caso 4
+
+::: {style="font-size: 1.3em; font-weight: bold; color: #0d6e6e; border-left: 6px solid #0d6e6e; padding-left: 1em; margin: 1em 0;"}
+Un taxista trabaja de manera informal y no declara sus ingresos al SII.
+:::
+
+¿Cuenta en el PIB de Chile?
+
+------------------------------------------------------------------------
+
+## Caso 4 — Respuesta
+
+::: {.callout-warning}
+## ⚠️ Debería contar, pero no se mide bien
+:::
+
+El servicio de transporte **existe** y tiene valor económico — debería ir como **Consumo (C)**.
+
+El problema es de **medición**, no de definición. El PIB oficial subestima la economía informal, que en Chile representa entre el 20% y 25% del PIB según estimaciones.
+
+> Las cuentas nacionales intentan corregir esto con encuestas de hogares y métodos estadísticos, pero siempre hay un margen no capturado.
+
+------------------------------------------------------------------------
+
+## Caso 5
+
+::: {style="font-size: 1.3em; font-weight: bold; color: #0d6e6e; border-left: 6px solid #0d6e6e; padding-left: 1em; margin: 1em 0;"}
+Una empresa compra acciones de otra empresa en la Bolsa de Santiago.
+:::
+
+¿Cuenta en el PIB de Chile?
+
+------------------------------------------------------------------------
+
+## Caso 5 — Respuesta
+
+::: {.callout-important}
+## ❌ No cuenta
+:::
+
+Es una **transacción financiera**, no producción de bienes o servicios.
+
+Comprar acciones es transferir un activo entre dos partes — no se crea nada nuevo. El PIB mide el flujo de producción, no el stock de activos.
+
+> Si la empresa usara ese capital para construir una nueva planta, *esa* inversión sí contaría como **Inversión (I)**.
+
+------------------------------------------------------------------------
+
+## Caso 6
+
+::: {style="font-size: 1.3em; font-weight: bold; color: #0d6e6e; border-left: 6px solid #0d6e6e; padding-left: 1em; margin: 1em 0;"}
+Un chileno trabaja como ingeniero en una empresa en Argentina y envía remesas a su familia en Santiago.
+:::
+
+¿Cuenta en el PIB de Chile?
+
+------------------------------------------------------------------------
+
+## Caso 6 — Respuesta
+
+::: {.callout-important}
+## ❌ No cuenta en el PIB — pero sí en el PNB
+:::
+
+El PIB mide producción **dentro del territorio** de Chile. Este ingeniero produce en Argentina → su producción va al PIB argentino.
+
+Sin embargo, **sí cuenta en el PNB de Chile** (Producto Nacional Bruto), que mide la producción de los *residentes* chilenos, estén donde estén.
+
+> Las remesas que envía sí afectan el consumo de su familia en Chile, pero eso ya es un uso del ingreso, no producción nueva.
+
+------------------------------------------------------------------------
+
+## Caso 7
+
+::: {style="font-size: 1.3em; font-weight: bold; color: #0d6e6e; border-left: 6px solid #0d6e6e; padding-left: 1em; margin: 1em 0;"}
+WhatsApp presta servicio de mensajería gratuito a 15 millones de usuarios en Chile.
+:::
+
+¿Cuenta en el PIB de Chile?
+
+------------------------------------------------------------------------
+
+## Caso 7 — Respuesta
+
+::: {.callout-important}
+## ❌ No cuenta (o cuenta muy poco)
+:::
+
+No hay precio de mercado → el PIB no lo registra directamente.
+
+En la práctica, Meta (dueña de WhatsApp) monetiza con publicidad. Esa publicidad sí entra al PIB de EE.UU. como producción de servicios digitales, pero el valor que reciben los usuarios chilenos no se refleja en el PIB de Chile.
+
+> Este es uno de los argumentos más citados sobre por qué el PIB **subestima el bienestar** en la economía digital: servicios de alto valor para los usuarios tienen precio cero en el mercado.
+
+------------------------------------------------------------------------
+
+## Caso 8
+
+::: {style="font-size: 1.3em; font-weight: bold; color: #0d6e6e; border-left: 6px solid #0d6e6e; padding-left: 1em; margin: 1em 0;"}
+Un jubilado recibe su pensión mensual del sistema de AFP.
+:::
+
+¿Cuenta en el PIB de Chile?
+
+------------------------------------------------------------------------
+
+## Caso 8 — Respuesta
+
+::: {.callout-important}
+## ❌ No cuenta directamente
+:::
+
+La pensión es una **transferencia de ingresos** entre períodos — no es producción nueva en este período.
+
+El jubilado ahorró (o el Estado financió) en el pasado; ahora recibe ese flujo. El PIB no registra transferencias, solo producción.
+
+> Cuando el jubilado **gasta** la pensión en bienes y servicios, *ese* gasto sí entra al PIB como **Consumo (C)**.
+
+------------------------------------------------------------------------
+
+# Resumen
+
+------------------------------------------------------------------------
+
+## ¿Qué aprendimos?
+
+| Caso | ¿Cuenta? | Componente |
+|---|:---:|---|
+| Almuerzo familiar en casa | ❌ | — (sin precio de mercado) |
+| Cobre exportado a China | ✅ | Exportaciones (X) |
+| Carretera del MOP | ✅ | Gasto gobierno (G) |
+| Taxista informal | ⚠️ | C (subestimado) |
+| Compra de acciones | ❌ | — (transacción financiera) |
+| Chileno trabaja en Argentina | ❌ PIB / ✅ PNB | — |
+| WhatsApp gratuito | ❌ | — (sin precio de mercado) |
+| Pensión AFP | ❌ | — (transferencia) |
+
+------------------------------------------------------------------------
+
+## La gran limitación
+
+El PIB mide **lo que se puede medir con precios de mercado**.
+
+Deja fuera:
+
+- Trabajo doméstico y de cuidado
+- Economía informal
+- Servicios digitales gratuitos
+- Bienestar subjetivo y tiempo libre
+- Sostenibilidad ambiental
+
+> Un país puede tener un PIB alto y, al mismo tiempo, una población con bajo bienestar. La distribución y la calidad del crecimiento importan tanto como el número.
+
+------------------------------------------------------------------------
+
+## Para reflexionar
+
+::: {style="font-size: 1.1em;"}
+**¿Qué indicador usarían ustedes para medir si un país está "yendo bien"?**
+:::
+
+Alternativas que existen:
+
+- Índice de Desarrollo Humano (IDH)
+- Índice de Bienestar Mejor (OCDE)
+- PIB Verde (ajustado por degradación ambiental)
+- Índice de Progreso Social

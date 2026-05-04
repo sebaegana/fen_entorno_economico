@@ -1,0 +1,36 @@
+---
+title: "Clases y materiales"
+---
+
+# Clases del curso
+
+En esta sección se agrupan las sesiones del curso y los materiales de apoyo.
+
+## Clase 01 — Nivel de actividad, mercado laboral y variables nominales
+
+- [Actividad de apertura](clase01_actividad_apertura.qmd)
+- [Actividad PIB — ¿Cuenta o no cuenta?](clase01_actividad_pib.qmd)
+- [Actividad IPC — Construyamos un índice](clase01_actividad_ipc.qmd)
+- [Actividad de coyuntura — ¿Chile está en quiebra?](clase01_actividad_coyuntura.qmd)
+- [Diapositiva 01](clase01_diapositiva.qmd)
+- [Notas al docente](clase01_notas_docente.qmd)
+- [Plan de mejora](clase01_plan_mejora.qmd)
+
+### Materiales de apoyo
+
+Disponibles en `materiales/`:
+
+- `clase_01_202509.pdf` — presentación original de la clase
+- `INE_empleo_01.pdf` — material INE sobre empleo
+
+### Datos para ejercicios
+
+Disponibles en `data/`:
+
+- `ejercicio 01 PIB.xlsx` — Producto Interno Bruto
+- `ejercicio 02 IPC.xlsx` — Índice de Precios al Consumidor
+- `ejercicio 03 Salario.xlsx` — salarios nominales y reales
+
+## Nota de uso
+
+La diapositiva está en formato `revealjs` y se puede navegar en el browser. El notebook está en formato PDF y contiene ejercicios de R. Si buscas un punto de partida, comienza por la Diapositiva 01 y usa el Notebook para los ejercicios prácticos.

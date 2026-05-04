@@ -1,0 +1,103 @@
+---
+title: "Actividad de apertura — Clase 01"
+subtitle: "¿Qué nos dice este titular?"
+lang: es
+date: "Abril 2026"
+format:
+  revealjs:
+    theme: simple
+    center: false
+    slide-number: true
+    self-contained: true
+    incremental: false
+    transition: slide
+    logo: "imagenes/Imagen1.jpg"
+    footer: "© Sebastián Egaña Santibáñez — Entorno Económico"
+    include-in-header: styles.html
+  pdf:
+    toc: false
+    papersize: a4
+    geometry: margin=1in
+---
+
+## Antes de comenzar
+
+Tomemos **10 minutos** para leer y discutir este titular.
+
+No se necesita saber economía para opinar — la idea es partir desde lo que ya intuyen.
+
+------------------------------------------------------------------------
+
+## El titular
+
+::: {style="font-size: 1.4em; font-weight: bold; color: #0d6e6e; border-left: 6px solid #0d6e6e; padding-left: 1em; margin: 1em 0;"}
+"US inflation tripled last month on record spike in gas prices"
+:::
+
+::: {style="font-size: 0.85em; color: #666; margin-top: 0.5em;"}
+— CNN Business, 10 de abril de 2026
+:::
+
+**Contexto:**
+El CPI de marzo 2026 mostró un alza de **0,9% mensual** (3,3% anual).
+El precio de la gasolina subió **21,2%** en un mes — el mayor aumento desde 1967.
+El detonante: el conflicto armado entre EE.UU. e Israel con Irán, iniciado el 28 de febrero.
+
+------------------------------------------------------------------------
+
+## Tres preguntas para discutir
+
+**1. ¿Qué mide exactamente este indicador?**
+
+- ¿Qué es el CPI y por qué se publica mensualmente?
+- ¿Quién lo elabora y para qué lo usa el gobierno o las empresas?
+
+------------------------------------------------------------------------
+
+**2. ¿A quién afecta y cómo?**
+
+Piensen en distintos actores:
+
+- Una familia de ingresos medios en EE.UU.
+- Una empresa chilena que importa insumos pagados en dólares
+- El Banco Central de EE.UU. (Fed)
+- Un exportador chileno de cobre
+
+------------------------------------------------------------------------
+
+**3. ¿Qué necesitarían saber para interpretarlo bien?**
+
+- ¿Es igual un alza de 0,9% mensual que de 0,9% anual?
+- ¿Por qué importa la *fuente* del alza (energía vs. alimentos vs. servicios)?
+- ¿Cómo se relaciona esto con el tipo de cambio peso/dólar?
+
+------------------------------------------------------------------------
+
+## ¿Por qué este titular?
+
+Este caso conecta directamente con los cuatro bloques de la clase de hoy:
+
+| Bloque | Conexión con el titular |
+|---|---|
+| **Entorno económico** | Un conflicto geopolítico impacta precios a nivel global |
+| **Nivel de actividad** | La inflación afecta el PIB real vs. nominal |
+| **Mercado laboral** | El alza de precios erosiona el salario real |
+| **Variables nominales y reales** | ¿Qué es el CPI? ¿Cómo se calcula? |
+
+------------------------------------------------------------------------
+
+## Para llevar
+
+Al terminar la clase, vuelvan a este titular y respondan:
+
+> *"Con lo que aprendí hoy, ¿qué le diría a alguien que solo vio el titular sin entender el contexto?"*
+
+---
+
+**Fuente:** [CNN Business — CPI report: US inflation tripled last month on record spike in gas prices](https://www.cnn.com/2026/04/10/business/live-news/us-cpi-march-inflation-iran)
+
+**Datos adicionales:**
+
+- [BLS — CPI News Release March 2026](https://www.bls.gov/news.release/cpi.htm)
+- [Bloomberg — US CPI Report March 2026 Live Blog](https://www.bloomberg.com/news/live-blog/2026-04-10/us-cpi-report-for-march)
+- [CNBC — Here's the inflation breakdown for March 2026](https://www.cnbc.com/2026/04/10/cpi-inflation-march-2026-breakdown.html)

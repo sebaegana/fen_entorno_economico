@@ -1,0 +1,2060 @@
+% Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrartcl}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{241,243,245}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.40,0.45,0.13}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\BuiltInTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\ExtensionTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.28,0.35,0.67}{#1}}
+\newcommand{\ImportTok}[1]{\textcolor[rgb]{0.00,0.46,0.62}{#1}}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.68,0.00,0.00}{#1}}
+\newcommand{\RegionMarkerTok}[1]{\textcolor[rgb]{0.00,0.23,0.31}{#1}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.07,0.07,0.07}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.13,0.47,0.30}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.37,0.37,0.37}{\textit{#1}}}
+
+\usepackage{longtable,booktabs,array}
+\newcounter{none} % for unnumbered tables
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+
+
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
+
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\makeatother
+\makeatletter
+\@ifundefined{shadecolor}{\definecolor{shadecolor}{HTML}{FF0000}}{}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[borderline west={3pt}{0pt}{shadecolor}, boxrule=0pt, breakable, enhanced, frame hidden, interior hidden, sharp corners]}{\end{tcolorbox}}\fi
+\makeatother
+\makeatletter
+\@ifpackageloaded{fontawesome6}{}{\usepackage{fontawesome6}}
+\makeatother
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdfauthor={Sebastián Egaña Santibáñez ; Nicolás Leiva Díaz },
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{\includegraphics[width=5cm]{imagenes/Imagen1.jpg}\\
+Finanzas en R}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{Notebook 01}
+\author{Sebastián Egaña Santibáñez
+\href{mailto:segana@fen.uchile.cl}{\faIcon{inbox}} \and Nicolás Leiva
+Díaz \href{mailto:nleivad@fen.uchile.cl}{\faIcon{inbox}}}
+\date{}
+\begin{document}
+\maketitle
+
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Enlaces del profesor}\label{enlaces-del-profesor}
+
+\href{https://segana.netlify.app}{\faIcon{link}}
+https://segana.netlify.app
+
+\href{https://github.com/sebaegana}{\faIcon{github}}
+https://github.com/sebaegana
+
+\href{https://www.linkedin.com/in/sebastian-egana-santibanez/}{\faIcon{linkedin}}
+https://www.linkedin.com/in/sebastian-egana-santibanez/
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\section{Clase 01}\label{clase-01}
+
+\subsection{Hello World}\label{hello-world}
+
+Un ejercicio clásico, es programar un saludo dentro de cada lenguaje de
+programación.
+
+¿Cómo podemos hacer esto en R?
+
+\begin{verbatim}
+print("Hola")
+\end{verbatim}
+
+Para hacerlo en C, deberíamos implementar lo siguiente:
+
+\begin{verbatim}
+#include <stdio.h>
+int main() {
+   // printf() displays the string inside quotation
+   printf("Hello, World!");
+   return 0;
+}
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Voy a declarar un print}
+
+\FunctionTok{print}\NormalTok{(}\StringTok{"Hola"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] "Hola"
+\end{verbatim}
+
+\subsection{Variables}\label{variables}
+
+Cuando se le atribuye un nombre a un elemento dentro de un entorno de
+programación, a esto se le denomina \textbf{variable}. En Python tenemos
+lo siguiente:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{x }\OperatorTok{=} \DecValTok{2}
+\NormalTok{y }\OperatorTok{=} \DecValTok{5}
+\NormalTok{xy }\OperatorTok{=} \StringTok{\textquotesingle{}Hey\textquotesingle{}}
+\end{Highlighting}
+\end{Shaded}
+
+Consultemos ahora la variable ``xy''
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{xy }\OperatorTok{=} \StringTok{\textquotesingle{}Hey\textquotesingle{}}
+\end{Highlighting}
+\end{Shaded}
+
+Realicemos un print que combine lo anterior
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\BuiltInTok{print}\NormalTok{(x, y, xy)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+2 5 Hey
+\end{verbatim}
+
+Lo que en R se genera de la siguiente manera:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Inserte código acá}
+
+\NormalTok{x }\OtherTok{=} \DecValTok{2}
+\NormalTok{y }\OtherTok{=} \DecValTok{5}
+\NormalTok{xy }\OtherTok{=} \StringTok{\textquotesingle{}Hey\textquotesingle{}}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{print}\NormalTok{(}\FunctionTok{paste}\NormalTok{(x,y,xy))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] "2 5 Hey"
+\end{verbatim}
+
+Editando el separador
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{print}\NormalTok{(}\FunctionTok{paste}\NormalTok{(x,y,xy, }\AttributeTok{sep =} \StringTok{""}\NormalTok{))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] "25Hey"
+\end{verbatim}
+
+\subsection{Librerías en R}\label{libreruxedas-en-r}
+
+Dentro de R existen librerías, las que pueden ser definidas como
+colección de módulos; estos, no son más que bloques de códigos generados
+para un fin particular.
+
+\subsection{Ejemplos de librerías}\label{ejemplos-de-libreruxedas}
+
+Algunas de las librerías más conocidas son:
+
+\subsubsection{\texorpdfstring{\textbf{Dplyr}}{Dplyr}}\label{dplyr}
+
+Librería orientada a la manipulación de datos.
+
+Cheat Sheet:
+https://nyu-cdsc.github.io/learningr/assets/data-transformation.pdf
+
+\subsubsection{\texorpdfstring{\textbf{Ggplot2}}{Ggplot2}}\label{ggplot2}
+
+Corresponde a la principal librería para graficar.
+
+Cheat Sheet:
+https://www.maths.usyd.edu.au/u/UG/SM/STAT3022/r/current/Misc/data-visualization-2.1.pdf
+
+\subsubsection{\texorpdfstring{\textbf{Tidyverse}}{Tidyverse}}\label{tidyverse}
+
+Biblioteca de librerías orientada a la manipulación de datos.
+
+Dichas librerías son tres de una gran variedad de librerías que pueden
+ser utilizadas en R. Lo relevante es que para ser utilizadas se debe
+generar un proceso de instalación y llamado previo de dichas librerías.
+
+Otra librerías se pueden encontrar en el siguiente enlace:
+https://posit.co/resources/cheatsheets/
+
+\subsection{Instalación y llamado}\label{instalaciuxf3n-y-llamado}
+
+Para la utilización de dichas librerías debemos seguir dos pasos:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Instalación.
+\item
+  Llamado
+\end{enumerate}
+
+Para la instalación de librerías en R en modalidad local (en el
+computador) se debe utilizar el siguiente código:
+
+\begin{verbatim}
+install.packages("nombre del paquete")
+\end{verbatim}
+
+Asumiendo que ya tenemos instalada la librería, cada vez que utilicemos
+un código de la librería debemos realizar el llamado. Esto se realiza de
+la siguiente manera:
+
+\begin{verbatim}
+install.packages("dplyr")
+library(dplyr)
+
+datos = iris
+
+select(datos, Species)
+\end{verbatim}
+
+En este caso, estamos haciendo un llamado a la librería \textbf{dplyr}
+para utilizar una de sus funciones que corresponde a \textbf{select}, la
+que permite seleccionar una columna de un set de datos llamado
+\textbf{iris}.
+
+En el caso de utilizar una función de una librería no cargada, generará
+un error del siguiente tipo: \textbf{could not find function}. Por
+ejemplo:
+
+\begin{verbatim}
+vtree(FakeData,"Severity Sex",sameline=T)
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{install.packages}\NormalTok{(}\StringTok{"dplyr"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+Realizamos el llamado
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{library}\NormalTok{(dplyr)}
+\end{Highlighting}
+\end{Shaded}
+
+Utilizamos la librería
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# iris corresponde a un set de datos precargado en R}
+
+\NormalTok{datos }\OtherTok{=}\NormalTok{ iris}
+\FunctionTok{select}\NormalTok{(datos, Species)}
+\end{Highlighting}
+\end{Shaded}
+
+Por ejemplo, si no tenemos cargada una librería:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{library}\NormalTok{(dplyr)}
+
+\FunctionTok{detach}\NormalTok{(}\StringTok{"package:dplyr"}\NormalTok{, }\AttributeTok{unload =} \ConstantTok{TRUE}\NormalTok{)}
+
+\NormalTok{datos }\OtherTok{=}\NormalTok{ iris}
+\FunctionTok{select}\NormalTok{(datos, Species)}
+\end{Highlighting}
+\end{Shaded}
+
+Para utilizar sin cargar:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{dplyr}\SpecialCharTok{::}\FunctionTok{select}\NormalTok{(datos, Species)}
+\end{Highlighting}
+\end{Shaded}
+
+\subsection{Ayuda en R}\label{ayuda-en-r}
+
+\begin{center}
+\includegraphics[width=0.3\linewidth,height=\textheight,keepaspectratio]{stack.jpg}
+\end{center}
+
+\subsubsection{Help}\label{help}
+
+Dentro de R, viene considerada la opción de buscar ayuda. Para esto,
+debemos utilizar el siguiente código:
+
+\begin{verbatim}
+?print
+\end{verbatim}
+
+\subsubsection{Páginas}\label{puxe1ginas}
+
+Por lo general, una parte importante de programar es aprender dónde
+buscar ejemplos y preguntas relacionadas con la labor que queremos
+programar. Para esto, existen algunas páginas claves:
+
+W3 Schools : https://www.w3schools.com/r/default.asp
+
+R para ciencia de datos: https://es.r4ds.hadley.nz/
+
+Curso free de R en Datacamp:
+https://www.datacamp.com/courses/free-introduction-to-r
+
+\subsubsection{Google}\label{google}
+
+Una de las mejores opciones es utilizar Google; poner frases como:
+\textbf{Cómo hacer X en R} o \textbf{How to do X in R}
+
+\subsection{Asignación en R}\label{asignaciuxf3n-en-r}
+
+Se tienen 3 maneras:
+
+Utilizando \texttt{=}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{x }\OtherTok{=} \DecValTok{1}
+\FunctionTok{print}\NormalTok{(x)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] 1
+\end{verbatim}
+
+Hacia la izquierda, utilizando \texttt{\textless{}-}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{y }\OtherTok{\textless{}{-}} \DecValTok{2}
+\FunctionTok{print}\NormalTok{(y)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] 2
+\end{verbatim}
+
+Hacia la derecha, utilizando \texttt{-\textgreater{}}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\DecValTok{3} \OtherTok{{-}\textgreater{}}\NormalTok{ z}
+\FunctionTok{print}\NormalTok{(z)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] 3
+\end{verbatim}
+
+\subsection{Operadores matemáticos}\label{operadores-matemuxe1ticos}
+
+En este caso, R es muy parecido a una calculadora (pero mucho más
+potente). Veamos cuáles son los operadores dentro de este lenguaje:
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}cr@{}}
+\toprule\noalign{}
+Símbolo & Tarea ejecutada \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
++ & Suma \\
+- & Resta \\
+/ & División \\
+\%\% & Módulo \\
+* & Multiplicación \\
+\%/\% & División de enteros \\
+// & Función de parte entera - Piso \\
+** ó \^{} & Potencia \\
+\end{longtable}
+}
+
+Veamos la siguiente diferencia entre operadores:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\DecValTok{15} \SpecialCharTok{/} \DecValTok{6}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] 2.5
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\DecValTok{15} \SpecialCharTok{\%\%} \DecValTok{6}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] 3
+\end{verbatim}
+
+\subsection{Ejercicio 1}\label{ejercicio-1}
+
+Defina x como un número cualquiera. Compruebe que x es par.
+
+\subsubsection{Solución}\label{soluciuxf3n}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# De una manera básica}
+
+\NormalTok{x }\OtherTok{=} \DecValTok{10001}
+
+\NormalTok{x }\SpecialCharTok{\%\%} \DecValTok{2}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] 1
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{print}\NormalTok{(}\FunctionTok{ifelse}\NormalTok{(x }\SpecialCharTok{\%\%} \DecValTok{2} \SpecialCharTok{==} \DecValTok{0}\NormalTok{, }\StringTok{"Par"}\NormalTok{, }\StringTok{"Impar"}\NormalTok{))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] "Impar"
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Generando una función para esto}
+
+\NormalTok{es\_par }\OtherTok{\textless{}{-}} \ControlFlowTok{function}\NormalTok{(numero) \{}
+  \ControlFlowTok{if}\NormalTok{ (numero }\SpecialCharTok{\%\%} \DecValTok{2} \SpecialCharTok{==} \DecValTok{0}\NormalTok{) \{}
+    \FunctionTok{return}\NormalTok{(}\ConstantTok{TRUE}\NormalTok{)}
+\NormalTok{  \} }\ControlFlowTok{else}\NormalTok{ \{}
+    \FunctionTok{return}\NormalTok{(}\ConstantTok{FALSE}\NormalTok{)}
+\NormalTok{  \}}
+\NormalTok{\}}
+
+\CommentTok{\# Ejemplo de uso}
+\NormalTok{numero1 }\OtherTok{\textless{}{-}} \DecValTok{10}
+\NormalTok{numero2 }\OtherTok{\textless{}{-}} \DecValTok{7}
+
+\FunctionTok{print}\NormalTok{(}\FunctionTok{es\_par}\NormalTok{(numero1)) }\CommentTok{\# Devuelve TRUE, ya que 10 es par.}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] TRUE
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{print}\NormalTok{(}\FunctionTok{es\_par}\NormalTok{(numero2)) }\CommentTok{\# Devuelve FALSE, ya que 7 no es par.}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] FALSE
+\end{verbatim}
+
+\subsection{Operadores relacionales}\label{operadores-relacionales}
+
+En el caso de operatorias de carácter comparativo, existen los
+siguientes operadores:
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}cl@{}}
+\toprule\noalign{}
+Símbolo & Tarea ejecutada \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+== & igual \\
+!= & no igual \\
+\textless{} & menor que \\
+\textgreater{} & mayor que \\
+\textless= & menor o igual que \\
+\textgreater= & mayor o igual que \\
+\end{longtable}
+}
+
+Veamos la diferencia entres los siguientes operadores
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{z }\OtherTok{=} \DecValTok{1}
+
+\NormalTok{z }\SpecialCharTok{==} \DecValTok{2}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] FALSE
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{z }\SpecialCharTok{\textgreater{}=} \DecValTok{1}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] TRUE
+\end{verbatim}
+
+\subsection{Ejercicio 2}\label{ejercicio-2}
+
+Considere el siguiente código
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{(z }\SpecialCharTok{==} \DecValTok{2}\NormalTok{) }\SpecialCharTok{+}\NormalTok{ (z }\SpecialCharTok{\textgreater{}=} \DecValTok{1}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] 1
+\end{verbatim}
+
+Explique el resultado del código.
+
+\subsection{Operadores lógicos}\label{operadores-luxf3gicos}
+
+Corresponde a los utilizados para álgebra booleana, es decir para
+escribir relaciones lógicas:
+
+{\def\LTcaptype{none} % do not increment counter
+\begin{longtable}[]{@{}cl@{}}
+\toprule\noalign{}
+Símbolo & Tarea ejecutada \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+x \textbar{} y & x o y son verdaderos \\
+x \& y & x y y son verdaderos \\
+!x & x no es verdadero \\
+isTRUE(x) & x es verdadero \\
+\end{longtable}
+}
+
+\subsection{Input del usuario}\label{input-del-usuario}
+
+Refiere a la posibilidad de generar interacciones con el usuario.
+
+\begin{verbatim}
+readline(prompt="Mi nombre es: ")
+\end{verbatim}
+
+Otra posibilidad, es guardar ese input en una variable y después
+imprimirlo utilizando print.
+
+\begin{verbatim}
+nombre = readline(prompt="Mi nombre es: ")
+\end{verbatim}
+
+Para imprimir:
+
+\begin{verbatim}
+print(paste("Hola yo soy", nombre))
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{readline}\NormalTok{(}\AttributeTok{prompt=}\StringTok{"Mi nombre es: "}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Mi nombre es: 
+\end{verbatim}
+
+\begin{verbatim}
+[1] ""
+\end{verbatim}
+
+Dejandolo dentro de una variable
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{nombre }\OtherTok{=} \FunctionTok{readline}\NormalTok{(}\AttributeTok{prompt=}\StringTok{"Mi nombre es: "}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Mi nombre es: 
+\end{verbatim}
+
+Para imprimirlo
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{print}\NormalTok{(}\FunctionTok{paste}\NormalTok{(}\StringTok{"Hola yo soy"}\NormalTok{, nombre))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] "Hola yo soy "
+\end{verbatim}
+
+\subsection{Pipe operator}\label{pipe-operator}
+
+En programación, se relaciona con el encadenamiento de funciones. Puede
+estar representado por los siguientes símbolos \texttt{\textbar{}},
+\texttt{\textgreater{}\textgreater{}} o \texttt{\%\textgreater{}\%}
+
+El tercer caso corresponde a R, y puede ser utilizado a través de
+shortcut ctrl + shift + m
+
+Se implementa a través de la librería magrittr. Veamos un ejemplo
+clásico:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# Example of using the pipe operator in R}
+\FunctionTok{library}\NormalTok{(magrittr)}
+
+\CommentTok{\# Traditional approach without pipe operator}
+\NormalTok{result }\OtherTok{\textless{}{-}} \FunctionTok{sqrt}\NormalTok{(}\FunctionTok{mean}\NormalTok{(}\FunctionTok{log10}\NormalTok{(}\FunctionTok{abs}\NormalTok{(}\FunctionTok{c}\NormalTok{(}\SpecialCharTok{{-}}\DecValTok{2}\NormalTok{, }\SpecialCharTok{{-}}\DecValTok{10}\NormalTok{, }\DecValTok{3}\NormalTok{, }\DecValTok{4}\NormalTok{, }\DecValTok{8}\NormalTok{)))))}
+
+\CommentTok{\# Using the pipe operator for the same computation}
+\NormalTok{result }\OtherTok{\textless{}{-}} \FunctionTok{c}\NormalTok{(}\SpecialCharTok{{-}}\DecValTok{2}\NormalTok{, }\SpecialCharTok{{-}}\DecValTok{10}\NormalTok{, }\DecValTok{3}\NormalTok{, }\DecValTok{4}\NormalTok{, }\DecValTok{8}\NormalTok{) }\SpecialCharTok{\%\textgreater{}\%} \FunctionTok{abs}\NormalTok{() }\SpecialCharTok{\%\textgreater{}\%} \FunctionTok{log10}\NormalTok{() }\SpecialCharTok{\%\textgreater{}\%} \FunctionTok{mean}\NormalTok{() }\SpecialCharTok{\%\textgreater{}\%} \FunctionTok{sqrt}\NormalTok{()}
+\end{Highlighting}
+\end{Shaded}
+
+Otra implementación:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{quote}\NormalTok{(}\DecValTok{1}\SpecialCharTok{:}\DecValTok{3} \SpecialCharTok{|\textgreater{}} \FunctionTok{sum}\NormalTok{())}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+sum(1:3)
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# sum(1:3)}
+
+\FunctionTok{quote}\NormalTok{(}\DecValTok{100} \SpecialCharTok{|\textgreater{}} \FunctionTok{rnorm}\NormalTok{(}\AttributeTok{n =} \DecValTok{5}\NormalTok{))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+rnorm(100, n = 5)
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{\# rnorm(100, n = 5)}
+
+\FunctionTok{quote}\NormalTok{(}\FunctionTok{split}\NormalTok{(}\AttributeTok{x =}\NormalTok{ iris[}\SpecialCharTok{{-}}\DecValTok{5}\NormalTok{], }\AttributeTok{f =}\NormalTok{ iris}\SpecialCharTok{$}\NormalTok{Species) }\SpecialCharTok{|\textgreater{}}
+        \FunctionTok{lapply}\NormalTok{(min) }\SpecialCharTok{|\textgreater{}}
+        \FunctionTok{do.call}\NormalTok{(}\AttributeTok{what =}\NormalTok{ rbind))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+do.call(lapply(split(x = iris[-5], f = iris$Species), min), what = rbind)
+\end{verbatim}
+
+Por lo general esta implementación es más restrictiva, por lo mismo,
+menos usada.
+
+\subsection{Ver Notebook ejercicios
+01}\label{ver-notebook-ejercicios-01}
+
+\par\rule{\textwidth}{0.5pt}
+
+\newpage
+
+\section{Clase 02}\label{clase-02}
+
+\subsection{\texorpdfstring{Special constants en R: \texttt{NA},
+\texttt{NULL}, \texttt{Inf}, \texttt{-Inf},
+\texttt{NaN}}{Special constants en R: NA, NULL, Inf, -Inf, NaN}}\label{special-constants-en-r-na-null-inf--inf-nan}
+
+\texttt{NA} indica datos pérdidos o indefinidos
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\DecValTok{5} \SpecialCharTok{+} \ConstantTok{NA}      
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] NA
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{is.na}\NormalTok{(}\DecValTok{5}\SpecialCharTok{+}\ConstantTok{NA}\NormalTok{) }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] TRUE
+\end{verbatim}
+
+Aplicado con la función promedio:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{mean}\NormalTok{(}\FunctionTok{c}\NormalTok{(}\DecValTok{1}\NormalTok{, }\DecValTok{2}\NormalTok{, }\ConstantTok{NA}\NormalTok{, }\DecValTok{4}\NormalTok{, }\DecValTok{5}\NormalTok{)) }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] NA
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{mean}\NormalTok{(}\FunctionTok{c}\NormalTok{(}\DecValTok{1}\NormalTok{, }\DecValTok{2}\NormalTok{, }\ConstantTok{NA}\NormalTok{, }\DecValTok{4}\NormalTok{, }\DecValTok{5}\NormalTok{), }\AttributeTok{na.rm =} \ConstantTok{TRUE}\NormalTok{) }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] 3
+\end{verbatim}
+
+\texttt{NULL} indica un objeto vacío
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\DecValTok{10} \SpecialCharTok{+} \ConstantTok{NULL}     
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+numeric(0)
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{is.null}\NormalTok{(}\ConstantTok{NULL}\NormalTok{) }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] TRUE
+\end{verbatim}
+
+\texttt{Inf} y \texttt{-Inf} representan infinitos tanto positivo como
+negativo. Pueden ser producto de operatorias matemáticas
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\DecValTok{5}\SpecialCharTok{/}\DecValTok{0}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] Inf
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{is.finite}\NormalTok{(}\DecValTok{5}\SpecialCharTok{/}\DecValTok{0}\NormalTok{) }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] FALSE
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{is.infinite}\NormalTok{(}\DecValTok{5}\SpecialCharTok{/}\DecValTok{0}\NormalTok{) }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] TRUE
+\end{verbatim}
+
+\texttt{NaN} (Not a Number) - el resultado no puede ser expresado o
+definido
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\DecValTok{0}\SpecialCharTok{/}\DecValTok{0}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] NaN
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{is.nan}\NormalTok{(}\DecValTok{0}\SpecialCharTok{/}\DecValTok{0}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] TRUE
+\end{verbatim}
+
+\subsection{Tipos de objetos}\label{tipos-de-objetos}
+
+\subsubsection{Vectores}\label{vectores}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{v1 }\OtherTok{\textless{}{-}} \FunctionTok{c}\NormalTok{(}\DecValTok{1}\NormalTok{, }\DecValTok{5}\NormalTok{, }\DecValTok{11}\NormalTok{, }\DecValTok{33}\NormalTok{)       }\CommentTok{\# Numeric vector, length 4}
+\NormalTok{v1}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1]  1  5 11 33
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{v2 }\OtherTok{\textless{}{-}} \FunctionTok{c}\NormalTok{(}\StringTok{"hello"}\NormalTok{,}\StringTok{"world"}\NormalTok{)    }\CommentTok{\# Character vector, length 2 (a vector of strings)}
+\NormalTok{v2}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] "hello" "world"
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{v3 }\OtherTok{\textless{}{-}} \FunctionTok{c}\NormalTok{(}\ConstantTok{TRUE}\NormalTok{, }\ConstantTok{TRUE}\NormalTok{, }\ConstantTok{FALSE}\NormalTok{)  }\CommentTok{\# Logical vector, same as c(T, T, F)}
+\NormalTok{v3}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1]  TRUE  TRUE FALSE
+\end{verbatim}
+
+Combinar distintos elementos en un vector, genera coerción hacia el
+elemento más restrictivo
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{v4 }\OtherTok{\textless{}{-}} \FunctionTok{c}\NormalTok{(v1,v2,v3,}\StringTok{"boo"}\NormalTok{)     }\CommentTok{\# All elements turn into strings}
+\NormalTok{v4}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+ [1] "1"     "5"     "11"    "33"    "hello" "world" "TRUE"  "TRUE"  "FALSE"
+[10] "boo"  
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{class}\NormalTok{(v4)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] "character"
+\end{verbatim}
+
+Los vectores operan por defecto de manera iterativa en R
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{v1 }\SpecialCharTok{+}\NormalTok{ v3     }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Warning in v1 + v3: longer object length is not a multiple of shorter object
+length
+\end{verbatim}
+
+\begin{verbatim}
+[1]  2  6 11 34
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{v1 }\SpecialCharTok{+} \DecValTok{1}       
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1]  2  6 12 34
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{v1 }\SpecialCharTok{*} \DecValTok{2}       
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1]  2 10 22 66
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{v1 }\SpecialCharTok{+} \FunctionTok{c}\NormalTok{(}\DecValTok{1}\NormalTok{,}\DecValTok{7}\NormalTok{)  }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1]  2 12 12 40
+\end{verbatim}
+
+\paragraph{Operaciones matemáticas para
+vectores}\label{operaciones-matemuxe1ticas-para-vectores}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{sum}\NormalTok{(v1)      }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] 50
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{mean}\NormalTok{(v1)     }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] 12.5
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{sd}\NormalTok{(v1)       }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] 14.27118
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{cor}\NormalTok{(v1,v1}\SpecialCharTok{*}\DecValTok{5}\NormalTok{) }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] 1
+\end{verbatim}
+
+\paragraph{Operaciones lógicas con
+vectores}\label{operaciones-luxf3gicas-con-vectores}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{v1 }\SpecialCharTok{\textgreater{}} \DecValTok{2}      
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] FALSE  TRUE  TRUE  TRUE
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{v1}\SpecialCharTok{==}\NormalTok{v2       }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] FALSE FALSE FALSE FALSE
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{v1}\SpecialCharTok{!=}\NormalTok{v2       }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] TRUE TRUE TRUE TRUE
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{(v1}\SpecialCharTok{\textgreater{}}\DecValTok{2}\NormalTok{) }\SpecialCharTok{|}\NormalTok{ (v2}\SpecialCharTok{\textgreater{}}\DecValTok{0}\NormalTok{)   }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] TRUE TRUE TRUE TRUE
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{(v1}\SpecialCharTok{\textgreater{}}\DecValTok{2}\NormalTok{) }\SpecialCharTok{\&}\NormalTok{ (v2}\SpecialCharTok{\textgreater{}}\DecValTok{0}\NormalTok{)   }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] FALSE  TRUE  TRUE  TRUE
+\end{verbatim}
+
+\paragraph{Selección de elementos en un
+vector}\label{selecciuxf3n-de-elementos-en-un-vector}
+
+Seleccionando elementos de un vector:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{v1[}\DecValTok{3}\NormalTok{]             }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] 11
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{v1[}\DecValTok{2}\SpecialCharTok{:}\DecValTok{4}\NormalTok{]           }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1]  5 11 33
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{v1[}\FunctionTok{c}\NormalTok{(}\DecValTok{1}\NormalTok{,}\DecValTok{3}\NormalTok{)]        }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1]  1 11
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{v1[}\FunctionTok{c}\NormalTok{(T,T,F,F,F)]  }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] 1 5
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{v1[v1}\SpecialCharTok{\textgreater{}}\DecValTok{3}\NormalTok{]  }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1]  5 11 33
+\end{verbatim}
+
+Cabe destacar, que la indexación se hace desde 1; esto no es un
+comportamiento clásico en lenguajes de programación.
+
+Para añadir valores, solo se debe anotar la ubicación y los valores.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{v1[}\DecValTok{6}\SpecialCharTok{:}\DecValTok{10}\NormalTok{] }\OtherTok{\textless{}{-}} \DecValTok{6}\SpecialCharTok{:}\DecValTok{10}
+\NormalTok{v1}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+ [1]  1  5 11 33 NA  6  7  8  9 10
+\end{verbatim}
+
+Se puede asignar de manera directa una extensión a un vector
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{length}\NormalTok{(v1) }\OtherTok{\textless{}{-}} \DecValTok{15}
+\NormalTok{v1}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+ [1]  1  5 11 33 NA  6  7  8  9 10 NA NA NA NA NA
+\end{verbatim}
+
+\subsubsection{Factores}\label{factores}
+
+Son utilizados para almacenar datos categóricos.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{eye.col.v }\OtherTok{\textless{}{-}} \FunctionTok{c}\NormalTok{(}\StringTok{"brown"}\NormalTok{, }\StringTok{"green"}\NormalTok{, }\StringTok{"brown"}\NormalTok{, }\StringTok{"blue"}\NormalTok{, }\StringTok{"blue"}\NormalTok{, }\StringTok{"blue"}\NormalTok{)     }
+\NormalTok{eye.col.f }\OtherTok{\textless{}{-}} \FunctionTok{factor}\NormalTok{(}\FunctionTok{c}\NormalTok{(}\StringTok{"brown"}\NormalTok{, }\StringTok{"green"}\NormalTok{, }\StringTok{"brown"}\NormalTok{, }\StringTok{"blue"}\NormalTok{, }\StringTok{"blue"}\NormalTok{, }\StringTok{"blue"}\NormalTok{)) }
+\NormalTok{eye.col.v}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] "brown" "green" "brown" "blue"  "blue"  "blue" 
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{eye.col.f}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] brown green brown blue  blue  blue 
+Levels: blue brown green
+\end{verbatim}
+
+Como carácteristica relevante, los factores si poseen una relación con
+un valor númerico:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{levels}\NormalTok{(eye.col.f)  }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] "blue"  "brown" "green"
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{as.numeric}\NormalTok{(eye.col.f)  }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] 2 3 2 1 1 1
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{as.numeric}\NormalTok{(eye.col.v)  }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+Warning: NAs introduced by coercion
+\end{verbatim}
+
+\begin{verbatim}
+[1] NA NA NA NA NA NA
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{as.character}\NormalTok{(eye.col.f)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] "brown" "green" "brown" "blue"  "blue"  "blue" 
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{as.character}\NormalTok{(eye.col.v)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] "brown" "green" "brown" "blue"  "blue"  "blue" 
+\end{verbatim}
+
+\subsection{Matrices y arreglos}\label{matrices-y-arreglos}
+
+Una matriz, es un vector con n dimensiones:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{m }\OtherTok{\textless{}{-}} \FunctionTok{rep}\NormalTok{(}\DecValTok{1}\NormalTok{, }\DecValTok{20}\NormalTok{)   }
+\FunctionTok{dim}\NormalTok{(m) }\OtherTok{\textless{}{-}} \FunctionTok{c}\NormalTok{(}\DecValTok{5}\NormalTok{,}\DecValTok{4}\NormalTok{)  }
+\NormalTok{m}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+     [,1] [,2] [,3] [,4]
+[1,]    1    1    1    1
+[2,]    1    1    1    1
+[3,]    1    1    1    1
+[4,]    1    1    1    1
+[5,]    1    1    1    1
+\end{verbatim}
+
+Se crea una matriz usando \texttt{matrix()}:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{m }\OtherTok{\textless{}{-}} \FunctionTok{matrix}\NormalTok{(}\AttributeTok{data=}\DecValTok{1}\NormalTok{, }\AttributeTok{nrow=}\DecValTok{5}\NormalTok{, }\AttributeTok{ncol=}\DecValTok{4}\NormalTok{)  }
+\NormalTok{m }\OtherTok{\textless{}{-}} \FunctionTok{matrix}\NormalTok{(}\DecValTok{1}\NormalTok{,}\DecValTok{5}\NormalTok{,}\DecValTok{4}\NormalTok{)                      }
+\FunctionTok{dim}\NormalTok{(m)                                }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] 5 4
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{m}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+     [,1] [,2] [,3] [,4]
+[1,]    1    1    1    1
+[2,]    1    1    1    1
+[3,]    1    1    1    1
+[4,]    1    1    1    1
+[5,]    1    1    1    1
+\end{verbatim}
+
+O combinando vectores:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{m }\OtherTok{\textless{}{-}} \FunctionTok{cbind}\NormalTok{(}\DecValTok{1}\SpecialCharTok{:}\DecValTok{5}\NormalTok{, }\DecValTok{5}\SpecialCharTok{:}\DecValTok{1}\NormalTok{, }\DecValTok{5}\SpecialCharTok{:}\DecValTok{9}\NormalTok{)  }
+\NormalTok{m }\OtherTok{\textless{}{-}} \FunctionTok{rbind}\NormalTok{(}\DecValTok{1}\SpecialCharTok{:}\DecValTok{5}\NormalTok{, }\DecValTok{5}\SpecialCharTok{:}\DecValTok{1}\NormalTok{, }\DecValTok{5}\SpecialCharTok{:}\DecValTok{9}\NormalTok{)  }
+\NormalTok{m }\OtherTok{\textless{}{-}} \FunctionTok{matrix}\NormalTok{(}\DecValTok{1}\SpecialCharTok{:}\DecValTok{10}\NormalTok{,}\DecValTok{10}\NormalTok{,}\DecValTok{10}\NormalTok{)}
+\NormalTok{m}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+      [,1] [,2] [,3] [,4] [,5] [,6] [,7] [,8] [,9] [,10]
+ [1,]    1    1    1    1    1    1    1    1    1     1
+ [2,]    2    2    2    2    2    2    2    2    2     2
+ [3,]    3    3    3    3    3    3    3    3    3     3
+ [4,]    4    4    4    4    4    4    4    4    4     4
+ [5,]    5    5    5    5    5    5    5    5    5     5
+ [6,]    6    6    6    6    6    6    6    6    6     6
+ [7,]    7    7    7    7    7    7    7    7    7     7
+ [8,]    8    8    8    8    8    8    8    8    8     8
+ [9,]    9    9    9    9    9    9    9    9    9     9
+[10,]   10   10   10   10   10   10   10   10   10    10
+\end{verbatim}
+
+\paragraph{Selección de elementos en una
+matriz:}\label{selecciuxf3n-de-elementos-en-una-matriz}
+
+Para seleccionar elementos dentro de una matriz, se opera de manera
+similar a con los vectores:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{m[}\DecValTok{2}\NormalTok{,}\DecValTok{3}\NormalTok{]  }\CommentTok{\# Matrix m, row 2, column 3 {-} a single cell}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] 2
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{m[}\DecValTok{2}\NormalTok{,]   }\CommentTok{\# The whole second row of m as a vector}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+ [1] 2 2 2 2 2 2 2 2 2 2
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{m[,}\DecValTok{2}\NormalTok{]   }\CommentTok{\# The whole second column of m as a vector}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+ [1]  1  2  3  4  5  6  7  8  9 10
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{m[}\DecValTok{1}\SpecialCharTok{:}\DecValTok{2}\NormalTok{,}\DecValTok{4}\SpecialCharTok{:}\DecValTok{6}\NormalTok{] }\CommentTok{\# submatrix: rows 1 and 2, columns 4, 5 and 6}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+     [,1] [,2] [,3]
+[1,]    1    1    1
+[2,]    2    2    2
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{m[}\SpecialCharTok{{-}}\DecValTok{1}\NormalTok{,]  }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+      [,1] [,2] [,3] [,4] [,5] [,6] [,7] [,8] [,9] [,10]
+ [1,]    2    2    2    2    2    2    2    2    2     2
+ [2,]    3    3    3    3    3    3    3    3    3     3
+ [3,]    4    4    4    4    4    4    4    4    4     4
+ [4,]    5    5    5    5    5    5    5    5    5     5
+ [5,]    6    6    6    6    6    6    6    6    6     6
+ [6,]    7    7    7    7    7    7    7    7    7     7
+ [7,]    8    8    8    8    8    8    8    8    8     8
+ [8,]    9    9    9    9    9    9    9    9    9     9
+ [9,]   10   10   10   10   10   10   10   10   10    10
+\end{verbatim}
+
+Utilizando operadores condicionales:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{m[}\DecValTok{1}\NormalTok{,] }\SpecialCharTok{==}\NormalTok{ m[,}\DecValTok{1}\NormalTok{]  }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+ [1]  TRUE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{m }\SpecialCharTok{\textgreater{}} \DecValTok{3}           
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+       [,1]  [,2]  [,3]  [,4]  [,5]  [,6]  [,7]  [,8]  [,9] [,10]
+ [1,] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+ [2,] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+ [3,] FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
+ [4,]  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE
+ [5,]  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE
+ [6,]  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE
+ [7,]  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE
+ [8,]  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE
+ [9,]  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE
+[10,]  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE  TRUE
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{m[m }\SpecialCharTok{\textgreater{}} \DecValTok{3}\NormalTok{]   }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+ [1]  4  5  6  7  8  9 10  4  5  6  7  8  9 10  4  5  6  7  8  9 10  4  5  6  7
+[26]  8  9 10  4  5  6  7  8  9 10  4  5  6  7  8  9 10  4  5  6  7  8  9 10  4
+[51]  5  6  7  8  9 10  4  5  6  7  8  9 10  4  5  6  7  8  9 10
+\end{verbatim}
+
+Otro tipo de manipulaciones de matrices:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{t}\NormalTok{(m)          }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+      [,1] [,2] [,3] [,4] [,5] [,6] [,7] [,8] [,9] [,10]
+ [1,]    1    2    3    4    5    6    7    8    9    10
+ [2,]    1    2    3    4    5    6    7    8    9    10
+ [3,]    1    2    3    4    5    6    7    8    9    10
+ [4,]    1    2    3    4    5    6    7    8    9    10
+ [5,]    1    2    3    4    5    6    7    8    9    10
+ [6,]    1    2    3    4    5    6    7    8    9    10
+ [7,]    1    2    3    4    5    6    7    8    9    10
+ [8,]    1    2    3    4    5    6    7    8    9    10
+ [9,]    1    2    3    4    5    6    7    8    9    10
+[10,]    1    2    3    4    5    6    7    8    9    10
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{m }\SpecialCharTok{\%*\%} \FunctionTok{t}\NormalTok{(m)   }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+      [,1] [,2] [,3] [,4] [,5] [,6] [,7] [,8] [,9] [,10]
+ [1,]   10   20   30   40   50   60   70   80   90   100
+ [2,]   20   40   60   80  100  120  140  160  180   200
+ [3,]   30   60   90  120  150  180  210  240  270   300
+ [4,]   40   80  120  160  200  240  280  320  360   400
+ [5,]   50  100  150  200  250  300  350  400  450   500
+ [6,]   60  120  180  240  300  360  420  480  540   600
+ [7,]   70  140  210  280  350  420  490  560  630   700
+ [8,]   80  160  240  320  400  480  560  640  720   800
+ [9,]   90  180  270  360  450  540  630  720  810   900
+[10,]  100  200  300  400  500  600  700  800  900  1000
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{m }\SpecialCharTok{*}\NormalTok{ m         }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+      [,1] [,2] [,3] [,4] [,5] [,6] [,7] [,8] [,9] [,10]
+ [1,]    1    1    1    1    1    1    1    1    1     1
+ [2,]    4    4    4    4    4    4    4    4    4     4
+ [3,]    9    9    9    9    9    9    9    9    9     9
+ [4,]   16   16   16   16   16   16   16   16   16    16
+ [5,]   25   25   25   25   25   25   25   25   25    25
+ [6,]   36   36   36   36   36   36   36   36   36    36
+ [7,]   49   49   49   49   49   49   49   49   49    49
+ [8,]   64   64   64   64   64   64   64   64   64    64
+ [9,]   81   81   81   81   81   81   81   81   81    81
+[10,]  100  100  100  100  100  100  100  100  100   100
+\end{verbatim}
+
+\subsection{Arreglos de dos o más
+dimensiones}\label{arreglos-de-dos-o-muxe1s-dimensiones}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{a }\OtherTok{\textless{}{-}} \FunctionTok{array}\NormalTok{(}\AttributeTok{data=}\DecValTok{1}\SpecialCharTok{:}\DecValTok{18}\NormalTok{,}\AttributeTok{dim=}\FunctionTok{c}\NormalTok{(}\DecValTok{3}\NormalTok{,}\DecValTok{3}\NormalTok{,}\DecValTok{2}\NormalTok{)) }
+\NormalTok{a }\OtherTok{\textless{}{-}} \FunctionTok{array}\NormalTok{(}\DecValTok{1}\SpecialCharTok{:}\DecValTok{18}\NormalTok{,}\FunctionTok{c}\NormalTok{(}\DecValTok{3}\NormalTok{,}\DecValTok{3}\NormalTok{,}\DecValTok{2}\NormalTok{))          }
+\NormalTok{a}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+, , 1
+
+     [,1] [,2] [,3]
+[1,]    1    4    7
+[2,]    2    5    8
+[3,]    3    6    9
+
+, , 2
+
+     [,1] [,2] [,3]
+[1,]   10   13   16
+[2,]   11   14   17
+[3,]   12   15   18
+\end{verbatim}
+
+Para subseleccionar elementos:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{a[}\DecValTok{1}\NormalTok{,}\DecValTok{3}\NormalTok{,}\DecValTok{2}\NormalTok{]}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] 16
+\end{verbatim}
+
+\subsection{Listas}\label{listas}
+
+Corresponden a colección de objetos:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{l1 }\OtherTok{\textless{}{-}} \FunctionTok{list}\NormalTok{(}\AttributeTok{boo=}\NormalTok{v1,}\AttributeTok{foo=}\NormalTok{v2,}\AttributeTok{moo=}\NormalTok{v3,}\AttributeTok{zoo=}\StringTok{"Animals!"}\NormalTok{)  }
+\NormalTok{l2 }\OtherTok{\textless{}{-}} \FunctionTok{list}\NormalTok{(v1,v2,v3,}\StringTok{"Animals!"}\NormalTok{)}
+
+\NormalTok{l3 }\OtherTok{\textless{}{-}} \FunctionTok{list}\NormalTok{()}
+\NormalTok{l4 }\OtherTok{\textless{}{-}} \ConstantTok{NULL}
+\end{Highlighting}
+\end{Shaded}
+
+Acceder a elementos en una lista:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{l1[}\StringTok{"boo"}\NormalTok{]      }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+$boo
+ [1]  1  5 11 33 NA  6  7  8  9 10 NA NA NA NA NA
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{l1[[}\StringTok{"boo"}\NormalTok{]]    }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+ [1]  1  5 11 33 NA  6  7  8  9 10 NA NA NA NA NA
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{l1[[}\DecValTok{1}\NormalTok{]]        }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+ [1]  1  5 11 33 NA  6  7  8  9 10 NA NA NA NA NA
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{l1[[}\DecValTok{1}\NormalTok{]][}\DecValTok{2}\NormalTok{]     }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] 5
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{l1}\SpecialCharTok{$}\NormalTok{boo         }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+ [1]  1  5 11 33 NA  6  7  8  9 10 NA NA NA NA NA
+\end{verbatim}
+
+Añadir elementos a una lista:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{l3[[}\DecValTok{1}\NormalTok{]] }\OtherTok{\textless{}{-}} \DecValTok{11} 
+\NormalTok{l4[[}\DecValTok{3}\NormalTok{]] }\OtherTok{\textless{}{-}} \FunctionTok{c}\NormalTok{(}\DecValTok{22}\NormalTok{, }\DecValTok{23}\NormalTok{) }
+\NormalTok{l1[[}\DecValTok{5}\NormalTok{]] }\OtherTok{\textless{}{-}} \StringTok{"More elements!"} 
+\NormalTok{l1[[}\DecValTok{8}\NormalTok{]] }\OtherTok{\textless{}{-}} \DecValTok{1}\SpecialCharTok{:}\DecValTok{11} 
+\NormalTok{l1}\SpecialCharTok{$}\NormalTok{Something }\OtherTok{\textless{}{-}} \StringTok{"A thing"}  
+\end{Highlighting}
+\end{Shaded}
+
+\subsection{Data Frames}\label{data-frames}
+
+Un dataframe es un caso especial de lista, utilizada para guardar las
+tablas de datos. Posee la estructura clásica fila columna.
+
+Nota: Mientras en un comienzo se usan \texttt{data.frame}, más adelante
+al trabajar con \texttt{tidyverse} se utilizan \texttt{tibble} que
+corresponde a un concepto evolucionado de dataframe; de manera más
+específica corrige algunos comportamientos propios del dataframe, al no
+interpretarse los strings como factor por defecto y no existir
+\texttt{rownames}.
+
+Creando un dataframe:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{dfr1 }\OtherTok{\textless{}{-}} \FunctionTok{data.frame}\NormalTok{( }\AttributeTok{ID=}\DecValTok{1}\SpecialCharTok{:}\DecValTok{4}\NormalTok{,}
+                    \AttributeTok{FirstName=}\FunctionTok{c}\NormalTok{(}\StringTok{"Jesper"}\NormalTok{,}\StringTok{"Jonas"}\NormalTok{,}\StringTok{"Pernille"}\NormalTok{,}\StringTok{"Helle"}\NormalTok{),}
+                    \AttributeTok{Female=}\FunctionTok{c}\NormalTok{(F,F,T,T),}
+                    \AttributeTok{Age=}\FunctionTok{c}\NormalTok{(}\DecValTok{22}\NormalTok{,}\DecValTok{33}\NormalTok{,}\DecValTok{44}\NormalTok{,}\DecValTok{55}\NormalTok{) )}
+
+\NormalTok{dfr1}\SpecialCharTok{$}\NormalTok{FirstName}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] "Jesper"   "Jonas"    "Pernille" "Helle"   
+\end{verbatim}
+
+Para acceder a los elementos de un dataframe se debe tener en claro dos
+cosas: \texttt{dfr{[}row,\ column{]}}, donde las para las filas se puede
+acceder por número o condición y a las columnas por número o nombre. De
+manera alternativa para las columnas \texttt{dfr\$column}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{dfr1[}\DecValTok{1}\NormalTok{,]   }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+  ID FirstName Female Age
+1  1    Jesper  FALSE  22
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{dfr1[,}\DecValTok{1}\NormalTok{]  }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] 1 2 3 4
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{dfr1}\SpecialCharTok{$}\NormalTok{Age   }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] 22 33 44 55
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{dfr1[}\DecValTok{1}\SpecialCharTok{:}\DecValTok{2}\NormalTok{,}\DecValTok{3}\SpecialCharTok{:}\DecValTok{4}\NormalTok{] }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+  Female Age
+1  FALSE  22
+2  FALSE  33
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{dfr1[}\FunctionTok{c}\NormalTok{(}\DecValTok{1}\NormalTok{,}\DecValTok{3}\NormalTok{),] }
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+  ID FirstName Female Age
+1  1    Jesper  FALSE  22
+3  3  Pernille   TRUE  44
+\end{verbatim}
+
+Para encontrar los nombres de todos quienes son mayores de 30 años:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{dfr1[dfr1}\SpecialCharTok{$}\NormalTok{Age}\SpecialCharTok{\textgreater{}}\DecValTok{30}\NormalTok{,}\DecValTok{2}\NormalTok{]}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] "Jonas"    "Pernille" "Helle"   
+\end{verbatim}
+
+Para obtener la media de las edades de las mujeres:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{mean}\NormalTok{(dfr1[dfr1}\SpecialCharTok{$}\NormalTok{Female}\SpecialCharTok{==}\ConstantTok{TRUE}\NormalTok{,}\DecValTok{4}\NormalTok{])}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+[1] 49.5
+\end{verbatim}
+
+\subsection{Tidyverse}\label{tidyverse-1}
+
+Como parte de los desarrollo de \href{http://hadley.nz/}{Hadley
+Wickham}, la librería
+\href{https://www.tidyverse.org/}{\texttt{tidyverse}}, corresponde a un
+ecosistema orientado a las ciencias de datos, con paquetes que comparten
+la orientación de trabajo en relación a los datos.
+
+Por ejemplo, permiten la utilización del pipe operator.
+
+\subsubsection{Tibbles}\label{tibbles}
+
+Corresponde a la versión de dataframe en \texttt{tidyverse}. Se trabaja
+igual, pero con ciertas mejoras. Se pueden crear de tres maneras:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Crear usando \texttt{tibble()}
+\item
+  Usando explicitamente \texttt{as\_tibble()} en una tabla.
+\item
+  Cuando se aplica una función de \texttt{dplyr} en un dataframe, se
+  convierte a tibble.
+\end{enumerate}
+
+Vemos la tabla precargada \texttt{iris}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{iris}
+\end{Highlighting}
+\end{Shaded}
+
+Convertirlo en un elemento tibble
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{head}\NormalTok{(}\FunctionTok{as\_tibble}\NormalTok{(iris))}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+# A tibble: 6 x 5
+  Sepal.Length Sepal.Width Petal.Length Petal.Width Species
+         <dbl>       <dbl>        <dbl>       <dbl> <fct>  
+1          5.1         3.5          1.4         0.2 setosa 
+2          4.9         3            1.4         0.2 setosa 
+3          4.7         3.2          1.3         0.2 setosa 
+4          4.6         3.1          1.5         0.2 setosa 
+5          5           3.6          1.4         0.2 setosa 
+6          5.4         3.9          1.7         0.4 setosa 
+\end{verbatim}
+
+Comparamos con la creación de un data frame:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{tibble}\NormalTok{(}\AttributeTok{x =} \DecValTok{1}\SpecialCharTok{:}\DecValTok{5}\NormalTok{, }\AttributeTok{y =} \DecValTok{6}\SpecialCharTok{:}\DecValTok{10}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+# A tibble: 5 x 2
+      x     y
+  <int> <int>
+1     1     6
+2     2     7
+3     3     8
+4     4     9
+5     5    10
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{data.frame}\NormalTok{(}\AttributeTok{x =} \DecValTok{1}\SpecialCharTok{:}\DecValTok{5}\NormalTok{, }\AttributeTok{y =} \DecValTok{6}\SpecialCharTok{:}\DecValTok{10}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+  x  y
+1 1  6
+2 2  7
+3 3  8
+4 4  9
+5 5 10
+\end{verbatim}
+
+\subsection{Importación y exportación de
+datos}\label{importaciuxf3n-y-exportaciuxf3n-de-datos}
+
+\subsubsection{Importación}\label{importaciuxf3n}
+
+A pesar de que existen múltiples origenes para la obtención de archivos,
+podemos pensar en un Excel como el típico archivo. Para esto, utilizamos
+readxl que viene con tidyverse. Podemos ver la librería en la siguiente
+\href{https://readxl.tidyverse.org}{\texttt{página}}
+
+\subsubsection{Exportación}\label{exportaciuxf3n}
+
+\paragraph{Exportar en Excel}\label{exportar-en-excel}
+
+Para esto existen las siguientes librerías:
+
+\begin{itemize}
+\tightlist
+\item
+  xlsx
+\item
+  openxlsx
+\item
+  writexl
+\end{itemize}
+
+En donde las dos primeras pueden generar cierto conficto si se intenta
+utilizar de manera conjunta, generalmente asociado a Java, y la tercera
+no tiene requerimiento de Java.
+
+Dependiendo de la que se utilice cambia la forma de generar esto.
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{library}\NormalTok{(}\StringTok{"xlsx"}\NormalTok{)}
+\CommentTok{\# Write the first data set in a new workbook}
+\FunctionTok{write.xlsx}\NormalTok{(USArrests, }\AttributeTok{file =} \StringTok{"myworkbook.xlsx"}\NormalTok{,}
+      \AttributeTok{sheetName =} \StringTok{"USA{-}ARRESTS"}\NormalTok{, }\AttributeTok{append =} \ConstantTok{FALSE}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\paragraph{Exportar en Latex}\label{exportar-en-latex}
+
+Otra forma de exportar puede estar relacionada con tablas en formato
+Latex:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{library}\NormalTok{(stargazer)}
+
+\FunctionTok{stargazer}\NormalTok{(attitude)}
+\end{Highlighting}
+\end{Shaded}
+
+Por ejemplo en base a tres regresiones (dos lineales y una probit):
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{linear}\FloatTok{.1} \OtherTok{\textless{}{-}} \FunctionTok{lm}\NormalTok{(rating }\SpecialCharTok{\textasciitilde{}}\NormalTok{ complaints }\SpecialCharTok{+}\NormalTok{ privileges }\SpecialCharTok{+}\NormalTok{ learning }\SpecialCharTok{+}\NormalTok{ raises }\SpecialCharTok{+}\NormalTok{ critical,}
+\AttributeTok{data=}\NormalTok{attitude)}
+
+\NormalTok{linear}\FloatTok{.2} \OtherTok{\textless{}{-}} \FunctionTok{lm}\NormalTok{(rating }\SpecialCharTok{\textasciitilde{}}\NormalTok{ complaints }\SpecialCharTok{+}\NormalTok{ privileges }\SpecialCharTok{+}\NormalTok{ learning, }\AttributeTok{data=}\NormalTok{attitude)}
+
+\NormalTok{attitude}\SpecialCharTok{$}\NormalTok{high.rating }\OtherTok{\textless{}{-}}\NormalTok{ (attitude}\SpecialCharTok{$}\NormalTok{rating }\SpecialCharTok{\textgreater{}} \DecValTok{70}\NormalTok{)}
+
+\NormalTok{probit.model }\OtherTok{\textless{}{-}} \FunctionTok{glm}\NormalTok{(high.rating }\SpecialCharTok{\textasciitilde{}}\NormalTok{ learning }\SpecialCharTok{+}\NormalTok{ critical }\SpecialCharTok{+}\NormalTok{ advance, }\AttributeTok{data=}\NormalTok{attitude,}
+\AttributeTok{family =} \FunctionTok{binomial}\NormalTok{(}\AttributeTok{link =} \StringTok{"probit"}\NormalTok{))}
+\end{Highlighting}
+\end{Shaded}
+
+A pesar de esto, desde mi opinión stargazer no es una buena opción para
+exportar tablas en latex. Veamos una solución a esto:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{library}\NormalTok{(gtsummary)}
+\FunctionTok{library}\NormalTok{(kableExtra)}
+
+\NormalTok{t1 }\OtherTok{\textless{}{-}} \FunctionTok{tbl\_regression}\NormalTok{(linear}\FloatTok{.1}\NormalTok{)}
+
+\FunctionTok{as\_kable\_extra}\NormalTok{(t1, }\AttributeTok{format =} \StringTok{"latex"}\NormalTok{) }\SpecialCharTok{\%\textgreater{}\%}
+  \FunctionTok{save\_kable}\NormalTok{(}\StringTok{"modelo.tex"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+Combinando los tres modelos:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{t1 }\OtherTok{\textless{}{-}} \FunctionTok{tbl\_regression}\NormalTok{(linear}\FloatTok{.1}\NormalTok{)}
+
+\NormalTok{t2 }\OtherTok{\textless{}{-}} \FunctionTok{tbl\_regression}\NormalTok{(linear}\FloatTok{.2}\NormalTok{)}
+
+\NormalTok{t3 }\OtherTok{\textless{}{-}} \FunctionTok{tbl\_regression}\NormalTok{(probit.model)}
+
+\FunctionTok{tbl\_merge}\NormalTok{(}
+  \AttributeTok{tbls =} \FunctionTok{list}\NormalTok{(t1, t2, t3),}
+  \AttributeTok{tab\_spanner =} \FunctionTok{c}\NormalTok{(}\StringTok{"**Regresion 1**"}\NormalTok{, }\StringTok{"**Regresion 2**"}\NormalTok{, }\StringTok{"**Probit**"}\NormalTok{)}
+\NormalTok{)}
+
+\FunctionTok{as\_kable\_extra}\NormalTok{(t1, }\AttributeTok{format =} \StringTok{"latex"}\NormalTok{) }\SpecialCharTok{\%\textgreater{}\%}
+  \FunctionTok{save\_kable}\NormalTok{(}\StringTok{"modelo\_3.tex"}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+
+
+
+
+\end{document}
