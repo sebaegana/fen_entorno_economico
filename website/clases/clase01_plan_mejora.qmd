@@ -35,7 +35,7 @@ Mostrar un titular económico reciente de un diario de EE.UU. y preguntar:
 - ¿Qué necesitarías saber para interpretarlo bien?
 
 Sirve para activar conocimiento previo y motivar el marco conceptual de la clase.
-**Implementada en:** `clase01_actividad_apertura.qmd`
+**Implementada en:** `clase01_actividad_01_apertura`
 
 ## Actividad PIB — *¿Cuenta o no cuenta?* (15 min)
 

@@ -46,9 +46,11 @@ Todos los archivos de una clase usan el prefijo `claseXX_` (ej. `clase01_`).
 
 **Cadencia dentro de cada clase** (orden de la sesión):
 1. `claseXX_diapositiva.qmd` — slides principales, siempre este nombre exacto
-2. `claseXX_actividad_[nombre].qmd` — una o más actividades; `[nombre]` describe el contenido (ej. `apertura`, `pib`, `ipc`); el orden alfabético de `[nombre]` no importa, el orden real es el que se usa en la sesión
+2. `claseXX_actividad_NN_[nombre].qmd` — una o más actividades; `NN` es el número de orden en la sesión (01, 02…); `[nombre]` describe el contenido (ej. `apertura`, `pib`, `ipc`)
 3. `claseXX_notas_docente.qmd` — material de apoyo docente, siempre este nombre exacto
 4. `claseXX_plan_mejora.qmd` — reflexión post-clase, siempre este nombre exacto
+
+**Referencias entre archivos:** nunca incluir la extensión `.qmd` en los links ni en las menciones inline. Usar solo el nombre base (ej. `clase01_actividad_02_pib`, no `clase01_actividad_02_pib.qmd`).
 
 **Otros recursos:**
 - Imágenes referenciadas en QMDs: `imagenes/nombre_descriptivo.png`

@@ -138,7 +138,7 @@ El ajuste refleja la diferencia entre dónde se produce y quién lo produce.
 **Fronteras:** el PIB captura lo que pasa dentro del país, independiente de la nacionalidad del productor.
 
 > Actividad: ¿Cuenta o no cuenta en el PIB?
-> Ver `clase01_actividad_pib`
+> Ver `clase01_actividad_02_pib`
 
 ------------------------------------------------------------------------
 
@@ -437,7 +437,7 @@ Por eso Laspeyres **tiende a sobreestimar** la inflación: mide el costo de vivi
 Paasche (deflactor) tiene el problema inverso: subestima porque usa la canasta nueva, donde ya ocurrió la sustitución.
 
 > Actividad: Construyamos un IPC
-> Ver `clase01_actividad_ipc`
+> Ver `clase01_actividad_03_ipc`
 
 ------------------------------------------------------------------------
 
@@ -564,7 +564,7 @@ La distinción técnica central:
 | **Estrés fiscal** | Déficits persistentes, regla incumplida, activos agotados | Sí |
 
 > Actividad de coyuntura: ¿Chile está en quiebra?
-> Ver `clase01_actividad_coyuntura.qmd`
+> Ver `clase01_actividad_04_coyuntura`
 
 ------------------------------------------------------------------------
 
