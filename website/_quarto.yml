@@ -4,6 +4,8 @@ project:
   render:
     - "*.qmd"
     - "clases/*.qmd"
+    - "cases/202605_case01/case01_enunciado.qmd"
+    - "cases/202605_case01/case01_pauta.qmd"
 
   resources:
     - "clases/imagenes/**"

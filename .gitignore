@@ -1,4 +1,8 @@
 cases/
 clases/
 website/cases/
+website/docs/cases/
 _pptx_temp/
+
+/.quarto/
+**/*.quarto_ipynb
