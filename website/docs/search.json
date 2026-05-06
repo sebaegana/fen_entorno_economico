@@ -56,53 +56,354 @@
     "text": "Contacto\nSebastián Egaña Santibáñez Docente del curso\n\nCorreo: segana@fen.uchile.cl\nLinkedIn: linkedin.com/in/sebaegana\nSitio web: segana.netlify.app\nGitHub: github.com/sebaegana\n\nSi estás usando este sitio como apoyo del curso, conviene escribir indicando el módulo, la clase o el material al que haces referencia para poder responder con más contexto."
   },
   {
-    "objectID": "clases/clase01_plan_mejora.html#actividad-de-apertura-diagnóstico-de-titular-10-min",
-    "href": "clases/clase01_plan_mejora.html#actividad-de-apertura-diagnóstico-de-titular-10-min",
-    "title": "Plan de mejora — Clase 01",
-    "section": "Actividad de apertura — Diagnóstico de titular (10 min)",
-    "text": "Actividad de apertura — Diagnóstico de titular (10 min)\nMostrar un titular económico reciente de un diario de EE.UU. y preguntar:\n\n¿Qué indica este dato?\n¿A quién afecta y cómo?\n¿Qué necesitarías saber para interpretarlo bien?\n\nSirve para activar conocimiento previo y motivar el marco conceptual de la clase. Implementada en: clase01_actividad_01_apertura"
+    "objectID": "clases/clase02_plan_mejora.html",
+    "href": "clases/clase02_plan_mejora.html",
+    "title": "Plan de mejora — Clase 02",
+    "section": "",
+    "text": "Este documento recoge observaciones sobre el material actual de la Clase 02 con el objetivo de identificar mejoras antes de dictar la sesión. Las observaciones se ordenan por prioridad: alta (afecta la coherencia pedagógica), media (mejora la experiencia), baja (optimizaciones menores)."
   },
   {
-    "objectID": "clases/clase01_plan_mejora.html#actividad-pib-cuenta-o-no-cuenta-15-min",
-    "href": "clases/clase01_plan_mejora.html#actividad-pib-cuenta-o-no-cuenta-15-min",
-    "title": "Plan de mejora — Clase 01",
-    "section": "Actividad PIB — ¿Cuenta o no cuenta? (15 min)",
-    "text": "Actividad PIB — ¿Cuenta o no cuenta? (15 min)\nPresentar una lista de situaciones y pedir clasificar si se incluyen o no en el PIB:\n\n\n\nSituación\n¿Cuenta en el PIB?\n\n\n\n\nUna madre cuida a sus hijos en casa\n\n\n\nUn taxista informal cobra en efectivo\n\n\n\nChile exporta cobre a China\n\n\n\nUn chileno trabaja en Argentina\n\n\n\nWhatsApp presta servicio gratuito\n\n\n\n\nConecta directamente con el debate del PIB y bienestar, y la pregunta de ChatGPT que ya está en la slide. Formato: parejas, 5 min de discusión + plenario."
+    "objectID": "clases/clase02_plan_mejora.html#resumen",
+    "href": "clases/clase02_plan_mejora.html#resumen",
+    "title": "Plan de mejora — Clase 02",
+    "section": "",
+    "text": "Este documento recoge observaciones sobre el material actual de la Clase 02 con el objetivo de identificar mejoras antes de dictar la sesión. Las observaciones se ordenan por prioridad: alta (afecta la coherencia pedagógica), media (mejora la experiencia), baja (optimizaciones menores)."
   },
   {
-    "objectID": "clases/clase01_plan_mejora.html#actividad-imacec-lectura-de-datos-reales-10-min",
-    "href": "clases/clase01_plan_mejora.html#actividad-imacec-lectura-de-datos-reales-10-min",
-    "title": "Plan de mejora — Clase 01",
-    "section": "Actividad Imacec — Lectura de datos reales (10 min)",
-    "text": "Actividad Imacec — Lectura de datos reales (10 min)\nMostrar el gráfico del Imacec de los últimos 12 meses (Banco Central) y pedir:\n\nIdentificar el período de mayor caída y el de mayor crecimiento\nProponer una hipótesis de por qué ocurrió cada uno\nRelacionarlo con algún evento económico o político del período\n\nDesarrolla la habilidad de leer indicadores oficiales antes del ejercicio Excel."
+    "objectID": "clases/clase02_plan_mejora.html#falta-hilo-conductor",
+    "href": "clases/clase02_plan_mejora.html#falta-hilo-conductor",
+    "title": "Plan de mejora — Clase 02",
+    "section": "1. Falta hilo conductor",
+    "text": "1. Falta hilo conductor\nPrioridad: alta\nLa Clase 01 abre con un titular periodístico que actúa como hilo conductor de toda la sesión. La Clase 02 no tiene equivalente: el slide “¿Qué veremos esta clase?” lista temas pero no ofrece una pregunta o noticia que dé sentido al recorrido.\nSugerencia: Agregar un slide de apertura con una pregunta o titular que conecte dolarización, dinero y políticas. Ejemplos posibles:\n\n“Argentina dolariza: ¿qué pierde y qué gana?” — ancla dolarización, señoreaje y trinidad imposible\n“El Banco Central baja la TPM por cuarta vez: ¿qué significa para tu crédito?” — ancla política monetaria y ecuación de Fisher\n“El gobierno no cumplió la regla fiscal por tercer año: ¿qué es el BCA?” — conecta con la clase anterior y ancla política fiscal\n\nAl cierre de la clase, volver al titular y mostrar qué conceptos permiten leerlo con precisión (igual que en Clase 01)."
   },
   {
-    "objectID": "clases/clase01_plan_mejora.html#actividad-mercado-laboral-clasifica-el-caso-15-min",
-    "href": "clases/clase01_plan_mejora.html#actividad-mercado-laboral-clasifica-el-caso-15-min",
-    "title": "Plan de mejora — Clase 01",
-    "section": "Actividad mercado laboral — Clasifica el caso (15 min)",
-    "text": "Actividad mercado laboral — Clasifica el caso (15 min)\nPresentar 6–8 perfiles de personas y pedir ubicarlos en el diagrama del INE (ocupado, desocupado, inactivo, etc.):\n\n“María tiene 17 años y estudia. Los fines de semana ayuda en el negocio familiar sin sueldo.”\n\n\n“Juan perdió su trabajo hace 3 meses. Ha buscado trabajo, pero dejó de buscar esta semana porque está desmotivado.”\n\n\n“Carla trabaja 2 horas a la semana como freelance y busca trabajo de jornada completa.”\n\nObliga a aplicar los criterios exactos del INE, donde más se confunden los estudiantes. Formato: individual + corrección en plenario."
+    "objectID": "clases/clase02_plan_mejora.html#gráficos-desactualizados",
+    "href": "clases/clase02_plan_mejora.html#gráficos-desactualizados",
+    "title": "Plan de mejora — Clase 02",
+    "section": "2. Gráficos desactualizados",
+    "text": "2. Gráficos desactualizados\nPrioridad: alta\nTres imágenes muestran datos que terminan antes de 2023:\n\n\n\n\n\n\n\n\nImagen\nDato más reciente\nProblema\n\n\n\n\nagregados_monetarios.png\nSep 2021\nNo muestra la caída post-retiros ni la convergencia 2022–2025\n\n\nrentabilidad_bancos_01/02.png\n2022\nNo incluye el ciclo de alza de TPM ni rentabilidad post-pandemia\n\n\nevolucion_inflacion.png\n2023\nNo incluye el ciclo inflacionario 2021–2023 ni la convergencia posterior\n\n\n\nSugerencia: Actualizar los tres gráficos con datos del Banco Central al cierre de 2024 o Q1 2025. El gráfico de inflación en particular es más potente si muestra el peak de 2022 (14,1% anual) y la convergencia posterior — refuerza el argumento de autonomía del BCCh."
   },
   {
-    "objectID": "clases/clase01_plan_mejora.html#actividad-ipc-arma-tu-canasta-20-min",
-    "href": "clases/clase01_plan_mejora.html#actividad-ipc-arma-tu-canasta-20-min",
-    "title": "Plan de mejora — Clase 01",
-    "section": "Actividad IPC — Arma tu canasta (20 min)",
-    "text": "Actividad IPC — Arma tu canasta (20 min)\nAntes de entrar a la fórmula de Laspeyres, pedir a los estudiantes que:\n\nPropongan 5 bienes que consumen regularmente\nEstimen cuánto gastan en cada uno al mes\nCalculen qué pasaría con su “costo de vida” si el precio de cada bien sube 10%\n\nLuego mostrar la canasta oficial del INE y comparar ponderaciones. Funciona como motivación para la fórmula y como discusión sobre representatividad."
+    "objectID": "clases/clase02_plan_mejora.html#slide-de-cierre-débil",
+    "href": "clases/clase02_plan_mejora.html#slide-de-cierre-débil",
+    "title": "Plan de mejora — Clase 02",
+    "section": "3. Slide de cierre débil",
+    "text": "3. Slide de cierre débil\nPrioridad: alta\nEl cierre actual solo muestra la tabla de fechas relevantes. La Clase 01 tiene un cierre conceptual que muestra cómo se conectan todos los indicadores vistos. La Clase 02 no tiene ese momento de síntesis.\nSugerencia: Agregar antes de “Fechas relevantes” un slide que muestre cómo se conectan los conceptos de la sesión:\nPolítica Monetaria (TPM)  →  afecta la tasa nominal (Fisher)\n                                      ↓\n                          influye en tipo de cambio\n                                      ↓\n                    impacta balanza de pagos y balance empresas con deuda en USD\n                                      ↓\n              Política Fiscal debe coordinar con esto (BCA, no amplificar ciclo)"
   },
   {
-    "objectID": "clases/clase01_plan_mejora.html#actividad-tipo-de-cambio-importador-vs-exportador-15-min",
-    "href": "clases/clase01_plan_mejora.html#actividad-tipo-de-cambio-importador-vs-exportador-15-min",
-    "title": "Plan de mejora — Clase 01",
-    "section": "Actividad tipo de cambio — Importador vs exportador (15 min)",
-    "text": "Actividad tipo de cambio — Importador vs exportador (15 min)\nPresentar dos empresas ficticias (una importa insumos, otra exporta productos) y un escenario de depreciación del peso. Pedir:\n\n¿Cómo afecta a cada empresa en costos, ingresos y márgenes?\n¿Qué acciones podría tomar cada una?\n\nConecta el concepto nominal/real con decisiones empresariales concretas."
+    "objectID": "clases/clase02_plan_mejora.html#balanza-de-pagos-y-fbcf-desconectadas",
+    "href": "clases/clase02_plan_mejora.html#balanza-de-pagos-y-fbcf-desconectadas",
+    "title": "Plan de mejora — Clase 02",
+    "section": "4. Balanza de pagos y FBCF desconectadas",
+    "text": "4. Balanza de pagos y FBCF desconectadas\nPrioridad: media\nLos slides de “Balanza de pagos” y “Formación bruta de capital fijo” aparecen al final de la sección de Política Monetaria pero no se explica por qué están ahí. Su conexión con la política monetaria no es obvia para el alumno.\nSugerencia: Agregar una frase de transición que explique el nexo: la balanza de pagos registra los flujos que determinan la oferta y demanda de divisas (y por tanto el tipo de cambio), y la FBCF es el componente de inversión del PIB que responde a la TPM. Alternativamente, mover FBCF a la sección de Política Fiscal donde su conexión con el gasto de gobierno es más directa."
   },
   {
-    "objectID": "clases/clase01_plan_mejora.html#caso-integrador-de-cierre-lectura-de-coyuntura-20-min",
-    "href": "clases/clase01_plan_mejora.html#caso-integrador-de-cierre-lectura-de-coyuntura-20-min",
-    "title": "Plan de mejora — Clase 01",
-    "section": "Caso integrador de cierre — Lectura de coyuntura (20 min)",
-    "text": "Caso integrador de cierre — Lectura de coyuntura (20 min)\nEntregar un párrafo de un informe económico real (IPOM o similar) con datos de PIB, desempleo, IPC y tipo de cambio, y pedir construir un diagnóstico:\n\n¿En qué momento del ciclo está la economía?\n¿Qué variables están bajo presión?\n¿Qué decisión tomarías si fueras el CFO de una empresa chilena?\n\nEs la actividad que conecta todos los indicadores vistos en la clase en un uso aplicado."
+    "objectID": "clases/clase02_plan_mejora.html#actividades-en-clase-no-están-estructuradas",
+    "href": "clases/clase02_plan_mejora.html#actividades-en-clase-no-están-estructuradas",
+    "title": "Plan de mejora — Clase 02",
+    "section": "5. Actividades en clase no están estructuradas",
+    "text": "5. Actividades en clase no están estructuradas\nPrioridad: media\nLos slides referencian dos ejercicios Excel (ejercicio 01 Presupuesto.xlsx y ejercicio 02 generacion dinero.xlsx) pero no hay archivos .qmd de actividad que los acompañen. En Clase 01 cada ejercicio tiene su propio documento con instrucciones, objetivos y espacio para respuestas.\nSugerencia: Crear al menos:\n\nclase02_actividad_01_presupuesto.qmd — ejercicio de balance empresarial con deuda en dólares (dolarización)\nclase02_actividad_02_dinero.qmd — ejercicio de multiplicador monetario (tasa de encaje)\n\nEl caso formativo mencionado en el cierre (“Clase 2: Caso formativo en clases”) debería estar también como clase02_actividad_03_caso.qmd."
+  },
+  {
+    "objectID": "clases/clase02_plan_mejora.html#sección-de-dinero-sin-actualización-de-datos-locales",
+    "href": "clases/clase02_plan_mejora.html#sección-de-dinero-sin-actualización-de-datos-locales",
+    "title": "Plan de mejora — Clase 02",
+    "section": "6. Sección de dinero sin actualización de datos locales",
+    "text": "6. Sección de dinero sin actualización de datos locales\nPrioridad: media\nLa sección de Dinero es conceptualmente sólida pero todos los ejemplos son genéricos o de 2020–2021. Podría enriquecerse con datos actuales del BCCh:\n\n¿Cuál es el M1/M2/M3 actual de Chile?\n¿Cómo evolucionó el M1 desde el peak de 2021 hasta hoy?\n¿Cuál es la tasa de encaje vigente (ya no la de 2020)?"
+  },
+  {
+    "objectID": "clases/clase02_plan_mejora.html#trinidad-imposible-ejemplos-podrían-actualizarse",
+    "href": "clases/clase02_plan_mejora.html#trinidad-imposible-ejemplos-podrían-actualizarse",
+    "title": "Plan de mejora — Clase 02",
+    "section": "7. Trinidad imposible: ejemplos podrían actualizarse",
+    "text": "7. Trinidad imposible: ejemplos podrían actualizarse\nPrioridad: baja\nEl ejemplo de China (2000–2015) es correcto pero algo distante. Argentina en 2023–2024 es un caso más reciente y cercano culturalmente: intentó mantener tipo de cambio fijo + política monetaria activa → tuvo que sacrificar la movilidad de capitales con cepo cambiario, y eventualmente igual colapsó.\nSugerencia: Agregar Argentina como tercer caso comparado o reemplazar China si el tiempo es limitado."
+  },
+  {
+    "objectID": "clases/clase02_plan_mejora.html#formato-del-slide-proceso-de-generación-de-dinero",
+    "href": "clases/clase02_plan_mejora.html#formato-del-slide-proceso-de-generación-de-dinero",
+    "title": "Plan de mejora — Clase 02",
+    "section": "8. Formato del slide “Proceso de generación de dinero”",
+    "text": "8. Formato del slide “Proceso de generación de dinero”\nPrioridad: baja\nLas dos imágenes de tablas de encaje (creacion_dinero_nacional.png y creacion_dinero_extranjera.png) son capturas de texto. Podrían reemplazarse por tablas Markdown nativas para mejorar legibilidad y facilitar actualizaciones futuras."
+  },
+  {
+    "objectID": "clases/clase02_plan_mejora.html#resumen-de-acciones-recomendadas",
+    "href": "clases/clase02_plan_mejora.html#resumen-de-acciones-recomendadas",
+    "title": "Plan de mejora — Clase 02",
+    "section": "Resumen de acciones recomendadas",
+    "text": "Resumen de acciones recomendadas\n\n\n\nAcción\nPrioridad\nEsfuerzo\n\n\n\n\nAgregar hilo conductor (titular)\nAlta\nMedio\n\n\nActualizar 3 gráficos con datos 2024–2025\nAlta\nAlto\n\n\nAgregar slide de cierre conceptual\nAlta\nBajo\n\n\nConectar balanza de pagos y FBCF\nMedia\nBajo\n\n\nCrear QMDs de actividades\nMedia\nAlto\n\n\nActualizar datos sección Dinero\nMedia\nMedio\n\n\nActualizar ejemplo trinidad (Argentina)\nBaja\nBajo\n\n\nReemplazar imágenes de encaje por tablas\nBaja\nBajo"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#equipo-docente",
+    "href": "clases/clase02_diapositiva.html#equipo-docente",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Equipo docente",
+    "text": "Equipo docente\nDocentes:\n\nSebastián Egaña Santibáñez\nFelipe Jaque\n\nAyudante:\n\nJean Pierre Bravo"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#sobre-el-docente",
+    "href": "clases/clase02_diapositiva.html#sobre-el-docente",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Sobre el docente",
+    "text": "Sobre el docente\nSebastián Egaña Santibáñez\n\nAnalytics Translator — LATAM Airlines\nCorreo: segana@fen.uchile.cl\nWeb: https://segana.netlify.app\nLinkedIn: enlace"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#qué-veremos-esta-clase",
+    "href": "clases/clase02_diapositiva.html#qué-veremos-esta-clase",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "¿Qué veremos esta clase?",
+    "text": "¿Qué veremos esta clase?\n\n\n\n\n\n\n\nBloque\nConceptos clave\n\n\n\n\nVariables Nominales y Reales\nEcuación de Fisher, Regla de Taylor, tasa real\n\n\nDinero\nDefinición, agregados monetarios, generación de dinero\n\n\nPolítica Monetaria\nBCCh, TPM, regímenes cambiarios, trinidad imposible\n\n\nPolítica Fiscal\nBCA, institucionalidad, gastos e impuestos"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#hilo-conductor-de-la-clase",
+    "href": "clases/clase02_diapositiva.html#hilo-conductor-de-la-clase",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Hilo conductor de la clase",
+    "text": "Hilo conductor de la clase\nPartimos con un titular. Al terminar la sesión deberían poder leerlo con precisión.\n\n“El Banco Central baja la TPM: ¿por qué lo hace y qué pasa con el fisco?”\n\nPara entenderlo necesitamos saber qué es la TPM, cómo la decide el BCCh, cómo se relaciona con la inflación y los precios, y por qué una baja de tasas tiene implicancias para las finanzas públicas."
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#ecuación-de-fisher-y-tasas-de-interés",
+    "href": "clases/clase02_diapositiva.html#ecuación-de-fisher-y-tasas-de-interés",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Ecuación de Fisher y tasas de interés",
+    "text": "Ecuación de Fisher y tasas de interés\nSobre el tema visto en la clase pasada, una definición necesaria para esta clase corresponde a la ecuación de Fisher, que en términos simplificados puede definirse como:\n\\[i = r + \\pi^e\\]\nDonde \\(i\\) corresponde a la tasa nominal de la economía, \\(r\\) corresponde a la tasa real de la economía y \\(\\pi^e\\) corresponde a la tasa de inflación esperada."
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#tasa-nominal-y-regla-de-taylor",
+    "href": "clases/clase02_diapositiva.html#tasa-nominal-y-regla-de-taylor",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Tasa nominal y Regla de Taylor",
+    "text": "Tasa nominal y Regla de Taylor\nCorresponde a la regla de decisión sobre la tasa de la economía por parte de los Bancos Centrales:\n\\[i_t = r_t^* + \\pi_t + \\alpha_\\pi(\\pi_t - \\pi_t^*) + \\alpha_y(Y_t - Y_t^*)\\]\nDonde:\n\n\n\nVariable\nDescripción\n\n\n\n\n\\(i_t\\)\nTasa de interés nominal\n\n\n\\(r_t^*\\)\nTasa real esperada\n\n\n\\(\\pi_t\\)\nTasa de inflación actual (Deflactor)\n\n\n\\(\\pi_t^*\\)\nTasa de inflación objetivo\n\n\n\\(\\alpha\\)\nFactores de ajuste\n\n\n\\(Y_t\\)\nPIB real\n\n\n\\(Y_t^*\\)\nPIB Potencial\n\n\n\n\nLectura de referencia: Taylor Rule — ver lectura 01 Taylor Rule.pdf"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#sobre-la-tasa-de-interés",
+    "href": "clases/clase02_diapositiva.html#sobre-la-tasa-de-interés",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Sobre la tasa de interés",
+    "text": "Sobre la tasa de interés\nDentro del análisis económico, existen supuestos en base al tipo de economía analizada y la influencia en sus variables.\nEn el caso de Chile, se tiende a hablar de una economía pequeña y abierta, lo que quiere decir que sus variables internas están influenciadas por las variables de países más grandes.\nEsto en relación al tema de la tasa y para una economía con perfecta movilidad de capitales: la tasa nacional viene determinada de manera directa por la tasa de equilibrio internacional, por lo tanto:\n\\[r = r^*\\]\nDonde \\(r^*\\) corresponde a la tasa internacional."
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#qué-es-el-dinero",
+    "href": "clases/clase02_diapositiva.html#qué-es-el-dinero",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "¿Qué es el dinero?",
+    "text": "¿Qué es el dinero?\nEl dinero se puede definir como un activo que es parte de la riqueza financiera de las personas. Otra forma de definir el dinero es a través de sus funciones:\n\nMedio de pago: puede ser utilizado en transacciones\nUnidad de cuenta: los precios se expresan en términos de dinero\nDepósito de valor: utilización para acumular activos\n\nDentro de la economía actual, el dinero puede ser definido como la suma del circulante (billetes y monedas, \\(C\\)) y depósitos a la vista (\\(D_v\\)):\n\\[M = C + D_v\\]"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#oferta-de-dinero",
+    "href": "clases/clase02_diapositiva.html#oferta-de-dinero",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Oferta de dinero",
+    "text": "Oferta de dinero\nPor lo general el dinero se clasifica según su grado de liquidez; a esto refieren los distintos agregados:\n\nM1: compuesto por billetes y monedas en circulación, las cuentas corrientes y cuentas a la vista\nM2: M1 más los depósitos a plazo en pesos chilenos\nM3: M2 más depósitos en moneda extranjera, así como la tenencia de bonos por parte del sector privado no bancario\n\nEl ciclo reciente ilustra cómo la política afecta los agregados: durante 2020–2021 el M1 creció ~60% anual por los retiros de fondos de pensiones. La respuesta del BCCh — subir la TPM desde 0,5% a 11,25% entre 2021 y 2022 — encareció el crédito, frenó la demanda de dinero y llevó M1 de vuelta a tasas de un dígito hacia 2023–2024.\n\nFuente: Banco Central de Chile, Estadísticas Monetarias y Financieras"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#cantidad-de-dinero-y-agregados-monetarios",
+    "href": "clases/clase02_diapositiva.html#cantidad-de-dinero-y-agregados-monetarios",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Cantidad de dinero y agregados monetarios",
+    "text": "Cantidad de dinero y agregados monetarios\nVemos acá la relación entre inflación y la cantidad de dinero inyectada a la economía. El M1 llegó a crecer un ~60% anual en 2020–2021 por los retiros de fondos de pensiones y transferencias fiscales — lo que estuvo directamente asociado al peak inflacionario de 2022. Desde 2023, M1 convergió hacia tasas de crecimiento de un dígito.\n\n\nFuente: Banco Central de Chile — gráfico cubre 2019–2021; ciclo completo incluye normalización 2022–2025"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#agregados-monetarios-y-rentabilidad-de-los-bancos",
+    "href": "clases/clase02_diapositiva.html#agregados-monetarios-y-rentabilidad-de-los-bancos",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Agregados monetarios y rentabilidad de los bancos",
+    "text": "Agregados monetarios y rentabilidad de los bancos"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#proceso-de-generación-de-dinero",
+    "href": "clases/clase02_diapositiva.html#proceso-de-generación-de-dinero",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Proceso de generación de dinero",
+    "text": "Proceso de generación de dinero\nLa emisión de dinero o de la base monetaria es un proceso a cargo del Banco Central de Chile. Es quien por ley puede imprimir o mandar a imprimir billetes y monedas de curso legal, que obligadamente deben ser aceptados como medio de pago. Esto se hace a través de la Casa de La Moneda.\nEl proceso secundario es a través de la tasa de encaje de la economía."
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#proceso-de-generación-de-dinero-1",
+    "href": "clases/clase02_diapositiva.html#proceso-de-generación-de-dinero-1",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Proceso de generación de dinero",
+    "text": "Proceso de generación de dinero\nEn Chile, esta tasa fue modificada de manera transitoria el 8 de mayo del 2020:\n\n\n\nMoneda Nacional\n\n\n\nTipo de obligación\nTasa\n\n\n\n\nDepósitos a la orden judicial (art. 517 COT)\n3,6%\n\n\nOtros depósitos y obligaciones a la vista\n9%\n\n\nDepósitos desde un día plazo y ahorro a plazo\n3,6%\n\n\nOtras captaciones hasta un año plazo\n3,6%\n\n\n\n\nMoneda Extranjera\n\n\n\nTipo de obligación\nTasa\n\n\n\n\nDepósitos y otras obligaciones a la vista\n9%\n\n\nDepósitos desde un día plazo y ahorro a plazo\n3,6%\n\n\nOtras captaciones hasta un año plazo\n3,6%\n\n\nObligaciones con el exterior hasta un año plazo\n3,6%\n\n\n\n\n\n\nVer actividad: clase02_actividad_02_dinero · Excel de apoyo: data/ejercicio 02 generacion dinero.xlsx"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#banco-central-de-chile",
+    "href": "clases/clase02_diapositiva.html#banco-central-de-chile",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Banco Central de Chile",
+    "text": "Banco Central de Chile\nEn Chile, el organismo encargado corresponde al Banco Central. Sus funciones son:\n\nVelar por la estabilidad de la moneda, a través del control de la inflación\nPromover la estabilidad y eficacia del sistema financiero, velando por la normalidad de los pagos internos y externos\n\nLa principal atribución para esto corresponde a la regulación de la cantidad de dinero en circulación y el crédito en la economía.\n\nMás información: bcentral.cl"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#banco-central-y-política-monetaria",
+    "href": "clases/clase02_diapositiva.html#banco-central-y-política-monetaria",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Banco Central y política monetaria",
+    "text": "Banco Central y política monetaria\nEn términos de política monetaria, es relevante definir los siguientes elementos:\n\nPolítica Monetaria: velar por la estabilidad de la moneda, lo que en la práctica se relaciona con el control de la inflación\nTasa de política monetaria (TPM): tasa orientada a cumplir la meta de inflación a dos años; en la práctica, es la tasa que determina el nivel de tasa de préstamos interbancarios diaria\nMeta inflacionaria: la meta para Chile corresponde a un 3% en un plazo de dos años\nFlotación cambiaria: el tipo de cambio nominal es determinado por el mercado, en la interacción entre oferta y demanda de divisas"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#inflación-y-autonomía",
+    "href": "clases/clase02_diapositiva.html#inflación-y-autonomía",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Inflación y autonomía",
+    "text": "Inflación y autonomía\n\nUno de los principios claves del Banco Central corresponde a su autonomía, que principalmente ha influido en la estabilización de la inflación. La autonomía, en términos simples, nos habla de la no influencia del gobierno en sus decisiones."
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#inflación-y-autonomía-1",
+    "href": "clases/clase02_diapositiva.html#inflación-y-autonomía-1",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Inflación y autonomía",
+    "text": "Inflación y autonomía\nLa historia inflacionaria de Chile muestra con claridad el efecto de este principio: desde un peak de más de 500% anual en los años 70, la inflación se estabilizó bajo el 10% desde mediados de los 90. El ciclo reciente confirma la capacidad de reacción del BCCh:\n\n\n\n\nAño\nIPC anual\nHito\n\n\n\n\n2021\n7,2%\nRetiros AFP + gasto fiscal pandemia\n\n\n2022\n~13,7%\nPeak: agosto 2022 llegó a ~14,1%\n\n\n2023\n3,9%\nCiclo de alza TPM (hasta 11,25%) surte efecto\n\n\n2024\n~4,5%\nConvergencia gradual\n\n\nFeb 2025\n~3,0%\nDe vuelta en la meta\n\n\n\n\n\nFuente: INE Chile / BCCh — gráfico cubre hasta 2023; ciclo 2021–2025 no incluido visualmente"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#reunión-de-política-monetaria",
+    "href": "clases/clase02_diapositiva.html#reunión-de-política-monetaria",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Reunión de política monetaria",
+    "text": "Reunión de política monetaria\nCorresponde a la instancia de decisión en que el Consejo del Banco Central decide los cambios en la TPM. Se realizan 8 reuniones al año. Cuatro de estas coinciden con el día hábil previo a la publicación del IPoM.\nSobre la divulgación: el consejo redacta un comunicado que se publica a las 18 horas del mismo día de la RPM y 11 días hábiles después se publica la Minuta de la reunión.\n\nVer calendario de RPM en bcentral.cl"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#regímenes-cambiarios",
+    "href": "clases/clase02_diapositiva.html#regímenes-cambiarios",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Regímenes cambiarios",
+    "text": "Regímenes cambiarios\nLos sistemas existentes van desde el tipo de cambio fijo hasta la flotación pura:\n\n\n\n\n\n\n\n\n\n\nCurrency board: organización gubernamental que controla el tipo de cambio fijo\nPeg + fixed: tipo de cambio fijo\nPeg + horizontal bands: tipo de cambio fijo con bandas\nCrawling peg: paridad móvil\nFloating managed: flotación con intervenciones\nFloating independent: determinado por el mercado"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#dilemas-de-política-económica-trinidad-imposible",
+    "href": "clases/clase02_diapositiva.html#dilemas-de-política-económica-trinidad-imposible",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Dilemas de política económica: trinidad imposible",
+    "text": "Dilemas de política económica: trinidad imposible\nUn país no puede mantener simultáneamente las tres siguientes condiciones:\n\n\n\n\n\n\n\n\n\nLibre movilidad de capitales\nTipo de cambio fijo\nPolítica monetaria autónoma\n\nSolo se pueden elegir dos de las tres."
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#dilemas-de-política-económica-trinidad-imposible-1",
+    "href": "clases/clase02_diapositiva.html#dilemas-de-política-económica-trinidad-imposible-1",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Dilemas de política económica: trinidad imposible",
+    "text": "Dilemas de política económica: trinidad imposible\n\n\n\nChina (2000–2015):\n\nTipo de cambio semi-fijo\nPolítica monetaria activa (BPC)\nControles de capital estrictos\n\nRenunció a la libre movilidad de capitales.\n\nChile (2000–hoy):\n\nMovilidad total de capitales\nPolítica monetaria autónoma (BCCh)\nTipo de cambio flexible\n\nRenunció al tipo de cambio fijo.\n\nArgentina (2019–2023):\n\nCepo cambiario (restricción de capitales)\nTipo de cambio oficial fijo\nPolítica monetaria activa (BCRA)\n\nRenunció a la libre movilidad de capitales"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#balanza-de-pagos",
+    "href": "clases/clase02_diapositiva.html#balanza-de-pagos",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Balanza de pagos",
+    "text": "Balanza de pagos\nEl régimen cambiario de un país determina cómo se ajusta el tipo de cambio ante desequilibrios externos. La balanza de pagos es el registro contable de esos flujos: su saldo es lo que genera la oferta y demanda de divisas que mueve el tipo de cambio en un régimen de flotación como el de Chile.\nSe define como el documento contable que registra de forma sistemática todas las transacciones que efectúan los residentes de un país y los residentes del extranjero durante un período determinado."
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#balanza-de-pagos-1",
+    "href": "clases/clase02_diapositiva.html#balanza-de-pagos-1",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Balanza de pagos",
+    "text": "Balanza de pagos\nCuenta corriente — operaciones relacionadas con la generación de renta corriente:\n\n\nBalanza comercial: operaciones de compraventa de bienes\nBalanza de servicios: operaciones de compraventa de servicios\nBalanza de rentas: pagos a los factores de producción (intereses, dividendos, salarios en el extranjero)\nBalanza de transferencias corrientes: transferencias sin contrapartida (remesas, donaciones)\n\n\nCuenta de capital: transferencias de capital y compraventa de activos no producidos (derechos de autor, marcas).\nCuenta financiera: operaciones que implican variación de activos o pasivos financieros (IDE, inversiones en cartera)."
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#gastos-e-impuestos",
+    "href": "clases/clase02_diapositiva.html#gastos-e-impuestos",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Gastos e impuestos",
+    "text": "Gastos e impuestos\nEn el caso del gobierno, tenemos la siguiente ecuación:\n\\[DF_t = G_t + i \\cdot B_t - T_t\\]\nDonde:\n\n\\(DF_t\\): déficit fiscal\n\\(G_t\\): gasto total de gobierno (gasto corriente en transferencias + gasto en capital/inversión)\n\\(T_t\\): ingresos, principalmente tributarios\n\\(B_t\\): deuda neta\n\nPregunta: ¿Qué otro tipo de ingreso tiene el Gobierno? Piense en EE.UU."
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#formación-bruta-de-capital-fijo",
+    "href": "clases/clase02_diapositiva.html#formación-bruta-de-capital-fijo",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Formación bruta de capital fijo",
+    "text": "Formación bruta de capital fijo\nDentro del gasto de gobierno (\\(G_t\\)), el componente de inversión pública se mide a través de la formación bruta de capital fijo — un indicador clave de la política fiscal de largo plazo.\n\nDefinición: comprende los gastos que adicionan bienes nuevos duraderos a las existencias de activos fijos, menos sus ventas netas de bienes similares de segunda mano y de desecho, efectuadas por las industrias, las administraciones públicas y los servicios privados no lucrativos.\n¿Qué mide? Construcción y otras obras, maquinaria y equipo. Excluye objetos valiosos, software de autoconsumo y obras literarias o artísticas.\nEn el caso de ser bruta, refiere al no descuento de la depreciación.\n\n\nVer IPoM más reciente en bcentral.cl"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#institucionalidad-asociada",
+    "href": "clases/clase02_diapositiva.html#institucionalidad-asociada",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Institucionalidad asociada",
+    "text": "Institucionalidad asociada\n\nMinisterio de Hacienda: gestionar eficientemente los recursos públicos a través de un Estado moderno, generando condiciones de estabilidad, transparencia y competitividad\nDIPRES (Dirección de Presupuestos): organismo técnico encargado de velar por la asignación y uso eficiente de los recursos públicos mediante la aplicación de sistemas de gestión financiera\nComité Consultivo del Precio de Referencia del Cobre: define el precio del cobre para los próximos 10 años\nComité Consultivo del PIB Tendencial: define el PIB tendencial\nConsejo Fiscal Autónomo (CFA): asesora al Ministerio de Hacienda en temas fiscales, revisa los cálculos y evalúa propuestas para modificación de reglas"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#balance-cíclicamente-ajustado",
+    "href": "clases/clase02_diapositiva.html#balance-cíclicamente-ajustado",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Balance cíclicamente ajustado",
+    "text": "Balance cíclicamente ajustado\nSe intenta generar un grado de credibilidad para la política fiscal, con la intención de evitar un gasto cíclico.\nEn particular:\n\nNo amplificar el ciclo económico\nEvitar el crecimiento irreversible del tamaño del Estado durante los auges\nCostos sociales y de eficiencia de cortar gastos públicos; por otro lado, mejora la coordinación con la política monetaria\nReduce presiones sobre el tipo de cambio al aminorar movimientos de las tasas de interés"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#en-qué-consiste-actualmente-el-bca",
+    "href": "clases/clase02_diapositiva.html#en-qué-consiste-actualmente-el-bca",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "¿En qué consiste actualmente el BCA?",
+    "text": "¿En qué consiste actualmente el BCA?\n\n\n“Esto significa que, cumpliendo esta regla, el balance efectivo será menor a 0% del PIB cuando las condiciones cíclicas sean desfavorables y superior a 0% del PIB cuando las condiciones cíclicas sean favorables al presupuesto fiscal.”\n\n¿Cómo se calcula?\n\n\n\n\n\n\nCálculo del BCA\n\n\n\n\nIngresos Cíclicamente Ajustados (Ajuste por PIB Tendencial, precio de referencia del cobre, etc.)\n\n\n(−) Gasto Público (Presupuesto)\n\n\nBalance Cíclicamente Ajustado (Meta Fiscal determinada por la autoridad)\n\n\n\n\n\nMás información en dipres.gob.cl"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#elementos-importantes",
+    "href": "clases/clase02_diapositiva.html#elementos-importantes",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Elementos importantes",
+    "text": "Elementos importantes\n\nDefinición de la meta: por parte del Gobierno\nDeterminación de parámetros estructurales: PIB Tendencial y precio del cobre de referencia en base a proyección de expertos independientes\nProyección de ingresos efectivos en base a variables macroeconómicas proyectadas — papel del Ministerio de Hacienda y la DIPRES\nDeterminación del nivel de gasto público por diferencia\n\n\nSe intenta evitar la influencia de los ciclos dentro del gasto de gobierno. Un factor relevante dentro de los ingresos fiscales son los impuestos, los que por lo general son procíclicos. Por lo tanto, dicha metodología intenta excluir el ciclo ya sea positivo o negativo, y con esto en años de mayor crecimiento los ingresos adicionales se ahorran y en años de menor crecimiento se recurre a dichos ahorros para no ajustar el gasto público."
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#volvamos-al-titular",
+    "href": "clases/clase02_diapositiva.html#volvamos-al-titular",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Volvamos al titular",
+    "text": "Volvamos al titular\n\n“El Banco Central baja la TPM: ¿por qué lo hace y qué pasa con el fisco?”\n\nAhora pueden leer esto con precisión:\n\n“Banco Central baja la TPM”: el Consejo del BCCh decide en la RPM reducir la tasa de política monetaria porque la inflación está convergiendo a la meta del 3% — la Regla de Taylor lo anticipa cuando \\(\\pi_t \\to \\pi_t^*\\) y \\(Y_t \\approx Y_t^*\\)\n“¿Por qué lo hace?”: según la ecuación de Fisher, una TPM más baja reduce \\(i\\), lo que abarata el crédito, estimula el consumo e inversión.\n“¿Qué pasa con el fisco?”: con tasas más bajas el costo de la deuda soberana (\\(i \\cdot B_t\\)) disminuye, lo que mejora el déficit fiscal (\\(DF_t = G_t + i \\cdot B_t - T_t\\)). El BCA evita que este alivio se traduzca en mayor gasto cíclico"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#lo-que-conecta-todo",
+    "href": "clases/clase02_diapositiva.html#lo-que-conecta-todo",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Lo que conecta todo",
+    "text": "Lo que conecta todo\nTPM baja  →  tasa nominal baja (Fisher: i = r + πᵉ)\n                    ↓\n      crédito más barato → consumo e inversión suben\n                    ↓\n         tipo de cambio se deprecia levemente\n                    ↓\n      costo de deuda soberana cae (i · Bₜ menor)\n                    ↓\n   BCA evita que el alivio fiscal amplifique el ciclo\n\nEl Banco Central y el fisco no operan en silos — sus decisiones se retroalimentan a través de la tasa de interés."
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#fechas-relevantes",
+    "href": "clases/clase02_diapositiva.html#fechas-relevantes",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Fechas relevantes",
+    "text": "Fechas relevantes\n\n\n\nActividad\nDetalle\n\n\n\n\nClase 1\nGeneración de grupos\n\n\nClase 2\nCaso formativo\n\n\nClase 3\n—\n\n\nClase 4\nCaso sumativo"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#fuentes-y-referencias",
+    "href": "clases/clase02_diapositiva.html#fuentes-y-referencias",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Fuentes y referencias",
+    "text": "Fuentes y referencias\n\nBanco Central de Chile. (2026). Informe de Política Monetaria. bcentral.cl\nDirección de Presupuestos. Balance Cíclicamente Ajustado. dipres.gob.cl\nTaylor, J. B. (1993). Discretion versus policy rules in practice. Carnegie-Rochester Conference Series on Public Policy, 39, 195–214."
+  },
+  {
+    "objectID": "clases/clase02_actividad_01_dolarizacion.html",
+    "href": "clases/clase02_actividad_01_dolarizacion.html",
+    "title": "Actividad — Dolarización y problemas de balance",
+    "section": "",
+    "text": "La dolarización y la depreciación de la moneda local no solo afectan el precio de los bienes importados — también impactan directamente el balance de las empresas que tienen deuda en dólares.\nEsta actividad ilustra ese efecto a través de un caso numérico simple."
+  },
+  {
+    "objectID": "clases/clase02_actividad_01_dolarizacion.html#contexto",
+    "href": "clases/clase02_actividad_01_dolarizacion.html#contexto",
+    "title": "Actividad — Dolarización y problemas de balance",
+    "section": "",
+    "text": "La dolarización y la depreciación de la moneda local no solo afectan el precio de los bienes importados — también impactan directamente el balance de las empresas que tienen deuda en dólares.\nEsta actividad ilustra ese efecto a través de un caso numérico simple."
+  },
+  {
+    "objectID": "clases/clase02_actividad_01_dolarizacion.html#enunciado",
+    "href": "clases/clase02_actividad_01_dolarizacion.html#enunciado",
+    "title": "Actividad — Dolarización y problemas de balance",
+    "section": "Enunciado",
+    "text": "Enunciado\nUna empresa chilena tiene el siguiente balance al 31 de diciembre de 2023, cuando el tipo de cambio es $850 por dólar:\n\n\n\n\n\n\n\n\n\nActivos\nMonto (CLP)\nPasivos y Patrimonio\nMonto (CLP)\n\n\n\n\nActivos operacionales\n$4.250.000\nDeuda en USD (USD 3.000)\n$2.550.000\n\n\nCaja (CLP)\n$500.000\nDeuda en CLP\n$1.200.000\n\n\n\n\nPatrimonio\n$1.000.000\n\n\nTotal Activos\n$4.750.000\nTotal Pasivos + Patrimonio\n$4.750.000\n\n\n\nA mediados de 2024, el tipo de cambio sube a $980 por dólar debido a un shock externo."
+  },
+  {
+    "objectID": "clases/clase02_actividad_01_dolarizacion.html#preguntas",
+    "href": "clases/clase02_actividad_01_dolarizacion.html#preguntas",
+    "title": "Actividad — Dolarización y problemas de balance",
+    "section": "Preguntas",
+    "text": "Preguntas\n1. Recalcula el valor en pesos de la deuda en dólares al nuevo tipo de cambio.\n2. ¿Cuál es el nuevo patrimonio de la empresa, asumiendo que los activos operacionales no cambian de valor en CLP?\n3. ¿Cuánto se depreció el peso (en porcentaje)?\n4. ¿Qué le ocurre al índice de endeudamiento (Pasivos / Patrimonio) con la depreciación?\n5. ¿Cómo cambia tu análisis si la empresa hubiera tenido sus activos también en dólares (por ejemplo, exporta y recibe ingresos en USD)?"
+  },
+  {
+    "objectID": "clases/clase02_actividad_01_dolarizacion.html#marco-conceptual",
+    "href": "clases/clase02_actividad_01_dolarizacion.html#marco-conceptual",
+    "title": "Actividad — Dolarización y problemas de balance",
+    "section": "Marco conceptual",
+    "text": "Marco conceptual\nLa deuda en moneda extranjera crea un descalce cambiario: los pasivos suben en pesos cuando el dólar se aprecia, pero los activos (si son en CLP) no se mueven.\n\\[\\text{Deuda}_{CLP} = \\text{Deuda}_{USD} \\times e\\]\nDonde \\(e\\) es el tipo de cambio (CLP/USD). Un aumento de \\(e\\) (depreciación) infla el pasivo sin cambiar el activo → el patrimonio cae."
+  },
+  {
+    "objectID": "clases/clase02_actividad_01_dolarizacion.html#referencia",
+    "href": "clases/clase02_actividad_01_dolarizacion.html#referencia",
+    "title": "Actividad — Dolarización y problemas de balance",
+    "section": "Referencia",
+    "text": "Referencia\nVer ejercicio complementario en Excel: data/ejercicio 01 Presupuesto.xlsx"
   },
   {
     "objectID": "clases/clase01_diapositiva.html#equipo-docente",
@@ -819,193 +1120,144 @@
     "text": "Referencias\nDocumentos oficiales utilizados:\n\nBanco Central de Chile. (2026, marzo). Informe de Política Monetaria (IPoM). Santiago: BCCh.\nConsejo Fiscal Autónomo. (2026, 4 de marzo). Informe sobre el desvío de la meta de Balance Estructural de 2025. Santiago: CFA. cfachile.cl\nConsejo Fiscal Autónomo. (2026, 26 de marzo). Informe de Balance Estructural y nivel prudente de deuda: estimaciones 2026–2030 del IFP del cuarto trimestre de 2025. Santiago: CFA. cfachile.cl\nDirección de Presupuestos (Dipres). (2026, febrero). Informe de Finanzas Públicas del cuarto trimestre de 2025 (IFP4T25). Santiago: Dipres. dipres.gob.cl\n\nVerificación:\n\nFastCheck.cl. (2026, 25 de marzo). Chile tiene un Estado en la quiebra: #Falso. fastcheck.cl\nEl Dínamo. (2026, 25 de marzo). Chile: el país con la mejor clasificación de riesgo de la región y el enredo del gobierno por la “quiebra”. eldinamo.cl\nBioBioChile. (2026, 25 de marzo). Qué significa que un Estado esté en quiebra y qué tiene que pasar para que esto ocurra. biobiochile.cl"
   },
   {
-    "objectID": "clases/clase01_notas_docente.html#pregunta-1-qué-mide-exactamente-este-indicador",
-    "href": "clases/clase01_notas_docente.html#pregunta-1-qué-mide-exactamente-este-indicador",
-    "title": "Notas al docente — Clase 01",
-    "section": "Pregunta 1: ¿Qué mide exactamente este indicador?",
-    "text": "Pregunta 1: ¿Qué mide exactamente este indicador?\nRespuesta esperada:\n\nEl CPI (Consumer Price Index) mide la variación mensual de precios de una canasta de bienes y servicios representativa del consumo de los hogares urbanos de EE.UU.\nLo elabora el Bureau of Labor Statistics (BLS) y se publica mensualmente.\nSus usos principales: ajuste de contratos, decisiones de política monetaria de la Fed, indexación de beneficios sociales.\n\nError común: Confundir el titular (“tripled”) con el nivel de inflación. El CPI no triplicó: fue el ritmo mensual el que fue inusualmente alto. Si se sostuviera ese ritmo, la inflación anual sería cercana al 11%, pero el dato anual sigue en 3,3%.\nCómo guiar la discusión: Preguntar “¿triplicó respecto a qué?” para que los estudiantes distingan entre variación mensual, variación anual y nivel del índice."
+    "objectID": "clases/clase01_plan_mejora.html#actividad-de-apertura-diagnóstico-de-titular-10-min",
+    "href": "clases/clase01_plan_mejora.html#actividad-de-apertura-diagnóstico-de-titular-10-min",
+    "title": "Plan de mejora — Clase 01",
+    "section": "Actividad de apertura — Diagnóstico de titular (10 min)",
+    "text": "Actividad de apertura — Diagnóstico de titular (10 min)\nMostrar un titular económico reciente de un diario de EE.UU. y preguntar:\n\n¿Qué indica este dato?\n¿A quién afecta y cómo?\n¿Qué necesitarías saber para interpretarlo bien?\n\nSirve para activar conocimiento previo y motivar el marco conceptual de la clase. Implementada en: clase01_actividad_01_apertura"
   },
   {
-    "objectID": "clases/clase01_notas_docente.html#pregunta-2-a-quién-afecta-y-cómo",
-    "href": "clases/clase01_notas_docente.html#pregunta-2-a-quién-afecta-y-cómo",
-    "title": "Notas al docente — Clase 01",
-    "section": "Pregunta 2: ¿A quién afecta y cómo?",
-    "text": "Pregunta 2: ¿A quién afecta y cómo?\nRespuestas esperadas por actor:\n\n\n\n\n\n\n\nActor\nImpacto esperado\n\n\n\n\nFamilia de ingresos medios en EE.UU.\nPérdida de poder adquisitivo, especialmente si depende del automóvil. El ingreso nominal puede no ajustarse a la misma velocidad que los precios.\n\n\nEmpresa chilena que importa en USD\nDoble presión: si el dólar se fortalece por la incertidumbre, sus costos suben tanto por precio como por tipo de cambio.\n\n\nFed (Banco Central de EE.UU.)\nPresión para mantener o elevar la tasa de política monetaria, aunque el shock es de oferta (energía), no de demanda. Dilema clásico: subir tasa frena inflación pero también frena actividad.\n\n\nExportador chileno de cobre\nSi el USD se fortalece, recibe más pesos por cada dólar exportado — efecto positivo en ingresos nominales en pesos.\n\n\n\nError común: Asumir que toda inflación perjudica a todos por igual. El docente puede destacar que la distribución del impacto depende de quién es deudor/acreedor, importador/exportador, y cuán indexados están sus ingresos.\nCómo guiar la discusión: Preguntar “¿quién gana con la inflación?” para romper la intuición de que siempre es un fenómeno universalmente negativo."
+    "objectID": "clases/clase01_plan_mejora.html#actividad-pib-cuenta-o-no-cuenta-15-min",
+    "href": "clases/clase01_plan_mejora.html#actividad-pib-cuenta-o-no-cuenta-15-min",
+    "title": "Plan de mejora — Clase 01",
+    "section": "Actividad PIB — ¿Cuenta o no cuenta? (15 min)",
+    "text": "Actividad PIB — ¿Cuenta o no cuenta? (15 min)\nPresentar una lista de situaciones y pedir clasificar si se incluyen o no en el PIB:\n\n\n\nSituación\n¿Cuenta en el PIB?\n\n\n\n\nUna madre cuida a sus hijos en casa\n\n\n\nUn taxista informal cobra en efectivo\n\n\n\nChile exporta cobre a China\n\n\n\nUn chileno trabaja en Argentina\n\n\n\nWhatsApp presta servicio gratuito\n\n\n\n\nConecta directamente con el debate del PIB y bienestar, y la pregunta de ChatGPT que ya está en la slide. Formato: parejas, 5 min de discusión + plenario."
   },
   {
-    "objectID": "clases/clase01_notas_docente.html#pregunta-3-qué-necesitarían-saber-para-interpretarlo-bien",
-    "href": "clases/clase01_notas_docente.html#pregunta-3-qué-necesitarían-saber-para-interpretarlo-bien",
-    "title": "Notas al docente — Clase 01",
-    "section": "Pregunta 3: ¿Qué necesitarían saber para interpretarlo bien?",
-    "text": "Pregunta 3: ¿Qué necesitarían saber para interpretarlo bien?\nRespuestas esperadas:\n¿Es igual 0,9% mensual que 0,9% anual?\nNo. El dato mensual hay que anualizarlo: \\((1{,}009)^{12} - 1 \\approx 11{,}4\\%\\) si se sostuviera. El dato anual acumulado es 3,3%, que refleja que los meses anteriores tuvieron inflación baja o negativa.\n¿Por qué importa la fuente del alza?\nLa energía es volátil y reversible si el conflicto se resuelve. La inflación “core” (que excluye energía y alimentos) es más persistente y más relevante para decisiones de política monetaria. Un shock de oferta energético no se combate igual que un exceso de demanda.\n¿Cómo se relaciona con el tipo de cambio?\nEl petróleo se transa en USD. Un conflicto en el Golfo Pérsico presiona el precio del crudo, lo que aumenta la demanda de USD para pagarlo, lo que puede apreciar el dólar frente a otras monedas, incluyendo el peso chileno.\nCierre sugerido: “Todo esto lo vamos a poder leer con precisión al terminar la clase de hoy.”"
+    "objectID": "clases/clase01_plan_mejora.html#actividad-imacec-lectura-de-datos-reales-10-min",
+    "href": "clases/clase01_plan_mejora.html#actividad-imacec-lectura-de-datos-reales-10-min",
+    "title": "Plan de mejora — Clase 01",
+    "section": "Actividad Imacec — Lectura de datos reales (10 min)",
+    "text": "Actividad Imacec — Lectura de datos reales (10 min)\nMostrar el gráfico del Imacec de los últimos 12 meses (Banco Central) y pedir:\n\nIdentificar el período de mayor caída y el de mayor crecimiento\nProponer una hipótesis de por qué ocurrió cada uno\nRelacionarlo con algún evento económico o político del período\n\nDesarrolla la habilidad de leer indicadores oficiales antes del ejercicio Excel."
   },
   {
-    "objectID": "clases/clase01_notas_docente.html#casos-que-generan-más-debate",
-    "href": "clases/clase01_notas_docente.html#casos-que-generan-más-debate",
-    "title": "Notas al docente — Clase 01",
-    "section": "Casos que generan más debate",
-    "text": "Casos que generan más debate\nCaso 4 — Taxista informal: El punto clave es separar definición de medición. El servicio debería contar pero no se registra. Preguntar: “¿El PIB oficial sobreestima o subestima la economía chilena?” → Subestima, porque la economía informal es grande.\nCaso 6 — Chileno en Argentina: Es el caso que mejor ilustra la diferencia PIB vs PNB. Preguntar primero si creen que cuenta, luego preguntar “¿y si fuera al revés, un argentino trabajando en Chile?” — el PIB de Chile sí lo capturaría.\nCaso 7 — WhatsApp: El más disruptivo conceptualmente. Preguntar: “¿WhatsApp crea valor?” — Sí, enorme. “¿El PIB lo captura?” — No, o casi nada. Esto abre la discusión sobre si el PIB mide bien el bienestar en la era digital."
+    "objectID": "clases/clase01_plan_mejora.html#actividad-mercado-laboral-clasifica-el-caso-15-min",
+    "href": "clases/clase01_plan_mejora.html#actividad-mercado-laboral-clasifica-el-caso-15-min",
+    "title": "Plan de mejora — Clase 01",
+    "section": "Actividad mercado laboral — Clasifica el caso (15 min)",
+    "text": "Actividad mercado laboral — Clasifica el caso (15 min)\nPresentar 6–8 perfiles de personas y pedir ubicarlos en el diagrama del INE (ocupado, desocupado, inactivo, etc.):\n\n“María tiene 17 años y estudia. Los fines de semana ayuda en el negocio familiar sin sueldo.”\n\n\n“Juan perdió su trabajo hace 3 meses. Ha buscado trabajo, pero dejó de buscar esta semana porque está desmotivado.”\n\n\n“Carla trabaja 2 horas a la semana como freelance y busca trabajo de jornada completa.”\n\nObliga a aplicar los criterios exactos del INE, donde más se confunden los estudiantes. Formato: individual + corrección en plenario."
   },
   {
-    "objectID": "clases/clase01_notas_docente.html#errores-frecuentes",
-    "href": "clases/clase01_notas_docente.html#errores-frecuentes",
-    "title": "Notas al docente — Clase 01",
-    "section": "Errores frecuentes",
-    "text": "Errores frecuentes\n\nDecir que la pensión “cuenta” porque el jubilado la gasta → confunden la transferencia con el gasto posterior. Aclarar: el gasto sí cuenta, la pensión en sí no.\nDecir que las remesas cuentan en el PIB chileno → confunden con el PNB o con el efecto sobre el consumo.\nEn el caso de las acciones, creer que “inversión” en sentido financiero = Inversión (I) del PIB. En cuentas nacionales, I es formación bruta de capital fijo (maquinaria, construcción), no activos financieros."
+    "objectID": "clases/clase01_plan_mejora.html#actividad-ipc-arma-tu-canasta-20-min",
+    "href": "clases/clase01_plan_mejora.html#actividad-ipc-arma-tu-canasta-20-min",
+    "title": "Plan de mejora — Clase 01",
+    "section": "Actividad IPC — Arma tu canasta (20 min)",
+    "text": "Actividad IPC — Arma tu canasta (20 min)\nAntes de entrar a la fórmula de Laspeyres, pedir a los estudiantes que:\n\nPropongan 5 bienes que consumen regularmente\nEstimen cuánto gastan en cada uno al mes\nCalculen qué pasaría con su “costo de vida” si el precio de cada bien sube 10%\n\nLuego mostrar la canasta oficial del INE y comparar ponderaciones. Funciona como motivación para la fórmula y como discusión sobre representatividad."
   },
   {
-    "objectID": "clases/clase01_notas_docente.html#pregunta-de-cierre-sugerida",
-    "href": "clases/clase01_notas_docente.html#pregunta-de-cierre-sugerida",
-    "title": "Notas al docente — Clase 01",
-    "section": "Pregunta de cierre sugerida",
-    "text": "Pregunta de cierre sugerida\nLuego del resumen, preguntar: “¿Qué indicador usarían ustedes para medir si un país está yendo bien?”\nDejar que propongan alternativas libremente antes de mencionar el IDH, el Índice de Bienestar de la OCDE o el PIB Verde. El objetivo es que entiendan que el PIB es una herramienta útil pero parcial."
+    "objectID": "clases/clase01_plan_mejora.html#actividad-tipo-de-cambio-importador-vs-exportador-15-min",
+    "href": "clases/clase01_plan_mejora.html#actividad-tipo-de-cambio-importador-vs-exportador-15-min",
+    "title": "Plan de mejora — Clase 01",
+    "section": "Actividad tipo de cambio — Importador vs exportador (15 min)",
+    "text": "Actividad tipo de cambio — Importador vs exportador (15 min)\nPresentar dos empresas ficticias (una importa insumos, otra exporta productos) y un escenario de depreciación del peso. Pedir:\n\n¿Cómo afecta a cada empresa en costos, ingresos y márgenes?\n¿Qué acciones podría tomar cada una?\n\nConecta el concepto nominal/real con decisiones empresariales concretas."
   },
   {
-    "objectID": "clases/clase01_notas_docente.html#números-clave-de-la-canasta",
-    "href": "clases/clase01_notas_docente.html#números-clave-de-la-canasta",
-    "title": "Notas al docente — Clase 01",
-    "section": "Números clave de la canasta",
-    "text": "Números clave de la canasta\n\n\n\n\n\n\n\n\n\n\n\n\n\nBien\n\\(q_0\\)\n\\(p_0\\)\n\\(p_1\\)\n\\(p_0 q_0\\)\n\\(p_1 q_0\\)\nPonderación\nContribución\n\n\n\n\nPan\n8 kg\n$1.000\n$1.000\n$8.000\n$8.000\n8%\n0,0 pp\n\n\nTransporte\n40 viajes\n$500\n$600\n$20.000\n$24.000\n20%\n4,0 pp\n\n\nBencina\n20 litros\n$1.000\n$1.500\n$20.000\n$30.000\n20%\n10,0 pp\n\n\nArriendo\n1 mes\n$40.000\n$44.000\n$40.000\n$44.000\n40%\n4,0 pp\n\n\nInternet\n1 plan\n$12.000\n$12.000\n$12.000\n$12.000\n12%\n0,0 pp\n\n\nTotal\n\n\n\n$100.000\n$118.000\n100%\n18,0 pp\n\n\n\nIPC = 118 — Inflación = 18%\nLa base es exactamente $100.000 para facilitar el cálculo en clase."
+    "objectID": "clases/clase01_plan_mejora.html#caso-integrador-de-cierre-lectura-de-coyuntura-20-min",
+    "href": "clases/clase01_plan_mejora.html#caso-integrador-de-cierre-lectura-de-coyuntura-20-min",
+    "title": "Plan de mejora — Clase 01",
+    "section": "Caso integrador de cierre — Lectura de coyuntura (20 min)",
+    "text": "Caso integrador de cierre — Lectura de coyuntura (20 min)\nEntregar un párrafo de un informe económico real (IPOM o similar) con datos de PIB, desempleo, IPC y tipo de cambio, y pedir construir un diagnóstico:\n\n¿En qué momento del ciclo está la economía?\n¿Qué variables están bajo presión?\n¿Qué decisión tomarías si fueras el CFO de una empresa chilena?\n\nEs la actividad que conecta todos los indicadores vistos en la clase en un uso aplicado."
   },
   {
-    "objectID": "clases/clase01_notas_docente.html#cómo-guiar-cada-paso",
-    "href": "clases/clase01_notas_docente.html#cómo-guiar-cada-paso",
-    "title": "Notas al docente — Clase 01",
-    "section": "Cómo guiar cada paso",
-    "text": "Cómo guiar cada paso\nPaso 1 (gasto base): Si algún grupo llega a un número distinto, revisar si sumaron correctamente. El total debe ser exactamente $100.000 — si no, hay un error aritmético que vale la pena corregir en plenario porque es oportunidad de aprendizaje.\nPaso 2 (gasto nuevo): Recordar que las cantidades no cambian — solo los precios. Este es el punto central de Laspeyres: medimos el costo de la misma vida a precios nuevos.\nPaso 3 (el índice): Como la base es $100.000, el índice es trivialmente 118.000/100.000 × 100 = 118. Si alguien lo calcula diferente, verificar que no hayan dividido al revés."
+    "objectID": "clases/clase02_actividad_02_dinero.html",
+    "href": "clases/clase02_actividad_02_dinero.html",
+    "title": "Actividad — Proceso de creación del dinero",
+    "section": "",
+    "text": "El dinero en una economía no lo crea solo el Banco Central — el sistema bancario lo multiplica a través del proceso depósito-crédito.\nBase monetaria — el dinero emitido por el Banco Central:\n\\[BM = EMP + RB\\]\nDonde \\(EMP\\) es el efectivo en manos del público y \\(RB\\) son las reservas bancarias.\nOferta monetaria — el dinero total en la economía:\n\\[M = EMP + D\\]\nDonde \\(D\\) son los depósitos bancarios.\nMultiplicador monetario:\n\\[\\text{Multiplicador} = \\frac{M}{BM} = \\frac{e + 1}{e + \\rho}\\]\nDonde \\(e = EMP/D\\) es la preferencia del público por efectivo y \\(\\rho = RB/D\\) es la tasa de encaje."
   },
   {
-    "objectID": "clases/clase01_notas_docente.html#la-discusión-más-importante-inflación-personal",
-    "href": "clases/clase01_notas_docente.html#la-discusión-más-importante-inflación-personal",
-    "title": "Notas al docente — Clase 01",
-    "section": "La discusión más importante: inflación personal",
-    "text": "La discusión más importante: inflación personal\nCuando lleguen a la parte de “tu inflación vs. la inflación oficial”, el objetivo es que caigan en cuenta de que no existe una inflación universal.\n\nUn estudiante que vive con sus padres y no maneja tiene inflación ~2% (solo transporte e internet subieron para él).\nUn trabajador que arrenda y maneja tiene inflación mucho mayor que 18%.\n\nPregunta que genera buena discusión: “¿A quién perjudica más una subida del 50% en la bencina: a alguien que gana $600.000 o a alguien que gana $2.000.000?” → No es solo el porcentaje, es el peso en el presupuesto."
+    "objectID": "clases/clase02_actividad_02_dinero.html#marco-conceptual",
+    "href": "clases/clase02_actividad_02_dinero.html#marco-conceptual",
+    "title": "Actividad — Proceso de creación del dinero",
+    "section": "",
+    "text": "El dinero en una economía no lo crea solo el Banco Central — el sistema bancario lo multiplica a través del proceso depósito-crédito.\nBase monetaria — el dinero emitido por el Banco Central:\n\\[BM = EMP + RB\\]\nDonde \\(EMP\\) es el efectivo en manos del público y \\(RB\\) son las reservas bancarias.\nOferta monetaria — el dinero total en la economía:\n\\[M = EMP + D\\]\nDonde \\(D\\) son los depósitos bancarios.\nMultiplicador monetario:\n\\[\\text{Multiplicador} = \\frac{M}{BM} = \\frac{e + 1}{e + \\rho}\\]\nDonde \\(e = EMP/D\\) es la preferencia del público por efectivo y \\(\\rho = RB/D\\) es la tasa de encaje."
   },
   {
-    "objectID": "clases/clase01_notas_docente.html#conexión-con-la-apertura",
-    "href": "clases/clase01_notas_docente.html#conexión-con-la-apertura",
-    "title": "Notas al docente — Clase 01",
-    "section": "Conexión con la apertura",
-    "text": "Conexión con la apertura\nLa bencina subiendo 50% y explicando 10 de los 18 puntos de inflación reproduce exactamente la lógica del titular de CNN: la gasolina (+21% mensual en EE.UU.) fue responsable de la mayor parte del CPI de marzo 2026. Señalarlo explícitamente cierra el círculo de la clase."
+    "objectID": "clases/clase02_actividad_02_dinero.html#enunciado",
+    "href": "clases/clase02_actividad_02_dinero.html#enunciado",
+    "title": "Actividad — Proceso de creación del dinero",
+    "section": "Enunciado",
+    "text": "Enunciado\nConsidere una economía con los siguientes parámetros:\n\nBase monetaria: \\(BM = 1.000\\)\nEl público mantiene la mitad del dinero como efectivo y la otra mitad como depósitos\nEl Banco Central fija una tasa de encaje del 30%"
   },
   {
-    "objectID": "clases/clase01_notas_docente.html#error-frecuente-laspeyres-sobreestima",
-    "href": "clases/clase01_notas_docente.html#error-frecuente-laspeyres-sobreestima",
-    "title": "Notas al docente — Clase 01",
-    "section": "Error frecuente: Laspeyres sobreestima",
-    "text": "Error frecuente: Laspeyres sobreestima\nSi hay tiempo, plantear: “¿Qué pasaría si la bencina sube 50% y ustedes dejan de manejar y usan transporte?” → El gasto real cae, pero Laspeyres sigue calculando como si compraran 20 litros. Por eso Laspeyres tiende a sobreestimar la inflación: no captura la sustitución.\nEse problema lo resuelve Paasche (usa \\(q_1\\)), pero requiere saber las cantidades del período nuevo, que se conocen con retraso."
+    "objectID": "clases/clase02_actividad_02_dinero.html#preguntas",
+    "href": "clases/clase02_actividad_02_dinero.html#preguntas",
+    "title": "Actividad — Proceso de creación del dinero",
+    "section": "Preguntas",
+    "text": "Preguntas\n1. Identifica los valores de \\(e\\) y \\(\\rho\\) a partir del enunciado.\n2. Calcula el multiplicador monetario.\n3. ¿Cuál es la oferta monetaria total \\(M\\)?\n4. Desglosa \\(M\\) en sus componentes: ¿cuánto es efectivo (\\(EMP\\)) y cuánto son depósitos (\\(D\\))?\n5. ¿Cuánto corresponde a reservas bancarias (\\(RB\\))?\n6. Si el Banco Central reduce la tasa de encaje al 20%, ¿cómo cambia el multiplicador y la oferta monetaria? ¿Qué implicancia tiene esto para la política monetaria?"
   },
   {
-    "objectID": "clases/clase01_notas_docente.html#pib-los-tres-métodos",
-    "href": "clases/clase01_notas_docente.html#pib-los-tres-métodos",
-    "title": "Notas al docente — Clase 01",
-    "section": "PIB: los tres métodos",
-    "text": "PIB: los tres métodos\nPunto clave a enfatizar: Los tres métodos (gasto, producción, ingreso) deben dar el mismo resultado — son tres “ventanas” al mismo fenómeno. En la práctica difieren por errores de medición.\nPregunta para activar: “Si Chile crece 3% en PIB real, ¿eso significa que todos los chilenos están 3% mejor?” → No: depende de distribución, inflación, demografía.\nError común: Confundir PIB nominal con crecimiento real. Si el PIB en pesos sube 8% pero la inflación es 5%, el crecimiento real es solo ~3%."
+    "objectID": "clases/clase02_actividad_02_dinero.html#solución-orientativa",
+    "href": "clases/clase02_actividad_02_dinero.html#solución-orientativa",
+    "title": "Actividad — Proceso de creación del dinero",
+    "section": "Solución orientativa",
+    "text": "Solución orientativa\nPaso 1 — Parámetros:\nEl público mantiene \\(EMP = 0{,}5M\\) y \\(D = 0{,}5M\\), por lo tanto:\n\\[e = \\frac{EMP}{D} = \\frac{0{,}5M}{0{,}5M} = 1 \\qquad \\rho = 0{,}3\\]\nPaso 2 — Multiplicador:\n\\[\\text{Multiplicador} = \\frac{e + 1}{e + \\rho} = \\frac{1 + 1}{1 + 0{,}3} = \\frac{2}{1{,}3} = \\frac{20}{13} \\approx 1{,}54\\]\nPaso 3 — Oferta monetaria:\n\\[M = \\frac{20}{13} \\times 1.000 \\approx 1.538{,}5\\]\nPaso 4 — Desglose:\n\\[EMP = D = \\frac{1.000}{13} \\approx 769{,}2 \\qquad RB = 0{,}3 \\times 769{,}2 \\approx 230{,}8\\]\nVerificación: \\(BM = EMP + RB = 769{,}2 + 230{,}8 = 1.000\\) ✓"
   },
   {
-    "objectID": "clases/clase01_notas_docente.html#imacec",
-    "href": "clases/clase01_notas_docente.html#imacec",
-    "title": "Notas al docente — Clase 01",
-    "section": "Imacec",
-    "text": "Imacec\nPor qué existe: El PIB trimestral tiene desfase de meses. El Imacec permite leer la economía casi en tiempo real (se publica con ~30 días de retraso).\nDato útil para la clase: El Imacec cae fuertemente en períodos de crisis (estallido social 2019, pandemia 2020) y eso es visible en el gráfico. Pedir a los estudiantes que identifiquen esos eventos antes de nombrarlos."
+    "objectID": "clases/clase02_actividad_02_dinero.html#para-reflexionar",
+    "href": "clases/clase02_actividad_02_dinero.html#para-reflexionar",
+    "title": "Actividad — Proceso de creación del dinero",
+    "section": "Para reflexionar",
+    "text": "Para reflexionar\n\nEl multiplicador es mayor que 1 porque los bancos prestan parte de los depósitos, que vuelven al sistema como nuevos depósitos.\nUna mayor tasa de encaje (\\(\\rho\\) sube) → multiplicador cae → menos dinero en circulación.\nUna mayor preferencia por efectivo (\\(e\\) sube) → multiplicador cae → el proceso de creación de dinero bancario se frena."
   },
   {
-    "objectID": "clases/clase01_notas_docente.html#pib-per-cápita-y-bienestar",
-    "href": "clases/clase01_notas_docente.html#pib-per-cápita-y-bienestar",
-    "title": "Notas al docente — Clase 01",
-    "section": "PIB per cápita y bienestar",
-    "text": "PIB per cápita y bienestar\nLimitación central a enfatizar: El PIB per cápita es un promedio. Si el 10% más rico concentra el 60% del ingreso, el promedio no refleja la situación del hogar típico.\nCaso para ilustrar: Qatar tiene PIB per cápita muy alto pero con enorme desigualdad entre nacionales y trabajadores migrantes. El promedio oculta estructuras muy distintas."
+    "objectID": "clases/clase02_actividad_02_dinero.html#referencia",
+    "href": "clases/clase02_actividad_02_dinero.html#referencia",
+    "title": "Actividad — Proceso de creación del dinero",
+    "section": "Referencia",
+    "text": "Referencia\nVer ejercicio complementario en Excel: data/ejercicio 02 generacion dinero.xlsx"
   },
   {
-    "objectID": "clases/clase01_notas_docente.html#clasificación-de-la-población",
-    "href": "clases/clase01_notas_docente.html#clasificación-de-la-población",
-    "title": "Notas al docente — Clase 01",
-    "section": "Clasificación de la población",
-    "text": "Clasificación de la población\nError más frecuente: Clasificar como “desocupado” a alguien que no trabaja pero tampoco está buscando → es inactivo, no desocupado. La búsqueda activa en las últimas 4 semanas es criterio definitorio.\nCaso que genera más debate: El trabajador desalentado — alguien que quiere trabajar pero dejó de buscar porque cree que no encontrará. El INE lo clasifica como inactivo, lo que subestima el desempleo real.\nPregunta para discutir: “¿La tasa de desempleo oficial refleja bien la situación laboral del país?” → Puede complementarse con la tasa de desempleo ampliada o la tasa de ocupación."
+    "objectID": "clases/clase02_lectura_01_dolarizacion.html",
+    "href": "clases/clase02_lectura_01_dolarizacion.html",
+    "title": "Dolarización",
+    "section": "",
+    "text": "La dolarización corresponde a la aceptación del dólar como moneda, sustituyéndola por la moneda local.\nPuede ser:\n\nFormal: Ecuador, Panamá y El Salvador\nInformal: Venezuela y Argentina\n\nLa principal razón para esto corresponde a la pérdida de confianza en la moneda local, que se refleja en una constante pérdida de valor de la moneda local."
   },
   {
-    "objectID": "clases/clase01_notas_docente.html#ley-de-okun",
-    "href": "clases/clase01_notas_docente.html#ley-de-okun",
-    "title": "Notas al docente — Clase 01",
-    "section": "Ley de Okun",
-    "text": "Ley de Okun\nIntuición práctica: Si el PIB crece por encima de su tasa potencial (~3% en Chile), el desempleo cae. Si crece por debajo, sube. La relación no es perfecta — depende de la fuente del crecimiento.\nCaso para ilustrar: Un crecimiento impulsado por exportaciones mineras genera poco empleo directo (capital-intensivo). Un crecimiento por consumo interno genera más empleo en servicios."
+    "objectID": "clases/clase02_lectura_01_dolarizacion.html#dolarización-en-américa-latina",
+    "href": "clases/clase02_lectura_01_dolarizacion.html#dolarización-en-américa-latina",
+    "title": "Dolarización",
+    "section": "",
+    "text": "La dolarización corresponde a la aceptación del dólar como moneda, sustituyéndola por la moneda local.\nPuede ser:\n\nFormal: Ecuador, Panamá y El Salvador\nInformal: Venezuela y Argentina\n\nLa principal razón para esto corresponde a la pérdida de confianza en la moneda local, que se refleja en una constante pérdida de valor de la moneda local."
   },
   {
-    "objectID": "clases/clase01_notas_docente.html#plusvalía-marxista",
-    "href": "clases/clase01_notas_docente.html#plusvalía-marxista",
-    "title": "Notas al docente — Clase 01",
-    "section": "Plusvalía marxista",
-    "text": "Plusvalía marxista\nPor qué está en el programa: No como postura ideológica, sino como marco analítico para entender la distribución entre capital y trabajo — relevante en debates sobre salario mínimo, productividad y desigualdad.\nCómo abordarlo en clase: Presentarlo como una herramienta de análisis, no como una conclusión normativa. Preguntar: “¿En qué sectores esperarían una tasa de plusvalía alta? ¿Por qué?”\nConexión con datos actuales: El ratio de participación laboral en el PIB (wage share) ha caído en muchos países en las últimas décadas — dato empírico que abre la discusión."
+    "objectID": "clases/clase02_lectura_01_dolarizacion.html#ventajas-y-desventajas",
+    "href": "clases/clase02_lectura_01_dolarizacion.html#ventajas-y-desventajas",
+    "title": "Dolarización",
+    "section": "Ventajas y desventajas",
+    "text": "Ventajas y desventajas\n\n\n\n\n\n\n\n\n\nVentajas\nDesventajas\n\n\n\n\nTipo de cambio\nEvita la depreciación de la moneda y posibles salidas de capitales; menos riesgo puede implicar menor tasa de endeudamiento\nPérdida de soberanía sobre la moneda: imposible ajustar el tipo de cambio\n\n\nMercados\nFacilita el acceso a los mercados globales al trabajar con una moneda de interés mundial\nImposibilidad de controlar la cantidad de dinero físico en circulación: se pierde el derecho de señoreaje — ya no puede financiar gasto público imprimiendo dinero\n\n\nEstabilidad\nSegún Glower (2011), el dólar es visto como la panacea del subdesarrollo; manera de evitar la inestabilidad monetaria\nSegún Glower (2011), se debe dar liquidez al mercado, lo que obliga a la compra de la divisa"
   },
   {
-    "objectID": "clases/clase01_notas_docente.html#nominal-vs.-real",
-    "href": "clases/clase01_notas_docente.html#nominal-vs.-real",
-    "title": "Notas al docente — Clase 01",
-    "section": "Nominal vs. real",
-    "text": "Nominal vs. real\nLa pregunta más importante de este bloque: “¿El PIB creció porque se produjo más o porque los precios subieron?” → Esa es exactamente la distinción entre PIB nominal y real.\nEjercicio mental: Si una empresa vende las mismas unidades que el año pasado pero a precios 10% más altos, ¿creció? En términos nominales sí; en términos reales, no."
+    "objectID": "clases/clase02_lectura_01_dolarizacion.html#dolarización-tipo-de-cambio-y-problemas-de-balance",
+    "href": "clases/clase02_lectura_01_dolarizacion.html#dolarización-tipo-de-cambio-y-problemas-de-balance",
+    "title": "Dolarización",
+    "section": "Dolarización, tipo de cambio y problemas de balance",
+    "text": "Dolarización, tipo de cambio y problemas de balance\nSe debe considerar que por lo general la dolarización ocurre después de una gran pérdida del valor de la moneda. A la vez, esto ocurre después de que durante algún tiempo ya se estuvo viviendo una dolarización informal en la economía. Por lo general la población sale desfavorecida con el cambio.\nLa influencia del tipo de cambio va más allá de la relación entre exportaciones e importaciones. Por lo general, existe deuda que está en dólares, por lo tanto, en un contexto de depreciación de la moneda local dichos actores se ven perjudicados por un aumento de la deuda a través del tipo de cambio.\n\nVer ejercicio en Excel: data/ejercicio 01 Presupuesto.xlsx"
   },
   {
-    "objectID": "clases/clase01_notas_docente.html#laspeyres-vs.-paasche",
-    "href": "clases/clase01_notas_docente.html#laspeyres-vs.-paasche",
-    "title": "Notas al docente — Clase 01",
-    "section": "Laspeyres vs. Paasche",
-    "text": "Laspeyres vs. Paasche\nDiferencia práctica:\n\nLaspeyres (IPC): canasta fija del año base → tiende a sobrestimar la inflación porque no captura que los consumidores sustituyen bienes caros por más baratos.\nPaasche (Deflactor): canasta actualizada → tiende a subestimar la inflación por el efecto opuesto.\nÍndice de Fisher: promedio geométrico de ambos — más preciso pero más costoso de calcular.\n\nCómo explicarlo sin fórmulas primero: “Si el precio del salmón sube mucho, ¿sigues comprando la misma cantidad? Laspeyres asume que sí. Paasche asume que cambias a merluza.”"
+    "objectID": "clases/clase02_lectura_01_dolarizacion.html#caso-comparado-banco-nacional-de-panamá",
+    "href": "clases/clase02_lectura_01_dolarizacion.html#caso-comparado-banco-nacional-de-panamá",
+    "title": "Dolarización",
+    "section": "Caso comparado: Banco Nacional de Panamá",
+    "text": "Caso comparado: Banco Nacional de Panamá\nCorresponde a la entidad bancaria oficial de Panamá, pero solo realiza algunas funciones de banco central debido a que no puede emitir billetes (la moneda de curso legal es el dólar), a pesar de que la moneda oficial es el balboa, que solo se usa para fines contables.\n\nBanco estatal: agente financiero del Estado y depositario de los fondos de la Nación\nBanco regulador: manejo de cámara de compensación del Sistema Bancario Nacional\nBanco privado: mayor presencia a lo largo y ancho del país, con servicios tanto al segmento comercial como de consumo"
   },
   {
-    "objectID": "clases/clase01_notas_docente.html#salario-real",
-    "href": "clases/clase01_notas_docente.html#salario-real",
-    "title": "Notas al docente — Clase 01",
-    "section": "Salario real",
-    "text": "Salario real\nDato para contextualizar: En períodos de alta inflación (Chile 2022: ~13% IPC anual), el salario real cae aunque el salario nominal suba, si el alza nominal es menor que la inflación.\nPregunta para discutir: “¿Prefieren un aumento de sueldo de 8% con inflación de 10%, o mantener el sueldo con inflación de 0%?” → Introduce la distinción sin ecuaciones."
-  },
-  {
-    "objectID": "clases/clase01_notas_docente.html#tipo-de-cambio-real",
-    "href": "clases/clase01_notas_docente.html#tipo-de-cambio-real",
-    "title": "Notas al docente — Clase 01",
-    "section": "Tipo de cambio real",
-    "text": "Tipo de cambio real\nIntuición: El tipo de cambio nominal dice cuántos pesos cuesta un dólar. El real dice cuántos bienes chilenos equivalen a un bien norteamericano. Si Chile tiene más inflación que EE.UU. y el nominal no se mueve, el peso se aprecia en términos reales — los productos chilenos se encarecen para el mundo.\nAplicación directa: Cuando el TCR se aprecia mucho, las exportaciones pierden competitividad. Cuando se deprecia, las importaciones se encarecen. El Banco Central monitorea esto para orientar política cambiaria."
-  },
-  {
-    "objectID": "clases/clase01_notas_docente.html#respuestas-esperadas-por-bloque",
-    "href": "clases/clase01_notas_docente.html#respuestas-esperadas-por-bloque",
-    "title": "Notas al docente — Clase 01",
-    "section": "Respuestas esperadas por bloque",
-    "text": "Respuestas esperadas por bloque\nBloque 1 — Actividad, precios y empleo:\nLa señal es mixta pero no de alarma. El PIB crece moderadamente (2,5% en 2025), la inflación está bajo la meta (2,4% en febrero), pero hay un shock externo en curso por la guerra en Medio Oriente que presionará los precios al alza en Q2 2026. Este bloque no apoya la tesis de quiebra — es una economía funcionando con ruido externo.\nBloque 2 — Situación fiscal:\nEste es el bloque más preocupante. Los puntos clave que los estudiantes deben identificar: - El déficit estructural de 3,6% del PIB es el más alto desde la pandemia, sin eventos extraordinarios que lo justifiquen - Los activos del Tesoro cayendo de US$2.946M a US$46M en un año es la señal más concreta de estrés: el Estado está “gastando sus ahorros” para cerrar el año - El gasto en intereses casi se duplicó desde 2015: una proporción creciente del presupuesto se destina a pagar deuda, no a bienes y servicios públicos\nError común: confundir “deuda bajo el nivel prudente” con “situación fiscal sana”. El CFA explica explícitamente que la deuda se mantuvo estable no por consolidación fiscal, sino por el tipo de cambio y el PIB nominal — factores transitorios.\nBloque 3 — Riesgo soberano:\nLa señal es tranquilizadora en el corto plazo (mercados no castigan a Chile), pero la trayectoria genera preocupación. La comparación clave: los países con clasificación similar aumentaron su deuda 8,5 pp en 17 años; Chile la aumentó 37,7 pp. Los mercados aún confían, pero el CFA advierte que ese margen se reduce."
-  },
-  {
-    "objectID": "clases/clase01_notas_docente.html#la-integración-la-distinción-central",
-    "href": "clases/clase01_notas_docente.html#la-integración-la-distinción-central",
-    "title": "Notas al docente — Clase 01",
-    "section": "La integración: la distinción central",
-    "text": "La integración: la distinción central\nEl objetivo pedagógico más importante de esta actividad es que los estudiantes distingan:\n\n\n\n\n\n\n\n\nConcepto\nDefinición técnica\n¿Aplica a Chile?\n\n\n\n\nDefault / quiebra\nEl Estado no puede pagar su deuda\nNo\n\n\nEstrés fiscal\nDéficits persistentes, regla incumplida, activos agotados\nSí\n\n\nRiesgo soberano\nProbabilidad de incumplimiento percibida por mercados\nBajo\n\n\n\nLa afirmación “Chile está en quiebra” es técnicamente falsa. Pero ignorar el estrés fiscal porque “no es quiebra” también es un error: el CFA proyecta 50% de probabilidad de superar el nivel prudente de deuda hacia 2027."
-  },
-  {
-    "objectID": "clases/clase01_notas_docente.html#cómo-guiar-la-pregunta-de-los-asesores",
-    "href": "clases/clase01_notas_docente.html#cómo-guiar-la-pregunta-de-los-asesores",
-    "title": "Notas al docente — Clase 01",
-    "section": "Cómo guiar la pregunta de los asesores",
-    "text": "Cómo guiar la pregunta de los asesores\nEn la pregunta de integración sobre qué harían como asesores, las respuestas más interesantes para discutir en plenario son:\n\nCorto plazo: reducir el gasto corriente (pero ¿qué recortar sin afectar servicios esenciales?); mejorar la recaudación tributaria\nLargo plazo: recomponer los fondos soberanos (FEES, FRP); fortalecer la regla fiscal con mecanismos de corrección más rápidos; reducir la sobreestimación sistemática de ingresos\n\nPregunta de cierre útil: “Si los mercados no castigan a Chile todavía, ¿por qué urgirles actuar ahora?” → Porque el ajuste es más costoso cuando te fuerzan los mercados que cuando lo haces de manera preventiva."
-  },
-  {
-    "objectID": "clases/clase01_notas_docente.html#ejercicio-01-pib",
-    "href": "clases/clase01_notas_docente.html#ejercicio-01-pib",
-    "title": "Notas al docente — Clase 01",
-    "section": "Ejercicio 01: PIB",
-    "text": "Ejercicio 01: PIB\nObjetivo: Calcular PIB nominal, deflactor y PIB real a partir de datos de producción y precios.\nError frecuente: Usar el deflactor multiplicando en vez de dividiendo. Recordar: \\(PIB_{real} = PIB_{nominal} / Deflactor \\times 100\\).\nVariante para discutir: Mostrar cómo un mismo conjunto de datos da crecimiento distinto según el año base que se elija."
-  },
-  {
-    "objectID": "clases/clase01_notas_docente.html#ejercicio-02-ipc",
-    "href": "clases/clase01_notas_docente.html#ejercicio-02-ipc",
-    "title": "Notas al docente — Clase 01",
-    "section": "Ejercicio 02: IPC",
-    "text": "Ejercicio 02: IPC\nObjetivo: Construir un índice de precios desde cero usando la fórmula de Laspeyres.\nError frecuente: Confundir el índice con la tasa de inflación. El índice es el nivel; la inflación es la variación porcentual entre dos períodos del índice.\nExtensión opcional: Calcular la inflación acumulada en un período de varios años y comparar con la variación del salario nominal para llegar al salario real (precursor del ejercicio 03)."
-  },
-  {
-    "objectID": "clases/clase01_notas_docente.html#ejercicio-03-salario",
-    "href": "clases/clase01_notas_docente.html#ejercicio-03-salario",
-    "title": "Notas al docente — Clase 01",
-    "section": "Ejercicio 03: Salario",
-    "text": "Ejercicio 03: Salario\nObjetivo: Calcular salario real deflactando el salario nominal por el IPC.\nPunto clave: El salario real no depende del nivel del IPC sino de su variación relativa. Si el IPC sube más que el salario nominal, el salario real cae aunque ambos suban en términos absolutos.\nPregunta de cierre: “¿En qué año de los datos el trabajador estuvo mejor? ¿Cómo lo saben?”"
+    "objectID": "clases/clase02_lectura_01_dolarizacion.html#referencia",
+    "href": "clases/clase02_lectura_01_dolarizacion.html#referencia",
+    "title": "Dolarización",
+    "section": "Referencia",
+    "text": "Referencia\n\nGlower, C. (2011). Dolarización: ventajas y desventajas."
   },
   {
     "objectID": "clases/index.html",
