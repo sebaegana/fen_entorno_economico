@@ -1,9 +1,15 @@
 cases/
-clases/
+/clases/
 website/cases/
 website/docs/cases/
 website/clases/*_notas_docente.qmd
 website/clases/*_pauta.qmd
+website/clases/*_plan_mejora.qmd
+website/clases/materiales/
+website/docs/clases/*_notas_docente.*
+website/docs/clases/*_pauta.*
+website/docs/clases/*_plan_mejora.*
+website/docs/clases/materiales/
 _pptx_temp/
 
 /.quarto/
