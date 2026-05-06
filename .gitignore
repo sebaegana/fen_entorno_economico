@@ -2,6 +2,8 @@ cases/
 clases/
 website/cases/
 website/docs/cases/
+website/clases/*_notas_docente.qmd
+website/clases/*_pauta.qmd
 _pptx_temp/
 
 /.quarto/
