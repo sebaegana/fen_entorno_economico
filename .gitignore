@@ -10,6 +10,7 @@ website/docs/clases/*_notas_docente.*
 website/docs/clases/*_pauta.*
 website/docs/clases/*_plan_mejora.*
 website/docs/clases/materiales/
+website/contexto_sesion_*.md
 _pptx_temp/
 
 /.quarto/
