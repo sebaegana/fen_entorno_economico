@@ -399,158 +399,88 @@
     "text": "Fuentes y referencias\n\nBanco Central de Chile. (2026, marzo). Informe de Política Monetaria. bcentral.cl\nCFA. (2026, 4 mar.). Informe sobre el desvío de la meta de Balance Estructural de 2025. cfachile.cl\nCFA. (2026, 26 mar.). Informe de Balance Estructural y nivel prudente de deuda, 4T25. cfachile.cl\nCNN Business. (2026, 10 abr.). CPI report: US inflation tripled last month on record spike in gas prices.\nINE Chile. Índice de Precios al Consumidor. ine.cl\nClark, A. & Oswald, A. (2002). A simple statistical method for measuring how life events affect happiness. International Journal of Epidemiology, 31(6), 1139–1144.\nCore Econ. The Economy. core-econ.org"
   },
   {
-    "objectID": "clases/clase01_actividad_03_ipc.html#objetivo",
-    "href": "clases/clase01_actividad_03_ipc.html#objetivo",
-    "title": "Actividad IPC — Clase 01",
-    "section": "Objetivo",
-    "text": "Objetivo\nEl IPC no es magia estadística — es una suma ponderada de variaciones de precios.\nEn esta actividad vamos a construirlo desde cero:\n\nArmar una canasta de bienes\nRegistrar los precios en dos momentos\nCalcular el índice\nInterpretar quién empujó más la inflación"
+    "objectID": "clases/clase01_actividad_04_coyuntura.html#la-afirmación",
+    "href": "clases/clase01_actividad_04_coyuntura.html#la-afirmación",
+    "title": "Actividad de coyuntura — Clase 01",
+    "section": "La afirmación",
+    "text": "La afirmación\n\n“Chile tiene un Estado en la quiebra”\n\n\n— Afirmación circulada en el debate político chileno, marzo 2026\n\nEsta afirmación fue evaluada por FastCheck.cl como #Falso.\nPero, ¿qué dicen los datos? ¿Y qué significa técnicamente que un Estado “quiebre”?"
   },
   {
-    "objectID": "clases/clase01_actividad_03_ipc.html#instrucciones",
-    "href": "clases/clase01_actividad_03_ipc.html#instrucciones",
-    "title": "Actividad IPC — Clase 01",
+    "objectID": "clases/clase01_actividad_04_coyuntura.html#objetivo-de-la-actividad",
+    "href": "clases/clase01_actividad_04_coyuntura.html#objetivo-de-la-actividad",
+    "title": "Actividad de coyuntura — Clase 01",
+    "section": "Objetivo de la actividad",
+    "text": "Objetivo de la actividad\nUsar indicadores económicos reales para responder, con evidencia, si Chile está o no en una situación de quiebra — y si esa es la pregunta correcta.\nDatos: Informes oficiales del Banco Central de Chile y el Consejo Fiscal Autónomo, marzo 2026.\nTiempo: ~25 minutos en grupos de 3 personas."
+  },
+  {
+    "objectID": "clases/clase01_actividad_04_coyuntura.html#instrucciones",
+    "href": "clases/clase01_actividad_04_coyuntura.html#instrucciones",
+    "title": "Actividad de coyuntura — Clase 01",
     "section": "Instrucciones",
-    "text": "Instrucciones\nLa actividad tiene tres partes:\n\n\n\nParte\nQué hacen\nTiempo\n\n\n\n\n1\nArman su canasta personal\n3 min\n\n\n2\nCalculan el IPC con la canasta del curso\n10 min\n\n\n3\nInterpretan y comparan\n5 min\n\n\n\nNecesitan papel y calculadora (o el teléfono)."
+    "text": "Instrucciones\nLa actividad tiene tres bloques de indicadores:\n\n\n\nBloque\nQué mide\nFuente\n\n\n\n\n1\nActividad, precios y empleo\nIPoM, Banco Central\n\n\n2\nSituación fiscal\nCFA, Dipres\n\n\n3\nRiesgo soberano\nFitch, CDS, CFA\n\n\n\nPara cada bloque:\n\nLean los datos\nDiscutan qué señal dan: ¿alarma, preocupación o tranquilidad?\nAnoten su diagnóstico parcial\n\nAl final integrarán los tres bloques para responder la pregunta central."
   },
   {
-    "objectID": "clases/clase01_actividad_03_ipc.html#en-qué-gastan-su-sueldo",
-    "href": "clases/clase01_actividad_03_ipc.html#en-qué-gastan-su-sueldo",
-    "title": "Actividad IPC — Clase 01",
-    "section": "¿En qué gastan su sueldo?",
-    "text": "¿En qué gastan su sueldo?\nPiensen en un mes típico. Escriban 5 bienes o servicios en los que gastan dinero regularmente y estimen cuánto destinan a cada uno.\n\n\n\n\nBien o servicio\nGasto mensual estimado ($)\n\n\n\n\n1.\n\n\n\n2.\n\n\n\n3.\n\n\n\n4.\n\n\n\n5.\n\n\n\nTotal\n\n\n\n\n\nGuarden estos números — los vamos a usar al final."
+    "objectID": "clases/clase01_actividad_04_coyuntura.html#los-datos",
+    "href": "clases/clase01_actividad_04_coyuntura.html#los-datos",
+    "title": "Actividad de coyuntura — Clase 01",
+    "section": "Los datos",
+    "text": "Los datos\n\n\n\n\n\n\n\n\n\nIndicador\nDato\nReferencia\n\n\n\n\nCrecimiento PIB 2025\n+2,5% real anual\nIPoM mar. 2026, p. 4\n\n\nProyección PIB 2026\n1,5–2,5% (bajado desde 2–3%)\nIPoM mar. 2026, Tabla resumen\n\n\nInflación feb. 2026\n2,4% anual (bajo la meta de 3%)\nIPoM mar. 2026, p. 4\n\n\nInflación proyectada Q2 2026\n~4% por alza de combustibles\nIPoM mar. 2026, p. 5\n\n\nTasa de desocupación\nEstable, sin cambios relevantes\nIPoM mar. 2026, p. 5\n\n\nPrecio del cobre\nUS$5,4/lb promedio 2026 (sobre lo previsto)\nIPoM mar. 2026, Tabla 2\n\n\nPrecio del petróleo\n~US$100/barril en Q2 (+60% vs. diciembre)\nIPoM mar. 2026, p. 5\n\n\n\n\n\nEl shock externo dominante en este período es la guerra en Medio Oriente iniciada el 28 de febrero de 2026, que elevó el petróleo y presionó la inflación local."
   },
   {
-    "objectID": "clases/clase01_actividad_03_ipc.html#todos-tienen-la-misma-canasta",
-    "href": "clases/clase01_actividad_03_ipc.html#todos-tienen-la-misma-canasta",
-    "title": "Actividad IPC — Clase 01",
-    "section": "¿Todos tienen la misma canasta?",
-    "text": "¿Todos tienen la misma canasta?\nAntes de seguir, discutan brevemente:\n\n¿Qué bien apareció en más canastas?\n¿Qué bien no apareció en casi ninguna?\n¿Gastan todos el mismo porcentaje en arriendo? ¿En transporte?\n\n\nEsto es exactamente el problema que enfrenta el INE al construir el IPC oficial: una sola canasta debe representar a millones de hogares con patrones de consumo distintos."
+    "objectID": "clases/clase01_actividad_04_coyuntura.html#pregunta-del-bloque-1",
+    "href": "clases/clase01_actividad_04_coyuntura.html#pregunta-del-bloque-1",
+    "title": "Actividad de coyuntura — Clase 01",
+    "section": "Pregunta del bloque 1",
+    "text": "Pregunta del bloque 1\n\nCon estos indicadores, ¿diría que Chile está creciendo o en recesión? ¿La inflación es un problema estructural o un shock externo?\n\nDiscutan en el grupo y registren:\n\nSeñal de actividad: tranquilizadora / preocupante / de alarma\nSeñal de precios: tranquilizadora / preocupante / de alarma\n¿Esto apoya la tesis de “quiebra”? Sí / No / Depende"
   },
   {
-    "objectID": "clases/clase01_actividad_03_ipc.html#la-canasta-del-curso",
-    "href": "clases/clase01_actividad_03_ipc.html#la-canasta-del-curso",
-    "title": "Actividad IPC — Clase 01",
-    "section": "La canasta del curso",
-    "text": "La canasta del curso\nVamos a usar esta canasta para todos:\n\n\n\n\nBien\nCantidad mensual (\\(q_0\\))\nPrecio Enero (\\(p_0\\))\n\n\n\n\nPan\n8 kg\n$1.000/kg\n\n\nTransporte\n40 viajes\n$500/viaje\n\n\nBencina\n20 litros\n$1.000/litro\n\n\nArriendo\n1 mes\n$40.000/mes\n\n\nInternet\n1 plan\n$12.000/plan\n\n\n\n\nPaso 1: Calculen el gasto total en enero para cada bien (\\(p_0 \\times q_0\\)) y sumen."
+    "objectID": "clases/clase01_actividad_04_coyuntura.html#déficit-y-regla-fiscal",
+    "href": "clases/clase01_actividad_04_coyuntura.html#déficit-y-regla-fiscal",
+    "title": "Actividad de coyuntura — Clase 01",
+    "section": "Déficit y regla fiscal",
+    "text": "Déficit y regla fiscal\n\n\n\n\n\n\n\n\n\nIndicador\nDato\nReferencia\n\n\n\n\nBalance Estructural (BE) 2025\n-3,6% del PIB\nCFA, Informe desvío BE, mar. 2026, p. 4\n\n\nMeta original de BE para 2025\n-1,1% del PIB\nCFA, Informe desvío BE, mar. 2026, p. 4\n\n\nDesvío respecto de la meta\n2,5 pp del PIB (US$8.863 millones)\nCFA, Informe desvío BE, mar. 2026, p. 4\n\n\nAños consecutivos de incumplimiento\n3 años (2023, 2024, 2025)\nCFA, Informe desvío BE, mar. 2026, p. 5\n\n\nContexto del incumplimiento\nSin crisis ni eventos extraordinarios\nCFA, Informe desvío BE, mar. 2026, p. 5\n\n\nBE proyectado para 2026\n-2,7% del PIB (meta: -1,1%)\nCFA, Informe BE 4T25, mar. 2026, p. 4\n\n\n\n\n\nEl Consejo Fiscal Autónomo (CFA) señala que la magnitud del desvío en 2025 “es elevada en términos históricos para un año sin eventos macroeconómicos extraordinarios, casi triplicando los promedios observados en períodos comparables”.\n— CFA, Informe sobre el desvío de la meta de Balance Estructural de 2025, 4 de marzo de 2026, p. 9"
   },
   {
-    "objectID": "clases/clase01_actividad_03_ipc.html#paso-1-respuesta-gasto-en-enero",
-    "href": "clases/clase01_actividad_03_ipc.html#paso-1-respuesta-gasto-en-enero",
-    "title": "Actividad IPC — Clase 01",
-    "section": "Paso 1 — Respuesta: gasto en enero",
-    "text": "Paso 1 — Respuesta: gasto en enero\n\n\n\n\nBien\n\\(q_0\\)\n\\(p_0\\)\n\\(p_0 \\times q_0\\)\n\n\n\n\nPan\n8\n$1.000\n$8.000\n\n\nTransporte\n40\n$500\n$20.000\n\n\nBencina\n20\n$1.000\n$20.000\n\n\nArriendo\n1\n$40.000\n$40.000\n\n\nInternet\n1\n$12.000\n$12.000\n\n\nTotal\n\n\n$100.000\n\n\n\n\nEl gasto total de la canasta en enero es $100.000. Este es nuestro año base → IPC enero = 100."
+    "objectID": "clases/clase01_actividad_04_coyuntura.html#deuda-y-activos-fiscales",
+    "href": "clases/clase01_actividad_04_coyuntura.html#deuda-y-activos-fiscales",
+    "title": "Actividad de coyuntura — Clase 01",
+    "section": "Deuda y activos fiscales",
+    "text": "Deuda y activos fiscales\n\n\n\n\n\n\n\n\n\nIndicador\nDato\nReferencia\n\n\n\n\nDeuda bruta / PIB 2025\n41,7%\nCFA, Informe BE 4T25, mar. 2026, p. 5\n\n\nNivel prudente de deuda\n45% del PIB\nCFA, Informe BE 4T25, mar. 2026\n\n\nProbabilidad de superar el 45% hacia 2027\n~50%\nCFA, Informe Congreso oct. 2025\n\n\nDeuda bruta en 2007\n3,9% del PIB\nCFA, Informe BE 4T25, mar. 2026, p. 29\n\n\nDeuda bruta en 2024\n41,7% del PIB (×10 en 17 años)\nCFA, Informe BE 4T25, mar. 2026, p. 29\n\n\nActivos Tesoro Público (Q2 2025)\nUS$2.946 millones\nCFA, Informe desvío BE, mar. 2026, p. 7\n\n\nActivos Tesoro Público (cierre 2025)\nUS$46 millones\nCFA, Informe desvío BE, mar. 2026, p. 7\n\n\nGasto en intereses 2015\n0,66% del PIB\nCFA, Informe BE 4T25, mar. 2026, p. 24\n\n\nGasto en intereses 2025\n1,24% del PIB (casi el doble)\nCFA, Informe BE 4T25, mar. 2026, p. 24\n\n\nGasto en intereses proyectado 2030\n1,44% del PIB (6% del gasto total)\nCFA, Informe BE 4T25, mar. 2026, p. 24"
   },
   {
-    "objectID": "clases/clase01_actividad_03_ipc.html#un-año-después",
-    "href": "clases/clase01_actividad_03_ipc.html#un-año-después",
-    "title": "Actividad IPC — Clase 01",
-    "section": "Un año después…",
-    "text": "Un año después…\nLos precios cambiaron. Así quedaron en diciembre:\n\n\n\n\nBien\nPrecio Enero (\\(p_0\\))\nPrecio Diciembre (\\(p_1\\))\nVariación\n\n\n\n\nPan\n$1.000\n$1.000\n0%\n\n\nTransporte\n$500\n$600\n+20%\n\n\nBencina\n$1.000\n$1.500\n+50%\n\n\nArriendo\n$40.000\n$44.000\n+10%\n\n\nInternet\n$12.000\n$12.000\n0%\n\n\n\n\nPaso 2: Con los mismos precios de diciembre y las mismas cantidades de enero (\\(q_0\\)), calculen el nuevo gasto total (\\(\\sum p_1 \\cdot q_0\\))."
+    "objectID": "clases/clase01_actividad_04_coyuntura.html#el-diagnóstico-del-cfa",
+    "href": "clases/clase01_actividad_04_coyuntura.html#el-diagnóstico-del-cfa",
+    "title": "Actividad de coyuntura — Clase 01",
+    "section": "El diagnóstico del CFA",
+    "text": "El diagnóstico del CFA\n\n“La persistencia de déficits estructurales elevados, la tendencia a la baja de los activos del Tesoro Público y el aumento sostenido del gasto por intereses configuran un escenario de estrés fiscal que refuerza la urgencia de retomar una senda creíble y verificable de consolidación fiscal.”\n— CFA, Informe sobre el desvío de la meta de Balance Estructural de 2025, 4 de marzo de 2026, p. 7\n\n\n“Si bien la deuda bruta como porcentaje del PIB en 2025 se mantuvo por debajo de su nivel prudente […] ello no fue a causa de una consolidación fiscal, sino que respondió mayoritariamente a la apreciación del tipo de cambio y al mayor crecimiento del PIB nominal, factores que podrían ser de carácter transitorio.”\n— CFA, Informe sobre el desvío de la meta de Balance Estructural de 2025, 4 de marzo de 2026, p. 7"
   },
   {
-    "objectID": "clases/clase01_actividad_03_ipc.html#paso-2-respuesta-gasto-a-precios-de-diciembre",
-    "href": "clases/clase01_actividad_03_ipc.html#paso-2-respuesta-gasto-a-precios-de-diciembre",
-    "title": "Actividad IPC — Clase 01",
-    "section": "Paso 2 — Respuesta: gasto a precios de diciembre",
-    "text": "Paso 2 — Respuesta: gasto a precios de diciembre\n\n\n\n\nBien\n\\(q_0\\)\n\\(p_1\\)\n\\(p_1 \\times q_0\\)\n\n\n\n\nPan\n8\n$1.000\n$8.000\n\n\nTransporte\n40\n$600\n$24.000\n\n\nBencina\n20\n$1.500\n$30.000\n\n\nArriendo\n1\n$44.000\n$44.000\n\n\nInternet\n1\n$12.000\n$12.000\n\n\nTotal\n\n\n$118.000\n\n\n\n\nMantuvimos las cantidades fijas — solo cambiaron los precios. Eso es exactamente lo que hace Laspeyres."
+    "objectID": "clases/clase01_actividad_04_coyuntura.html#pregunta-del-bloque-2",
+    "href": "clases/clase01_actividad_04_coyuntura.html#pregunta-del-bloque-2",
+    "title": "Actividad de coyuntura — Clase 01",
+    "section": "Pregunta del bloque 2",
+    "text": "Pregunta del bloque 2\n\nLa deuda está bajo el nivel prudente, pero los activos del Tesoro cayeron de US$2.946 millones a US$46 millones en un año. ¿Cómo interpretan esa combinación?\n\nDiscutan en el grupo y registren:\n\nSeñal fiscal: tranquilizadora / preocupante / de alarma\n¿La deuda es sostenible en el mediano plazo? Sí / No / Depende\n¿Esto apoya la tesis de “quiebra”? Sí / No / Depende"
   },
   {
-    "objectID": "clases/clase01_actividad_03_ipc.html#paso-3-calculen-el-índice",
-    "href": "clases/clase01_actividad_03_ipc.html#paso-3-calculen-el-índice",
-    "title": "Actividad IPC — Clase 01",
-    "section": "Paso 3 — Calculen el índice",
-    "text": "Paso 3 — Calculen el índice\nLa fórmula del Índice de Laspeyres (base IPC):\n\\[IL = \\frac{\\sum p_1 \\cdot q_0}{\\sum p_0 \\cdot q_0} \\times 100\\]\nCon los números que calcularon:\n\\[IL = \\frac{\\$118.000}{\\$100.000} \\times 100 = \\ ?\\]"
+    "objectID": "clases/clase01_actividad_04_coyuntura.html#los-datos-1",
+    "href": "clases/clase01_actividad_04_coyuntura.html#los-datos-1",
+    "title": "Actividad de coyuntura — Clase 01",
+    "section": "Los datos",
+    "text": "Los datos\n\n\n\n\n\n\n\n\n\nIndicador\nDato\nReferencia\n\n\n\n\nClasificación crediticia (Fitch)\nA− con perspectiva estable\nFitch, sep. 2025\n\n\nPosición en América Latina\nMejor clasificación de la región\nEl Dínamo, mar. 2026\n\n\nCDS a 5 años (seguro contra default)\nBajos, similares a 2018\nBCCh, IEF 2S 2025\n\n\nProbabilidad de default próxima década\nPrácticamente nula\nEconomistas consultados, mar. 2026\n\n\nPaíses con clasificación comparable\nIsrael, Lituania, Malta, Eslovaquia\nCFA, Informe BE 4T25, mar. 2026, p. 29\n\n\nDeuda de esos países (2007→2024)\nSubió de 44,7% a 53,2% del PIB (+8,5 pp)\nCFA, Informe BE 4T25, mar. 2026, p. 29\n\n\nDeuda de Chile en ese mismo período\nSubió de 3,9% a 41,7% del PIB (+37,7 pp)\nCFA, Informe BE 4T25, mar. 2026, p. 29\n\n\n\n\n\n\n\n\n\n\nPara entender el CDS\n\n\nUn Credit Default Swap es un contrato que funciona como un seguro: el comprador paga una prima periódica y, si el país no paga su deuda, recibe una compensación. Si el CDS es bajo, el mercado estima baja probabilidad de default."
   },
   {
-    "objectID": "clases/clase01_actividad_03_ipc.html#paso-3-respuesta",
-    "href": "clases/clase01_actividad_03_ipc.html#paso-3-respuesta",
-    "title": "Actividad IPC — Clase 01",
-    "section": "Paso 3 — Respuesta",
-    "text": "Paso 3 — Respuesta\n\\[IL = \\frac{118.000}{100.000} \\times 100 = \\mathbf{118}\\]\nLa inflación del año fue:\n\\[\\pi = \\frac{IL_1 - IL_0}{IL_0} \\times 100 = \\frac{118 - 100}{100} \\times 100 = \\mathbf{18\\%}\\]\nLa canasta que costaba $100.000 en enero cuesta $118.000 en diciembre."
+    "objectID": "clases/clase01_actividad_04_coyuntura.html#pregunta-del-bloque-3",
+    "href": "clases/clase01_actividad_04_coyuntura.html#pregunta-del-bloque-3",
+    "title": "Actividad de coyuntura — Clase 01",
+    "section": "Pregunta del bloque 3",
+    "text": "Pregunta del bloque 3\n\nChile tiene la mejor clasificación crediticia de América Latina y CDS bajos, pero su deuda creció ×10 en 17 años mientras sus pares solo la subieron 8,5 pp. ¿Cómo leen esa tensión?\n\nDiscutan en el grupo y registren:\n\nSeñal de riesgo soberano: tranquilizadora / preocupante / de alarma\n¿Los mercados ven un riesgo que el CFA advierte? Sí / No / Parcialmente\n¿Esto apoya la tesis de “quiebra”? Sí / No / Depende"
   },
   {
-    "objectID": "clases/clase01_actividad_03_ipc.html#quién-empujó-más-la-inflación",
-    "href": "clases/clase01_actividad_03_ipc.html#quién-empujó-más-la-inflación",
-    "title": "Actividad IPC — Clase 01",
-    "section": "¿Quién empujó más la inflación?",
-    "text": "¿Quién empujó más la inflación?\nNo todos los bienes pesan igual. La ponderación de cada bien es su participación en el gasto base:\n\n\n\n\nBien\nGasto base\nPonderación\nVariación\nContribución\n\n\n\n\nPan\n$8.000\n8%\n0%\n0,0 pp\n\n\nTransporte\n$20.000\n20%\n+20%\n4,0 pp\n\n\nBencina\n$20.000\n20%\n+50%\n10,0 pp\n\n\nArriendo\n$40.000\n40%\n+10%\n4,0 pp\n\n\nInternet\n$12.000\n12%\n0%\n0,0 pp\n\n\nTotal\n$100.000\n100%\n\n18,0 pp\n\n\n\n\nLa bencina explica el 56% de la inflación total (10 de 18 puntos porcentuales), aunque subió el precio de un solo bien."
-  },
-  {
-    "objectID": "clases/clase01_actividad_03_ipc.html#por-qué-la-bencina-tiene-tanto-peso",
-    "href": "clases/clase01_actividad_03_ipc.html#por-qué-la-bencina-tiene-tanto-peso",
-    "title": "Actividad IPC — Clase 01",
-    "section": "¿Por qué la bencina tiene tanto peso?",
-    "text": "¿Por qué la bencina tiene tanto peso?\nLa bencina subió 50% — pero solo pesa 20% de la canasta.\nSu contribución es: \\(20\\% \\times 50\\% = 10\\) puntos porcentuales.\n\nEste mecanismo es exactamente lo que ocurrió en EE.UU. en marzo 2026: la gasolina subió 21% y fue responsable de la mayor parte del alza del CPI ese mes.\n\nLa inflación no depende solo de cuánto sube un precio — depende de cuánto pesa ese bien en el gasto de los hogares."
-  },
-  {
-    "objectID": "clases/clase01_actividad_03_ipc.html#tu-inflación-vs.-la-inflación-oficial",
-    "href": "clases/clase01_actividad_03_ipc.html#tu-inflación-vs.-la-inflación-oficial",
-    "title": "Actividad IPC — Clase 01",
-    "section": "Tu inflación vs. la inflación oficial",
-    "text": "Tu inflación vs. la inflación oficial\nAhora vuelvan a su canasta personal de la Parte 1.\n\n\n\n\n\n\nPregunta\n\n\n¿Su inflación personal habría sido mayor o menor que el 18% que calculamos?\n\n\n\nPiensen en:\n\n¿Tienen auto? ¿Cuánto pesa la bencina en sus gastos?\n¿Viven con sus padres? ¿Cuánto pesa el arriendo?\n¿Usan transporte público o privado?\n\n\nNo existe una inflación — existe tu inflación, que depende de cómo estructuras tu gasto."
-  },
-  {
-    "objectID": "clases/clase01_actividad_03_ipc.html#la-canasta-real-del-ine",
-    "href": "clases/clase01_actividad_03_ipc.html#la-canasta-real-del-ine",
-    "title": "Actividad IPC — Clase 01",
-    "section": "La canasta real del INE",
-    "text": "La canasta real del INE\nEl IPC oficial de Chile usa una canasta con más de 500 productos agrupados en 12 divisiones:\n\n\n\nDivisión\nPonderación aproximada\n\n\n\n\nVivienda y servicios básicos\n33%\n\n\nAlimentos y bebidas\n20%\n\n\nTransporte\n13%\n\n\nRestaurantes y hoteles\n8%\n\n\nSalud\n6%\n\n\nOtros\n20%\n\n\n\nLa canasta se actualiza cada varios años con la Encuesta de Presupuestos Familiares (EPF)."
-  },
-  {
-    "objectID": "clases/clase01_actividad_03_ipc.html#la-canasta-del-ine-los-representa",
-    "href": "clases/clase01_actividad_03_ipc.html#la-canasta-del-ine-los-representa",
-    "title": "Actividad IPC — Clase 01",
-    "section": "¿La canasta del INE los representa?",
-    "text": "¿La canasta del INE los representa?\nDiscutan:\n\n¿Qué grupo de la población tiene más peso en la canasta del INE: hogares de altos o bajos ingresos?\n¿Debería haber un IPC diferente para Santiago y para regiones?\n¿Qué pasaría si la canasta estuviera desactualizada 10 años?\n\n\nEl INE publica el IPC general pero también desgloses por grupo de gasto, por ciudad y por quintil de ingreso — porque saben que la inflación que siente cada hogar puede ser muy distinta."
-  },
-  {
-    "objectID": "clases/clase01_actividad_03_ipc.html#para-llevar",
-    "href": "clases/clase01_actividad_03_ipc.html#para-llevar",
-    "title": "Actividad IPC — Clase 01",
-    "section": "Para llevar",
-    "text": "Para llevar\n\nCuando vean un titular que dice “la inflación fue X%”, ahora saben preguntar:\n\n¿Qué canasta usaron para medirla?\n¿Qué bien la empujó más?\n¿Esa canasta me representa a mí?"
-  },
-  {
-    "objectID": "clases/clase01_actividad_01_apertura.html#antes-de-comenzar",
-    "href": "clases/clase01_actividad_01_apertura.html#antes-de-comenzar",
-    "title": "Actividad de apertura — Clase 01",
-    "section": "Antes de comenzar",
-    "text": "Antes de comenzar\nTomemos 10 minutos para leer y discutir este titular.\nNo se necesita saber economía para opinar — la idea es partir desde lo que ya intuyen."
-  },
-  {
-    "objectID": "clases/clase01_actividad_01_apertura.html#el-titular",
-    "href": "clases/clase01_actividad_01_apertura.html#el-titular",
-    "title": "Actividad de apertura — Clase 01",
-    "section": "El titular",
-    "text": "El titular\n\n“US inflation tripled last month on record spike in gas prices”\n\n\n— CNN Business, 10 de abril de 2026\n\nContexto: El CPI de marzo 2026 mostró un alza de 0,9% mensual (3,3% anual). El precio de la gasolina subió 21,2% en un mes — el mayor aumento desde 1967. El detonante: el conflicto armado entre EE.UU. e Israel con Irán, iniciado el 28 de febrero."
-  },
-  {
-    "objectID": "clases/clase01_actividad_01_apertura.html#tres-preguntas-para-discutir",
-    "href": "clases/clase01_actividad_01_apertura.html#tres-preguntas-para-discutir",
-    "title": "Actividad de apertura — Clase 01",
-    "section": "Tres preguntas para discutir",
-    "text": "Tres preguntas para discutir\n1. ¿Qué mide exactamente este indicador?\n\n¿Qué es el CPI y por qué se publica mensualmente?\n¿Quién lo elabora y para qué lo usa el gobierno o las empresas?"
-  },
-  {
-    "objectID": "clases/clase01_actividad_01_apertura.html#por-qué-este-titular",
-    "href": "clases/clase01_actividad_01_apertura.html#por-qué-este-titular",
-    "title": "Actividad de apertura — Clase 01",
-    "section": "¿Por qué este titular?",
-    "text": "¿Por qué este titular?\nEste caso conecta directamente con los cuatro bloques de la clase de hoy:\n\n\n\n\n\n\n\nBloque\nConexión con el titular\n\n\n\n\nEntorno económico\nUn conflicto geopolítico impacta precios a nivel global\n\n\nNivel de actividad\nLa inflación afecta el PIB real vs. nominal\n\n\nMercado laboral\nEl alza de precios erosiona el salario real\n\n\nVariables nominales y reales\n¿Qué es el CPI? ¿Cómo se calcula?"
-  },
-  {
-    "objectID": "clases/clase01_actividad_01_apertura.html#para-llevar",
-    "href": "clases/clase01_actividad_01_apertura.html#para-llevar",
-    "title": "Actividad de apertura — Clase 01",
-    "section": "Para llevar",
-    "text": "Para llevar\nAl terminar la clase, vuelvan a este titular y respondan:\n\n“Con lo que aprendí hoy, ¿qué le diría a alguien que solo vio el titular sin entender el contexto?”"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Sobre el sitio",
-    "section": "",
-    "text": "Este sitio reúne los materiales docentes del curso de Entorno Económico, orientado al análisis de indicadores macroeconómicos, fuentes estadísticas oficiales y herramientas cuantitativas aplicadas.\nSu objetivo es ofrecer un punto único para consultar clases, ejercicios y recursos complementarios, de modo que el trabajo en aula y el estudio posterior queden conectados en una misma estructura.\nEl contenido está organizado para apoyar tanto la comprensión conceptual como la aplicación de estos temas a problemas económicos concretos."
+    "objectID": "clases/clase01_actividad_04_coyuntura.html#su-diagnóstico-consolidado",
+    "href": "clases/clase01_actividad_04_coyuntura.html#su-diagnóstico-consolidado",
+    "title": "Actividad de coyuntura — Clase 01",
+    "section": "Su diagnóstico consolidado",
+    "text": "Su diagnóstico consolidado\nCon los tres bloques completos, respondan:\n1. ¿Está Chile en quiebra?\nFundamenten con al menos dos datos concretos de los bloques anteriores."
   },
   {
     "objectID": "clases/clase01_actividad_02_pib.html#la-pregunta-central",
@@ -700,121 +630,191 @@
     "text": "Para reflexionar\n\n¿Qué indicador usarían ustedes para medir si un país está “yendo bien”?\n\nAlternativas que existen:\n\nÍndice de Desarrollo Humano (IDH)\nÍndice de Bienestar Mejor (OCDE)\nPIB Verde (ajustado por degradación ambiental)\nÍndice de Progreso Social"
   },
   {
-    "objectID": "clases/clase01_actividad_04_coyuntura.html#la-afirmación",
-    "href": "clases/clase01_actividad_04_coyuntura.html#la-afirmación",
-    "title": "Actividad de coyuntura — Clase 01",
-    "section": "La afirmación",
-    "text": "La afirmación\n\n“Chile tiene un Estado en la quiebra”\n\n\n— Afirmación circulada en el debate político chileno, marzo 2026\n\nEsta afirmación fue evaluada por FastCheck.cl como #Falso.\nPero, ¿qué dicen los datos? ¿Y qué significa técnicamente que un Estado “quiebre”?"
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Sobre el sitio",
+    "section": "",
+    "text": "Este sitio reúne los materiales docentes del curso de Entorno Económico, orientado al análisis de indicadores macroeconómicos, fuentes estadísticas oficiales y herramientas cuantitativas aplicadas.\nSu objetivo es ofrecer un punto único para consultar clases, ejercicios y recursos complementarios, de modo que el trabajo en aula y el estudio posterior queden conectados en una misma estructura.\nEl contenido está organizado para apoyar tanto la comprensión conceptual como la aplicación de estos temas a problemas económicos concretos."
   },
   {
-    "objectID": "clases/clase01_actividad_04_coyuntura.html#objetivo-de-la-actividad",
-    "href": "clases/clase01_actividad_04_coyuntura.html#objetivo-de-la-actividad",
-    "title": "Actividad de coyuntura — Clase 01",
-    "section": "Objetivo de la actividad",
-    "text": "Objetivo de la actividad\nUsar indicadores económicos reales para responder, con evidencia, si Chile está o no en una situación de quiebra — y si esa es la pregunta correcta.\nDatos: Informes oficiales del Banco Central de Chile y el Consejo Fiscal Autónomo, marzo 2026.\nTiempo: ~25 minutos en grupos de 3 personas."
+    "objectID": "clases/clase01_actividad_01_apertura.html#antes-de-comenzar",
+    "href": "clases/clase01_actividad_01_apertura.html#antes-de-comenzar",
+    "title": "Actividad de apertura — Clase 01",
+    "section": "Antes de comenzar",
+    "text": "Antes de comenzar\nTomemos 10 minutos para leer y discutir este titular.\nNo se necesita saber economía para opinar — la idea es partir desde lo que ya intuyen."
   },
   {
-    "objectID": "clases/clase01_actividad_04_coyuntura.html#instrucciones",
-    "href": "clases/clase01_actividad_04_coyuntura.html#instrucciones",
-    "title": "Actividad de coyuntura — Clase 01",
+    "objectID": "clases/clase01_actividad_01_apertura.html#el-titular",
+    "href": "clases/clase01_actividad_01_apertura.html#el-titular",
+    "title": "Actividad de apertura — Clase 01",
+    "section": "El titular",
+    "text": "El titular\n\n“US inflation tripled last month on record spike in gas prices”\n\n\n— CNN Business, 10 de abril de 2026\n\nContexto: El CPI de marzo 2026 mostró un alza de 0,9% mensual (3,3% anual). El precio de la gasolina subió 21,2% en un mes — el mayor aumento desde 1967. El detonante: el conflicto armado entre EE.UU. e Israel con Irán, iniciado el 28 de febrero."
+  },
+  {
+    "objectID": "clases/clase01_actividad_01_apertura.html#tres-preguntas-para-discutir",
+    "href": "clases/clase01_actividad_01_apertura.html#tres-preguntas-para-discutir",
+    "title": "Actividad de apertura — Clase 01",
+    "section": "Tres preguntas para discutir",
+    "text": "Tres preguntas para discutir\n1. ¿Qué mide exactamente este indicador?\n\n¿Qué es el CPI y por qué se publica mensualmente?\n¿Quién lo elabora y para qué lo usa el gobierno o las empresas?"
+  },
+  {
+    "objectID": "clases/clase01_actividad_01_apertura.html#por-qué-este-titular",
+    "href": "clases/clase01_actividad_01_apertura.html#por-qué-este-titular",
+    "title": "Actividad de apertura — Clase 01",
+    "section": "¿Por qué este titular?",
+    "text": "¿Por qué este titular?\nEste caso conecta directamente con los cuatro bloques de la clase de hoy:\n\n\n\n\n\n\n\nBloque\nConexión con el titular\n\n\n\n\nEntorno económico\nUn conflicto geopolítico impacta precios a nivel global\n\n\nNivel de actividad\nLa inflación afecta el PIB real vs. nominal\n\n\nMercado laboral\nEl alza de precios erosiona el salario real\n\n\nVariables nominales y reales\n¿Qué es el CPI? ¿Cómo se calcula?"
+  },
+  {
+    "objectID": "clases/clase01_actividad_01_apertura.html#para-llevar",
+    "href": "clases/clase01_actividad_01_apertura.html#para-llevar",
+    "title": "Actividad de apertura — Clase 01",
+    "section": "Para llevar",
+    "text": "Para llevar\nAl terminar la clase, vuelvan a este titular y respondan:\n\n“Con lo que aprendí hoy, ¿qué le diría a alguien que solo vio el titular sin entender el contexto?”"
+  },
+  {
+    "objectID": "clases/clase01_actividad_03_ipc.html#objetivo",
+    "href": "clases/clase01_actividad_03_ipc.html#objetivo",
+    "title": "Actividad IPC — Clase 01",
+    "section": "Objetivo",
+    "text": "Objetivo\nEl IPC no es magia estadística — es una suma ponderada de variaciones de precios.\nEn esta actividad vamos a construirlo desde cero:\n\nArmar una canasta de bienes\nRegistrar los precios en dos momentos\nCalcular el índice\nInterpretar quién empujó más la inflación"
+  },
+  {
+    "objectID": "clases/clase01_actividad_03_ipc.html#instrucciones",
+    "href": "clases/clase01_actividad_03_ipc.html#instrucciones",
+    "title": "Actividad IPC — Clase 01",
     "section": "Instrucciones",
-    "text": "Instrucciones\nLa actividad tiene tres bloques de indicadores:\n\n\n\nBloque\nQué mide\nFuente\n\n\n\n\n1\nActividad, precios y empleo\nIPoM, Banco Central\n\n\n2\nSituación fiscal\nCFA, Dipres\n\n\n3\nRiesgo soberano\nFitch, CDS, CFA\n\n\n\nPara cada bloque:\n\nLean los datos\nDiscutan qué señal dan: ¿alarma, preocupación o tranquilidad?\nAnoten su diagnóstico parcial\n\nAl final integrarán los tres bloques para responder la pregunta central."
+    "text": "Instrucciones\nLa actividad tiene tres partes:\n\n\n\nParte\nQué hacen\nTiempo\n\n\n\n\n1\nArman su canasta personal\n3 min\n\n\n2\nCalculan el IPC con la canasta del curso\n10 min\n\n\n3\nInterpretan y comparan\n5 min\n\n\n\nNecesitan papel y calculadora (o el teléfono)."
   },
   {
-    "objectID": "clases/clase01_actividad_04_coyuntura.html#los-datos",
-    "href": "clases/clase01_actividad_04_coyuntura.html#los-datos",
-    "title": "Actividad de coyuntura — Clase 01",
-    "section": "Los datos",
-    "text": "Los datos\n\n\n\n\n\n\n\n\n\nIndicador\nDato\nReferencia\n\n\n\n\nCrecimiento PIB 2025\n+2,5% real anual\nIPoM mar. 2026, p. 4\n\n\nProyección PIB 2026\n1,5–2,5% (bajado desde 2–3%)\nIPoM mar. 2026, Tabla resumen\n\n\nInflación feb. 2026\n2,4% anual (bajo la meta de 3%)\nIPoM mar. 2026, p. 4\n\n\nInflación proyectada Q2 2026\n~4% por alza de combustibles\nIPoM mar. 2026, p. 5\n\n\nTasa de desocupación\nEstable, sin cambios relevantes\nIPoM mar. 2026, p. 5\n\n\nPrecio del cobre\nUS$5,4/lb promedio 2026 (sobre lo previsto)\nIPoM mar. 2026, Tabla 2\n\n\nPrecio del petróleo\n~US$100/barril en Q2 (+60% vs. diciembre)\nIPoM mar. 2026, p. 5\n\n\n\n\n\nEl shock externo dominante en este período es la guerra en Medio Oriente iniciada el 28 de febrero de 2026, que elevó el petróleo y presionó la inflación local."
+    "objectID": "clases/clase01_actividad_03_ipc.html#en-qué-gastan-su-sueldo",
+    "href": "clases/clase01_actividad_03_ipc.html#en-qué-gastan-su-sueldo",
+    "title": "Actividad IPC — Clase 01",
+    "section": "¿En qué gastan su sueldo?",
+    "text": "¿En qué gastan su sueldo?\nPiensen en un mes típico. Escriban 5 bienes o servicios en los que gastan dinero regularmente y estimen cuánto destinan a cada uno.\n\n\n\n\nBien o servicio\nGasto mensual estimado ($)\n\n\n\n\n1.\n\n\n\n2.\n\n\n\n3.\n\n\n\n4.\n\n\n\n5.\n\n\n\nTotal\n\n\n\n\n\nGuarden estos números — los vamos a usar al final."
   },
   {
-    "objectID": "clases/clase01_actividad_04_coyuntura.html#pregunta-del-bloque-1",
-    "href": "clases/clase01_actividad_04_coyuntura.html#pregunta-del-bloque-1",
-    "title": "Actividad de coyuntura — Clase 01",
-    "section": "Pregunta del bloque 1",
-    "text": "Pregunta del bloque 1\n\nCon estos indicadores, ¿diría que Chile está creciendo o en recesión? ¿La inflación es un problema estructural o un shock externo?\n\nDiscutan en el grupo y registren:\n\nSeñal de actividad: tranquilizadora / preocupante / de alarma\nSeñal de precios: tranquilizadora / preocupante / de alarma\n¿Esto apoya la tesis de “quiebra”? Sí / No / Depende"
+    "objectID": "clases/clase01_actividad_03_ipc.html#todos-tienen-la-misma-canasta",
+    "href": "clases/clase01_actividad_03_ipc.html#todos-tienen-la-misma-canasta",
+    "title": "Actividad IPC — Clase 01",
+    "section": "¿Todos tienen la misma canasta?",
+    "text": "¿Todos tienen la misma canasta?\nAntes de seguir, discutan brevemente:\n\n¿Qué bien apareció en más canastas?\n¿Qué bien no apareció en casi ninguna?\n¿Gastan todos el mismo porcentaje en arriendo? ¿En transporte?\n\n\nEsto es exactamente el problema que enfrenta el INE al construir el IPC oficial: una sola canasta debe representar a millones de hogares con patrones de consumo distintos."
   },
   {
-    "objectID": "clases/clase01_actividad_04_coyuntura.html#déficit-y-regla-fiscal",
-    "href": "clases/clase01_actividad_04_coyuntura.html#déficit-y-regla-fiscal",
-    "title": "Actividad de coyuntura — Clase 01",
-    "section": "Déficit y regla fiscal",
-    "text": "Déficit y regla fiscal\n\n\n\n\n\n\n\n\n\nIndicador\nDato\nReferencia\n\n\n\n\nBalance Estructural (BE) 2025\n-3,6% del PIB\nCFA, Informe desvío BE, mar. 2026, p. 4\n\n\nMeta original de BE para 2025\n-1,1% del PIB\nCFA, Informe desvío BE, mar. 2026, p. 4\n\n\nDesvío respecto de la meta\n2,5 pp del PIB (US$8.863 millones)\nCFA, Informe desvío BE, mar. 2026, p. 4\n\n\nAños consecutivos de incumplimiento\n3 años (2023, 2024, 2025)\nCFA, Informe desvío BE, mar. 2026, p. 5\n\n\nContexto del incumplimiento\nSin crisis ni eventos extraordinarios\nCFA, Informe desvío BE, mar. 2026, p. 5\n\n\nBE proyectado para 2026\n-2,7% del PIB (meta: -1,1%)\nCFA, Informe BE 4T25, mar. 2026, p. 4\n\n\n\n\n\nEl Consejo Fiscal Autónomo (CFA) señala que la magnitud del desvío en 2025 “es elevada en términos históricos para un año sin eventos macroeconómicos extraordinarios, casi triplicando los promedios observados en períodos comparables”.\n— CFA, Informe sobre el desvío de la meta de Balance Estructural de 2025, 4 de marzo de 2026, p. 9"
+    "objectID": "clases/clase01_actividad_03_ipc.html#la-canasta-del-curso",
+    "href": "clases/clase01_actividad_03_ipc.html#la-canasta-del-curso",
+    "title": "Actividad IPC — Clase 01",
+    "section": "La canasta del curso",
+    "text": "La canasta del curso\nVamos a usar esta canasta para todos:\n\n\n\n\nBien\nCantidad mensual (\\(q_0\\))\nPrecio Enero (\\(p_0\\))\n\n\n\n\nPan\n8 kg\n$1.000/kg\n\n\nTransporte\n40 viajes\n$500/viaje\n\n\nBencina\n20 litros\n$1.000/litro\n\n\nArriendo\n1 mes\n$40.000/mes\n\n\nInternet\n1 plan\n$12.000/plan\n\n\n\n\nPaso 1: Calculen el gasto total en enero para cada bien (\\(p_0 \\times q_0\\)) y sumen."
   },
   {
-    "objectID": "clases/clase01_actividad_04_coyuntura.html#deuda-y-activos-fiscales",
-    "href": "clases/clase01_actividad_04_coyuntura.html#deuda-y-activos-fiscales",
-    "title": "Actividad de coyuntura — Clase 01",
-    "section": "Deuda y activos fiscales",
-    "text": "Deuda y activos fiscales\n\n\n\n\n\n\n\n\n\nIndicador\nDato\nReferencia\n\n\n\n\nDeuda bruta / PIB 2025\n41,7%\nCFA, Informe BE 4T25, mar. 2026, p. 5\n\n\nNivel prudente de deuda\n45% del PIB\nCFA, Informe BE 4T25, mar. 2026\n\n\nProbabilidad de superar el 45% hacia 2027\n~50%\nCFA, Informe Congreso oct. 2025\n\n\nDeuda bruta en 2007\n3,9% del PIB\nCFA, Informe BE 4T25, mar. 2026, p. 29\n\n\nDeuda bruta en 2024\n41,7% del PIB (×10 en 17 años)\nCFA, Informe BE 4T25, mar. 2026, p. 29\n\n\nActivos Tesoro Público (Q2 2025)\nUS$2.946 millones\nCFA, Informe desvío BE, mar. 2026, p. 7\n\n\nActivos Tesoro Público (cierre 2025)\nUS$46 millones\nCFA, Informe desvío BE, mar. 2026, p. 7\n\n\nGasto en intereses 2015\n0,66% del PIB\nCFA, Informe BE 4T25, mar. 2026, p. 24\n\n\nGasto en intereses 2025\n1,24% del PIB (casi el doble)\nCFA, Informe BE 4T25, mar. 2026, p. 24\n\n\nGasto en intereses proyectado 2030\n1,44% del PIB (6% del gasto total)\nCFA, Informe BE 4T25, mar. 2026, p. 24"
+    "objectID": "clases/clase01_actividad_03_ipc.html#paso-1-respuesta-gasto-en-enero",
+    "href": "clases/clase01_actividad_03_ipc.html#paso-1-respuesta-gasto-en-enero",
+    "title": "Actividad IPC — Clase 01",
+    "section": "Paso 1 — Respuesta: gasto en enero",
+    "text": "Paso 1 — Respuesta: gasto en enero\n\n\n\n\nBien\n\\(q_0\\)\n\\(p_0\\)\n\\(p_0 \\times q_0\\)\n\n\n\n\nPan\n8\n$1.000\n$8.000\n\n\nTransporte\n40\n$500\n$20.000\n\n\nBencina\n20\n$1.000\n$20.000\n\n\nArriendo\n1\n$40.000\n$40.000\n\n\nInternet\n1\n$12.000\n$12.000\n\n\nTotal\n\n\n$100.000\n\n\n\n\nEl gasto total de la canasta en enero es $100.000. Este es nuestro año base → IPC enero = 100."
   },
   {
-    "objectID": "clases/clase01_actividad_04_coyuntura.html#el-diagnóstico-del-cfa",
-    "href": "clases/clase01_actividad_04_coyuntura.html#el-diagnóstico-del-cfa",
-    "title": "Actividad de coyuntura — Clase 01",
-    "section": "El diagnóstico del CFA",
-    "text": "El diagnóstico del CFA\n\n“La persistencia de déficits estructurales elevados, la tendencia a la baja de los activos del Tesoro Público y el aumento sostenido del gasto por intereses configuran un escenario de estrés fiscal que refuerza la urgencia de retomar una senda creíble y verificable de consolidación fiscal.”\n— CFA, Informe sobre el desvío de la meta de Balance Estructural de 2025, 4 de marzo de 2026, p. 7\n\n\n“Si bien la deuda bruta como porcentaje del PIB en 2025 se mantuvo por debajo de su nivel prudente […] ello no fue a causa de una consolidación fiscal, sino que respondió mayoritariamente a la apreciación del tipo de cambio y al mayor crecimiento del PIB nominal, factores que podrían ser de carácter transitorio.”\n— CFA, Informe sobre el desvío de la meta de Balance Estructural de 2025, 4 de marzo de 2026, p. 7"
+    "objectID": "clases/clase01_actividad_03_ipc.html#un-año-después",
+    "href": "clases/clase01_actividad_03_ipc.html#un-año-después",
+    "title": "Actividad IPC — Clase 01",
+    "section": "Un año después…",
+    "text": "Un año después…\nLos precios cambiaron. Así quedaron en diciembre:\n\n\n\n\nBien\nPrecio Enero (\\(p_0\\))\nPrecio Diciembre (\\(p_1\\))\nVariación\n\n\n\n\nPan\n$1.000\n$1.000\n0%\n\n\nTransporte\n$500\n$600\n+20%\n\n\nBencina\n$1.000\n$1.500\n+50%\n\n\nArriendo\n$40.000\n$44.000\n+10%\n\n\nInternet\n$12.000\n$12.000\n0%\n\n\n\n\nPaso 2: Con los mismos precios de diciembre y las mismas cantidades de enero (\\(q_0\\)), calculen el nuevo gasto total (\\(\\sum p_1 \\cdot q_0\\))."
   },
   {
-    "objectID": "clases/clase01_actividad_04_coyuntura.html#pregunta-del-bloque-2",
-    "href": "clases/clase01_actividad_04_coyuntura.html#pregunta-del-bloque-2",
-    "title": "Actividad de coyuntura — Clase 01",
-    "section": "Pregunta del bloque 2",
-    "text": "Pregunta del bloque 2\n\nLa deuda está bajo el nivel prudente, pero los activos del Tesoro cayeron de US$2.946 millones a US$46 millones en un año. ¿Cómo interpretan esa combinación?\n\nDiscutan en el grupo y registren:\n\nSeñal fiscal: tranquilizadora / preocupante / de alarma\n¿La deuda es sostenible en el mediano plazo? Sí / No / Depende\n¿Esto apoya la tesis de “quiebra”? Sí / No / Depende"
+    "objectID": "clases/clase01_actividad_03_ipc.html#paso-2-respuesta-gasto-a-precios-de-diciembre",
+    "href": "clases/clase01_actividad_03_ipc.html#paso-2-respuesta-gasto-a-precios-de-diciembre",
+    "title": "Actividad IPC — Clase 01",
+    "section": "Paso 2 — Respuesta: gasto a precios de diciembre",
+    "text": "Paso 2 — Respuesta: gasto a precios de diciembre\n\n\n\n\nBien\n\\(q_0\\)\n\\(p_1\\)\n\\(p_1 \\times q_0\\)\n\n\n\n\nPan\n8\n$1.000\n$8.000\n\n\nTransporte\n40\n$600\n$24.000\n\n\nBencina\n20\n$1.500\n$30.000\n\n\nArriendo\n1\n$44.000\n$44.000\n\n\nInternet\n1\n$12.000\n$12.000\n\n\nTotal\n\n\n$118.000\n\n\n\n\nMantuvimos las cantidades fijas — solo cambiaron los precios. Eso es exactamente lo que hace Laspeyres."
   },
   {
-    "objectID": "clases/clase01_actividad_04_coyuntura.html#los-datos-1",
-    "href": "clases/clase01_actividad_04_coyuntura.html#los-datos-1",
-    "title": "Actividad de coyuntura — Clase 01",
-    "section": "Los datos",
-    "text": "Los datos\n\n\n\n\n\n\n\n\n\nIndicador\nDato\nReferencia\n\n\n\n\nClasificación crediticia (Fitch)\nA− con perspectiva estable\nFitch, sep. 2025\n\n\nPosición en América Latina\nMejor clasificación de la región\nEl Dínamo, mar. 2026\n\n\nCDS a 5 años (seguro contra default)\nBajos, similares a 2018\nBCCh, IEF 2S 2025\n\n\nProbabilidad de default próxima década\nPrácticamente nula\nEconomistas consultados, mar. 2026\n\n\nPaíses con clasificación comparable\nIsrael, Lituania, Malta, Eslovaquia\nCFA, Informe BE 4T25, mar. 2026, p. 29\n\n\nDeuda de esos países (2007→2024)\nSubió de 44,7% a 53,2% del PIB (+8,5 pp)\nCFA, Informe BE 4T25, mar. 2026, p. 29\n\n\nDeuda de Chile en ese mismo período\nSubió de 3,9% a 41,7% del PIB (+37,7 pp)\nCFA, Informe BE 4T25, mar. 2026, p. 29\n\n\n\n\n\n\n\n\n\n\nPara entender el CDS\n\n\nUn Credit Default Swap es un contrato que funciona como un seguro: el comprador paga una prima periódica y, si el país no paga su deuda, recibe una compensación. Si el CDS es bajo, el mercado estima baja probabilidad de default."
+    "objectID": "clases/clase01_actividad_03_ipc.html#paso-3-calculen-el-índice",
+    "href": "clases/clase01_actividad_03_ipc.html#paso-3-calculen-el-índice",
+    "title": "Actividad IPC — Clase 01",
+    "section": "Paso 3 — Calculen el índice",
+    "text": "Paso 3 — Calculen el índice\nLa fórmula del Índice de Laspeyres (base IPC):\n\\[IL = \\frac{\\sum p_1 \\cdot q_0}{\\sum p_0 \\cdot q_0} \\times 100\\]\nCon los números que calcularon:\n\\[IL = \\frac{\\$118.000}{\\$100.000} \\times 100 = \\ ?\\]"
   },
   {
-    "objectID": "clases/clase01_actividad_04_coyuntura.html#pregunta-del-bloque-3",
-    "href": "clases/clase01_actividad_04_coyuntura.html#pregunta-del-bloque-3",
-    "title": "Actividad de coyuntura — Clase 01",
-    "section": "Pregunta del bloque 3",
-    "text": "Pregunta del bloque 3\n\nChile tiene la mejor clasificación crediticia de América Latina y CDS bajos, pero su deuda creció ×10 en 17 años mientras sus pares solo la subieron 8,5 pp. ¿Cómo leen esa tensión?\n\nDiscutan en el grupo y registren:\n\nSeñal de riesgo soberano: tranquilizadora / preocupante / de alarma\n¿Los mercados ven un riesgo que el CFA advierte? Sí / No / Parcialmente\n¿Esto apoya la tesis de “quiebra”? Sí / No / Depende"
+    "objectID": "clases/clase01_actividad_03_ipc.html#paso-3-respuesta",
+    "href": "clases/clase01_actividad_03_ipc.html#paso-3-respuesta",
+    "title": "Actividad IPC — Clase 01",
+    "section": "Paso 3 — Respuesta",
+    "text": "Paso 3 — Respuesta\n\\[IL = \\frac{118.000}{100.000} \\times 100 = \\mathbf{118}\\]\nLa inflación del año fue:\n\\[\\pi = \\frac{IL_1 - IL_0}{IL_0} \\times 100 = \\frac{118 - 100}{100} \\times 100 = \\mathbf{18\\%}\\]\nLa canasta que costaba $100.000 en enero cuesta $118.000 en diciembre."
   },
   {
-    "objectID": "clases/clase01_actividad_04_coyuntura.html#su-diagnóstico-consolidado",
-    "href": "clases/clase01_actividad_04_coyuntura.html#su-diagnóstico-consolidado",
-    "title": "Actividad de coyuntura — Clase 01",
-    "section": "Su diagnóstico consolidado",
-    "text": "Su diagnóstico consolidado\nCon los tres bloques completos, respondan:\n1. ¿Está Chile en quiebra?\nFundamenten con al menos dos datos concretos de los bloques anteriores."
+    "objectID": "clases/clase01_actividad_03_ipc.html#quién-empujó-más-la-inflación",
+    "href": "clases/clase01_actividad_03_ipc.html#quién-empujó-más-la-inflación",
+    "title": "Actividad IPC — Clase 01",
+    "section": "¿Quién empujó más la inflación?",
+    "text": "¿Quién empujó más la inflación?\nNo todos los bienes pesan igual. La ponderación de cada bien es su participación en el gasto base:\n\n\n\n\nBien\nGasto base\nPonderación\nVariación\nContribución\n\n\n\n\nPan\n$8.000\n8%\n0%\n0,0 pp\n\n\nTransporte\n$20.000\n20%\n+20%\n4,0 pp\n\n\nBencina\n$20.000\n20%\n+50%\n10,0 pp\n\n\nArriendo\n$40.000\n40%\n+10%\n4,0 pp\n\n\nInternet\n$12.000\n12%\n0%\n0,0 pp\n\n\nTotal\n$100.000\n100%\n\n18,0 pp\n\n\n\n\nLa bencina explica el 56% de la inflación total (10 de 18 puntos porcentuales), aunque subió el precio de un solo bien."
   },
   {
-    "objectID": "clases/clase01_actividad_04_coyuntura.html#la-distinción-técnica-central",
-    "href": "clases/clase01_actividad_04_coyuntura.html#la-distinción-técnica-central",
-    "title": "Actividad de coyuntura — Clase 01",
+    "objectID": "clases/clase01_actividad_03_ipc.html#por-qué-la-bencina-tiene-tanto-peso",
+    "href": "clases/clase01_actividad_03_ipc.html#por-qué-la-bencina-tiene-tanto-peso",
+    "title": "Actividad IPC — Clase 01",
+    "section": "¿Por qué la bencina tiene tanto peso?",
+    "text": "¿Por qué la bencina tiene tanto peso?\nLa bencina subió 50% — pero solo pesa 20% de la canasta.\nSu contribución es: \\(20\\% \\times 50\\% = 10\\) puntos porcentuales.\n\nEste mecanismo es exactamente lo que ocurrió en EE.UU. en marzo 2026: la gasolina subió 21% y fue responsable de la mayor parte del alza del CPI ese mes.\n\nLa inflación no depende solo de cuánto sube un precio — depende de cuánto pesa ese bien en el gasto de los hogares."
+  },
+  {
+    "objectID": "clases/clase01_actividad_03_ipc.html#tu-inflación-vs.-la-inflación-oficial",
+    "href": "clases/clase01_actividad_03_ipc.html#tu-inflación-vs.-la-inflación-oficial",
+    "title": "Actividad IPC — Clase 01",
+    "section": "Tu inflación vs. la inflación oficial",
+    "text": "Tu inflación vs. la inflación oficial\nAhora vuelvan a su canasta personal de la Parte 1.\n\n\n\n\n\n\nPregunta\n\n\n¿Su inflación personal habría sido mayor o menor que el 18% que calculamos?\n\n\n\nPiensen en:\n\n¿Tienen auto? ¿Cuánto pesa la bencina en sus gastos?\n¿Viven con sus padres? ¿Cuánto pesa el arriendo?\n¿Usan transporte público o privado?\n\n\nNo existe una inflación — existe tu inflación, que depende de cómo estructuras tu gasto."
+  },
+  {
+    "objectID": "clases/clase01_actividad_03_ipc.html#la-canasta-real-del-ine",
+    "href": "clases/clase01_actividad_03_ipc.html#la-canasta-real-del-ine",
+    "title": "Actividad IPC — Clase 01",
+    "section": "La canasta real del INE",
+    "text": "La canasta real del INE\nEl IPC oficial de Chile usa una canasta con más de 500 productos agrupados en 12 divisiones:\n\n\n\nDivisión\nPonderación aproximada\n\n\n\n\nVivienda y servicios básicos\n33%\n\n\nAlimentos y bebidas\n20%\n\n\nTransporte\n13%\n\n\nRestaurantes y hoteles\n8%\n\n\nSalud\n6%\n\n\nOtros\n20%\n\n\n\nLa canasta se actualiza cada varios años con la Encuesta de Presupuestos Familiares (EPF)."
+  },
+  {
+    "objectID": "clases/clase01_actividad_03_ipc.html#la-canasta-del-ine-los-representa",
+    "href": "clases/clase01_actividad_03_ipc.html#la-canasta-del-ine-los-representa",
+    "title": "Actividad IPC — Clase 01",
+    "section": "¿La canasta del INE los representa?",
+    "text": "¿La canasta del INE los representa?\nDiscutan:\n\n¿Qué grupo de la población tiene más peso en la canasta del INE: hogares de altos o bajos ingresos?\n¿Debería haber un IPC diferente para Santiago y para regiones?\n¿Qué pasaría si la canasta estuviera desactualizada 10 años?\n\n\nEl INE publica el IPC general pero también desgloses por grupo de gasto, por ciudad y por quintil de ingreso — porque saben que la inflación que siente cada hogar puede ser muy distinta."
+  },
+  {
+    "objectID": "clases/clase01_actividad_03_ipc.html#para-llevar",
+    "href": "clases/clase01_actividad_03_ipc.html#para-llevar",
+    "title": "Actividad IPC — Clase 01",
+    "section": "Para llevar",
+    "text": "Para llevar\n\nCuando vean un titular que dice “la inflación fue X%”, ahora saben preguntar:\n\n¿Qué canasta usaron para medirla?\n¿Qué bien la empujó más?\n¿Esa canasta me representa a mí?"
+  },
+  {
+    "objectID": "clases/clase01_actividad_04_coyuntura_pauta.html#la-distinción-técnica-central",
+    "href": "clases/clase01_actividad_04_coyuntura_pauta.html#la-distinción-técnica-central",
+    "title": "Actividad de coyuntura — Clase 01 (Pauta)",
     "section": "La distinción técnica central",
     "text": "La distinción técnica central\n“Quiebra” en términos soberanos significa default: el Estado no puede pagar su deuda.\nPara que eso ocurra en Chile se necesitaría:\n\nQue los acreedores se nieguen a refinanciar la deuda\nQue el Estado no pueda generar ingresos suficientes\nQue la clasificación crediticia caiga a niveles de alto riesgo\n\nNada de eso ocurre hoy. La probabilidad de default es prácticamente nula."
   },
   {
-    "objectID": "clases/clase01_actividad_04_coyuntura.html#el-mapa-de-indicadores",
-    "href": "clases/clase01_actividad_04_coyuntura.html#el-mapa-de-indicadores",
-    "title": "Actividad de coyuntura — Clase 01",
+    "objectID": "clases/clase01_actividad_04_coyuntura_pauta.html#el-mapa-de-indicadores",
+    "href": "clases/clase01_actividad_04_coyuntura_pauta.html#el-mapa-de-indicadores",
+    "title": "Actividad de coyuntura — Clase 01 (Pauta)",
     "section": "El mapa de indicadores",
     "text": "El mapa de indicadores\n\n\n\n\nIndicador\nSeñal\nImplicancia\n\n\n\n\nCrecimiento PIB\n🟡\nModerado y desacelerando\n\n\nInflación\n🟡\nConvergida, pero shock externo en curso\n\n\nEmpleo\n🟢\nEstable\n\n\nBalance Estructural\n🔴\n-3,6% del PIB, 3er incumplimiento\n\n\nDeuda / PIB\n🟡\nBajo el límite, pero creciendo ×10 en 17 años\n\n\nActivos del Tesoro\n🔴\nDe US$2.946M a US$46M en un año\n\n\nGasto en intereses\n🔴\nCasi el doble que en 2015\n\n\nClasificación crediticia\n🟢\nA−, mejor de la región\n\n\nCDS / default\n🟢\nProbabilidad prácticamente nula\n\n\n\n\n🟢 Sin preocupación inmediata · 🟡 Señal de alerta · 🔴 Problema estructural"
   },
   {
-    "objectID": "clases/clase01_actividad_04_coyuntura.html#la-pregunta-correcta",
-    "href": "clases/clase01_actividad_04_coyuntura.html#la-pregunta-correcta",
-    "title": "Actividad de coyuntura — Clase 01",
+    "objectID": "clases/clase01_actividad_04_coyuntura_pauta.html#la-pregunta-correcta",
+    "href": "clases/clase01_actividad_04_coyuntura_pauta.html#la-pregunta-correcta",
+    "title": "Actividad de coyuntura — Clase 01 (Pauta)",
     "section": "La pregunta correcta",
     "text": "La pregunta correcta\nNo es “¿está Chile en quiebra?” — esa pregunta tiene una respuesta técnica simple: No.\nLa pregunta relevante es:\n\n¿Tiene Chile margen fiscal para responder a una crisis sin comprometer su solvencia de largo plazo?\n\nCon activos del Tesoro en US$46 millones, tres incumplimientos consecutivos de la regla fiscal y una probabilidad del 50% de superar el nivel prudente de deuda hacia 2027, la respuesta del CFA es: el margen se está agotando."
   },
   {
-    "objectID": "clases/clase01_actividad_04_coyuntura.html#para-llevar",
-    "href": "clases/clase01_actividad_04_coyuntura.html#para-llevar",
-    "title": "Actividad de coyuntura — Clase 01",
+    "objectID": "clases/clase01_actividad_04_coyuntura_pauta.html#para-llevar",
+    "href": "clases/clase01_actividad_04_coyuntura_pauta.html#para-llevar",
+    "title": "Actividad de coyuntura — Clase 01 (Pauta)",
     "section": "Para llevar",
     "text": "Para llevar\nEl análisis económico de coyuntura no busca concluir si algo es “bueno” o “malo” en abstracto — busca identificar:\n\n¿Qué está pasando? (diagnóstico con datos)\n¿Qué podría pasar? (escenarios y riesgos)\n¿Qué se puede hacer? (opciones de política)\n\nEl debate político convierte problemas graduales en crisis absolutas. El análisis técnico los descompone en indicadores concretos y trayectorias verificables."
   },
   {
-    "objectID": "clases/clase01_actividad_04_coyuntura.html#referencias",
-    "href": "clases/clase01_actividad_04_coyuntura.html#referencias",
-    "title": "Actividad de coyuntura — Clase 01",
+    "objectID": "clases/clase01_actividad_04_coyuntura_pauta.html#referencias",
+    "href": "clases/clase01_actividad_04_coyuntura_pauta.html#referencias",
+    "title": "Actividad de coyuntura — Clase 01 (Pauta)",
     "section": "Referencias",
     "text": "Referencias\nDocumentos oficiales utilizados:\n\nBanco Central de Chile. (2026, marzo). Informe de Política Monetaria (IPoM). Santiago: BCCh.\nConsejo Fiscal Autónomo. (2026, 4 de marzo). Informe sobre el desvío de la meta de Balance Estructural de 2025. Santiago: CFA. cfachile.cl\nConsejo Fiscal Autónomo. (2026, 26 de marzo). Informe de Balance Estructural y nivel prudente de deuda: estimaciones 2026–2030 del IFP del cuarto trimestre de 2025. Santiago: CFA. cfachile.cl\nDirección de Presupuestos (Dipres). (2026, febrero). Informe de Finanzas Públicas del cuarto trimestre de 2025 (IFP4T25). Santiago: Dipres. dipres.gob.cl\n\nVerificación:\n\nFastCheck.cl. (2026, 25 de marzo). Chile tiene un Estado en la quiebra: #Falso. fastcheck.cl\nEl Dínamo. (2026, 25 de marzo). Chile: el país con la mejor clasificación de riesgo de la región y el enredo del gobierno por la “quiebra”. eldinamo.cl\nBioBioChile. (2026, 25 de marzo). Qué significa que un Estado esté en quiebra y qué tiene que pasar para que esto ocurra. biobiochile.cl"
   },
