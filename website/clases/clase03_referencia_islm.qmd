@@ -1,0 +1,341 @@
+---
+title: "Referencia IS-LM — Variaciones y efectos"
+subtitle: "Economía cerrada y abierta (Mundell-Fleming)"
+lang: es
+date: "Mayo 2026"
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-title: "Contenido"
+    toc-depth: 3
+    self-contained: true
+  pdf:
+    toc: true
+    toc-title: "Contenido"
+    papersize: a4
+    geometry: "top=1.5in, bottom=1in, left=1in, right=1in"
+    include-in-header:
+      text: |
+        \usepackage{fancyhdr}
+        \usepackage{graphicx}
+        \usepackage{transparent}
+        \pagestyle{fancy}
+        \fancyhf{}
+        \lhead{\center{\transparent{0.4}\includegraphics[width=14cm]{imagenes/Imagen1.jpg}}}
+        \rfoot{Página \thepage}
+        \cfoot{© Sebastián Egaña Santibáñez --- Entorno Económico}
+        \renewcommand{\headrulewidth}{0pt}
+        \renewcommand{\footrulewidth}{0pt}
+---
+
+## Convenciones
+
+| Símbolo | Significado |
+|:---:|---|
+| ↑ | Aumenta |
+| ↓ | Disminuye |
+| — | Sin cambio |
+| → | Implica / desencadena |
+
+**Variables:** $Y$ = producto, $i$ = tasa de interés nominal, $r$ = tasa real, $e$ = tipo de cambio (unidades de moneda local por divisa; ↑$e$ = depreciación).
+
+**Modelo base:** IS: $Y = C(Y-T) + I(r) + G$ · LM: $\bar{M}/P = L(i,Y)$ · Fisher: $i = r + \pi^e$
+
+---
+
+## Parte I: Economía cerrada
+
+### Tabla resumen — economía cerrada
+
+| Variación | Curva afectada | Dirección | $Y$ | $i$ |
+|---|:---:|:---:|:---:|:---:|
+| ↑ Gasto público ($\uparrow G$) | IS | → derecha | ↑ | ↑ |
+| ↓ Gasto público ($\downarrow G$) | IS | → izquierda | ↓ | ↓ |
+| ↓ Impuestos ($\downarrow T$) | IS | → derecha | ↑ | ↑ |
+| ↑ Impuestos ($\uparrow T$) | IS | → izquierda | ↓ | ↓ |
+| ↑G + ↑T (presupuesto equilibrado) | IS | → derecha (pequeño) | ↑ (= ΔG) | ↑ |
+| ↑ Consumo autónomo ($\uparrow \bar{C}$) | IS | → derecha | ↑ | ↑ |
+| ↓ Consumo autónomo ($\downarrow \bar{C}$) — paradoja frugalidad | IS | → izquierda | ↓ | ↓ |
+| ↑ Inversión autónoma ($\uparrow \bar{I}$) | IS | → derecha | ↑ | ↑ |
+| ↑ Oferta monetaria ($\uparrow \bar{M}$) | LM | → derecha | ↑ | ↓ |
+| ↓ Oferta monetaria ($\downarrow \bar{M}$) | LM | → izquierda | ↓ | ↑ |
+| ↑ Nivel de precios ($\uparrow P$) | LM | → izquierda (↓$\bar{M}/P$) | ↓ | ↑ |
+| ↓ Nivel de precios ($\downarrow P$) | LM | → derecha (↑$\bar{M}/P$) | ↑ | ↓ |
+
+### Casos detallados
+
+#### 1. Política fiscal expansiva ($\uparrow G$)
+
+**Mecanismo:** $\uparrow G$ → IS se desplaza a la derecha → exceso de demanda de bienes → $\uparrow$ producción → $\uparrow$ demanda de dinero → $\uparrow i$ → $\downarrow I$ privada (crowding out parcial).
+
+**Resultado:** $\uparrow Y$, $\uparrow i$ — el producto sube menos de lo que predice el multiplicador simple porque el alza de tasas frena la inversión privada.
+
+**Multiplicador IS-LM** < Multiplicador keynesiano simple porque parte del estímulo se "expulsa" vía tasas.
+
+---
+
+#### 2. Política fiscal contractiva ($\downarrow G$ o $\uparrow T$)
+
+**Mecanismo:** IS se desplaza a la izquierda → $\downarrow Y$, $\downarrow i$.
+
+La caída de tasas amortigua el efecto: estimula algo de inversión privada, pero el efecto neto sobre $Y$ es negativo.
+
+---
+
+#### 3. Multiplicador del presupuesto equilibrado (Haavelmo)
+
+Si $\Delta G = \Delta T$ (el gasto sube financiado íntegramente con impuestos):
+
+$$\left.\frac{dY}{dG}\right|_{\Delta G = \Delta T} = \frac{1}{1-c} - \frac{c}{1-c} = 1$$
+
+**El producto sube exactamente en $\Delta G$** — el multiplicador es 1, no mayor. La razón: el alza de impuestos reduce el consumo en $c \cdot \Delta T$, compensando parte del estímulo del gasto.
+
+---
+
+#### 4. Paradoja de la frugalidad
+
+Si el público decide ahorrar más autónomamente ($\downarrow \bar{C}$):
+
+- IS se desplaza a la izquierda → $\downarrow Y$, $\downarrow i$
+- Paradoja: el ahorro **no aumenta** — cae el ingreso en exactamente la misma magnitud que el aumento del ahorro autónomo, dejando el ahorro total igual a la inversión (que es fija)
+
+**La paradoja solo opera en el corto plazo keynesiano.** En el largo plazo (cap. 6, pleno empleo), mayor ahorro sí genera más inversión y crecimiento.
+
+---
+
+#### 5. Política monetaria expansiva ($\uparrow \bar{M}$)
+
+**Mecanismo:** $\uparrow \bar{M}$ → LM se desplaza a la derecha → exceso de oferta de dinero → el público compra bonos → $\uparrow$ precio bonos → $\downarrow i$ → $\uparrow I(r)$ → exceso de demanda de bienes → $\uparrow Y$ → $\uparrow$ demanda de dinero → modera la baja de $i$.
+
+**Resultado:** $\uparrow Y$, $\downarrow i$ — canal de transmisión: tasas → inversión → producto.
+
+---
+
+#### 6. Efecto de un alza del nivel de precios ($\uparrow P$)
+
+$\uparrow P$ → $\downarrow \bar{M}/P$ (saldos reales caen) → LM se desplaza a la izquierda → $\downarrow Y$, $\uparrow i$.
+
+Esto es la base de la **curva de demanda agregada** (DA): a mayor $P$, menor $Y$ de equilibrio IS-LM.
+
+---
+
+#### 7. Policy mix — combinaciones de PM y PF
+
+| Combinación | Objetivo | Resultado |
+|---|---|---|
+| $\uparrow \bar{M}$ + $\uparrow G$ | Expandir $Y$ | $\uparrow\uparrow Y$, $i$ ambiguo |
+| $\uparrow \bar{M}$ + $\downarrow G$ | Mantener $Y$, bajar $i$ | $Y$ estable, $\downarrow i$, más inversión privada |
+| $\downarrow \bar{M}$ + $\uparrow G$ | Mantener $Y$, subir $i$ | $Y$ estable, $\uparrow i$, más gasto público |
+| $\downarrow \bar{M}$ + $\downarrow G$ | Contraer $Y$ | $\downarrow\downarrow Y$, $i$ ambiguo |
+
+**Chile 2025-2026:** BCCh bajando TPM ($\uparrow \bar{M}$ equivalente) mientras el fisco necesita consolidar ($\downarrow G$ relativo) → segundo caso: mantiene $Y$, baja $i$, impulsa inversión privada.
+
+---
+
+### Casos especiales de pendiente
+
+#### 8. IS casi vertical ($I' \approx 0$)
+
+La inversión es poco sensible a la tasa de interés (ej.: expectativas muy negativas, acceso a crédito bloqueado).
+
+- **PM expansiva:** $\downarrow i$ pero $\uparrow I \approx 0$ → $Y$ apenas sube. **PM poco efectiva.**
+- **PF expansiva:** IS se desplaza → $\uparrow Y$ sin crowding out significativo. **PF muy efectiva.**
+
+Caso histórico: Gran Depresión 1930 — inversión deprimida por "espíritus animales", multiplicador fiscal alto.
+
+---
+
+#### 9. LM horizontal — Trampa de liquidez ($L_i \to \infty$)
+
+La tasa de interés nominal está en su piso (~0%). El público absorbe cualquier aumento de $\bar{M}$ sin que $i$ baje.
+
+- **PM expansiva:** LM se desplaza pero $i$ no puede bajar más → $I$ no sube → $Y$ no sube. **PM completamente inefectiva.**
+- **PF expansiva:** IS se desplaza → $\uparrow Y$ sin crowding out (la tasa no sube). **PF máximamente efectiva.**
+
+Respuesta no convencional: QE (compra de bonos de largo plazo para bajar tasas largas), forward guidance.
+
+| País | Período | Tasa |
+|---|---|---|
+| Japón | 1999–presente | ~0% |
+| EE.UU. | 2008–2015, 2020–2021 | 0–0,25% |
+| Zona Euro | 2014–2022 | Tasas negativas |
+
+---
+
+## Parte II: Economía abierta — TC flexible (Mundell-Fleming)
+
+**Supuestos:** $P = P^* = 1$ (PPP) → $e = q$; $\pi = \pi^e = 0$ → $i = r$; perfecta movilidad de capitales → $i = i^*$; TC se ajusta instantáneamente.
+
+**Ecuaciones:**
+$$IS^*: \quad Y = C(Y-T) + I(i^*) + G + XN(e, Y, Y^*)$$
+$$LM^*: \quad \frac{\bar{M}}{P} = L(i^*, Y)$$
+
+En TC flexible, **la LM\* es vertical** (el TC no afecta el mercado monetario). La **IS\* tiene pendiente positiva** en el plano $(Y, e)$: una depreciación ($\uparrow e$) aumenta las exportaciones netas y por tanto el producto.
+
+### Tabla resumen — TC flexible
+
+| Variación | $Y$ | $i$ | $e$ | Mecanismo clave |
+|---|:---:|:---:|:---:|---|
+| ↑G (PF expansiva) | — | — | ↓ (aprecia) | Crowding out vía apreciación cambiaria |
+| ↓T (PF expansiva) | — | — | ↓ (aprecia) | Ídem |
+| ↑$\bar{M}$ (PM expansiva) | ↑ | — | ↑ (deprecia) | Canal: depreciación → ↑XN |
+| ↓ Aranceles | — | — | ↑ (deprecia) | ↑M → deprecia → ↑X compensa |
+| ↑$i^*$ (Fed sube tasas) | ↑ | ↑ | ↑ (deprecia) | Deprecia → ↑XN domina sobre ↓I |
+| ↓$Y^*$ (recesión externa) | ↓ | — | ↓ (aprecia) | ↓XN → IS izquierda → aprecia más |
+
+### Casos detallados
+
+#### 10. Política fiscal expansiva ($\uparrow G$) — TC flexible
+
+1. $\uparrow G$ → IS se desplaza a la derecha → presión al alza sobre $i$
+2. Con movilidad perfecta de capitales: entrada de capitales → apreciación del TC ($\downarrow e$)
+3. $\downarrow e$ → $\downarrow XN$ → IS se desplaza de vuelta a la izquierda
+4. El equilibrio final: $Y$ sin cambio, $i = i^*$, $e$ más apreciado
+
+$$\Delta G = -\Delta XN \quad \text{(crowding out total vía TC)}$$
+
+**Conclusión:** La política fiscal es **inefectiva** para cambiar el producto bajo TC flexible y perfecta movilidad de capitales. Solo aprecia el tipo de cambio.
+
+---
+
+#### 11. Política monetaria expansiva ($\uparrow \bar{M}$) — TC flexible
+
+1. $\uparrow \bar{M}$ → LM se desplaza a la derecha → presión a la baja sobre $i$
+2. Salida de capitales → depreciación del TC ($\uparrow e$)
+3. $\uparrow e$ → $\uparrow XN$ → IS se desplaza a la derecha → $\uparrow Y$
+4. Mayor $Y$ → mayor demanda de dinero → absorbe el exceso de $\bar{M}$ sin cambio en $i$
+
+**Resultado:** $\uparrow Y$, $i = i^*$, $\uparrow e$ (depreciación).
+
+**Canal de transmisión bajo TC flexible:** PM → tipo de cambio → exportaciones netas → producto (distinto al canal cerrado: PM → tasa de interés → inversión).
+
+---
+
+#### 12. Política comercial (↓ aranceles) — TC flexible
+
+1. Menor protección → $\uparrow$ importaciones → IS se desplaza a la izquierda
+2. Presión a la baja sobre $i$ → salida de capitales → depreciación ($\uparrow e$)
+3. $\uparrow e$ → $\uparrow XN$ → IS vuelve al punto original
+
+**Resultado:** $Y$ sin cambio, $i = i^*$, $e$ más depreciado. La rebaja de aranceles solo deprecia el TC.
+
+---
+
+#### 13. Alza de tasa de interés internacional ($\uparrow i^*$) — TC flexible
+
+1. $\uparrow i^*$ → $\downarrow I$ (inversión cae) → IS se desplaza a la izquierda
+2. Presión a la baja sobre $i$ → salida de capitales → depreciación ($\uparrow e$)
+3. $\uparrow e$ → $\uparrow XN$ → IS se desplaza a la derecha hasta intersectar LM en $i^*_2$
+
+**Resultado:** $\uparrow Y$, $i$ sube a $i^*_2$, $\uparrow e$ (depreciación).
+
+Paradoja: el alza de tasas internacionales termina **expandiendo** el producto vía depreciación. Sin embargo, en el mundo real, un $\uparrow i^*$ suele ir acompañado de $\downarrow Y^*$ (recesión en el país que sube tasas), lo que contrae las exportaciones y puede dominar sobre la depreciación — efecto neto contractivo para economías pequeñas.
+
+---
+
+## Parte III: Economía abierta — TC fijo (Mundell-Fleming)
+
+**Configuración:** El banco central mantiene $e = \bar{e}$ comprando/vendiendo divisas. La oferta de dinero endógena: $M = R^* + CI$ (reservas + crédito interno). Con perfecta movilidad de capitales $i = i^*$ y el TC fijo fuerza que $\bar{M}$ se acomode.
+
+### Tabla resumen — TC fijo
+
+| Variación | $Y$ | $i$ | $e$ | Mecanismo clave |
+|---|:---:|:---:|:---:|---|
+| ↑G (PF expansiva) | ↑ | — | — | BC acumula reservas → ↑M → LM derecha |
+| ↓T (PF expansiva) | ↑ | — | — | Ídem |
+| ↑$\bar{M}$ (PM expansiva) | — | — | — | BC pierde reservas → M vuelve al nivel original |
+| Devaluación ($\uparrow \bar{e}$) | ↑ | — | ↑ (fijo nuevo) | ↑XN → IS derecha → entrada capitales → ↑M |
+| ↑$i^*$ | ↓ | ↑ | — | ↓I → IS izq. → BC vende divisas → ↓M → LM izq. |
+
+### Casos detallados
+
+#### 14. Política fiscal expansiva ($\uparrow G$) — TC fijo
+
+1. $\uparrow G$ → IS se desplaza a la derecha → mayor $Y$ → presión al alza sobre $i$
+2. Entrada de capitales → presión a la apreciación → BC compra divisas para mantener $\bar{e}$
+3. Compra de divisas = emisión de dinero → $\uparrow \bar{M}$ → LM se desplaza a la derecha
+4. Este proceso continúa hasta que $i = i^*$ de nuevo
+
+**Resultado:** $\uparrow Y$, $i = i^*$, $e = \bar{e}$. El multiplicador es completo — no hay crowding out.
+
+**Por qué es efectiva:** la PF genera entrada de capitales que el BC absorbe emitiendo dinero, lo que valida el mayor nivel de actividad sin presionar las tasas.
+
+---
+
+#### 15. Política monetaria expansiva — TC fijo
+
+1. BC intenta $\uparrow \bar{M}$ vía crédito interno ($\uparrow CI$)
+2. Exceso de oferta de dinero → el público compra divisas
+3. BC debe vender divisas para mantener $\bar{e}$ → $\downarrow R^*$ → $\downarrow M$
+4. $M$ vuelve al nivel original; las reservas caen en exactamente $\Delta CI$
+
+**Resultado:** $Y$ sin cambio, $i = i^*$, $e = \bar{e}$. La PM es **completamente inefectiva** bajo TC fijo.
+
+**Conclusión estructural:** bajo TC fijo el banco central **pierde el control de la oferta de dinero**. Esta es la base de la **trinidad imposible**: no se puede tener simultáneamente TC fijo, movilidad perfecta de capitales y política monetaria independiente.
+
+---
+
+#### 16. Devaluación nominal ($\uparrow \bar{e}$) — TC fijo
+
+El BC decide fijar un nuevo TC más alto (deprecia la moneda).
+
+1. $\uparrow \bar{e}$ → $\uparrow XN$ → IS se desplaza a la derecha
+2. $\uparrow Y$ → entrada de capitales → BC compra divisas → $\uparrow M$ → LM se desplaza a la derecha
+3. Nuevo equilibrio: $\uparrow Y$, $i = i^*$, $e = \bar{e}_2 > \bar{e}_1$
+
+**Condición necesaria (Marshall-Lerner):** La devaluación expande el producto solo si:
+$$\frac{e}{X} X_e + \left|\frac{e}{N} N_e\right| > 1$$
+
+La suma de las elasticidades de exportaciones e importaciones respecto al TC debe ser mayor a 1. La evidencia sugiere que se cumple en el mediano plazo, pero en el corto plazo puede dominar el efecto valoración (las importaciones se encarecen antes de que las cantidades se ajusten) → **curva J**: el producto primero cae, luego sube.
+
+---
+
+#### 17. Alza de tasa internacional ($\uparrow i^*$) — TC fijo
+
+1. $\uparrow i^*$ → $\downarrow I$ → IS se desplaza a la izquierda → $\downarrow Y$
+2. Mayor $i^*$ → salida de capitales → BC vende divisas → $\downarrow M$ → LM izquierda
+3. Doble contracción: IS e LM se mueven simultáneamente hacia la izquierda
+
+**Resultado:** $\downarrow Y$, $i$ sube a $i^*_2$, $e = \bar{e}$. La restricción del TC fijo agrava el efecto contractivo del alza externa de tasas.
+
+Caso histórico: contracción monetaria de la Fed bajo Volcker (1980-1982) → $\uparrow i^*$ → crisis de deuda en América Latina (países con TC fijo o semi-fijo y deuda en dólares).
+
+---
+
+## Parte IV: Tabla comparativa general
+
+Fuente: De Gregorio (2007), Cuadro 20.1, p. 550. Signos: (+) sube, (−) baja, (0) sin cambio.
+
+| | Ec. Cerrada | | TC Flexible | | | TC Fijo | | |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| | $Y$ | $i$ | $Y$ | $i$ | $e$ | $Y$ | $i$ | $e$ |
+| **PM expansiva** ($\uparrow \bar{M}$) | + | − | + | 0 | + | 0 | 0 | 0 |
+| **PF expansiva** ($\uparrow G$) | + | + | 0 | 0 | − | + | 0 | 0 |
+
+**Lectura clave:**
+- TC flexible: PM efectiva, PF inefectiva
+- TC fijo: PF efectiva, PM inefectiva
+- Ec. cerrada: ambas efectivas, con trade-off en la tasa de interés
+
+---
+
+## Parte V: Resumen de efectos sobre la curva de demanda agregada
+
+La curva DA relaciona el nivel de precios $P$ con el producto de equilibrio IS-LM. Cualquier variable que desplace la IS o la LM (manteniendo $P$ fijo) desplaza la DA:
+
+| Shock | Desplaza la DA |
+|---|---|
+| $\uparrow G$, $\downarrow T$, $\uparrow \bar{C}$, $\uparrow \bar{I}$ | A la derecha |
+| $\downarrow G$, $\uparrow T$, $\downarrow \bar{C}$, $\downarrow \bar{I}$ | A la izquierda |
+| $\uparrow \bar{M}$ | A la derecha |
+| $\downarrow \bar{M}$ | A la izquierda |
+| $\uparrow P$ (movimiento sobre la DA, no desplazamiento) | Reduce $Y$ de equilibrio |
+
+---
+
+## Referencias
+
+- De Gregorio, J. (2007). *Macroeconomía. Teoría y Políticas*. Pearson Educación. Cap. 19 (IS-LM cerrada) y Cap. 20 (Mundell-Fleming).
+- Blanchard, O. (2017). *Macroeconomics* (7ª ed.). Pearson. Caps. 5, 19 y 20.
+- Mankiw, N. G. (2021). *Principios de Economía* (8ª ed.). Cengage. Cap. 34.
