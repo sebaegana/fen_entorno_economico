@@ -1,0 +1,67 @@
+---
+title: "Actividad — Dolarización y problemas de balance"
+subtitle: "Clase 02 · Entorno Económico y Financiero para las Decisiones de Inversión"
+lang: es
+date: "Mayo 2026"
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-title: "Contenido"
+    self-contained: true
+  pdf:
+    toc: false
+    papersize: a4
+    geometry: margin=1in
+---
+
+## Contexto
+
+La dolarización y la depreciación de la moneda local no solo afectan el precio de los bienes importados — también impactan directamente el **balance de las empresas** que tienen deuda en dólares.
+
+Esta actividad ilustra ese efecto a través de un caso numérico simple.
+
+---
+
+## Enunciado
+
+Una empresa chilena tiene el siguiente balance al **31 de diciembre de 2023**, cuando el tipo de cambio es **$850 por dólar**:
+
+| **Activos** | **Monto (CLP)** | **Pasivos y Patrimonio** | **Monto (CLP)** |
+|---|---|---|---|
+| Activos operacionales | $4.250.000 | Deuda en USD (USD 3.000) | $2.550.000 |
+| Caja (CLP) | $500.000 | Deuda en CLP | $1.200.000 |
+| | | **Patrimonio** | **$1.000.000** |
+| **Total Activos** | **$4.750.000** | **Total Pasivos + Patrimonio** | **$4.750.000** |
+
+A mediados de 2024, el tipo de cambio sube a **$980 por dólar** debido a un shock externo.
+
+---
+
+## Preguntas
+
+**1.** Recalcula el valor en pesos de la deuda en dólares al nuevo tipo de cambio.
+
+**2.** ¿Cuál es el nuevo patrimonio de la empresa, asumiendo que los activos operacionales no cambian de valor en CLP?
+
+**3.** ¿Cuánto se depreció el peso (en porcentaje)?
+
+**4.** ¿Qué le ocurre al índice de endeudamiento (Pasivos / Patrimonio) con la depreciación?
+
+**5.** ¿Cómo cambia tu análisis si la empresa hubiera tenido sus **activos** también en dólares (por ejemplo, exporta y recibe ingresos en USD)?
+
+---
+
+## Marco conceptual
+
+La **deuda en moneda extranjera** crea un descalce cambiario: los pasivos suben en pesos cuando el dólar se aprecia, pero los activos (si son en CLP) no se mueven.
+
+$$\text{Deuda}_{CLP} = \text{Deuda}_{USD} \times e$$
+
+Donde $e$ es el tipo de cambio (CLP/USD). Un aumento de $e$ (depreciación) infla el pasivo sin cambiar el activo → **el patrimonio cae**.
+
+---
+
+## Referencia
+
+Ver ejercicio complementario en Excel: `data/ejercicio 01 Presupuesto.xlsx`

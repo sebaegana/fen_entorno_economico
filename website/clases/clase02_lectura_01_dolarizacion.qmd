@@ -1,0 +1,63 @@
+---
+title: "Dolarización"
+subtitle: "Clase 02 — Entorno Económico y Financiero para las Decisiones de Inversión"
+lang: es
+date: "Mayo 2026"
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-title: "Contenido"
+    self-contained: true
+  pdf:
+    toc: false
+    papersize: a4
+    geometry: margin=1in
+---
+
+## Dolarización en América Latina
+
+La dolarización corresponde a la **aceptación del dólar como moneda**, sustituyéndola por la moneda local.
+
+Puede ser:
+
+- **Formal:** Ecuador, Panamá y El Salvador
+- **Informal:** Venezuela y Argentina
+
+La principal razón para esto corresponde a la pérdida de confianza en la moneda local, que se refleja en una constante pérdida de valor de la moneda local.
+
+---
+
+## Ventajas y desventajas
+
+| | Ventajas | Desventajas |
+|---|---|---|
+| **Tipo de cambio** | Evita la depreciación de la moneda y posibles salidas de capitales; menos riesgo puede implicar menor tasa de endeudamiento | Pérdida de soberanía sobre la moneda: imposible ajustar el tipo de cambio |
+| **Mercados** | Facilita el acceso a los mercados globales al trabajar con una moneda de interés mundial | Imposibilidad de controlar la cantidad de dinero físico en circulación: se pierde el derecho de **señoreaje** — ya no puede financiar gasto público imprimiendo dinero |
+| **Estabilidad** | Según Glower (2011), el dólar es visto como la panacea del subdesarrollo; manera de evitar la inestabilidad monetaria | Según Glower (2011), se debe dar liquidez al mercado, lo que obliga a la compra de la divisa |
+
+---
+
+## Dolarización, tipo de cambio y problemas de balance
+
+Se debe considerar que por lo general la dolarización ocurre después de una gran pérdida del valor de la moneda. A la vez, esto ocurre después de que durante algún tiempo ya se estuvo viviendo una dolarización informal en la economía. Por lo general la población sale desfavorecida con el cambio.
+
+La influencia del tipo de cambio va más allá de la relación entre exportaciones e importaciones. Por lo general, existe **deuda que está en dólares**, por lo tanto, en un contexto de depreciación de la moneda local dichos actores se ven perjudicados por un aumento de la deuda a través del tipo de cambio.
+
+> Ver ejercicio en Excel: `data/ejercicio 01 Presupuesto.xlsx`
+
+---
+
+## Caso comparado: Banco Nacional de Panamá
+
+Corresponde a la entidad bancaria oficial de Panamá, pero solo realiza algunas funciones de banco central debido a que **no puede emitir billetes** (la moneda de curso legal es el dólar), a pesar de que la moneda oficial es el balboa, que solo se usa para fines contables.
+
+- **Banco estatal:** agente financiero del Estado y depositario de los fondos de la Nación
+- **Banco regulador:** manejo de cámara de compensación del Sistema Bancario Nacional
+- **Banco privado:** mayor presencia a lo largo y ancho del país, con servicios tanto al segmento comercial como de consumo
+
+---
+
+## Referencia
+
+- Glower, C. (2011). *Dolarización: ventajas y desventajas*.
