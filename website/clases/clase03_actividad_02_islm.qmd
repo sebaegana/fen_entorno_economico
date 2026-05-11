@@ -1,0 +1,100 @@
+---
+title: "Actividad IS-LM — Clase 03"
+subtitle: "Ejercicio matemático: derivación y equilibrio"
+lang: es
+date: "Mayo 2026"
+format:
+  revealjs:
+    theme: simple
+    center: false
+    slide-number: true
+    self-contained: true
+    incremental: false
+    transition: slide
+    logo: "imagenes/Imagen1.jpg"
+    footer: "© Sebastián Egaña Santibáñez — Entorno Económico"
+    include-in-header: styles.html
+  pdf:
+    toc: false
+    papersize: a4
+    geometry: margin=1in
+---
+
+## La economía
+
+Considere la siguiente estructura:
+
+$$C = 0{,}8(Y - T), \quad I = 20 - 0{,}4i, \quad G = 10, \quad T = 20$$
+
+$$M^S = 50, \quad M^D = (0{,}5Y - i) \cdot P$$
+
+**Preguntas:**
+
+- **(A)** Derive la curva IS
+- **(B)** Suponiendo $P = 2$, derive la curva LM
+- **(C)** Determine el equilibrio $(Y^*, i^*)$
+- **(D)** ¿Qué ocurre si $G$ sube a 15? ¿Y si $M^S$ sube a 80?
+
+------------------------------------------------------------------------
+
+## (A) Curva IS
+
+Condición de equilibrio del mercado de bienes: $Y = C + I + G$
+
+$$Y = 0{,}8(Y - 20) + (20 - 0{,}4i) + 10$$
+
+$$Y = 0{,}8Y - 16 + 20 - 0{,}4i + 10$$
+
+$$Y - 0{,}8Y = 14 - 0{,}4i$$
+
+$$\boxed{IS: \quad Y = 70 - 2i}$$
+
+La IS tiene pendiente negativa: mayor tasa de interés → menor inversión → menor producto.
+
+------------------------------------------------------------------------
+
+## (B) Curva LM
+
+Equilibrio en el mercado monetario: $M^S = M^D$
+
+$$50 = (0{,}5Y - i) \cdot 2$$
+
+$$25 = 0{,}5Y - i$$
+
+$$\boxed{LM: \quad i = 0{,}5Y - 25}$$
+
+La LM tiene pendiente positiva: mayor producto → mayor demanda de dinero → mayor tasa de interés.
+
+------------------------------------------------------------------------
+
+## (C) Equilibrio IS-LM
+
+Sustituimos la LM en la IS:
+
+$$Y = 70 - 2(0{,}5Y - 25)$$
+
+$$Y = 70 - Y + 50$$
+
+$$2Y = 120 \quad \Rightarrow \quad \boxed{Y^* = 60}$$
+
+$$i^* = 0{,}5(60) - 25 = \boxed{i^* = 5\%}$$
+
+------------------------------------------------------------------------
+
+## (D) Análisis de política
+
+**Política fiscal: $G$ sube de 10 a 15**
+
+$$Y = 0{,}8(Y-20) + (20-0{,}4i) + 15 \quad \Rightarrow \quad IS': Y = 95 - 2i$$
+
+Nuevo equilibrio: $Y^{**} = 65$, $i^{**} = 7{,}5\%$
+
+El producto sube 5 pero la tasa sube 2,5 pp — el crowding out frena parte del multiplicador.
+
+**Política monetaria: $M^S$ sube de 50 a 80**
+
+$$80 = (0{,}5Y - i) \cdot 2 \quad \Rightarrow \quad LM': i = 0{,}5Y - 40$$
+
+Nuevo equilibrio: $Y^{**} = 70$, $i^{**} = -5\%$
+
+> ¿Tiene sentido una tasa nominal negativa? ¿Qué nos dice eso sobre los límites del modelo?

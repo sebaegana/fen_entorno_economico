@@ -1,0 +1,61 @@
+---
+title: "Actividad IS-LM — Clase 03"
+subtitle: "Efectos de política monetaria y fiscal"
+lang: es
+date: "Mayo 2026"
+format:
+  revealjs:
+    theme: simple
+    center: false
+    slide-number: true
+    self-contained: true
+    incremental: false
+    transition: slide
+    logo: "imagenes/Imagen1.jpg"
+    footer: "© Sebastián Egaña Santibáñez — Entorno Económico"
+    include-in-header: styles.html
+  pdf:
+    toc: false
+    papersize: a4
+    geometry: margin=1in
+---
+
+## La pregunta
+
+El modelo IS-LM predice cómo reaccionan el producto y la tasa de interés ante distintas políticas.
+
+**Instrucciones:** complete la siguiente tabla indicando si cada variable sube (↑), baja (↓) o no cambia (—). Justifique con el mecanismo IS-LM.
+
+| Para $P$ dado | Expansión monetaria ($\uparrow \bar{M}$) | Aumento gasto fiscal ($\uparrow G$) | Aumento tributario ($\uparrow T$) |
+|---|:---:|:---:|:---:|
+| **Demanda agregada ($Y$)** | | | |
+| **Tasa de interés ($i$)** | | | |
+
+------------------------------------------------------------------------
+
+## Respuesta
+
+| Para $P$ dado | Expansión monetaria | Aumento gasto fiscal | Aumento tributario |
+|---|:---:|:---:|:---:|
+| **Demanda agregada ($Y$)** | ↑ | ↑ | ↓ |
+| **Tasa de interés ($i$)** | ↓ | ↑ | ↓ |
+
+------------------------------------------------------------------------
+
+## Mecanismos
+
+**Expansión monetaria ($\uparrow \bar{M}$):** LM se desplaza a la derecha → $\downarrow i$ → $\uparrow I$ → $\uparrow Y$
+
+**Aumento gasto fiscal ($\uparrow G$):** IS se desplaza a la derecha → $\uparrow Y$ y $\uparrow i$ (crowding out parcial sobre $I$ privada)
+
+**Aumento tributario ($\uparrow T$):** $\downarrow (Y-T)$ → $\downarrow C$ → IS se desplaza a la izquierda → $\downarrow Y$ y $\downarrow i$
+
+------------------------------------------------------------------------
+
+## Para reflexionar
+
+::: {style="font-size: 1.0em;"}
+¿Qué combinación de políticas permitiría **aumentar el producto sin subir la tasa de interés**?
+:::
+
+> Pista: busquen una que desplace la IS a la derecha y la LM también a la derecha simultáneamente.

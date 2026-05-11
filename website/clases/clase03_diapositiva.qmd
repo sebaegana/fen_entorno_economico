@@ -1,0 +1,587 @@
+---
+title: "Entorno Económico y Financiero para las Decisiones de Inversión"
+subtitle: "Clase 03: Modelo Keynesiano, consumo e IS-LM"
+lang: es
+date: "Mayo 2026"
+format:
+  revealjs:
+    theme: simple
+    center: false
+    slide-number: true
+    self-contained: true
+    incremental: false
+    transition: slide
+    logo: "imagenes/Imagen1.jpg"
+    footer: "© Sebastián Egaña Santibáñez — Entorno Económico"
+    include-in-header: styles.html
+  pdf:
+    toc: false
+    papersize: a4
+    geometry: margin=1in
+---
+
+# Presentación del curso
+
+## Equipo docente
+
+**Docentes:**
+
+- Sebastián Egaña Santibáñez
+- Felipe Jaque
+
+**Ayudante:**
+
+- Jean Pierre Bravo
+
+------------------------------------------------------------------------
+
+## Contenidos del curso
+
+- Análisis de principales variables macroeconómicas
+- Políticas macroeconómicas
+- Revisión de modelos de mercado de bienes y de activos financieros
+- Comportamiento de los agentes económicos: consumo y gobierno
+
+------------------------------------------------------------------------
+
+## Sobre el docente
+
+**Sebastián Egaña Santibáñez**
+
+- Data Tech Lead & Analytics Translator — LATAM Airlines
+- Correo: [segana@fen.uchile.cl](mailto:segana@fen.uchile.cl)
+- Web: <https://segana.netlify.app>
+- LinkedIn: [enlace](https://www.linkedin.com/in/sebastian-egana-santibanez/)
+
+------------------------------------------------------------------------
+
+## Hilo conductor de la clase
+
+Partimos con una pregunta. Al terminar la sesión deberían poder responderla con precisión.
+
+::: {style="font-size: 1.1em; font-weight: bold; color: #0d6e6e; border-left: 6px solid #0d6e6e; padding-left: 1em; margin: 1em 0;"}
+"Los aranceles de Trump generan una guerra comercial: ¿puede Chile reaccionar con política fiscal o monetaria? ¿Funciona igual en economía cerrada que abierta?"
+:::
+
+Para responderla necesitamos entender cómo el gasto del gobierno amplifica el producto (multiplicador), cómo la tasa de interés conecta el mercado de bienes con el monetario (IS-LM) y por qué en economía abierta las respuestas cambian radicalmente.
+
+------------------------------------------------------------------------
+
+## ¿Qué veremos esta clase?
+
+| Bloque | Conceptos clave |
+|---|---|
+| Modelo Keynesiano Simple | Demanda agregada, función de consumo, multiplicador |
+| Comportamiento del consumidor | Restricción inter-temporal, ciclo de vida, ingreso permanente |
+| La curva IS | Mercado de bienes en equilibrio, pendiente, desplazamientos |
+| La curva LM | Mercado monetario en equilibrio, pendiente, desplazamientos |
+| Equilibrio IS-LM | Política monetaria, política fiscal, policy mix |
+
+> La economía abierta y el modelo Mundell-Fleming se cubren en la lectura complementaria `clase03_lectura_01_mundell_fleming`
+
+------------------------------------------------------------------------
+
+# Modelo Keynesiano Simple
+
+## Planteamiento inicial
+
+Partimos con el supuesto de **economía cerrada**: no existen transacciones con el mercado internacional.
+
+La **demanda agregada** bajo economía cerrada es:
+
+$$A = C + I + G$$
+
+donde $I$ y $G$ (inversión y gasto de gobierno) se asumen **exógenos** (constantes por ahora).
+
+El **consumo** viene determinado por:
+
+$$C = \bar{C} + c(Y - T)$$
+
+donde $\bar{C}$ es el consumo autónomo, $c$ es la propensión marginal a consumir ($0 < c < 1$), $Y$ es el ingreso y $T$ son los impuestos.
+
+------------------------------------------------------------------------
+
+## Equilibrio del mercado de bienes
+
+En equilibrio, el producto igual a la demanda agregada: $Y = A$
+
+Sustituyendo la función de consumo:
+
+$$Y = \bar{C} + c(Y - T) + I + G$$
+
+Despejando $Y$:
+
+$$Y = \frac{1}{1 - c}\left(\bar{C} - cT + I + G\right)$$
+
+El término $\frac{1}{1-c}$ es el **multiplicador keynesiano**. Como $0 < c < 1$, se tiene que $\frac{1}{1-c} > 1$.
+
+------------------------------------------------------------------------
+
+## El multiplicador
+
+Con impuestos proporcionales al ingreso ($T = \tau Y$), el equilibrio del mercado de bienes es:
+
+$$Y^* = \frac{1}{1 - c(1-\tau)}\left(\bar{C} + I + G\right)$$
+
+El **multiplicador del gasto** es:
+
+$$\frac{\partial Y}{\partial G} = \frac{\partial Y}{\partial I} = \frac{\partial Y}{\partial \bar{C}} = \frac{1}{1 - c(1-\tau)} > 1$$
+
+Un aumento de \$1 en el gasto público genera un aumento en el producto **mayor que \$1** — porque ese gasto se convierte en ingreso de las empresas, que pagan salarios, que se convierten en consumo, y así sucesivamente.
+
+------------------------------------------------------------------------
+
+## ¿Por qué el multiplicador importa hoy?
+
+::: {style="font-size: 0.95em;"}
+Si Chile enfrenta una caída en exportaciones por los aranceles de Trump, el gobierno podría intentar compensarla con mayor gasto ($\uparrow G$).
+
+El modelo Keynesiano simple predice:
+
+$$\Delta Y = \frac{1}{1 - c(1-\tau)} \cdot \Delta G$$
+
+Con $c = 0{,}8$ y $\tau = 0{,}2$: el multiplicador es $\frac{1}{1 - 0{,}8 \times 0{,}8} = \frac{1}{0{,}36} \approx 2{,}8$
+
+**Problema:** Este modelo supone economía cerrada. En economía abierta con movilidad de capitales, el multiplicador es muy distinto — y esa es la pregunta que responderemos al final.
+:::
+
+> Actividad: Tabla de efectos de política fiscal y monetaria
+> Ver `clase03_actividad_01_efectos_islm`
+
+------------------------------------------------------------------------
+
+# Comportamiento del Consumidor
+
+## Función keynesiana de consumo
+
+La función de consumo vista:
+
+$$C_t = \bar{C} + c(Y_t - T_t)$$
+
+describe cómo el consumo depende del **ingreso disponible** $(Y_t - T_t)$ en cada período.
+
+El parámetro $c$ es la **propensión marginal al consumo**: cuánto sube el consumo ante un aumento de \$1 en el ingreso disponible.
+
+**Limitación:** esta función es estática — no considera que las personas planifican su consumo a lo largo de toda su vida, ni que distinguen entre cambios de ingreso temporales y permanentes.
+
+------------------------------------------------------------------------
+
+## Restricción presupuestaria inter-temporal
+
+Las personas planifican su consumo **a lo largo del tiempo**. En cada período su ingreso total es:
+
+$$Y_t = Y_{l,t} + r A_t$$
+
+donde $Y_{l,t}$ son ingresos del trabajo y $A_t$ son activos que pagan tasa $r$.
+
+Por el lado del gasto, en cada período se consume, pagan impuestos y se acumula (o des-acumula) riqueza:
+
+$$\text{Gasto}_t = C_t + T_t + A_{t+1} - A_t$$
+
+Igualando ingresos y gastos: $Y_{l,t} + rA_t = C_t + T_t + A_{t+1} - A_t$
+
+------------------------------------------------------------------------
+
+## Restricción presupuestaria inter-temporal (resultado)
+
+Llevando la restricción a valor presente a lo largo de toda la vida:
+
+$$VP_{\text{consumo}} = \underbrace{VP_{\text{ingresos netos del trabajo}}}_{\text{Riqueza Humana}} + \underbrace{A_0}_{\text{Riqueza Física}}$$
+
+El consumo total posible está acotado por la riqueza total — no se puede consumir más allá de la suma de lo que se tiene ($A_0$) y el valor presente de lo que se ganará en el futuro.
+
+> La riqueza física solo puede generarse a través del ahorro. Esto conecta las decisiones de consumo de hoy con el bienestar de mañana — y explica por qué el emprendimiento, las herencias y los bienes duraderos importan en la restricción de largo plazo.
+
+------------------------------------------------------------------------
+
+## Teoría del ciclo de vida (Modigliani)
+
+Franco Modigliani plantea que las personas intentan mantener un **consumo estable** a lo largo de su vida, lo que implica:
+
+- **Juventud:** se endeudan (consumo > ingreso laboral)
+- **Vida activa:** ahorran (ingreso laboral > consumo)
+- **Jubilación:** gastan el ahorro acumulado
+
+**Ejemplo chileno:** El debate sobre los retiros del 10% de las AFP (2020-2021). Desde la teoría del ciclo de vida, el retiro es un anticipo de riqueza futura — debería aumentar el consumo presente y reducir el ahorro para la jubilación. Los datos mostraron que una parte importante se destinó a consumo inmediato, consistente con restricciones de liquidez.
+
+------------------------------------------------------------------------
+
+## Teoría del ingreso permanente (Friedman)
+
+Milton Friedman distingue entre:
+
+- **Ingreso permanente:** el nivel de ingreso que se espera mantener en el largo plazo
+- **Ingreso transitorio:** una variación inesperada y temporal
+
+**Predicción central:**
+
+- Cambios **permanentes** en el ingreso → afectan el consumo
+- Cambios **transitorios** en el ingreso → se ahorran, no se consumen
+
+**Implicancia directa:** Un bono fiscal de emergencia (como el IFE COVID) es transitorio → Friedman predice que las personas lo ahorran en vez de consumirlo, reduciendo el multiplicador fiscal a casi cero.
+
+> Esto anticipa el límite del multiplicador keynesiano: funciona mejor con estímulos permanentes.
+
+------------------------------------------------------------------------
+
+# La Tasa de Interés y el Mercado de Bienes (IS)
+
+## La curva IS
+
+Hasta ahora, la inversión $I$ era exógena. En realidad, la inversión **depende negativamente de la tasa de interés real** $r$: financiarse es más caro cuando $r$ sube.
+
+La condición de equilibrio del mercado de bienes pasa a ser:
+
+$$IS: \quad Y = \bar{C} + c(Y - T) + I(r) + G$$
+
+La curva IS es el **conjunto de combinaciones $(r, Y)$** para las cuales el mercado de bienes está en equilibrio, es decir, $Y = DA$.
+
+**Supuesto clave:** los precios son fijos — las empresas venden todo lo que se demanda sin cambiar precios (mundo keynesiano de corto plazo).
+
+------------------------------------------------------------------------
+
+## Pendiente de la IS {.smaller}
+
+:::: {.columns}
+::: {.column width="55%"}
+La IS tiene **pendiente negativa** en el plano $(r, Y)$:
+
+- $\uparrow r$ → $\downarrow I(r)$ → menor demanda de bienes
+- Menor demanda → empresas acumulan inventarios → reducen producción
+- $\downarrow Y$
+
+Intuición: tasas más altas incentivan el ahorro en vez del gasto. Las empresas venden menos, acumulan inventarios y recortan producción.
+
+**Desplazamientos de la IS:**
+
+| Variable exógena sube | Efecto |
+|---|---|
+| $\uparrow G$ | IS se desplaza **a la derecha** |
+| $\downarrow T$ | IS se desplaza **a la derecha** |
+| $\uparrow \bar{C}$ | IS se desplaza **a la derecha** |
+:::
+::: {.column width="45%"}
+```
+    r
+    │
+ r₀ ┤·····╲
+    │      ╲
+ r₁ ┤·······╲·····
+    │         ╲  IS
+    └──────────────── Y
+         Y₀   Y₁
+```
+Una baja en $r$ de $r_0$ a $r_1$ → $I$ sube → $Y$ sube de $Y_0$ a $Y_1$
+
+Un aumento de $G$ desplaza la IS completa hacia la derecha.
+:::
+::::
+
+------------------------------------------------------------------------
+
+## Derivación: del Keynesiano a la IS
+
+La IS es el modelo Keynesiano simple **con inversión sensible a la tasa**. La diferencia:
+
+| Modelo Keynesiano simple | Curva IS |
+|---|---|
+| $I$ exógena (constante) | $I = I(r)$ — función decreciente de $r$ |
+| Equilibrio: un único $Y^*$ | Equilibrio: una curva de pares $(r, Y)$ |
+| No interactúa con el mercado monetario | Interactúa con la LM → equilibrio macroeconómico |
+
+Cada punto sobre la IS representa un equilibrio del mercado de bienes para una tasa de interés dada. El modelo no está completo hasta agregar el mercado monetario.
+
+------------------------------------------------------------------------
+
+# El Mercado Monetario (LM)
+
+## La curva LM
+
+En la Clase 02 vimos que el BCCh usa la TPM para influir en la tasa de interés nominal. La curva LM **formaliza exactamente ese mecanismo**.
+
+La demanda real de dinero depende positivamente del ingreso (más transacciones) y negativamente de la tasa de interés (mayor costo de oportunidad de tener dinero en efectivo):
+
+$$\frac{M^d}{P} = L(i, Y) \quad \text{con } \frac{\partial L}{\partial i} < 0, \quad \frac{\partial L}{\partial Y} > 0$$
+
+La oferta de dinero $\bar{M}$ es fija y controlada por el BCCh. En equilibrio:
+
+$$LM: \quad \frac{\bar{M}}{P} = L(i, Y)$$
+
+------------------------------------------------------------------------
+
+## Pendiente de la LM {.smaller}
+
+:::: {.columns}
+::: {.column width="55%"}
+La LM tiene **pendiente positiva** en el plano $(i, Y)$:
+
+- $\uparrow Y$ → más transacciones → $\uparrow$ demanda de dinero
+- Con oferta fija, el exceso de demanda presiona la tasa al alza
+- El equilibrio requiere $\uparrow i$
+
+**Desplazamientos de la LM:**
+
+| Cambio | Efecto |
+|---|---|
+| BCCh $\uparrow \bar{M}$ (expansión monetaria) | LM se desplaza **a la derecha** → $\downarrow i$ para cada $Y$ |
+| BCCh $\downarrow \bar{M}$ (contracción monetaria) | LM se desplaza **a la izquierda** → $\uparrow i$ para cada $Y$ |
+
+**Conexión con Clase 02:** cuando el BCCh baja la TPM, está esencialmente desplazando la LM hacia la derecha — facilitando más dinero al sistema a menor costo.
+:::
+::: {.column width="45%"}
+```
+    i
+    │        ╱ LM
+    │       ╱
+ i₂ ┤······╱
+    │     ╱
+ i₁ ┤····╱
+    │   ╱
+    └──────────────── Y
+        Y₁  Y₂
+```
+$\uparrow Y$ de $Y_1$ a $Y_2$ → mayor demanda de dinero → $i$ sube de $i_1$ a $i_2$
+
+Un aumento de $\bar{M}$ desplaza la LM a la derecha.
+:::
+::::
+
+------------------------------------------------------------------------
+
+## Conclusión: mercado monetario y LM
+
+La clave al interpretar movimientos de la LM es siempre tener presente **qué ocurre en el mercado monetario**:
+
+| Evento | Efecto sobre la LM |
+|---|---|
+| $\uparrow Y$ (mayor actividad) | Movimiento **sobre** la curva hacia arriba — mayor demanda de dinero presiona $i$ al alza |
+| BCCh $\uparrow \bar{M}$ | Desplazamiento **de** la curva hacia la derecha — más oferta baja $i$ para cada nivel de $Y$ |
+| BCCh $\downarrow \bar{M}$ | Desplazamiento **de** la curva hacia la izquierda — menos oferta sube $i$ para cada nivel de $Y$ |
+
+> La distinción entre movimiento **sobre** la curva y desplazamiento **de** la curva es la misma que en cualquier mercado: un cambio en $Y$ mueve a lo largo de la LM; un cambio en $\bar{M}$ desplaza la LM completa.
+
+------------------------------------------------------------------------
+
+# Equilibrio y Dinámica en el Modelo IS-LM
+
+## El sistema IS-LM
+
+El equilibrio macroeconómico requiere que **ambos mercados** estén en equilibrio simultáneamente:
+
+$$IS: \quad Y = C(Y - T) + I(r) + G$$
+
+$$LM: \quad \frac{\bar{M}}{P} = L(i, Y)$$
+
+La solución del sistema determina el **par de equilibrio** $(Y^*, i^*)$: el nivel de producto y la tasa de interés que equilibran simultáneamente el mercado de bienes y el mercado monetario.
+
+**Supuesto:** analizamos el caso de **economía cerrada** — la apertura al mundo modifica los resultados y se trata en `clase03_lectura_01_mundell_fleming`.
+
+------------------------------------------------------------------------
+
+## Política monetaria expansiva (economía cerrada) {.smaller}
+
+:::: {.columns}
+::: {.column width="55%"}
+**Escenario:** el BCCh aumenta la masa monetaria ($\uparrow \bar{M}$).
+
+**Mecanismo paso a paso:**
+
+1. $\uparrow \bar{M}$ → LM se desplaza a la derecha (A → B)
+2. En B, la tasa de interés baja: $\downarrow i$ → $\uparrow I(r)$
+3. Mayor inversión → exceso de demanda de bienes → empresas des-acumulan inventarios → $\uparrow$ producción
+4. Mayor producción → $\uparrow$ demanda de dinero → presiona tasa al alza
+5. El sistema se estabiliza en C: **$\uparrow Y$, $\downarrow i$**
+
+**Resultado:** la política monetaria expansiva aumenta el producto y baja la tasa de interés.
+:::
+::: {.column width="45%"}
+```
+    i
+    │      LM  LM'
+    │       ╲  ╲
+ i₁ ┤·······A╲  ╲
+    │         ╲C╲ ╲
+ i₃ ┤··········· ╲ ╲
+    │           ╲B╲╲
+ i₂ ┤············   ╲
+    │             ╲  IS
+    └──────────────────── Y
+           Y₁  Y₂
+```
+La LM se desplaza de LM a LM'. El nuevo equilibrio es C (mayor $Y$, menor $i$).
+:::
+::::
+
+------------------------------------------------------------------------
+
+## Política fiscal expansiva (economía cerrada) {.smaller}
+
+:::: {.columns}
+::: {.column width="55%"}
+**Escenario:** el gobierno aumenta el gasto ($\uparrow G$).
+
+**Mecanismo paso a paso:**
+
+1. $\uparrow G$ → IS se desplaza a la derecha (A → B')
+2. En B', hay exceso de demanda de bienes → $\uparrow$ producción
+3. Mayor producción → $\uparrow$ demanda de dinero → $\uparrow i$
+4. La tasa más alta frena parcialmente la inversión privada
+5. El sistema se estabiliza en B: **$\uparrow Y$, $\uparrow i$**
+
+**Crowding out parcial:** el $\uparrow i$ reduce $I$ privada, atenuando el efecto multiplicador. El producto sube, pero menos de lo que predice el modelo Keynesiano simple.
+:::
+::: {.column width="45%"}
+```
+    i
+    │         LM
+    │        ╱
+ i₂ ┤·······B╱
+    │       ╱ ╲
+ i₁ ┤······A   ╲
+    │     ╱  IS' ╲
+    │    ╱   IS    ╲
+    └──────────────────── Y
+          Y₁ Y₂
+```
+La IS se desplaza a la derecha. El nuevo equilibrio es B (mayor $Y$ e $i$).
+:::
+::::
+
+------------------------------------------------------------------------
+
+## Policy mix: la interacción entre PM y PF {.smaller}
+
+Dos lecciones sobre la combinación de políticas:
+
+1. **El efecto depende del instrumento:** la PM expansiva baja $i$ y aumenta la participación de la inversión privada en el gasto total; la PF expansiva sube $i$ y aumenta la participación del gasto público.
+
+2. **Trade-off de estabilización:** si se quiere estabilizar el PIB, una PF expansiva debe compensarse con una PM contractiva (y viceversa), para no generar ni inflación ni recesión.
+
+**Chile 2025-2026: el policy mix real**
+
+| Instrumento | Dirección | Dato |
+|---|---|---|
+| TPM (BCCh) | Expansiva — ciclo de baja desde 2024 | TPM bajó de 11,25% (peak 2022) |
+| Balance Estructural (Fisco) | Contractiva necesaria — reducir desvío | BE 2025: -3,6% del PIB (meta: -1,1%) |
+
+El gobierno necesita reducir el déficit (PF contractiva) mientras el BCCh sigue bajando tasas (PM expansiva). En términos IS-LM: IS se desplaza a la izquierda y LM a la derecha — el $Y$ puede mantenerse si las magnitudes se coordinan, pero la composición del gasto cambia.
+
+------------------------------------------------------------------------
+
+## Trampa de liquidez
+
+Existe un caso límite en que la **política monetaria pierde efectividad**: la trampa de liquidez.
+
+Ocurre cuando la tasa de interés nominal está **cerca de cero** — su piso absoluto. A ese nivel, el costo de oportunidad de tener dinero en efectivo es nulo, por lo que el público absorbe cualquier aumento de $\bar{M}$ sin que la tasa baje más.
+
+**La LM se vuelve horizontal**: cualquier expansión monetaria no reduce $i$ → no estimula la inversión → no sube el producto.
+
+**Casos reales:**
+
+| País | Período | Respuesta |
+|---|---|---|
+| Japón | 1990s–2010s | QE masivo, tasas negativas — sin efecto sostenido en demanda |
+| EE.UU. | 2008–2015, 2020–2021 | Tasa Fed 0–0,25%, balance Fed ×8 |
+| Zona Euro | 2014–2022 | Tasas negativas aplicadas por el BCE |
+
+En estos casos, la **política fiscal** recupera efectividad porque el crowding out desaparece (la tasa no puede subir más).
+
+------------------------------------------------------------------------
+
+## Resumen de efectos IS-LM (economía cerrada)
+
+Complete la siguiente tabla con los efectos de cada política sobre la demanda agregada y la tasa de interés:
+
+| Para $P$ dado | Expansión monetaria ($\uparrow \bar{M}$) | Aumento gasto fiscal ($\uparrow G$) | Aumento tributario ($\uparrow T$) |
+|---|---|---|---|
+| **Demanda agregada ($Y$)** | | | |
+| **Tasa de interés ($i$)** | | | |
+
+> Pista: recuerde el mecanismo de cada política. La expansión monetaria desplaza la LM; el gasto fiscal desplaza la IS; el alza tributaria reduce el ingreso disponible y también desplaza la IS, pero en sentido contrario al gasto.
+
+> Actividad: Ver `clase03_actividad_01_efectos_islm` para la versión con espacio de trabajo y pauta.
+
+------------------------------------------------------------------------
+
+## Ejercicio IS-LM en números
+
+Considere la siguiente economía:
+
+$$C = 0{,}8(Y - T), \quad I = 20 - 0{,}4i, \quad G = 10, \quad T = 20$$
+
+$$M^S = 50, \quad M^D = (0{,}5Y - i) \cdot P$$
+
+**Preguntas:**
+
+A. Derive la curva IS
+B. Suponiendo $P = 2$, derive la curva LM
+C. Determine la tasa de interés de equilibrio $i^*$ y la demanda agregada $Y^*$
+D. ¿Qué ocurre si el gobierno aumenta el gasto a $G = 15$? ¿Y si el BCCh aumenta $M^S$ a 80?
+
+> Resuelva en `clase03_actividad_02_islm`
+
+------------------------------------------------------------------------
+
+# Cierre
+
+## Volvamos al hilo conductor {.smaller}
+
+::: {style="font-size: 1.0em; font-weight: bold; color: #0d6e6e; border-left: 6px solid #0d6e6e; padding-left: 1em; margin: 1em 0;"}
+"¿Puede Chile reaccionar a la guerra comercial de Trump con política fiscal o monetaria?"
+:::
+
+Con el modelo IS-LM en economía **cerrada**, la respuesta sería sí — con matices:
+
+- **PM expansiva:** baja $i$ → sube $I$ → sube $Y$ ✓
+- **PF expansiva:** sube $G$ → sube $Y$, pero $\uparrow i$ genera crowding out parcial
+
+Pero Chile es una **economía abierta** con tipo de cambio flexible y movilidad de capitales. En ese mundo, los resultados se invierten:
+
+- **PF expansiva:** aprecia el tipo de cambio → bajan las exportaciones netas → el efecto se cancela (**inefectiva**)
+- **PM expansiva:** deprecia el tipo de cambio → suben las exportaciones netas → **sí funciona**
+
+La respuesta completa requiere el modelo Mundell-Fleming — disponible en `clase03_lectura_01_mundell_fleming`.
+
+------------------------------------------------------------------------
+
+## Lo que conecta todo
+
+Los conceptos de esta clase no son islas — forman una cadena:
+
+```
+Gasto autónomo (G, I, C̄)
+        ↓
+Multiplicador keynesiano → amplifica el impacto inicial
+        ↓
+Curva IS → equilibrio en mercado de bienes para cada tasa r
+        ↓
+Curva LM → equilibrio en mercado monetario (BCCh controla M̄)
+        ↓
+IS-LM → determina (Y*, i*) simultáneamente
+        ↓
+Policy mix → coordinación entre BCCh y Fisco
+        ↓
+Economía abierta → el tipo de cambio transforma los resultados
+```
+
+------------------------------------------------------------------------
+
+## Fechas relevantes
+
+| Actividad | Detalle |
+|---|---|
+| Clase 1 | Generación de grupos |
+| Clase 2 | Caso formativo en clases |
+| Clase 3 | — |
+| Clase 4 | Caso sumativo en clases |
+
+------------------------------------------------------------------------
+
+## Fuentes y referencias {.smaller}
+
+- Blanchard, O. (2017). *Macroeconomics* (7ª ed.). Pearson. Caps. 5 (IS-LM) y 19 (Mundell-Fleming).
+- Banco Central de Chile. (2026, enero). *Informe de Política Monetaria*. [bcentral.cl](https://www.bcentral.cl)
+- CFA. (2026, 26 mar.). *Informe de Balance Estructural y nivel prudente de deuda, 4T25*. [cfachile.cl](https://cfachile.cl)
+- Mankiw, N. G. (2021). *Principios de Economía* (8ª ed.). Cengage. Cap. 34 (IS-LM).
+- Modigliani, F. (1966). The life cycle hypothesis of saving. *American Economic Review*, 56(1/2), 160–217.
+- Friedman, M. (1957). *A Theory of the Consumption Function*. Princeton University Press.

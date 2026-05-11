@@ -1300,5 +1300,411 @@
     "title": "Entorno Económico",
     "section": "Enfoque del curso",
     "text": "Enfoque del curso\nEl objetivo no es solo describir qué miden los indicadores económicos, sino también cómo interpretarlos en contexto, cómo relacionarlos entre sí y cómo usarlos para analizar situaciones económicas concretas."
+  },
+  {
+    "objectID": "clases/clase03_diapositiva.html#equipo-docente",
+    "href": "clases/clase03_diapositiva.html#equipo-docente",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Equipo docente",
+    "text": "Equipo docente\nDocentes:\n\nSebastián Egaña Santibáñez\nFelipe Jaque\n\nAyudante:\n\nJean Pierre Bravo"
+  },
+  {
+    "objectID": "clases/clase03_diapositiva.html#contenidos-del-curso",
+    "href": "clases/clase03_diapositiva.html#contenidos-del-curso",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Contenidos del curso",
+    "text": "Contenidos del curso\n\nAnálisis de principales variables macroeconómicas\nPolíticas macroeconómicas\nRevisión de modelos de mercado de bienes y de activos financieros\nComportamiento de los agentes económicos: consumo y gobierno"
+  },
+  {
+    "objectID": "clases/clase03_diapositiva.html#sobre-el-docente",
+    "href": "clases/clase03_diapositiva.html#sobre-el-docente",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Sobre el docente",
+    "text": "Sobre el docente\nSebastián Egaña Santibáñez\n\nData Tech Lead & Analytics Translator — LATAM Airlines\nCorreo: segana@fen.uchile.cl\nWeb: https://segana.netlify.app\nLinkedIn: enlace"
+  },
+  {
+    "objectID": "clases/clase03_diapositiva.html#hilo-conductor-de-la-clase",
+    "href": "clases/clase03_diapositiva.html#hilo-conductor-de-la-clase",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Hilo conductor de la clase",
+    "text": "Hilo conductor de la clase\nPartimos con una pregunta. Al terminar la sesión deberían poder responderla con precisión.\n\n“Los aranceles de Trump generan una guerra comercial: ¿puede Chile reaccionar con política fiscal o monetaria? ¿Funciona igual en economía cerrada que abierta?”\n\nPara responderla necesitamos entender cómo el gasto del gobierno amplifica el producto (multiplicador), cómo la tasa de interés conecta el mercado de bienes con el monetario (IS-LM) y por qué en economía abierta las respuestas cambian radicalmente."
+  },
+  {
+    "objectID": "clases/clase03_diapositiva.html#qué-veremos-esta-clase",
+    "href": "clases/clase03_diapositiva.html#qué-veremos-esta-clase",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "¿Qué veremos esta clase?",
+    "text": "¿Qué veremos esta clase?\n\n\n\n\n\n\n\nBloque\nConceptos clave\n\n\n\n\nModelo Keynesiano Simple\nDemanda agregada, función de consumo, multiplicador\n\n\nComportamiento del consumidor\nRestricción inter-temporal, ciclo de vida, ingreso permanente\n\n\nLa curva IS\nMercado de bienes en equilibrio, pendiente, desplazamientos\n\n\nLa curva LM\nMercado monetario en equilibrio, pendiente, desplazamientos\n\n\nEquilibrio IS-LM\nPolítica monetaria, política fiscal, policy mix\n\n\n\n\nLa economía abierta y el modelo Mundell-Fleming se cubren en la lectura complementaria clase03_lectura_01_mundell_fleming"
+  },
+  {
+    "objectID": "clases/clase03_diapositiva.html#planteamiento-inicial",
+    "href": "clases/clase03_diapositiva.html#planteamiento-inicial",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Planteamiento inicial",
+    "text": "Planteamiento inicial\nPartimos con el supuesto de economía cerrada: no existen transacciones con el mercado internacional.\nLa demanda agregada bajo economía cerrada es:\n\\[A = C + I + G\\]\ndonde \\(I\\) y \\(G\\) (inversión y gasto de gobierno) se asumen exógenos (constantes por ahora).\nEl consumo viene determinado por:\n\\[C = \\bar{C} + c(Y - T)\\]\ndonde \\(\\bar{C}\\) es el consumo autónomo, \\(c\\) es la propensión marginal a consumir (\\(0 &lt; c &lt; 1\\)), \\(Y\\) es el ingreso y \\(T\\) son los impuestos."
+  },
+  {
+    "objectID": "clases/clase03_diapositiva.html#equilibrio-del-mercado-de-bienes",
+    "href": "clases/clase03_diapositiva.html#equilibrio-del-mercado-de-bienes",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Equilibrio del mercado de bienes",
+    "text": "Equilibrio del mercado de bienes\nEn equilibrio, el producto igual a la demanda agregada: \\(Y = A\\)\nSustituyendo la función de consumo:\n\\[Y = \\bar{C} + c(Y - T) + I + G\\]\nDespejando \\(Y\\):\n\\[Y = \\frac{1}{1 - c}\\left(\\bar{C} - cT + I + G\\right)\\]\nEl término \\(\\frac{1}{1-c}\\) es el multiplicador keynesiano. Como \\(0 &lt; c &lt; 1\\), se tiene que \\(\\frac{1}{1-c} &gt; 1\\)."
+  },
+  {
+    "objectID": "clases/clase03_diapositiva.html#el-multiplicador",
+    "href": "clases/clase03_diapositiva.html#el-multiplicador",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "El multiplicador",
+    "text": "El multiplicador\nCon impuestos proporcionales al ingreso (\\(T = \\tau Y\\)), el equilibrio del mercado de bienes es:\n\\[Y^* = \\frac{1}{1 - c(1-\\tau)}\\left(\\bar{C} + I + G\\right)\\]\nEl multiplicador del gasto es:\n\\[\\frac{\\partial Y}{\\partial G} = \\frac{\\partial Y}{\\partial I} = \\frac{\\partial Y}{\\partial \\bar{C}} = \\frac{1}{1 - c(1-\\tau)} &gt; 1\\]\nUn aumento de $1 en el gasto público genera un aumento en el producto mayor que $1 — porque ese gasto se convierte en ingreso de las empresas, que pagan salarios, que se convierten en consumo, y así sucesivamente."
+  },
+  {
+    "objectID": "clases/clase03_diapositiva.html#por-qué-el-multiplicador-importa-hoy",
+    "href": "clases/clase03_diapositiva.html#por-qué-el-multiplicador-importa-hoy",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "¿Por qué el multiplicador importa hoy?",
+    "text": "¿Por qué el multiplicador importa hoy?\n\nSi Chile enfrenta una caída en exportaciones por los aranceles de Trump, el gobierno podría intentar compensarla con mayor gasto (\\(\\uparrow G\\)).\nEl modelo Keynesiano simple predice:\n\\[\\Delta Y = \\frac{1}{1 - c(1-\\tau)} \\cdot \\Delta G\\]\nCon \\(c = 0{,}8\\) y \\(\\tau = 0{,}2\\): el multiplicador es \\(\\frac{1}{1 - 0{,}8 \\times 0{,}8} = \\frac{1}{0{,}36} \\approx 2{,}8\\)\nProblema: Este modelo supone economía cerrada. En economía abierta con movilidad de capitales, el multiplicador es muy distinto — y esa es la pregunta que responderemos al final.\n\n\nActividad: Tabla de efectos de política fiscal y monetaria Ver clase03_actividad_01_efectos_islm"
+  },
+  {
+    "objectID": "clases/clase03_diapositiva.html#función-keynesiana-de-consumo",
+    "href": "clases/clase03_diapositiva.html#función-keynesiana-de-consumo",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Función keynesiana de consumo",
+    "text": "Función keynesiana de consumo\nLa función de consumo vista:\n\\[C_t = \\bar{C} + c(Y_t - T_t)\\]\ndescribe cómo el consumo depende del ingreso disponible \\((Y_t - T_t)\\) en cada período.\nEl parámetro \\(c\\) es la propensión marginal al consumo: cuánto sube el consumo ante un aumento de $1 en el ingreso disponible.\nLimitación: esta función es estática — no considera que las personas planifican su consumo a lo largo de toda su vida, ni que distinguen entre cambios de ingreso temporales y permanentes."
+  },
+  {
+    "objectID": "clases/clase03_diapositiva.html#restricción-presupuestaria-inter-temporal",
+    "href": "clases/clase03_diapositiva.html#restricción-presupuestaria-inter-temporal",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Restricción presupuestaria inter-temporal",
+    "text": "Restricción presupuestaria inter-temporal\nLas personas planifican su consumo a lo largo del tiempo. En cada período su ingreso total es:\n\\[Y_t = Y_{l,t} + r A_t\\]\ndonde \\(Y_{l,t}\\) son ingresos del trabajo y \\(A_t\\) son activos que pagan tasa \\(r\\).\nPor el lado del gasto, en cada período se consume, pagan impuestos y se acumula (o des-acumula) riqueza:\n\\[\\text{Gasto}_t = C_t + T_t + A_{t+1} - A_t\\]\nIgualando ingresos y gastos: \\(Y_{l,t} + rA_t = C_t + T_t + A_{t+1} - A_t\\)"
+  },
+  {
+    "objectID": "clases/clase03_diapositiva.html#teoría-del-ciclo-de-vida-modigliani",
+    "href": "clases/clase03_diapositiva.html#teoría-del-ciclo-de-vida-modigliani",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Teoría del ciclo de vida (Modigliani)",
+    "text": "Teoría del ciclo de vida (Modigliani)\nFranco Modigliani plantea que las personas intentan mantener un consumo estable a lo largo de su vida, lo que implica:\n\nJuventud: se endeudan (consumo &gt; ingreso laboral)\nVida activa: ahorran (ingreso laboral &gt; consumo)\nJubilación: gastan el ahorro acumulado\n\nEjemplo chileno: El debate sobre los retiros del 10% de las AFP (2020-2021). Desde la teoría del ciclo de vida, el retiro es un anticipo de riqueza futura — debería aumentar el consumo presente y reducir el ahorro para la jubilación. Los datos mostraron que una parte importante se destinó a consumo inmediato, consistente con restricciones de liquidez."
+  },
+  {
+    "objectID": "clases/clase03_diapositiva.html#teoría-del-ingreso-permanente-friedman",
+    "href": "clases/clase03_diapositiva.html#teoría-del-ingreso-permanente-friedman",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Teoría del ingreso permanente (Friedman)",
+    "text": "Teoría del ingreso permanente (Friedman)\nMilton Friedman distingue entre:\n\nIngreso permanente: el nivel de ingreso que se espera mantener en el largo plazo\nIngreso transitorio: una variación inesperada y temporal\n\nPredicción central:\n\nCambios permanentes en el ingreso → afectan el consumo\nCambios transitorios en el ingreso → se ahorran, no se consumen\n\nImplicancia directa: Un bono fiscal de emergencia (como el IFE COVID) es transitorio → Friedman predice que las personas lo ahorran en vez de consumirlo, reduciendo el multiplicador fiscal a casi cero.\n\nEsto anticipa el límite del multiplicador keynesiano: funciona mejor con estímulos permanentes."
+  },
+  {
+    "objectID": "clases/clase03_diapositiva.html#la-curva-is",
+    "href": "clases/clase03_diapositiva.html#la-curva-is",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "La curva IS",
+    "text": "La curva IS\nHasta ahora, la inversión \\(I\\) era exógena. En realidad, la inversión depende negativamente de la tasa de interés real \\(r\\): financiarse es más caro cuando \\(r\\) sube.\nLa condición de equilibrio del mercado de bienes pasa a ser:\n\\[IS: \\quad Y = \\bar{C} + c(Y - T) + I(r) + G\\]\nLa curva IS es el conjunto de combinaciones \\((r, Y)\\) para las cuales el mercado de bienes está en equilibrio, es decir, \\(Y = DA\\).\nSupuesto clave: los precios son fijos — las empresas venden todo lo que se demanda sin cambiar precios (mundo keynesiano de corto plazo)."
+  },
+  {
+    "objectID": "clases/clase03_diapositiva.html#pendiente-de-la-is",
+    "href": "clases/clase03_diapositiva.html#pendiente-de-la-is",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Pendiente de la IS",
+    "text": "Pendiente de la IS\n\n\nLa IS tiene pendiente negativa en el plano \\((r, Y)\\):\n\n\\(\\uparrow r\\) → \\(\\downarrow I(r)\\) → menor demanda de bienes\nMenor demanda → empresas acumulan inventarios → reducen producción\n\\(\\downarrow Y\\)\n\nIntuición: tasas más altas incentivan el ahorro en vez del gasto. Las empresas venden menos, acumulan inventarios y recortan producción.\nDesplazamientos de la IS:\n\n\n\nVariable exógena sube\nEfecto\n\n\n\n\n\\(\\uparrow G\\)\nIS se desplaza a la derecha\n\n\n\\(\\downarrow T\\)\nIS se desplaza a la derecha\n\n\n\\(\\uparrow \\bar{C}\\)\nIS se desplaza a la derecha\n\n\n\n\n    r\n    │\n r₀ ┤·····╲\n    │      ╲\n r₁ ┤·······╲·····\n    │         ╲  IS\n    └──────────────── Y\n         Y₀   Y₁\nUna baja en \\(r\\) de \\(r_0\\) a \\(r_1\\) → \\(I\\) sube → \\(Y\\) sube de \\(Y_0\\) a \\(Y_1\\)\nUn aumento de \\(G\\) desplaza la IS completa hacia la derecha."
+  },
+  {
+    "objectID": "clases/clase03_diapositiva.html#derivación-del-keynesiano-a-la-is",
+    "href": "clases/clase03_diapositiva.html#derivación-del-keynesiano-a-la-is",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Derivación: del Keynesiano a la IS",
+    "text": "Derivación: del Keynesiano a la IS\nLa IS es el modelo Keynesiano simple con inversión sensible a la tasa. La diferencia:\n\n\n\n\n\n\n\nModelo Keynesiano simple\nCurva IS\n\n\n\n\n\\(I\\) exógena (constante)\n\\(I = I(r)\\) — función decreciente de \\(r\\)\n\n\nEquilibrio: un único \\(Y^*\\)\nEquilibrio: una curva de pares \\((r, Y)\\)\n\n\nNo interactúa con el mercado monetario\nInteractúa con la LM → equilibrio macroeconómico\n\n\n\nCada punto sobre la IS representa un equilibrio del mercado de bienes para una tasa de interés dada. El modelo no está completo hasta agregar el mercado monetario."
+  },
+  {
+    "objectID": "clases/clase03_diapositiva.html#la-curva-lm",
+    "href": "clases/clase03_diapositiva.html#la-curva-lm",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "La curva LM",
+    "text": "La curva LM\nEn la Clase 02 vimos que el BCCh usa la TPM para influir en la tasa de interés nominal. La curva LM formaliza exactamente ese mecanismo.\nLa demanda real de dinero depende positivamente del ingreso (más transacciones) y negativamente de la tasa de interés (mayor costo de oportunidad de tener dinero en efectivo):\n\\[\\frac{M^d}{P} = L(i, Y) \\quad \\text{con } \\frac{\\partial L}{\\partial i} &lt; 0, \\quad \\frac{\\partial L}{\\partial Y} &gt; 0\\]\nLa oferta de dinero \\(\\bar{M}\\) es fija y controlada por el BCCh. En equilibrio:\n\\[LM: \\quad \\frac{\\bar{M}}{P} = L(i, Y)\\]"
+  },
+  {
+    "objectID": "clases/clase03_diapositiva.html#pendiente-de-la-lm",
+    "href": "clases/clase03_diapositiva.html#pendiente-de-la-lm",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Pendiente de la LM",
+    "text": "Pendiente de la LM\n\n\nLa LM tiene pendiente positiva en el plano \\((i, Y)\\):\n\n\\(\\uparrow Y\\) → más transacciones → \\(\\uparrow\\) demanda de dinero\nCon oferta fija, el exceso de demanda presiona la tasa al alza\nEl equilibrio requiere \\(\\uparrow i\\)\n\nDesplazamientos de la LM:\n\n\n\n\n\n\n\nCambio\nEfecto\n\n\n\n\nBCCh \\(\\uparrow \\bar{M}\\) (expansión monetaria)\nLM se desplaza a la derecha → \\(\\downarrow i\\) para cada \\(Y\\)\n\n\nBCCh \\(\\downarrow \\bar{M}\\) (contracción monetaria)\nLM se desplaza a la izquierda → \\(\\uparrow i\\) para cada \\(Y\\)\n\n\n\nConexión con Clase 02: cuando el BCCh baja la TPM, está esencialmente desplazando la LM hacia la derecha — facilitando más dinero al sistema a menor costo.\n\n    i\n    │        ╱ LM\n    │       ╱\n i₂ ┤······╱\n    │     ╱\n i₁ ┤····╱\n    │   ╱\n    └──────────────── Y\n        Y₁  Y₂\n\\(\\uparrow Y\\) de \\(Y_1\\) a \\(Y_2\\) → mayor demanda de dinero → \\(i\\) sube de \\(i_1\\) a \\(i_2\\)\nUn aumento de \\(\\bar{M}\\) desplaza la LM a la derecha."
+  },
+  {
+    "objectID": "clases/clase03_diapositiva.html#el-sistema-is-lm",
+    "href": "clases/clase03_diapositiva.html#el-sistema-is-lm",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "El sistema IS-LM",
+    "text": "El sistema IS-LM\nEl equilibrio macroeconómico requiere que ambos mercados estén en equilibrio simultáneamente:\n\\[IS: \\quad Y = C(Y - T) + I(r) + G\\]\n\\[LM: \\quad \\frac{\\bar{M}}{P} = L(i, Y)\\]\nLa solución del sistema determina el par de equilibrio \\((Y^*, i^*)\\): el nivel de producto y la tasa de interés que equilibran simultáneamente el mercado de bienes y el mercado monetario.\nSupuesto: analizamos el caso de economía cerrada — la apertura al mundo modifica los resultados y se trata en clase03_lectura_01_mundell_fleming."
+  },
+  {
+    "objectID": "clases/clase03_diapositiva.html#política-monetaria-expansiva-economía-cerrada",
+    "href": "clases/clase03_diapositiva.html#política-monetaria-expansiva-economía-cerrada",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Política monetaria expansiva (economía cerrada)",
+    "text": "Política monetaria expansiva (economía cerrada)\n\n\nEscenario: el BCCh aumenta la masa monetaria (\\(\\uparrow \\bar{M}\\)).\nMecanismo paso a paso:\n\n\\(\\uparrow \\bar{M}\\) → LM se desplaza a la derecha (A → B)\nEn B, la tasa de interés baja: \\(\\downarrow i\\) → \\(\\uparrow I(r)\\)\nMayor inversión → exceso de demanda de bienes → empresas des-acumulan inventarios → \\(\\uparrow\\) producción\nMayor producción → \\(\\uparrow\\) demanda de dinero → presiona tasa al alza\nEl sistema se estabiliza en C: \\(\\uparrow Y\\), \\(\\downarrow i\\)\n\nResultado: la política monetaria expansiva aumenta el producto y baja la tasa de interés.\n\n    i\n    │      LM  LM'\n    │       ╲  ╲\n i₁ ┤·······A╲  ╲\n    │         ╲C╲ ╲\n i₃ ┤··········· ╲ ╲\n    │           ╲B╲╲\n i₂ ┤············   ╲\n    │             ╲  IS\n    └──────────────────── Y\n           Y₁  Y₂\nLa LM se desplaza de LM a LM’. El nuevo equilibrio es C (mayor \\(Y\\), menor \\(i\\))."
+  },
+  {
+    "objectID": "clases/clase03_diapositiva.html#política-fiscal-expansiva-economía-cerrada",
+    "href": "clases/clase03_diapositiva.html#política-fiscal-expansiva-economía-cerrada",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Política fiscal expansiva (economía cerrada)",
+    "text": "Política fiscal expansiva (economía cerrada)\n\n\nEscenario: el gobierno aumenta el gasto (\\(\\uparrow G\\)).\nMecanismo paso a paso:\n\n\\(\\uparrow G\\) → IS se desplaza a la derecha (A → B’)\nEn B’, hay exceso de demanda de bienes → \\(\\uparrow\\) producción\nMayor producción → \\(\\uparrow\\) demanda de dinero → \\(\\uparrow i\\)\nLa tasa más alta frena parcialmente la inversión privada\nEl sistema se estabiliza en B: \\(\\uparrow Y\\), \\(\\uparrow i\\)\n\nCrowding out parcial: el \\(\\uparrow i\\) reduce \\(I\\) privada, atenuando el efecto multiplicador. El producto sube, pero menos de lo que predice el modelo Keynesiano simple.\n\n    i\n    │         LM\n    │        ╱\n i₂ ┤·······B╱\n    │       ╱ ╲\n i₁ ┤······A   ╲\n    │     ╱  IS' ╲\n    │    ╱   IS    ╲\n    └──────────────────── Y\n          Y₁ Y₂\nLa IS se desplaza a la derecha. El nuevo equilibrio es B (mayor \\(Y\\) e \\(i\\))."
+  },
+  {
+    "objectID": "clases/clase03_diapositiva.html#policy-mix-la-interacción-entre-pm-y-pf",
+    "href": "clases/clase03_diapositiva.html#policy-mix-la-interacción-entre-pm-y-pf",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Policy mix: la interacción entre PM y PF",
+    "text": "Policy mix: la interacción entre PM y PF\nDos lecciones sobre la combinación de políticas:\n\nEl efecto depende del instrumento: la PM expansiva baja \\(i\\) y aumenta la participación de la inversión privada en el gasto total; la PF expansiva sube \\(i\\) y aumenta la participación del gasto público.\nTrade-off de estabilización: si se quiere estabilizar el PIB, una PF expansiva debe compensarse con una PM contractiva (y viceversa), para no generar ni inflación ni recesión.\n\nChile 2025-2026: el policy mix real\n\n\n\n\n\n\n\n\nInstrumento\nDirección\nDato\n\n\n\n\nTPM (BCCh)\nExpansiva — ciclo de baja desde 2024\nTPM bajó de 11,25% (peak 2022)\n\n\nBalance Estructural (Fisco)\nContractiva necesaria — reducir desvío\nBE 2025: -3,6% del PIB (meta: -1,1%)\n\n\n\nEl gobierno necesita reducir el déficit (PF contractiva) mientras el BCCh sigue bajando tasas (PM expansiva). En términos IS-LM: IS se desplaza a la izquierda y LM a la derecha — el \\(Y\\) puede mantenerse si las magnitudes se coordinan, pero la composición del gasto cambia."
+  },
+  {
+    "objectID": "clases/clase03_diapositiva.html#trampa-de-liquidez",
+    "href": "clases/clase03_diapositiva.html#trampa-de-liquidez",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Trampa de liquidez",
+    "text": "Trampa de liquidez\nExiste un caso límite en que la política monetaria pierde efectividad: la trampa de liquidez.\nOcurre cuando la tasa de interés nominal está cerca de cero — su piso absoluto. A ese nivel, el costo de oportunidad de tener dinero en efectivo es nulo, por lo que el público absorbe cualquier aumento de \\(\\bar{M}\\) sin que la tasa baje más.\nLa LM se vuelve horizontal: cualquier expansión monetaria no reduce \\(i\\) → no estimula la inversión → no sube el producto.\nCasos reales:\n\n\n\n\n\n\n\n\nPaís\nPeríodo\nRespuesta\n\n\n\n\nJapón\n1990s–2010s\nQE masivo, tasas negativas — sin efecto sostenido en demanda\n\n\nEE.UU.\n2008–2015, 2020–2021\nTasa Fed 0–0,25%, balance Fed ×8\n\n\nZona Euro\n2014–2022\nTasas negativas aplicadas por el BCE\n\n\n\nEn estos casos, la política fiscal recupera efectividad porque el crowding out desaparece (la tasa no puede subir más)."
+  },
+  {
+    "objectID": "clases/clase03_diapositiva.html#ejercicio-is-lm-en-números",
+    "href": "clases/clase03_diapositiva.html#ejercicio-is-lm-en-números",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Ejercicio IS-LM en números",
+    "text": "Ejercicio IS-LM en números\nConsidere la siguiente economía:\n\\[C = 0{,}8(Y - T), \\quad I = 20 - 0{,}4i, \\quad G = 10, \\quad T = 20\\]\n\\[M^S = 50, \\quad M^D = (0{,}5Y - i) \\cdot P\\]\nPreguntas:\nA. Derive la curva IS B. Suponiendo \\(P = 2\\), derive la curva LM C. Determine la tasa de interés de equilibrio \\(i^*\\) y la demanda agregada \\(Y^*\\) D. ¿Qué ocurre si el gobierno aumenta el gasto a \\(G = 15\\)? ¿Y si el BCCh aumenta \\(M^S\\) a 80?\n\nResuelva en clase03_actividad_02_islm"
+  },
+  {
+    "objectID": "clases/clase03_diapositiva.html#volvamos-al-hilo-conductor",
+    "href": "clases/clase03_diapositiva.html#volvamos-al-hilo-conductor",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Volvamos al hilo conductor",
+    "text": "Volvamos al hilo conductor\n\n“¿Puede Chile reaccionar a la guerra comercial de Trump con política fiscal o monetaria?”\n\nCon el modelo IS-LM en economía cerrada, la respuesta sería sí — con matices:\n\nPM expansiva: baja \\(i\\) → sube \\(I\\) → sube \\(Y\\) ✓\nPF expansiva: sube \\(G\\) → sube \\(Y\\), pero \\(\\uparrow i\\) genera crowding out parcial\n\nPero Chile es una economía abierta con tipo de cambio flexible y movilidad de capitales. En ese mundo, los resultados se invierten:\n\nPF expansiva: aprecia el tipo de cambio → bajan las exportaciones netas → el efecto se cancela (inefectiva)\nPM expansiva: deprecia el tipo de cambio → suben las exportaciones netas → sí funciona\n\nLa respuesta completa requiere el modelo Mundell-Fleming — disponible en clase03_lectura_01_mundell_fleming."
+  },
+  {
+    "objectID": "clases/clase03_diapositiva.html#lo-que-conecta-todo",
+    "href": "clases/clase03_diapositiva.html#lo-que-conecta-todo",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Lo que conecta todo",
+    "text": "Lo que conecta todo\nLos conceptos de esta clase no son islas — forman una cadena:\nGasto autónomo (G, I, C̄)\n        ↓\nMultiplicador keynesiano → amplifica el impacto inicial\n        ↓\nCurva IS → equilibrio en mercado de bienes para cada tasa r\n        ↓\nCurva LM → equilibrio en mercado monetario (BCCh controla M̄)\n        ↓\nIS-LM → determina (Y*, i*) simultáneamente\n        ↓\nPolicy mix → coordinación entre BCCh y Fisco\n        ↓\nEconomía abierta → el tipo de cambio transforma los resultados"
+  },
+  {
+    "objectID": "clases/clase03_diapositiva.html#fechas-relevantes",
+    "href": "clases/clase03_diapositiva.html#fechas-relevantes",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Fechas relevantes",
+    "text": "Fechas relevantes\n\n\n\nActividad\nDetalle\n\n\n\n\nClase 1\nGeneración de grupos\n\n\nClase 2\nCaso formativo en clases\n\n\nClase 3\n—\n\n\nClase 4\nCaso sumativo en clases"
+  },
+  {
+    "objectID": "clases/clase03_diapositiva.html#fuentes-y-referencias",
+    "href": "clases/clase03_diapositiva.html#fuentes-y-referencias",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Fuentes y referencias",
+    "text": "Fuentes y referencias\n\nBlanchard, O. (2017). Macroeconomics (7ª ed.). Pearson. Caps. 5 (IS-LM) y 19 (Mundell-Fleming).\nBanco Central de Chile. (2026, enero). Informe de Política Monetaria. bcentral.cl\nCFA. (2026, 26 mar.). Informe de Balance Estructural y nivel prudente de deuda, 4T25. cfachile.cl\nMankiw, N. G. (2021). Principios de Economía (8ª ed.). Cengage. Cap. 34 (IS-LM).\nModigliani, F. (1966). The life cycle hypothesis of saving. American Economic Review, 56(1/2), 160–217.\nFriedman, M. (1957). A Theory of the Consumption Function. Princeton University Press."
+  },
+  {
+    "objectID": "clases/clase03_diapositiva.html#restricción-presupuestaria-inter-temporal-resultado",
+    "href": "clases/clase03_diapositiva.html#restricción-presupuestaria-inter-temporal-resultado",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Restricción presupuestaria inter-temporal (resultado)",
+    "text": "Restricción presupuestaria inter-temporal (resultado)\nLlevando la restricción a valor presente a lo largo de toda la vida:\n\\[VP_{\\text{consumo}} = \\underbrace{VP_{\\text{ingresos netos del trabajo}}}_{\\text{Riqueza Humana}} + \\underbrace{A_0}_{\\text{Riqueza Física}}\\]\nEl consumo total posible está acotado por la riqueza total — no se puede consumir más allá de la suma de lo que se tiene (\\(A_0\\)) y el valor presente de lo que se ganará en el futuro.\n\nLa riqueza física solo puede generarse a través del ahorro. Esto conecta las decisiones de consumo de hoy con el bienestar de mañana — y explica por qué el emprendimiento, las herencias y los bienes duraderos importan en la restricción de largo plazo."
+  },
+  {
+    "objectID": "clases/clase03_diapositiva.html#conclusión-mercado-monetario-y-lm",
+    "href": "clases/clase03_diapositiva.html#conclusión-mercado-monetario-y-lm",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Conclusión: mercado monetario y LM",
+    "text": "Conclusión: mercado monetario y LM\nLa clave al interpretar movimientos de la LM es siempre tener presente qué ocurre en el mercado monetario:\n\n\n\n\n\n\n\nEvento\nEfecto sobre la LM\n\n\n\n\n\\(\\uparrow Y\\) (mayor actividad)\nMovimiento sobre la curva hacia arriba — mayor demanda de dinero presiona \\(i\\) al alza\n\n\nBCCh \\(\\uparrow \\bar{M}\\)\nDesplazamiento de la curva hacia la derecha — más oferta baja \\(i\\) para cada nivel de \\(Y\\)\n\n\nBCCh \\(\\downarrow \\bar{M}\\)\nDesplazamiento de la curva hacia la izquierda — menos oferta sube \\(i\\) para cada nivel de \\(Y\\)\n\n\n\n\nLa distinción entre movimiento sobre la curva y desplazamiento de la curva es la misma que en cualquier mercado: un cambio en \\(Y\\) mueve a lo largo de la LM; un cambio en \\(\\bar{M}\\) desplaza la LM completa."
+  },
+  {
+    "objectID": "clases/clase03_diapositiva.html#resumen-de-efectos-is-lm-economía-cerrada",
+    "href": "clases/clase03_diapositiva.html#resumen-de-efectos-is-lm-economía-cerrada",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Resumen de efectos IS-LM (economía cerrada)",
+    "text": "Resumen de efectos IS-LM (economía cerrada)\nComplete la siguiente tabla con los efectos de cada política sobre la demanda agregada y la tasa de interés:\n\n\n\n\n\n\n\n\n\nPara \\(P\\) dado\nExpansión monetaria (\\(\\uparrow \\bar{M}\\))\nAumento gasto fiscal (\\(\\uparrow G\\))\nAumento tributario (\\(\\uparrow T\\))\n\n\n\n\nDemanda agregada (\\(Y\\))\n\n\n\n\n\nTasa de interés (\\(i\\))\n\n\n\n\n\n\n\nPista: recuerde el mecanismo de cada política. La expansión monetaria desplaza la LM; el gasto fiscal desplaza la IS; el alza tributaria reduce el ingreso disponible y también desplaza la IS, pero en sentido contrario al gasto.\n\n\nActividad: Ver clase03_actividad_01_efectos_islm para la versión con espacio de trabajo y pauta."
+  },
+  {
+    "objectID": "clases/clase03_actividad_01_efectos_islm.html#la-pregunta",
+    "href": "clases/clase03_actividad_01_efectos_islm.html#la-pregunta",
+    "title": "Actividad IS-LM — Clase 03",
+    "section": "La pregunta",
+    "text": "La pregunta\nEl modelo IS-LM predice cómo reaccionan el producto y la tasa de interés ante distintas políticas.\nInstrucciones: complete la siguiente tabla indicando si cada variable sube (↑), baja (↓) o no cambia (—). Justifique con el mecanismo IS-LM.\n\n\n\n\n\n\n\n\n\nPara \\(P\\) dado\nExpansión monetaria (\\(\\uparrow \\bar{M}\\))\nAumento gasto fiscal (\\(\\uparrow G\\))\nAumento tributario (\\(\\uparrow T\\))\n\n\n\n\nDemanda agregada (\\(Y\\))\n\n\n\n\n\nTasa de interés (\\(i\\))"
+  },
+  {
+    "objectID": "clases/clase03_actividad_01_efectos_islm.html#respuesta",
+    "href": "clases/clase03_actividad_01_efectos_islm.html#respuesta",
+    "title": "Actividad IS-LM — Clase 03",
+    "section": "Respuesta",
+    "text": "Respuesta\n\n\n\n\n\n\n\n\n\nPara \\(P\\) dado\nExpansión monetaria\nAumento gasto fiscal\nAumento tributario\n\n\n\n\nDemanda agregada (\\(Y\\))\n↑\n↑\n↓\n\n\nTasa de interés (\\(i\\))\n↓\n↑\n↓"
+  },
+  {
+    "objectID": "clases/clase03_actividad_01_efectos_islm.html#mecanismos",
+    "href": "clases/clase03_actividad_01_efectos_islm.html#mecanismos",
+    "title": "Actividad IS-LM — Clase 03",
+    "section": "Mecanismos",
+    "text": "Mecanismos\nExpansión monetaria (\\(\\uparrow \\bar{M}\\)): LM se desplaza a la derecha → \\(\\downarrow i\\) → \\(\\uparrow I\\) → \\(\\uparrow Y\\)\nAumento gasto fiscal (\\(\\uparrow G\\)): IS se desplaza a la derecha → \\(\\uparrow Y\\) y \\(\\uparrow i\\) (crowding out parcial sobre \\(I\\) privada)\nAumento tributario (\\(\\uparrow T\\)): \\(\\downarrow (Y-T)\\) → \\(\\downarrow C\\) → IS se desplaza a la izquierda → \\(\\downarrow Y\\) y \\(\\downarrow i\\)"
+  },
+  {
+    "objectID": "clases/clase03_actividad_01_efectos_islm.html#para-reflexionar",
+    "href": "clases/clase03_actividad_01_efectos_islm.html#para-reflexionar",
+    "title": "Actividad IS-LM — Clase 03",
+    "section": "Para reflexionar",
+    "text": "Para reflexionar\n\n¿Qué combinación de políticas permitiría aumentar el producto sin subir la tasa de interés?\n\n\nPista: busquen una que desplace la IS a la derecha y la LM también a la derecha simultáneamente."
+  },
+  {
+    "objectID": "clases/clase03_actividad_02_islm.html#la-economía",
+    "href": "clases/clase03_actividad_02_islm.html#la-economía",
+    "title": "Actividad IS-LM — Clase 03",
+    "section": "La economía",
+    "text": "La economía\nConsidere la siguiente estructura:\n\\[C = 0{,}8(Y - T), \\quad I = 20 - 0{,}4i, \\quad G = 10, \\quad T = 20\\]\n\\[M^S = 50, \\quad M^D = (0{,}5Y - i) \\cdot P\\]\nPreguntas:\n\n(A) Derive la curva IS\n(B) Suponiendo \\(P = 2\\), derive la curva LM\n(C) Determine el equilibrio \\((Y^*, i^*)\\)\n(D) ¿Qué ocurre si \\(G\\) sube a 15? ¿Y si \\(M^S\\) sube a 80?"
+  },
+  {
+    "objectID": "clases/clase03_actividad_02_islm.html#a-curva-is",
+    "href": "clases/clase03_actividad_02_islm.html#a-curva-is",
+    "title": "Actividad IS-LM — Clase 03",
+    "section": "(A) Curva IS",
+    "text": "(A) Curva IS\nCondición de equilibrio del mercado de bienes: \\(Y = C + I + G\\)\n\\[Y = 0{,}8(Y - 20) + (20 - 0{,}4i) + 10\\]\n\\[Y = 0{,}8Y - 16 + 20 - 0{,}4i + 10\\]\n\\[Y - 0{,}8Y = 14 - 0{,}4i\\]\n\\[\\boxed{IS: \\quad Y = 70 - 2i}\\]\nLa IS tiene pendiente negativa: mayor tasa de interés → menor inversión → menor producto."
+  },
+  {
+    "objectID": "clases/clase03_actividad_02_islm.html#b-curva-lm",
+    "href": "clases/clase03_actividad_02_islm.html#b-curva-lm",
+    "title": "Actividad IS-LM — Clase 03",
+    "section": "(B) Curva LM",
+    "text": "(B) Curva LM\nEquilibrio en el mercado monetario: \\(M^S = M^D\\)\n\\[50 = (0{,}5Y - i) \\cdot 2\\]\n\\[25 = 0{,}5Y - i\\]\n\\[\\boxed{LM: \\quad i = 0{,}5Y - 25}\\]\nLa LM tiene pendiente positiva: mayor producto → mayor demanda de dinero → mayor tasa de interés."
+  },
+  {
+    "objectID": "clases/clase03_actividad_02_islm.html#c-equilibrio-is-lm",
+    "href": "clases/clase03_actividad_02_islm.html#c-equilibrio-is-lm",
+    "title": "Actividad IS-LM — Clase 03",
+    "section": "(C) Equilibrio IS-LM",
+    "text": "(C) Equilibrio IS-LM\nSustituimos la LM en la IS:\n\\[Y = 70 - 2(0{,}5Y - 25)\\]\n\\[Y = 70 - Y + 50\\]\n\\[2Y = 120 \\quad \\Rightarrow \\quad \\boxed{Y^* = 60}\\]\n\\[i^* = 0{,}5(60) - 25 = \\boxed{i^* = 5\\%}\\]"
+  },
+  {
+    "objectID": "clases/clase03_actividad_02_islm.html#d-análisis-de-política",
+    "href": "clases/clase03_actividad_02_islm.html#d-análisis-de-política",
+    "title": "Actividad IS-LM — Clase 03",
+    "section": "(D) Análisis de política",
+    "text": "(D) Análisis de política\nPolítica fiscal: \\(G\\) sube de 10 a 15\n\\[Y = 0{,}8(Y-20) + (20-0{,}4i) + 15 \\quad \\Rightarrow \\quad IS': Y = 95 - 2i\\]\nNuevo equilibrio: \\(Y^{**} = 65\\), \\(i^{**} = 7{,}5\\%\\)\nEl producto sube 5 pero la tasa sube 2,5 pp — el crowding out frena parte del multiplicador.\nPolítica monetaria: \\(M^S\\) sube de 50 a 80\n\\[80 = (0{,}5Y - i) \\cdot 2 \\quad \\Rightarrow \\quad LM': i = 0{,}5Y - 40\\]\nNuevo equilibrio: \\(Y^{**} = 70\\), \\(i^{**} = -5\\%\\)\n\n¿Tiene sentido una tasa nominal negativa? ¿Qué nos dice eso sobre los límites del modelo?"
+  },
+  {
+    "objectID": "clases/clase03_referencia_islm.html",
+    "href": "clases/clase03_referencia_islm.html",
+    "title": "Referencia IS-LM — Variaciones y efectos",
+    "section": "",
+    "text": "Símbolo\nSignificado\n\n\n\n\n↑\nAumenta\n\n\n↓\nDisminuye\n\n\n—\nSin cambio\n\n\n→\nImplica / desencadena\n\n\n\nVariables: \\(Y\\) = producto, \\(i\\) = tasa de interés nominal, \\(r\\) = tasa real, \\(e\\) = tipo de cambio (unidades de moneda local por divisa; ↑\\(e\\) = depreciación).\nModelo base: IS: \\(Y = C(Y-T) + I(r) + G\\) · LM: \\(\\bar{M}/P = L(i,Y)\\) · Fisher: \\(i = r + \\pi^e\\)"
+  },
+  {
+    "objectID": "clases/clase03_referencia_islm.html#convenciones",
+    "href": "clases/clase03_referencia_islm.html#convenciones",
+    "title": "Referencia IS-LM — Variaciones y efectos",
+    "section": "",
+    "text": "Símbolo\nSignificado\n\n\n\n\n↑\nAumenta\n\n\n↓\nDisminuye\n\n\n—\nSin cambio\n\n\n→\nImplica / desencadena\n\n\n\nVariables: \\(Y\\) = producto, \\(i\\) = tasa de interés nominal, \\(r\\) = tasa real, \\(e\\) = tipo de cambio (unidades de moneda local por divisa; ↑\\(e\\) = depreciación).\nModelo base: IS: \\(Y = C(Y-T) + I(r) + G\\) · LM: \\(\\bar{M}/P = L(i,Y)\\) · Fisher: \\(i = r + \\pi^e\\)"
+  },
+  {
+    "objectID": "clases/clase03_referencia_islm.html#parte-i-economía-cerrada",
+    "href": "clases/clase03_referencia_islm.html#parte-i-economía-cerrada",
+    "title": "Referencia IS-LM — Variaciones y efectos",
+    "section": "Parte I: Economía cerrada",
+    "text": "Parte I: Economía cerrada\n\nTabla resumen — economía cerrada\n\n\n\n\n\n\n\n\n\n\nVariación\nCurva afectada\nDirección\n\\(Y\\)\n\\(i\\)\n\n\n\n\n↑ Gasto público (\\(\\uparrow G\\))\nIS\n→ derecha\n↑\n↑\n\n\n↓ Gasto público (\\(\\downarrow G\\))\nIS\n→ izquierda\n↓\n↓\n\n\n↓ Impuestos (\\(\\downarrow T\\))\nIS\n→ derecha\n↑\n↑\n\n\n↑ Impuestos (\\(\\uparrow T\\))\nIS\n→ izquierda\n↓\n↓\n\n\n↑G + ↑T (presupuesto equilibrado)\nIS\n→ derecha (pequeño)\n↑ (= ΔG)\n↑\n\n\n↑ Consumo autónomo (\\(\\uparrow \\bar{C}\\))\nIS\n→ derecha\n↑\n↑\n\n\n↓ Consumo autónomo (\\(\\downarrow \\bar{C}\\)) — paradoja frugalidad\nIS\n→ izquierda\n↓\n↓\n\n\n↑ Inversión autónoma (\\(\\uparrow \\bar{I}\\))\nIS\n→ derecha\n↑\n↑\n\n\n↑ Oferta monetaria (\\(\\uparrow \\bar{M}\\))\nLM\n→ derecha\n↑\n↓\n\n\n↓ Oferta monetaria (\\(\\downarrow \\bar{M}\\))\nLM\n→ izquierda\n↓\n↑\n\n\n↑ Nivel de precios (\\(\\uparrow P\\))\nLM\n→ izquierda (↓\\(\\bar{M}/P\\))\n↓\n↑\n\n\n↓ Nivel de precios (\\(\\downarrow P\\))\nLM\n→ derecha (↑\\(\\bar{M}/P\\))\n↑\n↓\n\n\n\n\n\nCasos detallados\n\n1. Política fiscal expansiva (\\(\\uparrow G\\))\nMecanismo: \\(\\uparrow G\\) → IS se desplaza a la derecha → exceso de demanda de bienes → \\(\\uparrow\\) producción → \\(\\uparrow\\) demanda de dinero → \\(\\uparrow i\\) → \\(\\downarrow I\\) privada (crowding out parcial).\nResultado: \\(\\uparrow Y\\), \\(\\uparrow i\\) — el producto sube menos de lo que predice el multiplicador simple porque el alza de tasas frena la inversión privada.\nMultiplicador IS-LM &lt; Multiplicador keynesiano simple porque parte del estímulo se “expulsa” vía tasas.\n\n\n\n2. Política fiscal contractiva (\\(\\downarrow G\\) o \\(\\uparrow T\\))\nMecanismo: IS se desplaza a la izquierda → \\(\\downarrow Y\\), \\(\\downarrow i\\).\nLa caída de tasas amortigua el efecto: estimula algo de inversión privada, pero el efecto neto sobre \\(Y\\) es negativo.\n\n\n\n3. Multiplicador del presupuesto equilibrado (Haavelmo)\nSi \\(\\Delta G = \\Delta T\\) (el gasto sube financiado íntegramente con impuestos):\n\\[\\left.\\frac{dY}{dG}\\right|_{\\Delta G = \\Delta T} = \\frac{1}{1-c} - \\frac{c}{1-c} = 1\\]\nEl producto sube exactamente en \\(\\Delta G\\) — el multiplicador es 1, no mayor. La razón: el alza de impuestos reduce el consumo en \\(c \\cdot \\Delta T\\), compensando parte del estímulo del gasto.\n\n\n\n4. Paradoja de la frugalidad\nSi el público decide ahorrar más autónomamente (\\(\\downarrow \\bar{C}\\)):\n\nIS se desplaza a la izquierda → \\(\\downarrow Y\\), \\(\\downarrow i\\)\nParadoja: el ahorro no aumenta — cae el ingreso en exactamente la misma magnitud que el aumento del ahorro autónomo, dejando el ahorro total igual a la inversión (que es fija)\n\nLa paradoja solo opera en el corto plazo keynesiano. En el largo plazo (cap. 6, pleno empleo), mayor ahorro sí genera más inversión y crecimiento.\n\n\n\n5. Política monetaria expansiva (\\(\\uparrow \\bar{M}\\))\nMecanismo: \\(\\uparrow \\bar{M}\\) → LM se desplaza a la derecha → exceso de oferta de dinero → el público compra bonos → \\(\\uparrow\\) precio bonos → \\(\\downarrow i\\) → \\(\\uparrow I(r)\\) → exceso de demanda de bienes → \\(\\uparrow Y\\) → \\(\\uparrow\\) demanda de dinero → modera la baja de \\(i\\).\nResultado: \\(\\uparrow Y\\), \\(\\downarrow i\\) — canal de transmisión: tasas → inversión → producto.\n\n\n\n6. Efecto de un alza del nivel de precios (\\(\\uparrow P\\))\n\\(\\uparrow P\\) → \\(\\downarrow \\bar{M}/P\\) (saldos reales caen) → LM se desplaza a la izquierda → \\(\\downarrow Y\\), \\(\\uparrow i\\).\nEsto es la base de la curva de demanda agregada (DA): a mayor \\(P\\), menor \\(Y\\) de equilibrio IS-LM.\n\n\n\n7. Policy mix — combinaciones de PM y PF\n\n\n\n\n\n\n\n\nCombinación\nObjetivo\nResultado\n\n\n\n\n\\(\\uparrow \\bar{M}\\) + \\(\\uparrow G\\)\nExpandir \\(Y\\)\n\\(\\uparrow\\uparrow Y\\), \\(i\\) ambiguo\n\n\n\\(\\uparrow \\bar{M}\\) + \\(\\downarrow G\\)\nMantener \\(Y\\), bajar \\(i\\)\n\\(Y\\) estable, \\(\\downarrow i\\), más inversión privada\n\n\n\\(\\downarrow \\bar{M}\\) + \\(\\uparrow G\\)\nMantener \\(Y\\), subir \\(i\\)\n\\(Y\\) estable, \\(\\uparrow i\\), más gasto público\n\n\n\\(\\downarrow \\bar{M}\\) + \\(\\downarrow G\\)\nContraer \\(Y\\)\n\\(\\downarrow\\downarrow Y\\), \\(i\\) ambiguo\n\n\n\nChile 2025-2026: BCCh bajando TPM (\\(\\uparrow \\bar{M}\\) equivalente) mientras el fisco necesita consolidar (\\(\\downarrow G\\) relativo) → segundo caso: mantiene \\(Y\\), baja \\(i\\), impulsa inversión privada.\n\n\n\n\nCasos especiales de pendiente\n\n8. IS casi vertical (\\(I' \\approx 0\\))\nLa inversión es poco sensible a la tasa de interés (ej.: expectativas muy negativas, acceso a crédito bloqueado).\n\nPM expansiva: \\(\\downarrow i\\) pero \\(\\uparrow I \\approx 0\\) → \\(Y\\) apenas sube. PM poco efectiva.\nPF expansiva: IS se desplaza → \\(\\uparrow Y\\) sin crowding out significativo. PF muy efectiva.\n\nCaso histórico: Gran Depresión 1930 — inversión deprimida por “espíritus animales”, multiplicador fiscal alto.\n\n\n\n9. LM horizontal — Trampa de liquidez (\\(L_i \\to \\infty\\))\nLa tasa de interés nominal está en su piso (~0%). El público absorbe cualquier aumento de \\(\\bar{M}\\) sin que \\(i\\) baje.\n\nPM expansiva: LM se desplaza pero \\(i\\) no puede bajar más → \\(I\\) no sube → \\(Y\\) no sube. PM completamente inefectiva.\nPF expansiva: IS se desplaza → \\(\\uparrow Y\\) sin crowding out (la tasa no sube). PF máximamente efectiva.\n\nRespuesta no convencional: QE (compra de bonos de largo plazo para bajar tasas largas), forward guidance.\n\n\n\nPaís\nPeríodo\nTasa\n\n\n\n\nJapón\n1999–presente\n~0%\n\n\nEE.UU.\n2008–2015, 2020–2021\n0–0,25%\n\n\nZona Euro\n2014–2022\nTasas negativas"
+  },
+  {
+    "objectID": "clases/clase03_referencia_islm.html#parte-ii-economía-abierta-tc-flexible-mundell-fleming",
+    "href": "clases/clase03_referencia_islm.html#parte-ii-economía-abierta-tc-flexible-mundell-fleming",
+    "title": "Referencia IS-LM — Variaciones y efectos",
+    "section": "Parte II: Economía abierta — TC flexible (Mundell-Fleming)",
+    "text": "Parte II: Economía abierta — TC flexible (Mundell-Fleming)\nSupuestos: \\(P = P^* = 1\\) (PPP) → \\(e = q\\); \\(\\pi = \\pi^e = 0\\) → \\(i = r\\); perfecta movilidad de capitales → \\(i = i^*\\); TC se ajusta instantáneamente.\nEcuaciones: \\[IS^*: \\quad Y = C(Y-T) + I(i^*) + G + XN(e, Y, Y^*)\\] \\[LM^*: \\quad \\frac{\\bar{M}}{P} = L(i^*, Y)\\]\nEn TC flexible, la LM* es vertical (el TC no afecta el mercado monetario). La IS* tiene pendiente positiva en el plano \\((Y, e)\\): una depreciación (\\(\\uparrow e\\)) aumenta las exportaciones netas y por tanto el producto.\n\nTabla resumen — TC flexible\n\n\n\n\n\n\n\n\n\n\nVariación\n\\(Y\\)\n\\(i\\)\n\\(e\\)\nMecanismo clave\n\n\n\n\n↑G (PF expansiva)\n—\n—\n↓ (aprecia)\nCrowding out vía apreciación cambiaria\n\n\n↓T (PF expansiva)\n—\n—\n↓ (aprecia)\nÍdem\n\n\n↑\\(\\bar{M}\\) (PM expansiva)\n↑\n—\n↑ (deprecia)\nCanal: depreciación → ↑XN\n\n\n↓ Aranceles\n—\n—\n↑ (deprecia)\n↑M → deprecia → ↑X compensa\n\n\n↑\\(i^*\\) (Fed sube tasas)\n↑\n↑\n↑ (deprecia)\nDeprecia → ↑XN domina sobre ↓I\n\n\n↓\\(Y^*\\) (recesión externa)\n↓\n—\n↓ (aprecia)\n↓XN → IS izquierda → aprecia más\n\n\n\n\n\nCasos detallados\n\n10. Política fiscal expansiva (\\(\\uparrow G\\)) — TC flexible\n\n\\(\\uparrow G\\) → IS se desplaza a la derecha → presión al alza sobre \\(i\\)\nCon movilidad perfecta de capitales: entrada de capitales → apreciación del TC (\\(\\downarrow e\\))\n\\(\\downarrow e\\) → \\(\\downarrow XN\\) → IS se desplaza de vuelta a la izquierda\nEl equilibrio final: \\(Y\\) sin cambio, \\(i = i^*\\), \\(e\\) más apreciado\n\n\\[\\Delta G = -\\Delta XN \\quad \\text{(crowding out total vía TC)}\\]\nConclusión: La política fiscal es inefectiva para cambiar el producto bajo TC flexible y perfecta movilidad de capitales. Solo aprecia el tipo de cambio.\n\n\n\n11. Política monetaria expansiva (\\(\\uparrow \\bar{M}\\)) — TC flexible\n\n\\(\\uparrow \\bar{M}\\) → LM se desplaza a la derecha → presión a la baja sobre \\(i\\)\nSalida de capitales → depreciación del TC (\\(\\uparrow e\\))\n\\(\\uparrow e\\) → \\(\\uparrow XN\\) → IS se desplaza a la derecha → \\(\\uparrow Y\\)\nMayor \\(Y\\) → mayor demanda de dinero → absorbe el exceso de \\(\\bar{M}\\) sin cambio en \\(i\\)\n\nResultado: \\(\\uparrow Y\\), \\(i = i^*\\), \\(\\uparrow e\\) (depreciación).\nCanal de transmisión bajo TC flexible: PM → tipo de cambio → exportaciones netas → producto (distinto al canal cerrado: PM → tasa de interés → inversión).\n\n\n\n12. Política comercial (↓ aranceles) — TC flexible\n\nMenor protección → \\(\\uparrow\\) importaciones → IS se desplaza a la izquierda\nPresión a la baja sobre \\(i\\) → salida de capitales → depreciación (\\(\\uparrow e\\))\n\\(\\uparrow e\\) → \\(\\uparrow XN\\) → IS vuelve al punto original\n\nResultado: \\(Y\\) sin cambio, \\(i = i^*\\), \\(e\\) más depreciado. La rebaja de aranceles solo deprecia el TC.\n\n\n\n13. Alza de tasa de interés internacional (\\(\\uparrow i^*\\)) — TC flexible\n\n\\(\\uparrow i^*\\) → \\(\\downarrow I\\) (inversión cae) → IS se desplaza a la izquierda\nPresión a la baja sobre \\(i\\) → salida de capitales → depreciación (\\(\\uparrow e\\))\n\\(\\uparrow e\\) → \\(\\uparrow XN\\) → IS se desplaza a la derecha hasta intersectar LM en \\(i^*_2\\)\n\nResultado: \\(\\uparrow Y\\), \\(i\\) sube a \\(i^*_2\\), \\(\\uparrow e\\) (depreciación).\nParadoja: el alza de tasas internacionales termina expandiendo el producto vía depreciación. Sin embargo, en el mundo real, un \\(\\uparrow i^*\\) suele ir acompañado de \\(\\downarrow Y^*\\) (recesión en el país que sube tasas), lo que contrae las exportaciones y puede dominar sobre la depreciación — efecto neto contractivo para economías pequeñas."
+  },
+  {
+    "objectID": "clases/clase03_referencia_islm.html#parte-iii-economía-abierta-tc-fijo-mundell-fleming",
+    "href": "clases/clase03_referencia_islm.html#parte-iii-economía-abierta-tc-fijo-mundell-fleming",
+    "title": "Referencia IS-LM — Variaciones y efectos",
+    "section": "Parte III: Economía abierta — TC fijo (Mundell-Fleming)",
+    "text": "Parte III: Economía abierta — TC fijo (Mundell-Fleming)\nConfiguración: El banco central mantiene \\(e = \\bar{e}\\) comprando/vendiendo divisas. La oferta de dinero endógena: \\(M = R^* + CI\\) (reservas + crédito interno). Con perfecta movilidad de capitales \\(i = i^*\\) y el TC fijo fuerza que \\(\\bar{M}\\) se acomode.\n\nTabla resumen — TC fijo\n\n\n\n\n\n\n\n\n\n\nVariación\n\\(Y\\)\n\\(i\\)\n\\(e\\)\nMecanismo clave\n\n\n\n\n↑G (PF expansiva)\n↑\n—\n—\nBC acumula reservas → ↑M → LM derecha\n\n\n↓T (PF expansiva)\n↑\n—\n—\nÍdem\n\n\n↑\\(\\bar{M}\\) (PM expansiva)\n—\n—\n—\nBC pierde reservas → M vuelve al nivel original\n\n\nDevaluación (\\(\\uparrow \\bar{e}\\))\n↑\n—\n↑ (fijo nuevo)\n↑XN → IS derecha → entrada capitales → ↑M\n\n\n↑\\(i^*\\)\n↓\n↑\n—\n↓I → IS izq. → BC vende divisas → ↓M → LM izq.\n\n\n\n\n\nCasos detallados\n\n14. Política fiscal expansiva (\\(\\uparrow G\\)) — TC fijo\n\n\\(\\uparrow G\\) → IS se desplaza a la derecha → mayor \\(Y\\) → presión al alza sobre \\(i\\)\nEntrada de capitales → presión a la apreciación → BC compra divisas para mantener \\(\\bar{e}\\)\nCompra de divisas = emisión de dinero → \\(\\uparrow \\bar{M}\\) → LM se desplaza a la derecha\nEste proceso continúa hasta que \\(i = i^*\\) de nuevo\n\nResultado: \\(\\uparrow Y\\), \\(i = i^*\\), \\(e = \\bar{e}\\). El multiplicador es completo — no hay crowding out.\nPor qué es efectiva: la PF genera entrada de capitales que el BC absorbe emitiendo dinero, lo que valida el mayor nivel de actividad sin presionar las tasas.\n\n\n\n15. Política monetaria expansiva — TC fijo\n\nBC intenta \\(\\uparrow \\bar{M}\\) vía crédito interno (\\(\\uparrow CI\\))\nExceso de oferta de dinero → el público compra divisas\nBC debe vender divisas para mantener \\(\\bar{e}\\) → \\(\\downarrow R^*\\) → \\(\\downarrow M\\)\n\\(M\\) vuelve al nivel original; las reservas caen en exactamente \\(\\Delta CI\\)\n\nResultado: \\(Y\\) sin cambio, \\(i = i^*\\), \\(e = \\bar{e}\\). La PM es completamente inefectiva bajo TC fijo.\nConclusión estructural: bajo TC fijo el banco central pierde el control de la oferta de dinero. Esta es la base de la trinidad imposible: no se puede tener simultáneamente TC fijo, movilidad perfecta de capitales y política monetaria independiente.\n\n\n\n16. Devaluación nominal (\\(\\uparrow \\bar{e}\\)) — TC fijo\nEl BC decide fijar un nuevo TC más alto (deprecia la moneda).\n\n\\(\\uparrow \\bar{e}\\) → \\(\\uparrow XN\\) → IS se desplaza a la derecha\n\\(\\uparrow Y\\) → entrada de capitales → BC compra divisas → \\(\\uparrow M\\) → LM se desplaza a la derecha\nNuevo equilibrio: \\(\\uparrow Y\\), \\(i = i^*\\), \\(e = \\bar{e}_2 &gt; \\bar{e}_1\\)\n\nCondición necesaria (Marshall-Lerner): La devaluación expande el producto solo si: \\[\\frac{e}{X} X_e + \\left|\\frac{e}{N} N_e\\right| &gt; 1\\]\nLa suma de las elasticidades de exportaciones e importaciones respecto al TC debe ser mayor a 1. La evidencia sugiere que se cumple en el mediano plazo, pero en el corto plazo puede dominar el efecto valoración (las importaciones se encarecen antes de que las cantidades se ajusten) → curva J: el producto primero cae, luego sube.\n\n\n\n17. Alza de tasa internacional (\\(\\uparrow i^*\\)) — TC fijo\n\n\\(\\uparrow i^*\\) → \\(\\downarrow I\\) → IS se desplaza a la izquierda → \\(\\downarrow Y\\)\nMayor \\(i^*\\) → salida de capitales → BC vende divisas → \\(\\downarrow M\\) → LM izquierda\nDoble contracción: IS e LM se mueven simultáneamente hacia la izquierda\n\nResultado: \\(\\downarrow Y\\), \\(i\\) sube a \\(i^*_2\\), \\(e = \\bar{e}\\). La restricción del TC fijo agrava el efecto contractivo del alza externa de tasas.\nCaso histórico: contracción monetaria de la Fed bajo Volcker (1980-1982) → \\(\\uparrow i^*\\) → crisis de deuda en América Latina (países con TC fijo o semi-fijo y deuda en dólares)."
+  },
+  {
+    "objectID": "clases/clase03_referencia_islm.html#parte-iv-tabla-comparativa-general",
+    "href": "clases/clase03_referencia_islm.html#parte-iv-tabla-comparativa-general",
+    "title": "Referencia IS-LM — Variaciones y efectos",
+    "section": "Parte IV: Tabla comparativa general",
+    "text": "Parte IV: Tabla comparativa general\nFuente: De Gregorio (2007), Cuadro 20.1, p. 550. Signos: (+) sube, (−) baja, (0) sin cambio.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEc. Cerrada\n\nTC Flexible\n\n\nTC Fijo\n\n\n\n\n\n\n\n\\(Y\\)\n\\(i\\)\n\\(Y\\)\n\\(i\\)\n\\(e\\)\n\\(Y\\)\n\\(i\\)\n\\(e\\)\n\n\nPM expansiva (\\(\\uparrow \\bar{M}\\))\n+\n−\n+\n0\n+\n0\n0\n0\n\n\nPF expansiva (\\(\\uparrow G\\))\n+\n+\n0\n0\n−\n+\n0\n0\n\n\n\nLectura clave: - TC flexible: PM efectiva, PF inefectiva - TC fijo: PF efectiva, PM inefectiva - Ec. cerrada: ambas efectivas, con trade-off en la tasa de interés"
+  },
+  {
+    "objectID": "clases/clase03_referencia_islm.html#parte-v-resumen-de-efectos-sobre-la-curva-de-demanda-agregada",
+    "href": "clases/clase03_referencia_islm.html#parte-v-resumen-de-efectos-sobre-la-curva-de-demanda-agregada",
+    "title": "Referencia IS-LM — Variaciones y efectos",
+    "section": "Parte V: Resumen de efectos sobre la curva de demanda agregada",
+    "text": "Parte V: Resumen de efectos sobre la curva de demanda agregada\nLa curva DA relaciona el nivel de precios \\(P\\) con el producto de equilibrio IS-LM. Cualquier variable que desplace la IS o la LM (manteniendo \\(P\\) fijo) desplaza la DA:\n\n\n\n\n\n\n\nShock\nDesplaza la DA\n\n\n\n\n\\(\\uparrow G\\), \\(\\downarrow T\\), \\(\\uparrow \\bar{C}\\), \\(\\uparrow \\bar{I}\\)\nA la derecha\n\n\n\\(\\downarrow G\\), \\(\\uparrow T\\), \\(\\downarrow \\bar{C}\\), \\(\\downarrow \\bar{I}\\)\nA la izquierda\n\n\n\\(\\uparrow \\bar{M}\\)\nA la derecha\n\n\n\\(\\downarrow \\bar{M}\\)\nA la izquierda\n\n\n\\(\\uparrow P\\) (movimiento sobre la DA, no desplazamiento)\nReduce \\(Y\\) de equilibrio"
+  },
+  {
+    "objectID": "clases/clase03_referencia_islm.html#referencias",
+    "href": "clases/clase03_referencia_islm.html#referencias",
+    "title": "Referencia IS-LM — Variaciones y efectos",
+    "section": "Referencias",
+    "text": "Referencias\n\nDe Gregorio, J. (2007). Macroeconomía. Teoría y Políticas. Pearson Educación. Cap. 19 (IS-LM cerrada) y Cap. 20 (Mundell-Fleming).\nBlanchard, O. (2017). Macroeconomics (7ª ed.). Pearson. Caps. 5, 19 y 20.\nMankiw, N. G. (2021). Principios de Economía (8ª ed.). Cengage. Cap. 34."
+  },
+  {
+    "objectID": "clases/clase03_lectura_01_mundell_fleming.html",
+    "href": "clases/clase03_lectura_01_mundell_fleming.html",
+    "title": "Lectura complementaria — Clase 03",
+    "section": "",
+    "text": "En la diapositiva de Clase 03 trabajamos el modelo IS-LM en economía cerrada. Al cierre, planteamos la pregunta: ¿puede Chile usar política fiscal o monetaria para responder a los aranceles de Trump? La respuesta completa requiere abrir la economía al mundo — y eso es lo que cubre esta lectura.\nEl modelo de Mundell-Fleming es la extensión del IS-LM al caso de economía abierta. Fue desarrollado por Robert Mundell y Marcus Fleming a comienzos de los años 1960 y sigue siendo la base de la macroeconomía internacional moderna. Mundell recibió el Premio Nobel en 1999 por este trabajo."
+  },
+  {
+    "objectID": "clases/clase03_lectura_01_mundell_fleming.html#por-qué-esta-lectura-existe",
+    "href": "clases/clase03_lectura_01_mundell_fleming.html#por-qué-esta-lectura-existe",
+    "title": "Lectura complementaria — Clase 03",
+    "section": "",
+    "text": "En la diapositiva de Clase 03 trabajamos el modelo IS-LM en economía cerrada. Al cierre, planteamos la pregunta: ¿puede Chile usar política fiscal o monetaria para responder a los aranceles de Trump? La respuesta completa requiere abrir la economía al mundo — y eso es lo que cubre esta lectura.\nEl modelo de Mundell-Fleming es la extensión del IS-LM al caso de economía abierta. Fue desarrollado por Robert Mundell y Marcus Fleming a comienzos de los años 1960 y sigue siendo la base de la macroeconomía internacional moderna. Mundell recibió el Premio Nobel en 1999 por este trabajo."
+  },
+  {
+    "objectID": "clases/clase03_lectura_01_mundell_fleming.html#supuestos-del-modelo",
+    "href": "clases/clase03_lectura_01_mundell_fleming.html#supuestos-del-modelo",
+    "title": "Lectura complementaria — Clase 03",
+    "section": "Supuestos del modelo",
+    "text": "Supuestos del modelo\nPara simplificar el análisis asumimos:\n\nLos precios son iguales entre países: \\(P = P^* = 1\\), por lo tanto el tipo de cambio nominal es igual al real: \\(e = q = \\frac{eP^*}{P}\\)\nNo existe ni se espera inflación: \\(\\pi = \\pi^e = 0\\), por lo tanto la tasa nominal iguala a la real: \\(i = r\\)\nExiste perfecta movilidad de capitales: los capitales se mueven libremente entre países en respuesta a diferenciales de tasas\nEl tipo de cambio se ajusta instantáneamente para mantener el equilibrio del mercado cambiario\n\nLos supuestos 3 y 4 implican que la paridad de tasas de interés se cumple en todo momento:\n\\[i = i^* + \\frac{\\Delta e}{e}\\]\nComo el TC se ajusta instantáneamente (\\(\\Delta e/e = 0\\)), se tiene que \\(i = i^*\\) — la tasa doméstica iguala siempre a la tasa internacional."
+  },
+  {
+    "objectID": "clases/clase03_lectura_01_mundell_fleming.html#las-ecuaciones-del-modelo",
+    "href": "clases/clase03_lectura_01_mundell_fleming.html#las-ecuaciones-del-modelo",
+    "title": "Lectura complementaria — Clase 03",
+    "section": "Las ecuaciones del modelo",
+    "text": "Las ecuaciones del modelo\nCon economía abierta, la IS incorpora las exportaciones netas \\(XN\\):\n\\[IS^*: \\quad Y = C(Y-T) + I(i^*) + G + XN(e, Y, Y^*)\\]\ndonde \\(XN = XN(e^+, Y^{*+}, Y^-, \\text{aranceles}^+)\\) — las exportaciones netas aumentan con la depreciación del TC, con el ingreso externo y con aranceles externos, y caen con el ingreso doméstico.\nLa LM en economía abierta, dado que \\(i = i^*\\):\n\\[LM^*: \\quad \\frac{\\bar{M}}{P} = L(i^*, Y)\\]\nRepresentación gráfica: en el plano \\((Y, e)\\), la \\(LM^*\\) es vertical (el TC no afecta el mercado monetario) y la \\(IS^*\\) tiene pendiente positiva (una depreciación — \\(\\uparrow e\\) — aumenta \\(XN\\) y por tanto \\(Y\\))."
+  },
+  {
+    "objectID": "clases/clase03_lectura_01_mundell_fleming.html#tipo-de-cambio-flexible",
+    "href": "clases/clase03_lectura_01_mundell_fleming.html#tipo-de-cambio-flexible",
+    "title": "Lectura complementaria — Clase 03",
+    "section": "Tipo de cambio flexible",
+    "text": "Tipo de cambio flexible\n\nPolítica fiscal expansiva (\\(\\uparrow G\\))\n\n\n\n\n\n\nImportanteResultado: política fiscal inefectiva\n\n\n\nEl producto no cambia. Solo aprecia el tipo de cambio.\n\n\nMecanismo paso a paso:\n\n\\(\\uparrow G\\) → IS se desplaza a la derecha → presión al alza sobre \\(i\\)\nCon \\(i &gt; i^*\\): entrada masiva de capitales → demanda de moneda doméstica → apreciación (\\(\\downarrow e\\))\n\\(\\downarrow e\\) → \\(\\downarrow XN\\) (exportaciones más caras para el mundo, importaciones más baratas) → IS se desplaza de vuelta a la izquierda\nEl proceso termina cuando la IS recupera su posición original: \\(Y\\) no cambia\n\n\\[\\Delta G = -\\Delta XN \\quad \\text{(el gasto público desplaza exactamente a las exportaciones netas)}\\]\nLa intuición: en economía abierta con movilidad perfecta de capitales, cualquier expansión fiscal genera una apreciación cambiaria que neutraliza el estímulo. El mayor gasto del gobierno “expulsa” exportaciones netas en vez de inversión privada.\n\n\n\nPolítica monetaria expansiva (\\(\\uparrow \\bar{M}\\))\n\n\n\n\n\n\nTipResultado: política monetaria efectiva\n\n\n\nEl producto sube. El canal es el tipo de cambio, no la tasa de interés.\n\n\nMecanismo paso a paso:\n\n\\(\\uparrow \\bar{M}\\) → LM se desplaza a la derecha → presión a la baja sobre \\(i\\)\nCon \\(i &lt; i^*\\): salida de capitales → venta de moneda doméstica → depreciación (\\(\\uparrow e\\))\n\\(\\uparrow e\\) → \\(\\uparrow XN\\) → IS se desplaza a la derecha → \\(\\uparrow Y\\)\nMayor \\(Y\\) → mayor demanda de dinero → absorbe el exceso de oferta monetaria sin mover \\(i\\)\n\nResultado final: \\(\\uparrow Y\\), \\(i = i^*\\), \\(\\uparrow e\\) (depreciación).\nDiferencia clave con economía cerrada: en economía cerrada, la PM funciona bajando \\(i\\) para estimular la inversión. En economía abierta con TC flexible, la PM funciona depreciando el TC para estimular las exportaciones netas. La tasa de interés no cambia.\n\n\n\nPolítica comercial (\\(\\downarrow\\) aranceles)\nUna rebaja de aranceles aumenta las importaciones y desplaza la IS a la izquierda.\n\n\\(\\downarrow\\) aranceles → \\(\\uparrow M\\) (importaciones) → \\(\\downarrow XN\\) → IS izquierda\nPresión a la baja sobre \\(i\\) → salida de capitales → depreciación (\\(\\uparrow e\\))\n\\(\\uparrow e\\) → \\(\\uparrow XN\\) → IS vuelve al origen\n\nResultado: \\(Y\\) sin cambio, \\(i = i^*\\), \\(\\uparrow e\\) (depreciación). La rebaja de aranceles solo deprecia el TC — el producto no cambia.\n\n\n\nAlza de tasa internacional (\\(\\uparrow i^*\\))\n\n\\(\\uparrow i^*\\) → \\(\\downarrow I\\) (inversión cae) → IS izquierda\nPresión a la baja sobre \\(i\\) doméstica → salida de capitales → depreciación (\\(\\uparrow e\\))\n\\(\\uparrow e\\) → \\(\\uparrow XN\\) → IS derecha → nuevo equilibrio en \\(i^*_2\\)\n\nResultado: \\(\\uparrow Y\\), \\(i\\) sube a \\(i^*_2\\), \\(\\uparrow e\\) (depreciación).\nParadoja conceptual: el alza de tasas externas termina expandiendo el producto vía depreciación. En la práctica, un \\(\\uparrow i^*\\) suele ir acompañado de una recesión en el país que sube tasas (\\(\\downarrow Y^*\\)), lo que reduce las exportaciones y puede dominar sobre la depreciación — efecto neto contractivo para economías pequeñas exportadoras como Chile."
+  },
+  {
+    "objectID": "clases/clase03_lectura_01_mundell_fleming.html#tipo-de-cambio-fijo",
+    "href": "clases/clase03_lectura_01_mundell_fleming.html#tipo-de-cambio-fijo",
+    "title": "Lectura complementaria — Clase 03",
+    "section": "Tipo de cambio fijo",
+    "text": "Tipo de cambio fijo\nBajo TC fijo, el banco central mantiene \\(e = \\bar{e}\\) comprando y vendiendo divisas. La oferta de dinero pasa a ser endógena:\n\\[M = H = R^* + CI\\]\ndonde \\(R^*\\) son reservas internacionales y \\(CI\\) es el crédito interno del banco central. Bajo perfecta movilidad, \\(i = i^*\\) y el TC fijo fuerza a que \\(M\\) se acomode.\n\nPolítica monetaria expansiva — TC fijo\n\n\n\n\n\n\nImportanteResultado: política monetaria inefectiva\n\n\n\nEl banco central pierde el control de la oferta de dinero.\n\n\n\nBC intenta \\(\\uparrow CI\\) → exceso de oferta de dinero\nEl público compra divisas con el exceso de dinero\nBC debe vender divisas para mantener \\(\\bar{e}\\) → \\(\\downarrow R^*\\)\n\\(\\downarrow R^*\\) cancela exactamente el \\(\\uparrow CI\\) → \\(M\\) queda igual\n\nEl banco central es incapaz de hacer política monetaria bajo TC fijo. Para mantener el TC, debe renunciar al control de \\(M\\).\n\n\nPolítica fiscal expansiva (\\(\\uparrow G\\)) — TC fijo\n\n\n\n\n\n\nTipResultado: política fiscal efectiva\n\n\n\nEl producto sube con multiplicador completo (sin crowding out).\n\n\n\n\\(\\uparrow G\\) → IS derecha → \\(\\uparrow Y\\) → presión al alza sobre \\(i\\)\n\\(i &gt; i^*\\): entrada de capitales → el BC compra divisas → \\(\\uparrow R^*\\) → \\(\\uparrow M\\)\n\\(\\uparrow M\\) → LM derecha → valida el mayor \\(Y\\) sin subir \\(i\\)\n\nResultado: \\(\\uparrow Y\\), \\(i = i^*\\), \\(e = \\bar{e}\\). El multiplicador es completo porque no hay crowding out: la entrada de capitales que el BC absorbe genera automáticamente la expansión monetaria necesaria.\n\n\nDevaluación (\\(\\uparrow \\bar{e}\\)) — TC fijo\nEl BC decide fijar un nuevo TC más alto (deprecia la moneda).\n\n\\(\\uparrow \\bar{e}\\) → \\(\\uparrow XN\\) → IS derecha → \\(\\uparrow Y\\)\n\\(\\uparrow Y\\) → \\(\\uparrow\\) demanda de dinero → entrada de capitales → BC compra divisas → \\(\\uparrow M\\) → LM derecha\n\nResultado: \\(\\uparrow Y\\), \\(i = i^*\\), \\(e = \\bar{e}_2\\). La devaluación expande el producto si se cumple la condición de Marshall-Lerner:\n\\[\\frac{e}{X}\\frac{\\partial X}{\\partial e} + \\left|\\frac{e}{N}\\frac{\\partial N}{\\partial e}\\right| &gt; 1\\]\nLa suma de las elasticidades de exportaciones e importaciones respecto al TC debe superar 1. En el corto plazo puede no cumplirse (las cantidades tardan en ajustarse mientras los precios ya subieron) → curva J: el producto primero cae y luego se recupera."
+  },
+  {
+    "objectID": "clases/clase03_lectura_01_mundell_fleming.html#tabla-comparativa-de-políticas",
+    "href": "clases/clase03_lectura_01_mundell_fleming.html#tabla-comparativa-de-políticas",
+    "title": "Lectura complementaria — Clase 03",
+    "section": "Tabla comparativa de políticas",
+    "text": "Tabla comparativa de políticas\nFuente: De Gregorio (2007), Cap. 20, Cuadro 20.1.\n\n\n\n\nEc. Cerrada\n\nTC Flexible\n\n\nTC Fijo\n\n\n\n\n\n\n\n\\(Y\\)\n\\(i\\)\n\\(Y\\)\n\\(i\\)\n\\(e\\)\n\\(Y\\)\n\\(i\\)\n\\(e\\)\n\n\nPM expansiva\n↑\n↓\n↑\n—\n↑\n—\n—\n—\n\n\nPF expansiva\n↑\n↑\n—\n—\n↓\n↑\n—\n—\n\n\n\nLectura central: los efectos de la PM y la PF se invierten entre TC flexible y TC fijo. Esto es el resultado más importante del modelo de Mundell-Fleming."
+  },
+  {
+    "objectID": "clases/clase03_lectura_01_mundell_fleming.html#la-trinidad-imposible",
+    "href": "clases/clase03_lectura_01_mundell_fleming.html#la-trinidad-imposible",
+    "title": "Lectura complementaria — Clase 03",
+    "section": "La trinidad imposible",
+    "text": "La trinidad imposible\nEl modelo pone de manifiesto que un país no puede tener simultáneamente:\n\nTipo de cambio fijo\nPerfecta movilidad de capitales\nPolítica monetaria independiente\n\nSolo puede elegir dos de los tres. Esta restricción estructural explica las decisiones cambiarias de distintos países:\n\n\n\nPaís\nTC\nMovilidad capitales\nPM independiente\n\n\n\n\nChile\nFlexible\nSí (libre)\nSí (BCCh autónomo)\n\n\nArgentina 1991-2001\nFijo (convertibilidad)\nSí\nNo\n\n\nChina 2000-2015\nSemi-fijo\nNo (cepo)\nSí\n\n\nZona Euro\nFijo (moneda única)\nSí\nNo (BCE decide)"
+  },
+  {
+    "objectID": "clases/clase03_lectura_01_mundell_fleming.html#volvamos-al-hilo-conductor",
+    "href": "clases/clase03_lectura_01_mundell_fleming.html#volvamos-al-hilo-conductor",
+    "title": "Lectura complementaria — Clase 03",
+    "section": "Volvamos al hilo conductor",
+    "text": "Volvamos al hilo conductor\nPregunta inicial: ¿puede Chile usar política fiscal o monetaria para responder a los aranceles de Trump?\nLos aranceles de Trump reducen las exportaciones netas de Chile (\\(\\downarrow XN\\) → IS izquierda). Con TC flexible y perfecta movilidad de capitales:\n\nPolítica fiscal (\\(\\uparrow G\\)): no sirve — aprecia el TC y reduce más las exportaciones netas. El estímulo se neutraliza.\nPolítica monetaria (\\(\\uparrow \\bar{M}\\)): sí funciona — deprecia el TC, lo que compensa parcialmente la caída de exportaciones netas vía mayor competitividad.\n\nLa respuesta de política óptima para Chile ante shocks externos negativos es la política monetaria, no la fiscal. El tipo de cambio flexible actúa como amortiguador automático."
+  },
+  {
+    "objectID": "clases/clase03_lectura_01_mundell_fleming.html#para-profundizar",
+    "href": "clases/clase03_lectura_01_mundell_fleming.html#para-profundizar",
+    "title": "Lectura complementaria — Clase 03",
+    "section": "Para profundizar",
+    "text": "Para profundizar\n\nDe Gregorio, J. (2007). Macroeconomía. Teoría y Políticas. Cap. 20. Incluye además: dinámica de Dornbusch (overshooting), movilidad imperfecta de capitales y crisis cambiarias.\nBlanchard, O. (2017). Macroeconomics (7ª ed.). Cap. 20 (Mundell-Fleming).\nMankiw, N. G. (2021). Principios de Economía (8ª ed.). Cap. 31 (economía abierta)."
   }
 ]
