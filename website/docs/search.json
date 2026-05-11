@@ -448,6 +448,97 @@
     "text": "Para reflexionar\n\n¿Qué combinación de políticas permitiría aumentar el producto sin subir la tasa de interés?\n\n\nPista: busquen una que desplace la IS a la derecha y la LM también a la derecha simultáneamente."
   },
   {
+    "objectID": "clases/clase02_lectura_01_dolarizacion.html",
+    "href": "clases/clase02_lectura_01_dolarizacion.html",
+    "title": "Dolarización",
+    "section": "",
+    "text": "La dolarización corresponde a la aceptación del dólar como moneda, sustituyéndola por la moneda local.\nPuede ser:\n\nFormal: Ecuador, Panamá y El Salvador\nInformal: Venezuela y Argentina\n\nLa principal razón para esto corresponde a la pérdida de confianza en la moneda local, que se refleja en una constante pérdida de valor de la moneda local."
+  },
+  {
+    "objectID": "clases/clase02_lectura_01_dolarizacion.html#dolarización-en-américa-latina",
+    "href": "clases/clase02_lectura_01_dolarizacion.html#dolarización-en-américa-latina",
+    "title": "Dolarización",
+    "section": "",
+    "text": "La dolarización corresponde a la aceptación del dólar como moneda, sustituyéndola por la moneda local.\nPuede ser:\n\nFormal: Ecuador, Panamá y El Salvador\nInformal: Venezuela y Argentina\n\nLa principal razón para esto corresponde a la pérdida de confianza en la moneda local, que se refleja en una constante pérdida de valor de la moneda local."
+  },
+  {
+    "objectID": "clases/clase02_lectura_01_dolarizacion.html#ventajas-y-desventajas",
+    "href": "clases/clase02_lectura_01_dolarizacion.html#ventajas-y-desventajas",
+    "title": "Dolarización",
+    "section": "Ventajas y desventajas",
+    "text": "Ventajas y desventajas\n\n\n\n\n\n\n\n\n\nVentajas\nDesventajas\n\n\n\n\nTipo de cambio\nEvita la depreciación de la moneda y posibles salidas de capitales; menos riesgo puede implicar menor tasa de endeudamiento\nPérdida de soberanía sobre la moneda: imposible ajustar el tipo de cambio\n\n\nMercados\nFacilita el acceso a los mercados globales al trabajar con una moneda de interés mundial\nImposibilidad de controlar la cantidad de dinero físico en circulación: se pierde el derecho de señoreaje — ya no puede financiar gasto público imprimiendo dinero\n\n\nEstabilidad\nSegún Glower (2011), el dólar es visto como la panacea del subdesarrollo; manera de evitar la inestabilidad monetaria\nSegún Glower (2011), se debe dar liquidez al mercado, lo que obliga a la compra de la divisa"
+  },
+  {
+    "objectID": "clases/clase02_lectura_01_dolarizacion.html#dolarización-tipo-de-cambio-y-problemas-de-balance",
+    "href": "clases/clase02_lectura_01_dolarizacion.html#dolarización-tipo-de-cambio-y-problemas-de-balance",
+    "title": "Dolarización",
+    "section": "Dolarización, tipo de cambio y problemas de balance",
+    "text": "Dolarización, tipo de cambio y problemas de balance\nSe debe considerar que por lo general la dolarización ocurre después de una gran pérdida del valor de la moneda. A la vez, esto ocurre después de que durante algún tiempo ya se estuvo viviendo una dolarización informal en la economía. Por lo general la población sale desfavorecida con el cambio.\nLa influencia del tipo de cambio va más allá de la relación entre exportaciones e importaciones. Por lo general, existe deuda que está en dólares, por lo tanto, en un contexto de depreciación de la moneda local dichos actores se ven perjudicados por un aumento de la deuda a través del tipo de cambio.\n\nVer ejercicio en Excel: data/ejercicio 01 Presupuesto.xlsx"
+  },
+  {
+    "objectID": "clases/clase02_lectura_01_dolarizacion.html#caso-comparado-banco-nacional-de-panamá",
+    "href": "clases/clase02_lectura_01_dolarizacion.html#caso-comparado-banco-nacional-de-panamá",
+    "title": "Dolarización",
+    "section": "Caso comparado: Banco Nacional de Panamá",
+    "text": "Caso comparado: Banco Nacional de Panamá\nCorresponde a la entidad bancaria oficial de Panamá, pero solo realiza algunas funciones de banco central debido a que no puede emitir billetes (la moneda de curso legal es el dólar), a pesar de que la moneda oficial es el balboa, que solo se usa para fines contables.\n\nBanco estatal: agente financiero del Estado y depositario de los fondos de la Nación\nBanco regulador: manejo de cámara de compensación del Sistema Bancario Nacional\nBanco privado: mayor presencia a lo largo y ancho del país, con servicios tanto al segmento comercial como de consumo"
+  },
+  {
+    "objectID": "clases/clase02_lectura_01_dolarizacion.html#referencia",
+    "href": "clases/clase02_lectura_01_dolarizacion.html#referencia",
+    "title": "Dolarización",
+    "section": "Referencia",
+    "text": "Referencia\n\nGlower, C. (2011). Dolarización: ventajas y desventajas."
+  },
+  {
+    "objectID": "clases/clase02_actividad_02_dinero.html",
+    "href": "clases/clase02_actividad_02_dinero.html",
+    "title": "Actividad — Proceso de creación del dinero",
+    "section": "",
+    "text": "El dinero en una economía no lo crea solo el Banco Central — el sistema bancario lo multiplica a través del proceso depósito-crédito.\nBase monetaria — el dinero emitido por el Banco Central:\n\\[BM = EMP + RB\\]\nDonde \\(EMP\\) es el efectivo en manos del público y \\(RB\\) son las reservas bancarias.\nOferta monetaria — el dinero total en la economía:\n\\[M = EMP + D\\]\nDonde \\(D\\) son los depósitos bancarios.\nMultiplicador monetario:\n\\[\\text{Multiplicador} = \\frac{M}{BM} = \\frac{e + 1}{e + \\rho}\\]\nDonde \\(e = EMP/D\\) es la preferencia del público por efectivo y \\(\\rho = RB/D\\) es la tasa de encaje."
+  },
+  {
+    "objectID": "clases/clase02_actividad_02_dinero.html#marco-conceptual",
+    "href": "clases/clase02_actividad_02_dinero.html#marco-conceptual",
+    "title": "Actividad — Proceso de creación del dinero",
+    "section": "",
+    "text": "El dinero en una economía no lo crea solo el Banco Central — el sistema bancario lo multiplica a través del proceso depósito-crédito.\nBase monetaria — el dinero emitido por el Banco Central:\n\\[BM = EMP + RB\\]\nDonde \\(EMP\\) es el efectivo en manos del público y \\(RB\\) son las reservas bancarias.\nOferta monetaria — el dinero total en la economía:\n\\[M = EMP + D\\]\nDonde \\(D\\) son los depósitos bancarios.\nMultiplicador monetario:\n\\[\\text{Multiplicador} = \\frac{M}{BM} = \\frac{e + 1}{e + \\rho}\\]\nDonde \\(e = EMP/D\\) es la preferencia del público por efectivo y \\(\\rho = RB/D\\) es la tasa de encaje."
+  },
+  {
+    "objectID": "clases/clase02_actividad_02_dinero.html#enunciado",
+    "href": "clases/clase02_actividad_02_dinero.html#enunciado",
+    "title": "Actividad — Proceso de creación del dinero",
+    "section": "Enunciado",
+    "text": "Enunciado\nConsidere una economía con los siguientes parámetros:\n\nBase monetaria: \\(BM = 1.000\\)\nEl público mantiene la mitad del dinero como efectivo y la otra mitad como depósitos\nEl Banco Central fija una tasa de encaje del 30%"
+  },
+  {
+    "objectID": "clases/clase02_actividad_02_dinero.html#preguntas",
+    "href": "clases/clase02_actividad_02_dinero.html#preguntas",
+    "title": "Actividad — Proceso de creación del dinero",
+    "section": "Preguntas",
+    "text": "Preguntas\n1. Identifica los valores de \\(e\\) y \\(\\rho\\) a partir del enunciado.\n2. Calcula el multiplicador monetario.\n3. ¿Cuál es la oferta monetaria total \\(M\\)?\n4. Desglosa \\(M\\) en sus componentes: ¿cuánto es efectivo (\\(EMP\\)) y cuánto son depósitos (\\(D\\))?\n5. ¿Cuánto corresponde a reservas bancarias (\\(RB\\))?\n6. Si el Banco Central reduce la tasa de encaje al 20%, ¿cómo cambia el multiplicador y la oferta monetaria? ¿Qué implicancia tiene esto para la política monetaria?"
+  },
+  {
+    "objectID": "clases/clase02_actividad_02_dinero.html#solución-orientativa",
+    "href": "clases/clase02_actividad_02_dinero.html#solución-orientativa",
+    "title": "Actividad — Proceso de creación del dinero",
+    "section": "Solución orientativa",
+    "text": "Solución orientativa\nPaso 1 — Parámetros:\nEl público mantiene \\(EMP = 0{,}5M\\) y \\(D = 0{,}5M\\), por lo tanto:\n\\[e = \\frac{EMP}{D} = \\frac{0{,}5M}{0{,}5M} = 1 \\qquad \\rho = 0{,}3\\]\nPaso 2 — Multiplicador:\n\\[\\text{Multiplicador} = \\frac{e + 1}{e + \\rho} = \\frac{1 + 1}{1 + 0{,}3} = \\frac{2}{1{,}3} = \\frac{20}{13} \\approx 1{,}54\\]\nPaso 3 — Oferta monetaria:\n\\[M = \\frac{20}{13} \\times 1.000 \\approx 1.538{,}5\\]\nPaso 4 — Desglose:\n\\[EMP = D = \\frac{1.000}{13} \\approx 769{,}2 \\qquad RB = 0{,}3 \\times 769{,}2 \\approx 230{,}8\\]\nVerificación: \\(BM = EMP + RB = 769{,}2 + 230{,}8 = 1.000\\) ✓"
+  },
+  {
+    "objectID": "clases/clase02_actividad_02_dinero.html#para-reflexionar",
+    "href": "clases/clase02_actividad_02_dinero.html#para-reflexionar",
+    "title": "Actividad — Proceso de creación del dinero",
+    "section": "Para reflexionar",
+    "text": "Para reflexionar\n\nEl multiplicador es mayor que 1 porque los bancos prestan parte de los depósitos, que vuelven al sistema como nuevos depósitos.\nUna mayor tasa de encaje (\\(\\rho\\) sube) → multiplicador cae → menos dinero en circulación.\nUna mayor preferencia por efectivo (\\(e\\) sube) → multiplicador cae → el proceso de creación de dinero bancario se frena."
+  },
+  {
+    "objectID": "clases/clase02_actividad_02_dinero.html#referencia",
+    "href": "clases/clase02_actividad_02_dinero.html#referencia",
+    "title": "Actividad — Proceso de creación del dinero",
+    "section": "Referencia",
+    "text": "Referencia\nVer ejercicio complementario en Excel: data/ejercicio 02 generacion dinero.xlsx"
+  },
+  {
     "objectID": "clases/clase01_plan_mejora.html#actividad-de-apertura-diagnóstico-de-titular-10-min",
     "href": "clases/clase01_plan_mejora.html#actividad-de-apertura-diagnóstico-de-titular-10-min",
     "title": "Plan de mejora — Clase 01",
@@ -1209,6 +1300,279 @@
     "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
     "section": "Fuentes y referencias",
     "text": "Fuentes y referencias\n\nBanco Central de Chile. (2026, marzo). Informe de Política Monetaria. bcentral.cl\nCFA. (2026, 4 mar.). Informe sobre el desvío de la meta de Balance Estructural de 2025. cfachile.cl\nCFA. (2026, 26 mar.). Informe de Balance Estructural y nivel prudente de deuda, 4T25. cfachile.cl\nCNN Business. (2026, 10 abr.). CPI report: US inflation tripled last month on record spike in gas prices.\nINE Chile. Índice de Precios al Consumidor. ine.cl\nClark, A. & Oswald, A. (2002). A simple statistical method for measuring how life events affect happiness. International Journal of Epidemiology, 31(6), 1139–1144.\nCore Econ. The Economy. core-econ.org"
+  },
+  {
+    "objectID": "clases/clase02_actividad_01_dolarizacion.html",
+    "href": "clases/clase02_actividad_01_dolarizacion.html",
+    "title": "Actividad — Dolarización y problemas de balance",
+    "section": "",
+    "text": "La dolarización y la depreciación de la moneda local no solo afectan el precio de los bienes importados — también impactan directamente el balance de las empresas que tienen deuda en dólares.\nEsta actividad ilustra ese efecto a través de un caso numérico simple."
+  },
+  {
+    "objectID": "clases/clase02_actividad_01_dolarizacion.html#contexto",
+    "href": "clases/clase02_actividad_01_dolarizacion.html#contexto",
+    "title": "Actividad — Dolarización y problemas de balance",
+    "section": "",
+    "text": "La dolarización y la depreciación de la moneda local no solo afectan el precio de los bienes importados — también impactan directamente el balance de las empresas que tienen deuda en dólares.\nEsta actividad ilustra ese efecto a través de un caso numérico simple."
+  },
+  {
+    "objectID": "clases/clase02_actividad_01_dolarizacion.html#enunciado",
+    "href": "clases/clase02_actividad_01_dolarizacion.html#enunciado",
+    "title": "Actividad — Dolarización y problemas de balance",
+    "section": "Enunciado",
+    "text": "Enunciado\nUna empresa chilena tiene el siguiente balance al 31 de diciembre de 2023, cuando el tipo de cambio es $850 por dólar:\n\n\n\n\n\n\n\n\n\nActivos\nMonto (CLP)\nPasivos y Patrimonio\nMonto (CLP)\n\n\n\n\nActivos operacionales\n$4.250.000\nDeuda en USD (USD 3.000)\n$2.550.000\n\n\nCaja (CLP)\n$500.000\nDeuda en CLP\n$1.200.000\n\n\n\n\nPatrimonio\n$1.000.000\n\n\nTotal Activos\n$4.750.000\nTotal Pasivos + Patrimonio\n$4.750.000\n\n\n\nA mediados de 2024, el tipo de cambio sube a $980 por dólar debido a un shock externo."
+  },
+  {
+    "objectID": "clases/clase02_actividad_01_dolarizacion.html#preguntas",
+    "href": "clases/clase02_actividad_01_dolarizacion.html#preguntas",
+    "title": "Actividad — Dolarización y problemas de balance",
+    "section": "Preguntas",
+    "text": "Preguntas\n1. Recalcula el valor en pesos de la deuda en dólares al nuevo tipo de cambio.\n2. ¿Cuál es el nuevo patrimonio de la empresa, asumiendo que los activos operacionales no cambian de valor en CLP?\n3. ¿Cuánto se depreció el peso (en porcentaje)?\n4. ¿Qué le ocurre al índice de endeudamiento (Pasivos / Patrimonio) con la depreciación?\n5. ¿Cómo cambia tu análisis si la empresa hubiera tenido sus activos también en dólares (por ejemplo, exporta y recibe ingresos en USD)?"
+  },
+  {
+    "objectID": "clases/clase02_actividad_01_dolarizacion.html#marco-conceptual",
+    "href": "clases/clase02_actividad_01_dolarizacion.html#marco-conceptual",
+    "title": "Actividad — Dolarización y problemas de balance",
+    "section": "Marco conceptual",
+    "text": "Marco conceptual\nLa deuda en moneda extranjera crea un descalce cambiario: los pasivos suben en pesos cuando el dólar se aprecia, pero los activos (si son en CLP) no se mueven.\n\\[\\text{Deuda}_{CLP} = \\text{Deuda}_{USD} \\times e\\]\nDonde \\(e\\) es el tipo de cambio (CLP/USD). Un aumento de \\(e\\) (depreciación) infla el pasivo sin cambiar el activo → el patrimonio cae."
+  },
+  {
+    "objectID": "clases/clase02_actividad_01_dolarizacion.html#referencia",
+    "href": "clases/clase02_actividad_01_dolarizacion.html#referencia",
+    "title": "Actividad — Dolarización y problemas de balance",
+    "section": "Referencia",
+    "text": "Referencia\nVer ejercicio complementario en Excel: data/ejercicio 01 Presupuesto.xlsx"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#equipo-docente",
+    "href": "clases/clase02_diapositiva.html#equipo-docente",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Equipo docente",
+    "text": "Equipo docente\nDocentes:\n\nSebastián Egaña Santibáñez\nFelipe Jaque\n\nAyudante:\n\nJean Pierre Bravo"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#sobre-el-docente",
+    "href": "clases/clase02_diapositiva.html#sobre-el-docente",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Sobre el docente",
+    "text": "Sobre el docente\nSebastián Egaña Santibáñez\n\nAnalytics Translator — LATAM Airlines\nCorreo: segana@fen.uchile.cl\nWeb: https://segana.netlify.app\nLinkedIn: enlace"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#qué-veremos-esta-clase",
+    "href": "clases/clase02_diapositiva.html#qué-veremos-esta-clase",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "¿Qué veremos esta clase?",
+    "text": "¿Qué veremos esta clase?\n\n\n\n\n\n\n\nBloque\nConceptos clave\n\n\n\n\nVariables Nominales y Reales\nEcuación de Fisher, Regla de Taylor, tasa real\n\n\nDinero\nDefinición, agregados monetarios, generación de dinero\n\n\nPolítica Monetaria\nBCCh, TPM, regímenes cambiarios, trinidad imposible\n\n\nPolítica Fiscal\nBCA, institucionalidad, gastos e impuestos"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#hilo-conductor-de-la-clase",
+    "href": "clases/clase02_diapositiva.html#hilo-conductor-de-la-clase",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Hilo conductor de la clase",
+    "text": "Hilo conductor de la clase\nPartimos con un titular. Al terminar la sesión deberían poder leerlo con precisión.\n\n“El Banco Central baja la TPM: ¿por qué lo hace y qué pasa con el fisco?”\n\nPara entenderlo necesitamos saber qué es la TPM, cómo la decide el BCCh, cómo se relaciona con la inflación y los precios, y por qué una baja de tasas tiene implicancias para las finanzas públicas."
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#ecuación-de-fisher-y-tasas-de-interés",
+    "href": "clases/clase02_diapositiva.html#ecuación-de-fisher-y-tasas-de-interés",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Ecuación de Fisher y tasas de interés",
+    "text": "Ecuación de Fisher y tasas de interés\nSobre el tema visto en la clase pasada, una definición necesaria para esta clase corresponde a la ecuación de Fisher, que en términos simplificados puede definirse como:\n\\[i = r + \\pi^e\\]\nDonde \\(i\\) corresponde a la tasa nominal de la economía, \\(r\\) corresponde a la tasa real de la economía y \\(\\pi^e\\) corresponde a la tasa de inflación esperada."
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#tasa-nominal-y-regla-de-taylor",
+    "href": "clases/clase02_diapositiva.html#tasa-nominal-y-regla-de-taylor",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Tasa nominal y Regla de Taylor",
+    "text": "Tasa nominal y Regla de Taylor\nCorresponde a la regla de decisión sobre la tasa de la economía por parte de los Bancos Centrales:\n\\[i_t = r_t^* + \\pi_t + \\alpha_\\pi(\\pi_t - \\pi_t^*) + \\alpha_y(Y_t - Y_t^*)\\]\nDonde:\n\n\n\nVariable\nDescripción\n\n\n\n\n\\(i_t\\)\nTasa de interés nominal\n\n\n\\(r_t^*\\)\nTasa real esperada\n\n\n\\(\\pi_t\\)\nTasa de inflación actual (Deflactor)\n\n\n\\(\\pi_t^*\\)\nTasa de inflación objetivo\n\n\n\\(\\alpha\\)\nFactores de ajuste\n\n\n\\(Y_t\\)\nPIB real\n\n\n\\(Y_t^*\\)\nPIB Potencial\n\n\n\n\nLectura de referencia: Taylor Rule — ver lectura 01 Taylor Rule.pdf"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#sobre-la-tasa-de-interés",
+    "href": "clases/clase02_diapositiva.html#sobre-la-tasa-de-interés",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Sobre la tasa de interés",
+    "text": "Sobre la tasa de interés\nDentro del análisis económico, existen supuestos en base al tipo de economía analizada y la influencia en sus variables.\nEn el caso de Chile, se tiende a hablar de una economía pequeña y abierta, lo que quiere decir que sus variables internas están influenciadas por las variables de países más grandes.\nEsto en relación al tema de la tasa y para una economía con perfecta movilidad de capitales: la tasa nacional viene determinada de manera directa por la tasa de equilibrio internacional, por lo tanto:\n\\[r = r^*\\]\nDonde \\(r^*\\) corresponde a la tasa internacional."
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#qué-es-el-dinero",
+    "href": "clases/clase02_diapositiva.html#qué-es-el-dinero",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "¿Qué es el dinero?",
+    "text": "¿Qué es el dinero?\nEl dinero se puede definir como un activo que es parte de la riqueza financiera de las personas. Otra forma de definir el dinero es a través de sus funciones:\n\nMedio de pago: puede ser utilizado en transacciones\nUnidad de cuenta: los precios se expresan en términos de dinero\nDepósito de valor: utilización para acumular activos\n\nDentro de la economía actual, el dinero puede ser definido como la suma del circulante (billetes y monedas, \\(C\\)) y depósitos a la vista (\\(D_v\\)):\n\\[M = C + D_v\\]"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#oferta-de-dinero",
+    "href": "clases/clase02_diapositiva.html#oferta-de-dinero",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Oferta de dinero",
+    "text": "Oferta de dinero\nPor lo general el dinero se clasifica según su grado de liquidez; a esto refieren los distintos agregados:\n\nM1: compuesto por billetes y monedas en circulación, las cuentas corrientes y cuentas a la vista\nM2: M1 más los depósitos a plazo en pesos chilenos\nM3: M2 más depósitos en moneda extranjera, así como la tenencia de bonos por parte del sector privado no bancario\n\nEl ciclo reciente ilustra cómo la política afecta los agregados: durante 2020–2021 el M1 creció ~60% anual por los retiros de fondos de pensiones. La respuesta del BCCh — subir la TPM desde 0,5% a 11,25% entre 2021 y 2022 — encareció el crédito, frenó la demanda de dinero y llevó M1 de vuelta a tasas de un dígito hacia 2023–2024.\n\nFuente: Banco Central de Chile, Estadísticas Monetarias y Financieras"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#cantidad-de-dinero-y-agregados-monetarios",
+    "href": "clases/clase02_diapositiva.html#cantidad-de-dinero-y-agregados-monetarios",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Cantidad de dinero y agregados monetarios",
+    "text": "Cantidad de dinero y agregados monetarios\nVemos acá la relación entre inflación y la cantidad de dinero inyectada a la economía. El M1 llegó a crecer un ~60% anual en 2020–2021 por los retiros de fondos de pensiones y transferencias fiscales — lo que estuvo directamente asociado al peak inflacionario de 2022. Desde 2023, M1 convergió hacia tasas de crecimiento de un dígito.\n\n\nFuente: Banco Central de Chile — gráfico cubre 2019–2021; ciclo completo incluye normalización 2022–2025"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#agregados-monetarios-y-rentabilidad-de-los-bancos",
+    "href": "clases/clase02_diapositiva.html#agregados-monetarios-y-rentabilidad-de-los-bancos",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Agregados monetarios y rentabilidad de los bancos",
+    "text": "Agregados monetarios y rentabilidad de los bancos"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#proceso-de-generación-de-dinero",
+    "href": "clases/clase02_diapositiva.html#proceso-de-generación-de-dinero",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Proceso de generación de dinero",
+    "text": "Proceso de generación de dinero\nLa emisión de dinero o de la base monetaria es un proceso a cargo del Banco Central de Chile. Es quien por ley puede imprimir o mandar a imprimir billetes y monedas de curso legal, que obligadamente deben ser aceptados como medio de pago. Esto se hace a través de la Casa de La Moneda.\nEl proceso secundario es a través de la tasa de encaje de la economía."
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#proceso-de-generación-de-dinero-1",
+    "href": "clases/clase02_diapositiva.html#proceso-de-generación-de-dinero-1",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Proceso de generación de dinero",
+    "text": "Proceso de generación de dinero\nEn Chile, esta tasa fue modificada de manera transitoria el 8 de mayo del 2020:\n\n\n\nMoneda Nacional\n\n\n\nTipo de obligación\nTasa\n\n\n\n\nDepósitos a la orden judicial (art. 517 COT)\n3,6%\n\n\nOtros depósitos y obligaciones a la vista\n9%\n\n\nDepósitos desde un día plazo y ahorro a plazo\n3,6%\n\n\nOtras captaciones hasta un año plazo\n3,6%\n\n\n\n\nMoneda Extranjera\n\n\n\nTipo de obligación\nTasa\n\n\n\n\nDepósitos y otras obligaciones a la vista\n9%\n\n\nDepósitos desde un día plazo y ahorro a plazo\n3,6%\n\n\nOtras captaciones hasta un año plazo\n3,6%\n\n\nObligaciones con el exterior hasta un año plazo\n3,6%\n\n\n\n\n\n\nVer actividad: clase02_actividad_02_dinero · Excel de apoyo: data/ejercicio 02 generacion dinero.xlsx"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#banco-central-de-chile",
+    "href": "clases/clase02_diapositiva.html#banco-central-de-chile",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Banco Central de Chile",
+    "text": "Banco Central de Chile\nEn Chile, el organismo encargado corresponde al Banco Central. Sus funciones son:\n\nVelar por la estabilidad de la moneda, a través del control de la inflación\nPromover la estabilidad y eficacia del sistema financiero, velando por la normalidad de los pagos internos y externos\n\nLa principal atribución para esto corresponde a la regulación de la cantidad de dinero en circulación y el crédito en la economía.\n\nMás información: bcentral.cl"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#banco-central-y-política-monetaria",
+    "href": "clases/clase02_diapositiva.html#banco-central-y-política-monetaria",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Banco Central y política monetaria",
+    "text": "Banco Central y política monetaria\nEn términos de política monetaria, es relevante definir los siguientes elementos:\n\nPolítica Monetaria: velar por la estabilidad de la moneda, lo que en la práctica se relaciona con el control de la inflación\nTasa de política monetaria (TPM): tasa orientada a cumplir la meta de inflación a dos años; en la práctica, es la tasa que determina el nivel de tasa de préstamos interbancarios diaria\nMeta inflacionaria: la meta para Chile corresponde a un 3% en un plazo de dos años\nFlotación cambiaria: el tipo de cambio nominal es determinado por el mercado, en la interacción entre oferta y demanda de divisas"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#inflación-y-autonomía",
+    "href": "clases/clase02_diapositiva.html#inflación-y-autonomía",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Inflación y autonomía",
+    "text": "Inflación y autonomía\n\nUno de los principios claves del Banco Central corresponde a su autonomía, que principalmente ha influido en la estabilización de la inflación. La autonomía, en términos simples, nos habla de la no influencia del gobierno en sus decisiones."
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#inflación-y-autonomía-1",
+    "href": "clases/clase02_diapositiva.html#inflación-y-autonomía-1",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Inflación y autonomía",
+    "text": "Inflación y autonomía\nLa historia inflacionaria de Chile muestra con claridad el efecto de este principio: desde un peak de más de 500% anual en los años 70, la inflación se estabilizó bajo el 10% desde mediados de los 90. El ciclo reciente confirma la capacidad de reacción del BCCh:\n\n\n\n\nAño\nIPC anual\nHito\n\n\n\n\n2021\n7,2%\nRetiros AFP + gasto fiscal pandemia\n\n\n2022\n~13,7%\nPeak: agosto 2022 llegó a ~14,1%\n\n\n2023\n3,9%\nCiclo de alza TPM (hasta 11,25%) surte efecto\n\n\n2024\n~4,5%\nConvergencia gradual\n\n\nFeb 2025\n~3,0%\nDe vuelta en la meta\n\n\n\n\n\nFuente: INE Chile / BCCh — gráfico cubre hasta 2023; ciclo 2021–2025 no incluido visualmente"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#reunión-de-política-monetaria",
+    "href": "clases/clase02_diapositiva.html#reunión-de-política-monetaria",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Reunión de política monetaria",
+    "text": "Reunión de política monetaria\nCorresponde a la instancia de decisión en que el Consejo del Banco Central decide los cambios en la TPM. Se realizan 8 reuniones al año. Cuatro de estas coinciden con el día hábil previo a la publicación del IPoM.\nSobre la divulgación: el consejo redacta un comunicado que se publica a las 18 horas del mismo día de la RPM y 11 días hábiles después se publica la Minuta de la reunión.\n\nVer calendario de RPM en bcentral.cl"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#regímenes-cambiarios",
+    "href": "clases/clase02_diapositiva.html#regímenes-cambiarios",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Regímenes cambiarios",
+    "text": "Regímenes cambiarios\nLos sistemas existentes van desde el tipo de cambio fijo hasta la flotación pura:\n\n\n\n\n\n\n\n\n\n\nCurrency board: organización gubernamental que controla el tipo de cambio fijo\nPeg + fixed: tipo de cambio fijo\nPeg + horizontal bands: tipo de cambio fijo con bandas\nCrawling peg: paridad móvil\nFloating managed: flotación con intervenciones\nFloating independent: determinado por el mercado"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#dilemas-de-política-económica-trinidad-imposible",
+    "href": "clases/clase02_diapositiva.html#dilemas-de-política-económica-trinidad-imposible",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Dilemas de política económica: trinidad imposible",
+    "text": "Dilemas de política económica: trinidad imposible\nUn país no puede mantener simultáneamente las tres siguientes condiciones:\n\n\n\n\n\n\n\n\n\nLibre movilidad de capitales\nTipo de cambio fijo\nPolítica monetaria autónoma\n\nSolo se pueden elegir dos de las tres."
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#dilemas-de-política-económica-trinidad-imposible-1",
+    "href": "clases/clase02_diapositiva.html#dilemas-de-política-económica-trinidad-imposible-1",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Dilemas de política económica: trinidad imposible",
+    "text": "Dilemas de política económica: trinidad imposible\n\n\n\nChina (2000–2015):\n\nTipo de cambio semi-fijo\nPolítica monetaria activa (BPC)\nControles de capital estrictos\n\nRenunció a la libre movilidad de capitales.\n\nChile (2000–hoy):\n\nMovilidad total de capitales\nPolítica monetaria autónoma (BCCh)\nTipo de cambio flexible\n\nRenunció al tipo de cambio fijo.\n\nArgentina (2019–2023):\n\nCepo cambiario (restricción de capitales)\nTipo de cambio oficial fijo\nPolítica monetaria activa (BCRA)\n\nRenunció a la libre movilidad de capitales"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#balanza-de-pagos",
+    "href": "clases/clase02_diapositiva.html#balanza-de-pagos",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Balanza de pagos",
+    "text": "Balanza de pagos\nEl régimen cambiario de un país determina cómo se ajusta el tipo de cambio ante desequilibrios externos. La balanza de pagos es el registro contable de esos flujos: su saldo es lo que genera la oferta y demanda de divisas que mueve el tipo de cambio en un régimen de flotación como el de Chile.\nSe define como el documento contable que registra de forma sistemática todas las transacciones que efectúan los residentes de un país y los residentes del extranjero durante un período determinado."
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#balanza-de-pagos-1",
+    "href": "clases/clase02_diapositiva.html#balanza-de-pagos-1",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Balanza de pagos",
+    "text": "Balanza de pagos\nCuenta corriente — operaciones relacionadas con la generación de renta corriente:\n\n\nBalanza comercial: operaciones de compraventa de bienes\nBalanza de servicios: operaciones de compraventa de servicios\nBalanza de rentas: pagos a los factores de producción (intereses, dividendos, salarios en el extranjero)\nBalanza de transferencias corrientes: transferencias sin contrapartida (remesas, donaciones)\n\n\nCuenta de capital: transferencias de capital y compraventa de activos no producidos (derechos de autor, marcas).\nCuenta financiera: operaciones que implican variación de activos o pasivos financieros (IDE, inversiones en cartera)."
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#gastos-e-impuestos",
+    "href": "clases/clase02_diapositiva.html#gastos-e-impuestos",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Gastos e impuestos",
+    "text": "Gastos e impuestos\nEn el caso del gobierno, tenemos la siguiente ecuación:\n\\[DF_t = G_t + i \\cdot B_t - T_t\\]\nDonde:\n\n\\(DF_t\\): déficit fiscal\n\\(G_t\\): gasto total de gobierno (gasto corriente en transferencias + gasto en capital/inversión)\n\\(T_t\\): ingresos, principalmente tributarios\n\\(B_t\\): deuda neta\n\nPregunta: ¿Qué otro tipo de ingreso tiene el Gobierno? Piense en EE.UU."
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#formación-bruta-de-capital-fijo",
+    "href": "clases/clase02_diapositiva.html#formación-bruta-de-capital-fijo",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Formación bruta de capital fijo",
+    "text": "Formación bruta de capital fijo\nDentro del gasto de gobierno (\\(G_t\\)), el componente de inversión pública se mide a través de la formación bruta de capital fijo — un indicador clave de la política fiscal de largo plazo.\n\nDefinición: comprende los gastos que adicionan bienes nuevos duraderos a las existencias de activos fijos, menos sus ventas netas de bienes similares de segunda mano y de desecho, efectuadas por las industrias, las administraciones públicas y los servicios privados no lucrativos.\n¿Qué mide? Construcción y otras obras, maquinaria y equipo. Excluye objetos valiosos, software de autoconsumo y obras literarias o artísticas.\nEn el caso de ser bruta, refiere al no descuento de la depreciación.\n\n\nVer IPoM más reciente en bcentral.cl"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#institucionalidad-asociada",
+    "href": "clases/clase02_diapositiva.html#institucionalidad-asociada",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Institucionalidad asociada",
+    "text": "Institucionalidad asociada\n\nMinisterio de Hacienda: gestionar eficientemente los recursos públicos a través de un Estado moderno, generando condiciones de estabilidad, transparencia y competitividad\nDIPRES (Dirección de Presupuestos): organismo técnico encargado de velar por la asignación y uso eficiente de los recursos públicos mediante la aplicación de sistemas de gestión financiera\nComité Consultivo del Precio de Referencia del Cobre: define el precio del cobre para los próximos 10 años\nComité Consultivo del PIB Tendencial: define el PIB tendencial\nConsejo Fiscal Autónomo (CFA): asesora al Ministerio de Hacienda en temas fiscales, revisa los cálculos y evalúa propuestas para modificación de reglas"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#balance-cíclicamente-ajustado",
+    "href": "clases/clase02_diapositiva.html#balance-cíclicamente-ajustado",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Balance cíclicamente ajustado",
+    "text": "Balance cíclicamente ajustado\nSe intenta generar un grado de credibilidad para la política fiscal, con la intención de evitar un gasto cíclico.\nEn particular:\n\nNo amplificar el ciclo económico\nEvitar el crecimiento irreversible del tamaño del Estado durante los auges\nCostos sociales y de eficiencia de cortar gastos públicos; por otro lado, mejora la coordinación con la política monetaria\nReduce presiones sobre el tipo de cambio al aminorar movimientos de las tasas de interés"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#en-qué-consiste-actualmente-el-bca",
+    "href": "clases/clase02_diapositiva.html#en-qué-consiste-actualmente-el-bca",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "¿En qué consiste actualmente el BCA?",
+    "text": "¿En qué consiste actualmente el BCA?\n\n\n“Esto significa que, cumpliendo esta regla, el balance efectivo será menor a 0% del PIB cuando las condiciones cíclicas sean desfavorables y superior a 0% del PIB cuando las condiciones cíclicas sean favorables al presupuesto fiscal.”\n\n¿Cómo se calcula?\n\n\n\n\n\n\nCálculo del BCA\n\n\n\n\nIngresos Cíclicamente Ajustados (Ajuste por PIB Tendencial, precio de referencia del cobre, etc.)\n\n\n(−) Gasto Público (Presupuesto)\n\n\nBalance Cíclicamente Ajustado (Meta Fiscal determinada por la autoridad)\n\n\n\n\n\nMás información en dipres.gob.cl"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#elementos-importantes",
+    "href": "clases/clase02_diapositiva.html#elementos-importantes",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Elementos importantes",
+    "text": "Elementos importantes\n\nDefinición de la meta: por parte del Gobierno\nDeterminación de parámetros estructurales: PIB Tendencial y precio del cobre de referencia en base a proyección de expertos independientes\nProyección de ingresos efectivos en base a variables macroeconómicas proyectadas — papel del Ministerio de Hacienda y la DIPRES\nDeterminación del nivel de gasto público por diferencia\n\n\nSe intenta evitar la influencia de los ciclos dentro del gasto de gobierno. Un factor relevante dentro de los ingresos fiscales son los impuestos, los que por lo general son procíclicos. Por lo tanto, dicha metodología intenta excluir el ciclo ya sea positivo o negativo, y con esto en años de mayor crecimiento los ingresos adicionales se ahorran y en años de menor crecimiento se recurre a dichos ahorros para no ajustar el gasto público."
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#volvamos-al-titular",
+    "href": "clases/clase02_diapositiva.html#volvamos-al-titular",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Volvamos al titular",
+    "text": "Volvamos al titular\n\n“El Banco Central baja la TPM: ¿por qué lo hace y qué pasa con el fisco?”\n\nAhora pueden leer esto con precisión:\n\n“Banco Central baja la TPM”: el Consejo del BCCh decide en la RPM reducir la tasa de política monetaria porque la inflación está convergiendo a la meta del 3% — la Regla de Taylor lo anticipa cuando \\(\\pi_t \\to \\pi_t^*\\) y \\(Y_t \\approx Y_t^*\\)\n“¿Por qué lo hace?”: según la ecuación de Fisher, una TPM más baja reduce \\(i\\), lo que abarata el crédito, estimula el consumo e inversión.\n“¿Qué pasa con el fisco?”: con tasas más bajas el costo de la deuda soberana (\\(i \\cdot B_t\\)) disminuye, lo que mejora el déficit fiscal (\\(DF_t = G_t + i \\cdot B_t - T_t\\)). El BCA evita que este alivio se traduzca en mayor gasto cíclico"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#lo-que-conecta-todo",
+    "href": "clases/clase02_diapositiva.html#lo-que-conecta-todo",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Lo que conecta todo",
+    "text": "Lo que conecta todo\nTPM baja  →  tasa nominal baja (Fisher: i = r + πᵉ)\n                    ↓\n      crédito más barato → consumo e inversión suben\n                    ↓\n         tipo de cambio se deprecia levemente\n                    ↓\n      costo de deuda soberana cae (i · Bₜ menor)\n                    ↓\n   BCA evita que el alivio fiscal amplifique el ciclo\n\nEl Banco Central y el fisco no operan en silos — sus decisiones se retroalimentan a través de la tasa de interés."
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#fechas-relevantes",
+    "href": "clases/clase02_diapositiva.html#fechas-relevantes",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Fechas relevantes",
+    "text": "Fechas relevantes\n\n\n\nActividad\nDetalle\n\n\n\n\nClase 1\nGeneración de grupos\n\n\nClase 2\nCaso formativo\n\n\nClase 3\n—\n\n\nClase 4\nCaso sumativo"
+  },
+  {
+    "objectID": "clases/clase02_diapositiva.html#fuentes-y-referencias",
+    "href": "clases/clase02_diapositiva.html#fuentes-y-referencias",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Fuentes y referencias",
+    "text": "Fuentes y referencias\n\nBanco Central de Chile. (2026). Informe de Política Monetaria. bcentral.cl\nDirección de Presupuestos. Balance Cíclicamente Ajustado. dipres.gob.cl\nTaylor, J. B. (1993). Discretion versus policy rules in practice. Carnegie-Rochester Conference Series on Public Policy, 39, 195–214."
   },
   {
     "objectID": "clases/clase02_plan_mejora.html",
