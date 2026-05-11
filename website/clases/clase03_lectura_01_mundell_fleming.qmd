@@ -1,0 +1,241 @@
+---
+title: "Lectura complementaria — Clase 03"
+subtitle: "El modelo de Mundell-Fleming: IS-LM en economías abiertas"
+lang: es
+date: "Mayo 2026"
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-title: "Contenido"
+    toc-depth: 3
+    self-contained: true
+  pdf:
+    toc: false
+    papersize: a4
+    geometry: "top=1.5in, bottom=1in, left=1in, right=1in"
+    include-in-header:
+      text: |
+        \usepackage{fancyhdr}
+        \usepackage{graphicx}
+        \usepackage{transparent}
+        \pagestyle{fancy}
+        \fancyhf{}
+        \lhead{\center{\transparent{0.4}\includegraphics[width=14cm]{imagenes/Imagen1.jpg}}}
+        \rfoot{Página \thepage}
+        \cfoot{© Sebastián Egaña Santibáñez --- Entorno Económico}
+        \renewcommand{\headrulewidth}{0pt}
+        \renewcommand{\footrulewidth}{0pt}
+---
+
+## Por qué esta lectura existe
+
+En la diapositiva de Clase 03 trabajamos el modelo IS-LM en economía cerrada. Al cierre, planteamos la pregunta: *¿puede Chile usar política fiscal o monetaria para responder a los aranceles de Trump?* La respuesta completa requiere abrir la economía al mundo — y eso es lo que cubre esta lectura.
+
+El modelo de Mundell-Fleming es la extensión del IS-LM al caso de economía abierta. Fue desarrollado por Robert Mundell y Marcus Fleming a comienzos de los años 1960 y sigue siendo la base de la macroeconomía internacional moderna. Mundell recibió el Premio Nobel en 1999 por este trabajo.
+
+---
+
+## Supuestos del modelo
+
+Para simplificar el análisis asumimos:
+
+1. **Los precios son iguales entre países:** $P = P^* = 1$, por lo tanto el tipo de cambio nominal es igual al real: $e = q = \frac{eP^*}{P}$
+
+2. **No existe ni se espera inflación:** $\pi = \pi^e = 0$, por lo tanto la tasa nominal iguala a la real: $i = r$
+
+3. **Existe perfecta movilidad de capitales:** los capitales se mueven libremente entre países en respuesta a diferenciales de tasas
+
+4. **El tipo de cambio se ajusta instantáneamente** para mantener el equilibrio del mercado cambiario
+
+Los supuestos 3 y 4 implican que la paridad de tasas de interés se cumple en todo momento:
+
+$$i = i^* + \frac{\Delta e}{e}$$
+
+Como el TC se ajusta instantáneamente ($\Delta e/e = 0$), se tiene que $i = i^*$ — la tasa doméstica iguala siempre a la tasa internacional.
+
+---
+
+## Las ecuaciones del modelo
+
+Con economía abierta, la IS incorpora las exportaciones netas $XN$:
+
+$$IS^*: \quad Y = C(Y-T) + I(i^*) + G + XN(e, Y, Y^*)$$
+
+donde $XN = XN(e^+, Y^{*+}, Y^-, \text{aranceles}^+)$ — las exportaciones netas aumentan con la depreciación del TC, con el ingreso externo y con aranceles externos, y caen con el ingreso doméstico.
+
+La LM en economía abierta, dado que $i = i^*$:
+
+$$LM^*: \quad \frac{\bar{M}}{P} = L(i^*, Y)$$
+
+**Representación gráfica:** en el plano $(Y, e)$, la $LM^*$ es **vertical** (el TC no afecta el mercado monetario) y la $IS^*$ tiene **pendiente positiva** (una depreciación — $\uparrow e$ — aumenta $XN$ y por tanto $Y$).
+
+---
+
+## Tipo de cambio flexible
+
+### Política fiscal expansiva ($\uparrow G$)
+
+::: {.callout-important}
+## Resultado: política fiscal **inefectiva**
+El producto no cambia. Solo aprecia el tipo de cambio.
+:::
+
+**Mecanismo paso a paso:**
+
+1. $\uparrow G$ → IS se desplaza a la derecha → presión al alza sobre $i$
+2. Con $i > i^*$: entrada masiva de capitales → demanda de moneda doméstica → **apreciación** ($\downarrow e$)
+3. $\downarrow e$ → $\downarrow XN$ (exportaciones más caras para el mundo, importaciones más baratas) → IS se desplaza de vuelta a la izquierda
+4. El proceso termina cuando la IS recupera su posición original: $Y$ no cambia
+
+$$\Delta G = -\Delta XN \quad \text{(el gasto público desplaza exactamente a las exportaciones netas)}$$
+
+**La intuición:** en economía abierta con movilidad perfecta de capitales, cualquier expansión fiscal genera una apreciación cambiaria que neutraliza el estímulo. El mayor gasto del gobierno "expulsa" exportaciones netas en vez de inversión privada.
+
+---
+
+### Política monetaria expansiva ($\uparrow \bar{M}$)
+
+::: {.callout-tip}
+## Resultado: política monetaria **efectiva**
+El producto sube. El canal es el tipo de cambio, no la tasa de interés.
+:::
+
+**Mecanismo paso a paso:**
+
+1. $\uparrow \bar{M}$ → LM se desplaza a la derecha → presión a la baja sobre $i$
+2. Con $i < i^*$: salida de capitales → venta de moneda doméstica → **depreciación** ($\uparrow e$)
+3. $\uparrow e$ → $\uparrow XN$ → IS se desplaza a la derecha → $\uparrow Y$
+4. Mayor $Y$ → mayor demanda de dinero → absorbe el exceso de oferta monetaria sin mover $i$
+
+**Resultado final:** $\uparrow Y$, $i = i^*$, $\uparrow e$ (depreciación).
+
+**Diferencia clave con economía cerrada:** en economía cerrada, la PM funciona bajando $i$ para estimular la inversión. En economía abierta con TC flexible, la PM funciona depreciando el TC para estimular las exportaciones netas. La tasa de interés no cambia.
+
+---
+
+### Política comercial ($\downarrow$ aranceles)
+
+Una rebaja de aranceles aumenta las importaciones y desplaza la IS a la izquierda.
+
+1. $\downarrow$ aranceles → $\uparrow M$ (importaciones) → $\downarrow XN$ → IS izquierda
+2. Presión a la baja sobre $i$ → salida de capitales → depreciación ($\uparrow e$)
+3. $\uparrow e$ → $\uparrow XN$ → IS vuelve al origen
+
+**Resultado:** $Y$ sin cambio, $i = i^*$, $\uparrow e$ (depreciación). La rebaja de aranceles solo deprecia el TC — el producto no cambia.
+
+---
+
+### Alza de tasa internacional ($\uparrow i^*$)
+
+1. $\uparrow i^*$ → $\downarrow I$ (inversión cae) → IS izquierda
+2. Presión a la baja sobre $i$ doméstica → salida de capitales → depreciación ($\uparrow e$)
+3. $\uparrow e$ → $\uparrow XN$ → IS derecha → nuevo equilibrio en $i^*_2$
+
+**Resultado:** $\uparrow Y$, $i$ sube a $i^*_2$, $\uparrow e$ (depreciación).
+
+Paradoja conceptual: el alza de tasas externas termina **expandiendo** el producto vía depreciación. En la práctica, un $\uparrow i^*$ suele ir acompañado de una recesión en el país que sube tasas ($\downarrow Y^*$), lo que reduce las exportaciones y puede dominar sobre la depreciación — efecto neto contractivo para economías pequeñas exportadoras como Chile.
+
+---
+
+## Tipo de cambio fijo
+
+Bajo TC fijo, el banco central mantiene $e = \bar{e}$ comprando y vendiendo divisas. La oferta de dinero pasa a ser **endógena**:
+
+$$M = H = R^* + CI$$
+
+donde $R^*$ son reservas internacionales y $CI$ es el crédito interno del banco central. Bajo perfecta movilidad, $i = i^*$ y el TC fijo fuerza a que $M$ se acomode.
+
+### Política monetaria expansiva — TC fijo
+
+::: {.callout-important}
+## Resultado: política monetaria **inefectiva**
+El banco central pierde el control de la oferta de dinero.
+:::
+
+1. BC intenta $\uparrow CI$ → exceso de oferta de dinero
+2. El público compra divisas con el exceso de dinero
+3. BC debe vender divisas para mantener $\bar{e}$ → $\downarrow R^*$
+4. $\downarrow R^*$ cancela exactamente el $\uparrow CI$ → $M$ queda igual
+
+**El banco central es incapaz de hacer política monetaria bajo TC fijo.** Para mantener el TC, debe renunciar al control de $M$.
+
+### Política fiscal expansiva ($\uparrow G$) — TC fijo
+
+::: {.callout-tip}
+## Resultado: política fiscal **efectiva**
+El producto sube con multiplicador completo (sin crowding out).
+:::
+
+1. $\uparrow G$ → IS derecha → $\uparrow Y$ → presión al alza sobre $i$
+2. $i > i^*$: entrada de capitales → el BC compra divisas → $\uparrow R^*$ → $\uparrow M$
+3. $\uparrow M$ → LM derecha → valida el mayor $Y$ sin subir $i$
+
+**Resultado:** $\uparrow Y$, $i = i^*$, $e = \bar{e}$. El multiplicador es completo porque no hay crowding out: la entrada de capitales que el BC absorbe genera automáticamente la expansión monetaria necesaria.
+
+### Devaluación ($\uparrow \bar{e}$) — TC fijo
+
+El BC decide fijar un nuevo TC más alto (deprecia la moneda).
+
+1. $\uparrow \bar{e}$ → $\uparrow XN$ → IS derecha → $\uparrow Y$
+2. $\uparrow Y$ → $\uparrow$ demanda de dinero → entrada de capitales → BC compra divisas → $\uparrow M$ → LM derecha
+
+**Resultado:** $\uparrow Y$, $i = i^*$, $e = \bar{e}_2$. La devaluación expande el producto si se cumple la **condición de Marshall-Lerner**:
+
+$$\frac{e}{X}\frac{\partial X}{\partial e} + \left|\frac{e}{N}\frac{\partial N}{\partial e}\right| > 1$$
+
+La suma de las elasticidades de exportaciones e importaciones respecto al TC debe superar 1. En el corto plazo puede no cumplirse (las cantidades tardan en ajustarse mientras los precios ya subieron) → **curva J**: el producto primero cae y luego se recupera.
+
+---
+
+## Tabla comparativa de políticas
+
+Fuente: De Gregorio (2007), Cap. 20, Cuadro 20.1.
+
+|  | **Ec. Cerrada** | | **TC Flexible** | | | **TC Fijo** | | |
+|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| | $Y$ | $i$ | $Y$ | $i$ | $e$ | $Y$ | $i$ | $e$ |
+| **PM expansiva** | ↑ | ↓ | ↑ | — | ↑ | — | — | — |
+| **PF expansiva** | ↑ | ↑ | — | — | ↓ | ↑ | — | — |
+
+**Lectura central:** los efectos de la PM y la PF se invierten entre TC flexible y TC fijo. Esto es el resultado más importante del modelo de Mundell-Fleming.
+
+---
+
+## La trinidad imposible
+
+El modelo pone de manifiesto que un país no puede tener simultáneamente:
+
+1. **Tipo de cambio fijo**
+2. **Perfecta movilidad de capitales**
+3. **Política monetaria independiente**
+
+Solo puede elegir **dos** de los tres. Esta restricción estructural explica las decisiones cambiarias de distintos países:
+
+| País | TC | Movilidad capitales | PM independiente |
+|---|---|---|---|
+| Chile | Flexible | Sí (libre) | Sí (BCCh autónomo) |
+| Argentina 1991-2001 | Fijo (convertibilidad) | Sí | No |
+| China 2000-2015 | Semi-fijo | No (cepo) | Sí |
+| Zona Euro | Fijo (moneda única) | Sí | No (BCE decide) |
+
+---
+
+## Volvamos al hilo conductor
+
+**Pregunta inicial:** *¿puede Chile usar política fiscal o monetaria para responder a los aranceles de Trump?*
+
+Los aranceles de Trump reducen las exportaciones netas de Chile ($\downarrow XN$ → IS izquierda). Con TC flexible y perfecta movilidad de capitales:
+
+- **Política fiscal ($\uparrow G$):** no sirve — aprecia el TC y reduce más las exportaciones netas. El estímulo se neutraliza.
+- **Política monetaria ($\uparrow \bar{M}$):** sí funciona — deprecia el TC, lo que compensa parcialmente la caída de exportaciones netas vía mayor competitividad.
+
+La respuesta de política óptima para Chile ante shocks externos negativos es la **política monetaria**, no la fiscal. El tipo de cambio flexible actúa como amortiguador automático.
+
+---
+
+## Para profundizar
+
+- De Gregorio, J. (2007). *Macroeconomía. Teoría y Políticas*. Cap. 20. Incluye además: dinámica de Dornbusch (*overshooting*), movilidad imperfecta de capitales y crisis cambiarias.
+- Blanchard, O. (2017). *Macroeconomics* (7ª ed.). Cap. 20 (Mundell-Fleming).
+- Mankiw, N. G. (2021). *Principios de Economía* (8ª ed.). Cap. 31 (economía abierta).
