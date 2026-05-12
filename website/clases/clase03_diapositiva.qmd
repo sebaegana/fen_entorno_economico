@@ -3,6 +3,7 @@ title: "Entorno Económico y Financiero para las Decisiones de Inversión"
 subtitle: "Clase 03: Modelo Keynesiano, consumo e IS-LM"
 lang: es
 date: "Mayo 2026"
+engine: knitr
 format:
   revealjs:
     theme: simple
@@ -18,6 +19,9 @@ format:
     toc: false
     papersize: a4
     geometry: margin=1in
+    include-in-header:
+      text: |
+        \usepackage{tikz}
 ---
 
 # Presentación del curso
@@ -72,13 +76,13 @@ Para responderla necesitamos entender cómo el gasto del gobierno amplifica el p
 | Bloque | Conceptos clave |
 |---|---|
 | Modelo Keynesiano Simple | Demanda agregada, función de consumo, multiplicador |
-| Comportamiento del consumidor | Restricción inter-temporal, ciclo de vida, ingreso permanente |
 | La curva IS | Mercado de bienes en equilibrio, pendiente, desplazamientos |
 | La curva LM | Mercado monetario en equilibrio, pendiente, desplazamientos |
 | Equilibrio IS-LM | Política monetaria, política fiscal, policy mix |
 
-> La economía abierta y el modelo Mundell-Fleming se cubren en la lectura complementaria `clase03_lectura_01_mundell_fleming`
-
+::: {style="font-size: 0.5em;"}
+> Lecturas complementarias: comportamiento del consumidor (`clase03_lectura_02_consumo`) y economía abierta / Mundell-Fleming (`clase03_lectura_01_mundell_fleming`)
+:::
 ------------------------------------------------------------------------
 
 # Modelo Keynesiano Simple
@@ -127,7 +131,22 @@ El **multiplicador del gasto** es:
 
 $$\frac{\partial Y}{\partial G} = \frac{\partial Y}{\partial I} = \frac{\partial Y}{\partial \bar{C}} = \frac{1}{1 - c(1-\tau)} > 1$$
 
-Un aumento de \$1 en el gasto público genera un aumento en el producto **mayor que \$1** — porque ese gasto se convierte en ingreso de las empresas, que pagan salarios, que se convierten en consumo, y así sucesivamente.
+------------------------------------------------------------------------
+
+## El multiplicador
+
+Un aumento de \$1 en el gasto público genera un aumento en el producto **mayor que \$1**. ¿Por qué? El dinero circula:
+
+::: {style="font-size: 0.88em;"}
+**Ejemplo:** el gobierno compra libros para los colegios públicos ($\uparrow G$)
+
+1. La editorial recibe ingresos → paga sueldos a editores, impresores, diseñadores
+2. Esas personas tienen más ingreso disponible → consumen una fracción $c$ de ese ingreso
+3. Ese consumo genera ingresos a otras empresas → que pagan más sueldos → que generan más consumo
+4. El proceso se repite, pero cada ronda es más pequeña (la fracción $1-c$ se ahorra)
+
+El total acumulado de todas las rondas es el **multiplicador**: $\frac{1}{1-c(1-\tau)}$
+:::
 
 ------------------------------------------------------------------------
 
@@ -145,83 +164,25 @@ Con $c = 0{,}8$ y $\tau = 0{,}2$: el multiplicador es $\frac{1}{1 - 0{,}8 \times
 **Problema:** Este modelo supone economía cerrada. En economía abierta con movilidad de capitales, el multiplicador es muy distinto — y esa es la pregunta que responderemos al final.
 :::
 
-> Actividad: Tabla de efectos de política fiscal y monetaria
-> Ver `clase03_actividad_01_efectos_islm`
-
 ------------------------------------------------------------------------
 
 # Comportamiento del Consumidor
 
-## Función keynesiana de consumo
+## Más allá del modelo keynesiano
 
-La función de consumo vista:
+:::tiny
 
-$$C_t = \bar{C} + c(Y_t - T_t)$$
+La función $C = \bar{C} + c(Y-T)$ es una simplificación útil pero tiene un límite importante: no considera cómo las personas planifican su consumo a lo largo del tiempo.
 
-describe cómo el consumo depende del **ingreso disponible** $(Y_t - T_t)$ en cada período.
+Las dos teorías que extienden este modelo tienen implicancias directas sobre la efectividad del multiplicador fiscal:
 
-El parámetro $c$ es la **propensión marginal al consumo**: cuánto sube el consumo ante un aumento de \$1 en el ingreso disponible.
+| Teoría | Autor | Predicción clave |
+|---|---|---|
+| Ciclo de vida | Modigliani | Las personas suavizan consumo a lo largo de su vida |
+| Ingreso permanente | Friedman | Solo los cambios permanentes en ingreso afectan el consumo |
 
-**Limitación:** esta función es estática — no considera que las personas planifican su consumo a lo largo de toda su vida, ni que distinguen entre cambios de ingreso temporales y permanentes.
-
-------------------------------------------------------------------------
-
-## Restricción presupuestaria inter-temporal
-
-Las personas planifican su consumo **a lo largo del tiempo**. En cada período su ingreso total es:
-
-$$Y_t = Y_{l,t} + r A_t$$
-
-donde $Y_{l,t}$ son ingresos del trabajo y $A_t$ son activos que pagan tasa $r$.
-
-Por el lado del gasto, en cada período se consume, pagan impuestos y se acumula (o des-acumula) riqueza:
-
-$$\text{Gasto}_t = C_t + T_t + A_{t+1} - A_t$$
-
-Igualando ingresos y gastos: $Y_{l,t} + rA_t = C_t + T_t + A_{t+1} - A_t$
-
-------------------------------------------------------------------------
-
-## Restricción presupuestaria inter-temporal (resultado)
-
-Llevando la restricción a valor presente a lo largo de toda la vida:
-
-$$VP_{\text{consumo}} = \underbrace{VP_{\text{ingresos netos del trabajo}}}_{\text{Riqueza Humana}} + \underbrace{A_0}_{\text{Riqueza Física}}$$
-
-El consumo total posible está acotado por la riqueza total — no se puede consumir más allá de la suma de lo que se tiene ($A_0$) y el valor presente de lo que se ganará en el futuro.
-
-> La riqueza física solo puede generarse a través del ahorro. Esto conecta las decisiones de consumo de hoy con el bienestar de mañana — y explica por qué el emprendimiento, las herencias y los bienes duraderos importan en la restricción de largo plazo.
-
-------------------------------------------------------------------------
-
-## Teoría del ciclo de vida (Modigliani)
-
-Franco Modigliani plantea que las personas intentan mantener un **consumo estable** a lo largo de su vida, lo que implica:
-
-- **Juventud:** se endeudan (consumo > ingreso laboral)
-- **Vida activa:** ahorran (ingreso laboral > consumo)
-- **Jubilación:** gastan el ahorro acumulado
-
-**Ejemplo chileno:** El debate sobre los retiros del 10% de las AFP (2020-2021). Desde la teoría del ciclo de vida, el retiro es un anticipo de riqueza futura — debería aumentar el consumo presente y reducir el ahorro para la jubilación. Los datos mostraron que una parte importante se destinó a consumo inmediato, consistente con restricciones de liquidez.
-
-------------------------------------------------------------------------
-
-## Teoría del ingreso permanente (Friedman)
-
-Milton Friedman distingue entre:
-
-- **Ingreso permanente:** el nivel de ingreso que se espera mantener en el largo plazo
-- **Ingreso transitorio:** una variación inesperada y temporal
-
-**Predicción central:**
-
-- Cambios **permanentes** en el ingreso → afectan el consumo
-- Cambios **transitorios** en el ingreso → se ahorran, no se consumen
-
-**Implicancia directa:** Un bono fiscal de emergencia (como el IFE COVID) es transitorio → Friedman predice que las personas lo ahorran en vez de consumirlo, reduciendo el multiplicador fiscal a casi cero.
-
-> Esto anticipa el límite del multiplicador keynesiano: funciona mejor con estímulos permanentes.
-
+> Desarrollo completo en `clase03_lectura_02_consumo`
+:::
 ------------------------------------------------------------------------
 
 # La Tasa de Interés y el Mercado de Bienes (IS)
@@ -261,15 +222,20 @@ Intuición: tasas más altas incentivan el ahorro en vez del gasto. Las empresas
 | $\uparrow \bar{C}$ | IS se desplaza **a la derecha** |
 :::
 ::: {.column width="45%"}
-```
-    r
-    │
- r₀ ┤·····╲
-    │      ╲
- r₁ ┤·······╲·····
-    │         ╲  IS
-    └──────────────── Y
-         Y₀   Y₁
+```{tikz}
+#| fig-align: center
+#| out-width: "100%"
+\begin{tikzpicture}[scale=0.85, font=\small]
+  \draw[->, thick] (0,0) -- (4.2,0) node[right] {$Y$};
+  \draw[->, thick] (0,0) -- (0,3.8) node[above] {$r$};
+  \draw[thick, blue!70!black] (0.6,3.2) -- (3.8,0.6) node[below right] {\footnotesize IS};
+  \draw[dashed, gray] (1.2,2.7) -- (1.2,0) node[below] {$Y_0$};
+  \draw[dashed, gray] (1.2,2.7) -- (0,2.7) node[left] {$r_0$};
+  \draw[dashed, gray] (3.0,1.3) -- (3.0,0) node[below] {$Y_1$};
+  \draw[dashed, gray] (3.0,1.3) -- (0,1.3) node[left] {$r_1$};
+  \fill[blue!70!black] (1.2,2.7) circle (2.5pt);
+  \fill[blue!70!black] (3.0,1.3) circle (2.5pt);
+\end{tikzpicture}
 ```
 Una baja en $r$ de $r_0$ a $r_1$ → $I$ sube → $Y$ sube de $Y_0$ a $Y_1$
 
@@ -297,15 +263,79 @@ Cada punto sobre la IS representa un equilibrio del mercado de bienes para una t
 
 ## La curva LM
 
-En la Clase 02 vimos que el BCCh usa la TPM para influir en la tasa de interés nominal. La curva LM **formaliza exactamente ese mecanismo**.
+> ¿Qué tasa de interés equilibra el mercado del dinero cuando la economía crece?
 
-La demanda real de dinero depende positivamente del ingreso (más transacciones) y negativamente de la tasa de interés (mayor costo de oportunidad de tener dinero en efectivo):
+En la Clase 02 vimos que el BCCh usa la TPM para influir en la tasa de interés nominal. La curva LM **formaliza exactamente ese mecanismo**: para cada nivel de ingreso $Y$, indica qué tasa $i$ equilibra oferta y demanda de dinero.
+
+------------------------------------------------------------------------
+
+## La curva LM
+
+**Demanda de dinero** — positiva en $Y$ (más transacciones) y negativa en $i$ (mayor costo de oportunidad de mantener efectivo):
 
 $$\frac{M^d}{P} = L(i, Y) \quad \text{con } \frac{\partial L}{\partial i} < 0, \quad \frac{\partial L}{\partial Y} > 0$$
 
-La oferta de dinero $\bar{M}$ es fija y controlada por el BCCh. En equilibrio:
+**Oferta de dinero** — fija, controlada por el BCCh. En equilibrio:
 
 $$LM: \quad \frac{\bar{M}}{P} = L(i, Y)$$
+
+------------------------------------------------------------------------
+
+## Derivando la curva LM {.smaller}
+
+La LM es el conjunto de equilibrios del mercado monetario para distintos niveles de $Y$. Para construirla, fijamos $\bar{M}/P$ y preguntamos: ¿qué $i$ equilibra oferta y demanda de dinero cuando $Y$ cambia?
+
+:::: {.columns}
+::::: {.column width="48%"}
+**Mercado monetario** — plano $(M/P,\, i)$
+
+```{tikz}
+#| fig-align: center
+#| out-width: "100%"
+\begin{tikzpicture}[scale=0.78, font=\small]
+  \draw[->, thick] (0,0) -- (3.8,0) node[right] {$M/P$};
+  \draw[->, thick] (0,0) -- (0,3.5) node[above] {$i$};
+  % Oferta: vertical en x=2.0
+  \draw[thick] (2.0,0.1) -- (2.0,3.2) node[above] {\footnotesize $\bar{M}/P$};
+  % Demanda L(i,Y₁): y = 3 - x, de (0.2,2.8) a (3.0,0.1)
+  \draw[thick, blue!70!black] (0.2,2.8) -- (3.0,0.1) node[below right] {\footnotesize $L(i,Y_1)$};
+  % Demanda L(i,Y₂): y = 4 - x, de (1.2,2.8) a (3.8,0.2)
+  \draw[thick, blue!50!black, dashed] (1.2,2.8) -- (3.8,0.2) node[below right] {\footnotesize $L(i,Y_2)$};
+  % Equilibrios
+  \fill (2.0,1.0) circle (2.2pt);
+  \draw[dashed, gray] (2.0,1.0) -- (0,1.0) node[left] {$i_1$};
+  \fill (2.0,2.0) circle (2.2pt);
+  \draw[dashed, gray] (2.0,2.0) -- (0,2.0) node[left] {$i_2$};
+  % Flecha desplazamiento demanda
+  \draw[->, blue!50!black, line width=1pt] (1.3,2.3) -- (2.1,2.3);
+\end{tikzpicture}
+```
+:::::
+::::: {.column width="48%"}
+**LM resultante** — plano $(Y,\, i)$
+
+```{tikz}
+#| fig-align: center
+#| out-width: "100%"
+\begin{tikzpicture}[scale=0.78, font=\small]
+  \draw[->, thick] (0,0) -- (3.8,0) node[right] {$Y$};
+  \draw[->, thick] (0,0) -- (0,3.5) node[above] {$i$};
+  % LM: y = 0.333 + 0.667x, pasa por (1,1) y (2.5,2)
+  \draw[thick, red!70!black] (0.3,0.53) -- (3.5,2.67) node[above right] {\footnotesize LM};
+  % Punto (Y₁, i₁)
+  \fill[black] (1.0,1.0) circle (2.2pt);
+  \draw[dashed, gray] (1.0,1.0) -- (1.0,0) node[below] {$Y_1$};
+  \draw[dashed, gray] (1.0,1.0) -- (0,1.0) node[left] {$i_1$};
+  % Punto (Y₂, i₂)
+  \fill[black] (2.5,2.0) circle (2.2pt);
+  \draw[dashed, gray] (2.5,2.0) -- (2.5,0) node[below] {$Y_2$};
+  \draw[dashed, gray] (2.5,2.0) -- (0,2.0) node[left] {$i_2$};
+\end{tikzpicture}
+```
+:::::
+::::
+
+$\uparrow Y$ → demanda de dinero sube → con $\bar{M}$ fija, $i$ debe subir para restablecer el equilibrio → nuevo punto sobre la LM.
 
 ------------------------------------------------------------------------
 
@@ -329,16 +359,20 @@ La LM tiene **pendiente positiva** en el plano $(i, Y)$:
 **Conexión con Clase 02:** cuando el BCCh baja la TPM, está esencialmente desplazando la LM hacia la derecha — facilitando más dinero al sistema a menor costo.
 :::
 ::: {.column width="45%"}
-```
-    i
-    │        ╱ LM
-    │       ╱
- i₂ ┤······╱
-    │     ╱
- i₁ ┤····╱
-    │   ╱
-    └──────────────── Y
-        Y₁  Y₂
+```{tikz}
+#| fig-align: center
+#| out-width: "100%"
+\begin{tikzpicture}[scale=0.85, font=\small]
+  \draw[->, thick] (0,0) -- (4.2,0) node[right] {$Y$};
+  \draw[->, thick] (0,0) -- (0,3.8) node[above] {$i$};
+  \draw[thick, red!70!black] (0.5,0.5) -- (3.5,3.3) node[above right] {\footnotesize LM};
+  \draw[dashed, gray] (1.2,1.22) -- (1.2,0) node[below] {$Y_1$};
+  \draw[dashed, gray] (1.2,1.22) -- (0,1.22) node[left] {$i_1$};
+  \draw[dashed, gray] (2.9,2.73) -- (2.9,0) node[below] {$Y_2$};
+  \draw[dashed, gray] (2.9,2.73) -- (0,2.73) node[left] {$i_2$};
+  \fill[red!70!black] (1.2,1.22) circle (2.5pt);
+  \fill[red!70!black] (2.9,2.73) circle (2.5pt);
+\end{tikzpicture}
 ```
 $\uparrow Y$ de $Y_1$ a $Y_2$ → mayor demanda de dinero → $i$ sube de $i_1$ a $i_2$
 
@@ -348,17 +382,58 @@ Un aumento de $\bar{M}$ desplaza la LM a la derecha.
 
 ------------------------------------------------------------------------
 
-## Conclusión: mercado monetario y LM
+## Movimiento sobre vs. desplazamiento de la LM {.smaller}
 
-La clave al interpretar movimientos de la LM es siempre tener presente **qué ocurre en el mercado monetario**:
+:::: {.columns}
+::: {.column width="48%"}
+**Movimiento sobre la curva** — causa: $\uparrow Y$
 
-| Evento | Efecto sobre la LM |
-|---|---|
-| $\uparrow Y$ (mayor actividad) | Movimiento **sobre** la curva hacia arriba — mayor demanda de dinero presiona $i$ al alza |
-| BCCh $\uparrow \bar{M}$ | Desplazamiento **de** la curva hacia la derecha — más oferta baja $i$ para cada nivel de $Y$ |
-| BCCh $\downarrow \bar{M}$ | Desplazamiento **de** la curva hacia la izquierda — menos oferta sube $i$ para cada nivel de $Y$ |
+```{tikz}
+#| fig-align: center
+#| out-width: "100%"
+\begin{tikzpicture}[scale=0.75, font=\small]
+  \draw[->, thick] (0,0) -- (3.8,0) node[right] {$Y$};
+  \draw[->, thick] (0,0) -- (0,3.5) node[above] {$i$};
+  \draw[thick, red!70!black] (0.4,0.4) -- (3.2,3.1) node[above right] {\footnotesize LM};
+  \draw[dashed, gray] (1.0,0.98) -- (1.0,0) node[below] {$Y_1$};
+  \draw[dashed, gray] (1.0,0.98) -- (0,0.98) node[left] {$i_1$};
+  \draw[dashed, gray] (2.5,2.42) -- (2.5,0) node[below] {$Y_2$};
+  \draw[dashed, gray] (2.5,2.42) -- (0,2.42) node[left] {$i_2$};
+  \fill[red!70!black] (1.0,0.98) circle (2pt);
+  \fill[red!70!black] (2.5,2.42) circle (2pt);
+  \draw[->, thick, blue!50!black, line width=1.2pt] (1.2,1.17) -- (2.3,2.23);
+\end{tikzpicture}
+```
 
-> La distinción entre movimiento **sobre** la curva y desplazamiento **de** la curva es la misma que en cualquier mercado: un cambio en $Y$ mueve a lo largo de la LM; un cambio en $\bar{M}$ desplaza la LM completa.
+$Y\uparrow$ → más transacciones → $M^d\uparrow$ → $i$ sube **sobre** la misma LM.
+:::
+
+::: {.column width="48%"}
+**Desplazamiento de la curva** — causa: $\uparrow \bar{M}$
+
+```{tikz}
+#| fig-align: center
+#| out-width: "100%"
+\begin{tikzpicture}[scale=0.75, font=\small]
+  \draw[->, thick] (0,0) -- (3.8,0) node[right] {$Y$};
+  \draw[->, thick] (0,0) -- (0,3.5) node[above] {$i$};
+  \draw[thick, red!70!black] (0.4,0.4) -- (3.2,3.1) node[above] {\footnotesize LM};
+  \draw[thick, red!70!black, dashed] (0.9,0.4) -- (3.7,3.1) node[above] {\footnotesize LM$'$};
+  \draw[dashed, gray] (1.8,0) -- (1.8,1.75);
+  \node[below] at (1.8,0) {$Y^*$};
+  \draw[dashed, gray] (1.8,1.75) -- (0,1.75) node[left] {$i_1$};
+  \draw[dashed, gray] (1.8,1.27) -- (0,1.27) node[left] {$i_2$};
+  \fill[red!70!black] (1.8,1.75) circle (2pt) node[above right] {\footnotesize A};
+  \fill[red!70!black] (1.8,1.27) circle (2pt) node[below right] {\footnotesize B};
+  \draw[->, thick, blue!50!black, line width=1.2pt] (1.8,1.65) -- (1.8,1.37);
+\end{tikzpicture}
+```
+
+$\bar{M}\uparrow$ → exceso de oferta → $i$ baja para cada $Y$ → la LM **se desplaza** completa.
+:::
+::::
+
+> Un cambio en $Y$ mueve **a lo largo** de la LM. Un cambio en $\bar{M}$ desplaza **la LM completa**.
 
 ------------------------------------------------------------------------
 
@@ -395,18 +470,27 @@ La solución del sistema determina el **par de equilibrio** $(Y^*, i^*)$: el niv
 **Resultado:** la política monetaria expansiva aumenta el producto y baja la tasa de interés.
 :::
 ::: {.column width="45%"}
-```
-    i
-    │      LM  LM'
-    │       ╲  ╲
- i₁ ┤·······A╲  ╲
-    │         ╲C╲ ╲
- i₃ ┤··········· ╲ ╲
-    │           ╲B╲╲
- i₂ ┤············   ╲
-    │             ╲  IS
-    └──────────────────── Y
-           Y₁  Y₂
+```{tikz}
+#| fig-align: center
+#| out-width: "100%"
+\begin{tikzpicture}[scale=0.85, font=\small]
+  \draw[->, thick] (0,0) -- (4.6,0) node[right] {$Y$};
+  \draw[->, thick] (0,0) -- (0,3.8) node[above] {$i$};
+  % IS (pendiente negativa)
+  \draw[thick, blue!70!black] (1.0,3.2) -- (4.0,0.5) node[below right] {\footnotesize IS};
+  % LM original (pendiente positiva)
+  \draw[thick, red!70!black] (0.3,0.3) -- (3.2,3.5) node[above] {\footnotesize LM};
+  % LM' desplazada a la derecha
+  \draw[thick, red!70!black, dashed] (1.2,0.3) -- (4.1,3.5) node[above] {\footnotesize LM$'$};
+  % Punto A (equilibrio original: IS ∩ LM)
+  \fill[black] (2.06,2.24) circle (2.5pt) node[above left] {\footnotesize A};
+  \draw[dashed, gray] (2.06,2.24) -- (2.06,0) node[below] {$Y_1$};
+  \draw[dashed, gray] (2.06,2.24) -- (0,2.24) node[left] {$i_1$};
+  % Punto C (nuevo equilibrio: IS ∩ LM')
+  \fill[black] (2.56,1.80) circle (2.5pt) node[below right] {\footnotesize C};
+  \draw[dashed, gray] (2.56,1.80) -- (2.56,0) node[below] {$Y_2$};
+  \draw[dashed, gray] (2.56,1.80) -- (0,1.80) node[left] {$i_2$};
+\end{tikzpicture}
 ```
 La LM se desplaza de LM a LM'. El nuevo equilibrio es C (mayor $Y$, menor $i$).
 :::
@@ -431,17 +515,27 @@ La LM se desplaza de LM a LM'. El nuevo equilibrio es C (mayor $Y$, menor $i$).
 **Crowding out parcial:** el $\uparrow i$ reduce $I$ privada, atenuando el efecto multiplicador. El producto sube, pero menos de lo que predice el modelo Keynesiano simple.
 :::
 ::: {.column width="45%"}
-```
-    i
-    │         LM
-    │        ╱
- i₂ ┤·······B╱
-    │       ╱ ╲
- i₁ ┤······A   ╲
-    │     ╱  IS' ╲
-    │    ╱   IS    ╲
-    └──────────────────── Y
-          Y₁ Y₂
+```{tikz}
+#| fig-align: center
+#| out-width: "100%"
+\begin{tikzpicture}[scale=0.85, font=\small]
+  \draw[->, thick] (0,0) -- (4.6,0) node[right] {$Y$};
+  \draw[->, thick] (0,0) -- (0,3.8) node[above] {$i$};
+  % IS original (pendiente negativa)
+  \draw[thick, blue!70!black] (1.0,3.2) -- (4.0,0.5) node[below right] {\footnotesize IS};
+  % IS' desplazada a la derecha
+  \draw[thick, blue!70!black, dashed] (1.9,3.2) -- (4.9,0.5) node[below right] {\footnotesize IS$'$};
+  % LM (pendiente positiva)
+  \draw[thick, red!70!black] (0.3,0.3) -- (3.2,3.5) node[above right] {\footnotesize LM};
+  % Punto A (equilibrio original: IS ∩ LM)
+  \fill[black] (2.06,2.24) circle (2.5pt) node[below left] {\footnotesize A};
+  \draw[dashed, gray] (2.06,2.24) -- (2.06,0) node[below] {$Y_1$};
+  \draw[dashed, gray] (2.06,2.24) -- (0,2.24) node[left] {$i_1$};
+  % Punto B (nuevo equilibrio: IS' ∩ LM)
+  \fill[black] (2.47,2.69) circle (2.5pt) node[above right] {\footnotesize B};
+  \draw[dashed, gray] (2.47,2.69) -- (2.47,0) node[below] {$Y_2$};
+  \draw[dashed, gray] (2.47,2.69) -- (0,2.69) node[left] {$i_2$};
+\end{tikzpicture}
 ```
 La IS se desplaza a la derecha. El nuevo equilibrio es B (mayor $Y$ e $i$).
 :::
