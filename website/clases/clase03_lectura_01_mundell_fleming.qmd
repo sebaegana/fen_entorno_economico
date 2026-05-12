@@ -17,11 +17,8 @@ format:
     include-in-header:
       text: |
         \usepackage{fancyhdr}
-        \usepackage{graphicx}
-        \usepackage{transparent}
         \pagestyle{fancy}
         \fancyhf{}
-        \lhead{\center{\transparent{0.4}\includegraphics[width=14cm]{imagenes/Imagen1.jpg}}}
         \rfoot{Página \thepage}
         \cfoot{© Sebastián Egaña Santibáñez --- Entorno Económico}
         \renewcommand{\headrulewidth}{0pt}

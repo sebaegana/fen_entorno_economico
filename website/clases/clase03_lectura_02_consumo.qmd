@@ -1,0 +1,100 @@
+---
+title: "Lectura complementaria — Clase 03"
+subtitle: "Comportamiento del consumidor: restricción inter-temporal, ciclo de vida e ingreso permanente"
+lang: es
+date: "Mayo 2026"
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-title: "Contenido"
+    toc-depth: 3
+    self-contained: true
+  pdf:
+    toc: false
+    papersize: a4
+    geometry: "top=1.5in, bottom=1in, left=1in, right=1in"
+    include-in-header:
+      text: |
+        \usepackage{fancyhdr}
+        \usepackage{graphicx}
+        \pagestyle{fancy}
+        \fancyhf{}
+        \lhead{\includegraphics[width=3cm]{imagenes/Imagen1.jpg}}
+        \rfoot{Página \thepage}
+        \cfoot{© Sebastián Egaña Santibáñez --- Entorno Económico}
+        \renewcommand{\headrulewidth}{0pt}
+        \renewcommand{\footrulewidth}{0pt}
+---
+
+## Por qué esta lectura existe
+
+En la diapositiva de Clase 03 construimos el modelo Keynesiano simple con la función de consumo $C = \bar{C} + c(Y-T)$. Esa función tiene una limitación importante: es estática y no considera cómo las personas planifican su consumo a lo largo del tiempo ni cómo distinguen entre cambios de ingreso permanentes y transitorios.
+
+Esta lectura desarrolla los dos grandes marcos teóricos que corrigen esa limitación — la **teoría del ciclo de vida** (Modigliani) y la **teoría del ingreso permanente** (Friedman) — y muestra por qué ambas tienen implicancias directas sobre la efectividad del multiplicador fiscal.
+
+---
+
+## La función keynesiana de consumo y sus limitaciones
+
+La función de consumo del modelo Keynesiano:
+
+$$C_t = \bar{C} + c(Y_t - T_t)$$
+
+describe cómo el consumo depende del **ingreso disponible** $(Y_t - T_t)$ en cada período. El parámetro $c$ es la **propensión marginal al consumo**: cuánto sube el consumo ante un aumento de \$1 en el ingreso disponible.
+
+Su limitación central es que es estática: no considera que las personas planifican su consumo a lo largo de toda su vida, ni que distinguen entre cambios de ingreso temporales y permanentes. Las dos teorías siguientes abordan exactamente eso.
+
+---
+
+## Restricción presupuestaria inter-temporal
+
+Las personas planifican su consumo **a lo largo del tiempo**. En cada período su ingreso total es:
+
+$$Y_t = Y_{l,t} + r A_t$$
+
+donde $Y_{l,t}$ son ingresos del trabajo y $A_t$ son activos que pagan tasa $r$.
+
+Por el lado del gasto, en cada período se consume, se pagan impuestos y se acumula (o des-acumula) riqueza:
+
+$$\text{Gasto}_t = C_t + T_t + A_{t+1} - A_t$$
+
+Igualando ingresos y gastos: $Y_{l,t} + rA_t = C_t + T_t + A_{t+1} - A_t$
+
+Llevando esta restricción a valor presente a lo largo de toda la vida se obtiene:
+
+$$VP_{\text{consumo}} = \underbrace{VP_{\text{ingresos netos del trabajo}}}_{\text{Riqueza Humana}} + \underbrace{A_0}_{\text{Riqueza Física}}$$
+
+El consumo total posible está acotado por la riqueza total — no se puede consumir más allá de la suma de lo que se tiene ($A_0$) y el valor presente de lo que se ganará en el futuro.
+
+> La riqueza física solo puede generarse a través del ahorro. Esto conecta las decisiones de consumo de hoy con el bienestar de mañana — y explica por qué el emprendimiento, las herencias y los bienes duraderos importan en la restricción de largo plazo.
+
+---
+
+## Teoría del ciclo de vida (Modigliani)
+
+Franco Modigliani plantea que las personas intentan mantener un **consumo estable** a lo largo de su vida, lo que implica:
+
+- **Juventud:** se endeudan (consumo > ingreso laboral)
+- **Vida activa:** ahorran (ingreso laboral > consumo)
+- **Jubilación:** gastan el ahorro acumulado
+
+**Ejemplo chileno:** El debate sobre los retiros del 10% de las AFP (2020-2021). Desde la teoría del ciclo de vida, el retiro es un anticipo de riqueza futura — debería aumentar el consumo presente y reducir el ahorro para la jubilación. Los datos mostraron que una parte importante se destinó a consumo inmediato, consistente con restricciones de liquidez.
+
+---
+
+## Teoría del ingreso permanente (Friedman)
+
+Milton Friedman distingue entre:
+
+- **Ingreso permanente:** el nivel de ingreso que se espera mantener en el largo plazo
+- **Ingreso transitorio:** una variación inesperada y temporal
+
+**Predicción central:**
+
+- Cambios **permanentes** en el ingreso → afectan el consumo
+- Cambios **transitorios** en el ingreso → se ahorran, no se consumen
+
+**Implicancia directa:** Un bono fiscal de emergencia (como el IFE COVID) es transitorio → Friedman predice que las personas lo ahorran en vez de consumirlo, reduciendo el multiplicador fiscal a casi cero.
+
+> Esto anticipa el límite del multiplicador keynesiano: funciona mejor con estímulos permanentes. Un aumento transitorio del gasto público tiene un impacto sobre el producto menor al que predice el modelo simple.
