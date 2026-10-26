@@ -2,7 +2,8 @@
 title: "Lectura complementaria — Clase 03"
 subtitle: "Comportamiento del consumidor: restricción inter-temporal, ciclo de vida e ingreso permanente"
 lang: es
-date: "Mayo 2026"
+date: today
+date-format: "MMMM YYYY"
 format:
   html:
     theme: cosmo
