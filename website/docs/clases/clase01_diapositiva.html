@@ -1018,7 +1018,6 @@ align-items: flex-start;
 <p><strong>Docentes:</strong></p>
 <ul>
 <li>Sebastián Egaña Santibáñez</li>
-<li>Felipe Jaque</li>
 </ul>
 <p><strong>Ayudante:</strong></p>
 <ul>
@@ -1038,7 +1037,7 @@ align-items: flex-start;
 <h2>Sobre el docente</h2>
 <p><strong>Sebastián Egaña Santibáñez</strong></p>
 <ul>
-<li>Data Tech Lead &amp; Analytics Translator — LATAM Airlines</li>
+<li>Data Tech Lead &amp; Data Scientist — LATAM Airlines</li>
 <li>Correo: <a href="mailto:segana@fen.uchile.cl">segana@fen.uchile.cl</a></li>
 <li>Web: <a href="https://segana.netlify.app" class="uri">https://segana.netlify.app</a></li>
 <li>LinkedIn: <a href="https://www.linkedin.com/in/sebastian-egana-santibanez/">enlace</a></li>
@@ -1201,6 +1200,179 @@ align-items: flex-start;
 <p>Por el lado del gasto:</p>
 <p><span class="math display">\[PIB = C + I + G + (X - M)\]</span></p>
 <p>Donde C = consumo, I = inversión, G = gasto de gobierno, X = exportaciones, M = importaciones.</p>
+</section>
+<section id="por-el-lado-de-la-producción-valor-agregado" class="slide level2 smaller">
+<h2>Por el lado de la producción: valor agregado</h2>
+<p>El <strong>valor agregado bruto (VAB)</strong> de una empresa es el valor de lo que produce menos lo que compra a otras empresas para producir (consumo intermedio).</p>
+<blockquote>
+<p><strong>Valor agregado no significa utilidad.</strong> De ese valor todavía se pagan remuneraciones y otros componentes del ingreso generado por la producción.</p>
+</blockquote>
+<p><em>Ejemplo, el pan de $250:</em></p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Etapa</th>
+<th style="text-align: right;">Vende por</th>
+<th style="text-align: right;">Compra insumos por</th>
+<th style="text-align: right;">Valor agregado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Agricultor (trigo)</td>
+<td style="text-align: right;">$100</td>
+<td style="text-align: right;">$0</td>
+<td style="text-align: right;">$100</td>
+</tr>
+<tr class="even">
+<td>Molino (harina)</td>
+<td style="text-align: right;">$160</td>
+<td style="text-align: right;">$100</td>
+<td style="text-align: right;">$60</td>
+</tr>
+<tr class="odd">
+<td>Panadería (pan)</td>
+<td style="text-align: right;">$250</td>
+<td style="text-align: right;">$160</td>
+<td style="text-align: right;">$90</td>
+</tr>
+<tr class="even">
+<td><strong>Total</strong></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"><strong>$250</strong></td>
+</tr>
+</tbody>
+</table>
+<p>La suma de los valores agregados es igual al valor del pan final: no se cuenta dos veces el trigo ni la harina.</p>
+</section>
+<section id="del-valor-agregado-al-pib-a-precios-de-mercado" class="slide level2 smaller">
+<h2>Del valor agregado al PIB a precios de mercado</h2>
+<p>Para expresar el PIB a precios de mercado, la fórmula completa es:</p>
+<p><span class="math display">\[\boxed{\begin{aligned} PIB = {} &amp; \sum VAB_{\text{a precios básicos}} \\ &amp; + \text{impuestos sobre los productos} \\ &amp; - \text{subvenciones sobre los productos} \end{aligned}}\]</span></p>
+<p>El ajuste permite pasar de la valoración de los productores a los precios de mercado.</p>
+</section>
+<section id="por-el-lado-de-los-ingresos" class="slide level2 smaller">
+<h2>Por el lado de los ingresos</h2>
+<p>Este enfoque pregunta <strong>cómo se distribuye el valor generado</strong> durante la producción.</p>
+<p><span class="math display">\[\boxed{\begin{aligned} PIB = {} &amp; \text{remuneraciones} + \text{excedente bruto de explotación} \\ &amp; + \text{ingreso mixto bruto} \\ &amp; + \text{impuestos netos de subvenciones sobre producción y productos} \end{aligned}}\]</span></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Componente</th>
+<th>Qué representa</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Remuneraciones</td>
+<td>Sueldos, salarios y contribuciones sociales de los empleadores</td>
+</tr>
+<tr class="even">
+<td>Excedente bruto de explotación</td>
+<td>Ingreso generado por la producción que corresponde al capital, antes de descontar el consumo de capital fijo. No equivale exactamente a la utilidad contable</td>
+</tr>
+<tr class="odd">
+<td>Ingreso mixto bruto</td>
+<td>Ingreso de negocios de hogares donde es difícil separar la remuneración del trabajo del dueño y el rendimiento de su capital</td>
+</tr>
+<tr class="even">
+<td>Impuestos netos de subvenciones</td>
+<td>Impuestos sobre la producción y los productos, menos las subvenciones correspondientes</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="ingreso-mixto-y-bruto" class="slide level2">
+<h2>Ingreso mixto y “bruto”</h2>
+<p><strong>Ingreso mixto:</strong> el ingreso de una persona que trabaja en su propio almacén mezcla su trabajo y el rendimiento del negocio; de ahí el término <em>mixto</em>.</p>
+<p><strong>Bruto:</strong> la palabra indica que se incluye el <strong>consumo de capital fijo</strong>, asociado al desgaste y la obsolescencia de los activos productivos.</p>
+<blockquote>
+<p>Si se usan excedente e ingreso mixto <strong>netos</strong>, hay que añadir ese consumo de capital fijo por separado.</p>
+</blockquote>
+</section>
+<section id="un-ejemplo-que-conecta-las-tres-miradas-ingresos" class="slide level2 smaller">
+<h2>Un ejemplo que conecta las tres miradas: ingresos</h2>
+<p>Volvamos al pan de $250. Supongamos que toda la cadena es nacional, el pan se vende a hogares y no hay impuestos ni subvenciones.</p>
+<p>El valor agregado de $250 se distribuye así:</p>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Etapa</th>
+<th style="text-align: right;">Remuneraciones</th>
+<th style="text-align: right;">Excedente bruto</th>
+<th style="text-align: right;">Valor agregado</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Agricultor</td>
+<td style="text-align: right;">$60</td>
+<td style="text-align: right;">$40</td>
+<td style="text-align: right;">$100</td>
+</tr>
+<tr class="even">
+<td>Molino</td>
+<td style="text-align: right;">$40</td>
+<td style="text-align: right;">$20</td>
+<td style="text-align: right;">$60</td>
+</tr>
+<tr class="odd">
+<td>Panadería</td>
+<td style="text-align: right;">$70</td>
+<td style="text-align: right;">$20</td>
+<td style="text-align: right;">$90</td>
+</tr>
+<tr class="even">
+<td><strong>Total</strong></td>
+<td style="text-align: right;"><strong>$170</strong></td>
+<td style="text-align: right;"><strong>$80</strong></td>
+<td style="text-align: right;"><strong>$250</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="tres-enfoques-un-mismo-pib" class="slide level2 smaller">
+<h2>Tres enfoques, un mismo PIB</h2>
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Enfoque</th>
+<th>Cálculo</th>
+<th style="text-align: right;">PIB</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Gasto</td>
+<td>Los hogares compran el pan final</td>
+<td style="text-align: right;">$250</td>
+</tr>
+<tr class="even">
+<td>Producción</td>
+<td>$100 + $60 + $90 de valor agregado</td>
+<td style="text-align: right;">$250</td>
+</tr>
+<tr class="odd">
+<td>Ingresos</td>
+<td>$170 de remuneraciones + $80 de excedente bruto</td>
+<td style="text-align: right;">$250</td>
+</tr>
+</tbody>
+</table>
+<p>La misma producción se observa como <strong>una compra de pan</strong>, <strong>valor creado en una cadena productiva</strong> e <strong>ingresos generados</strong> para quienes participaron en ella.</p>
+</section>
+<section id="una-identidad-contable-no-una-causa" class="slide level2 smaller">
+<h2>Una identidad contable, no una causa</h2>
+<p>La igualdad es una <strong>identidad contable</strong>, no una afirmación causal.</p>
+<p>Escribir <span class="math inline">\(PIB = C + I + G + X - M\)</span> no demuestra que aumentar cualquiera de sus componentes haga subir automáticamente el PIB en la misma cantidad.</p>
+<blockquote>
+<p>Para eso hay que analizar cómo reaccionan la producción, los precios, las importaciones y el resto de la economía.</p>
+</blockquote>
 </section>
 <section id="el-imacec-actividad-en-tiempo-real" class="slide level2">
 <h2>El Imacec: actividad en tiempo real</h2>
