@@ -378,6 +378,55 @@
     "text": "3 formas de medición\nLos tres métodos deben dar el mismo resultado — son tres ventanas al mismo fenómeno:\n\nPor el lado del gasto (la más usada y citada)\nPor el valor agregado o producción — así se calcula el Imacec\nPor el lado de los ingresos\n\nPor el lado del gasto:\n\\[PIB = C + I + G + (X - M)\\]\nDonde C = consumo, I = inversión, G = gasto de gobierno, X = exportaciones, M = importaciones."
   },
   {
+    "objectID": "clases/clase01_diapositiva.html#por-el-lado-de-la-producción-valor-agregado",
+    "href": "clases/clase01_diapositiva.html#por-el-lado-de-la-producción-valor-agregado",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Por el lado de la producción: valor agregado",
+    "text": "Por el lado de la producción: valor agregado\nEl valor agregado bruto (VAB) de una empresa es el valor de lo que produce menos lo que compra a otras empresas para producir (consumo intermedio).\n\nValor agregado no significa utilidad. De ese valor todavía se pagan remuneraciones y otros componentes del ingreso generado por la producción.\n\nEjemplo, el pan de $250:\n\n\n\nEtapa\nVende por\nCompra insumos por\nValor agregado\n\n\n\n\nAgricultor (trigo)\n$100\n$0\n$100\n\n\nMolino (harina)\n$160\n$100\n$60\n\n\nPanadería (pan)\n$250\n$160\n$90\n\n\nTotal\n\n\n$250\n\n\n\nLa suma de los valores agregados es igual al valor del pan final: no se cuenta dos veces el trigo ni la harina."
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#del-valor-agregado-al-pib-a-precios-de-mercado",
+    "href": "clases/clase01_diapositiva.html#del-valor-agregado-al-pib-a-precios-de-mercado",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Del valor agregado al PIB a precios de mercado",
+    "text": "Del valor agregado al PIB a precios de mercado\nPara expresar el PIB a precios de mercado, la fórmula completa es:\n\\[\\boxed{\\begin{aligned} PIB = {} & \\sum VAB_{\\text{a precios básicos}} \\\\ & + \\text{impuestos sobre los productos} \\\\ & - \\text{subvenciones sobre los productos} \\end{aligned}}\\]\nEl ajuste permite pasar de la valoración de los productores a los precios de mercado."
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#por-el-lado-de-los-ingresos",
+    "href": "clases/clase01_diapositiva.html#por-el-lado-de-los-ingresos",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Por el lado de los ingresos",
+    "text": "Por el lado de los ingresos\nEste enfoque pregunta cómo se distribuye el valor generado durante la producción.\n\\[\\boxed{\\begin{aligned} PIB = {} & \\text{remuneraciones} + \\text{excedente bruto de explotación} \\\\ & + \\text{ingreso mixto bruto} \\\\ & + \\text{impuestos netos de subvenciones sobre producción y productos} \\end{aligned}}\\]\n\n\n\n\n\n\n\nComponente\nQué representa\n\n\n\n\nRemuneraciones\nSueldos, salarios y contribuciones sociales de los empleadores\n\n\nExcedente bruto de explotación\nIngreso generado por la producción que corresponde al capital, antes de descontar el consumo de capital fijo. No equivale exactamente a la utilidad contable\n\n\nIngreso mixto bruto\nIngreso de negocios de hogares donde es difícil separar la remuneración del trabajo del dueño y el rendimiento de su capital\n\n\nImpuestos netos de subvenciones\nImpuestos sobre la producción y los productos, menos las subvenciones correspondientes"
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#ingreso-mixto-y-bruto",
+    "href": "clases/clase01_diapositiva.html#ingreso-mixto-y-bruto",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Ingreso mixto y “bruto”",
+    "text": "Ingreso mixto y “bruto”\nIngreso mixto: el ingreso de una persona que trabaja en su propio almacén mezcla su trabajo y el rendimiento del negocio; de ahí el término mixto.\nBruto: la palabra indica que se incluye el consumo de capital fijo, asociado al desgaste y la obsolescencia de los activos productivos.\n\nSi se usan excedente e ingreso mixto netos, hay que añadir ese consumo de capital fijo por separado."
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#un-ejemplo-que-conecta-las-tres-miradas-ingresos",
+    "href": "clases/clase01_diapositiva.html#un-ejemplo-que-conecta-las-tres-miradas-ingresos",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Un ejemplo que conecta las tres miradas: ingresos",
+    "text": "Un ejemplo que conecta las tres miradas: ingresos\nVolvamos al pan de $250. Supongamos que toda la cadena es nacional, el pan se vende a hogares y no hay impuestos ni subvenciones.\nEl valor agregado de $250 se distribuye así:\n\n\n\nEtapa\nRemuneraciones\nExcedente bruto\nValor agregado\n\n\n\n\nAgricultor\n$60\n$40\n$100\n\n\nMolino\n$40\n$20\n$60\n\n\nPanadería\n$70\n$20\n$90\n\n\nTotal\n$170\n$80\n$250"
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#tres-enfoques-un-mismo-pib",
+    "href": "clases/clase01_diapositiva.html#tres-enfoques-un-mismo-pib",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Tres enfoques, un mismo PIB",
+    "text": "Tres enfoques, un mismo PIB\n\n\n\nEnfoque\nCálculo\nPIB\n\n\n\n\nGasto\nLos hogares compran el pan final\n$250\n\n\nProducción\n$100 + $60 + $90 de valor agregado\n$250\n\n\nIngresos\n$170 de remuneraciones + $80 de excedente bruto\n$250\n\n\n\nLa misma producción se observa como una compra de pan, valor creado en una cadena productiva e ingresos generados para quienes participaron en ella."
+  },
+  {
+    "objectID": "clases/clase01_diapositiva.html#una-identidad-contable-no-una-causa",
+    "href": "clases/clase01_diapositiva.html#una-identidad-contable-no-una-causa",
+    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
+    "section": "Una identidad contable, no una causa",
+    "text": "Una identidad contable, no una causa\nLa igualdad es una identidad contable, no una afirmación causal.\nEscribir \\(PIB = C + I + G + X - M\\) no demuestra que aumentar cualquiera de sus componentes haga subir automáticamente el PIB en la misma cantidad.\n\nPara eso hay que analizar cómo reaccionan la producción, los precios, las importaciones y el resto de la economía."
+  },
+  {
     "objectID": "clases/clase01_diapositiva.html#el-imacec-actividad-en-tiempo-real",
     "href": "clases/clase01_diapositiva.html#el-imacec-actividad-en-tiempo-real",
     "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
@@ -788,7 +837,7 @@
     "href": "clases/clase01_actividad_02_pib.html#instrucciones",
     "title": "Actividad PIB — Clase 01",
     "section": "Instrucciones",
-    "text": "Instrucciones\nPara cada caso:\n\nIdentifique si cuenta o no cuenta en el PIB de Chile\nJustifiquen con una razón breve\n\nTiempo: ~15 minutos, en parejas."
+    "text": "Instrucciones\nPara cada caso:\n\nIdentifique si cuenta o no cuenta en el PIB de Chile\nJustifiquen con una razón breve"
   },
   {
     "objectID": "clases/clase01_actividad_02_pib.html#caso-1",
@@ -945,11 +994,18 @@
     "text": "Dos informes, dos fechas\n\n\n\n\n\n\n\n\n\nIPoM\nIEF\n\n\n\n\nNombre\nInforme de Política Monetaria\nInforme de Estabilidad Financiera\n\n\nEdición\nSeptiembre 2026\nPrimer semestre 2026\n\n\nCierre estadístico\n2 de septiembre\n5 de mayo\n\n\nResponde\n¿Cómo va la actividad, el empleo y la inflación? ¿Qué hará la política monetaria?\n¿Puede el sistema financiero absorber un shock?\n\n\n\n\nLos datos no son contemporáneos: entre un informe y otro pasaron cuatro meses. Fíjense en la fecha de cada dato antes de compararlos."
   },
   {
-    "objectID": "clases/clase01_actividad_04_coyuntura.html#instrucciones",
-    "href": "clases/clase01_actividad_04_coyuntura.html#instrucciones",
+    "objectID": "clases/clase01_actividad_04_coyuntura.html#instrucciones-las-tres-afirmaciones",
+    "href": "clases/clase01_actividad_04_coyuntura.html#instrucciones-las-tres-afirmaciones",
     "title": "Actividad de coyuntura — Clase 01",
-    "section": "Instrucciones",
-    "text": "Instrucciones\nEvaluarán tres afirmaciones (formuladas para esta actividad):\n\n\n\n\n\n\n\n\nBloque\nAfirmación\nFuente principal\n\n\n\n\n1\n“Chile está en recesión”\nIPoM\n\n\n2\n“La inflación de 4% se debe a que la demanda está recalentada”\nIPoM\n\n\n3\n“El sistema financiero chileno está en riesgo”\nIEF\n\n\n\nPara cada bloque:\n\nLean los datos\nDecidan si la afirmación es verdadera, falsa o depende, y por qué\nAnoten dos datos que respalden su respuesta\n\nAl final integrarán los tres bloques en un diagnóstico y una decisión."
+    "section": "Instrucciones: las tres afirmaciones",
+    "text": "Instrucciones: las tres afirmaciones\nEvaluarán tres afirmaciones (formuladas para esta actividad):\n\n\n\n\n\n\n\n\nBloque\nAfirmación\nFuente principal\n\n\n\n\n1\n“Chile está en recesión”\nIPoM\n\n\n2\n“La inflación de 4% se debe a que la demanda está recalentada”\nIPoM\n\n\n3\n“El sistema financiero chileno está en riesgo”\nIEF"
+  },
+  {
+    "objectID": "clases/clase01_actividad_04_coyuntura.html#instrucciones-cómo-trabajar-cada-bloque",
+    "href": "clases/clase01_actividad_04_coyuntura.html#instrucciones-cómo-trabajar-cada-bloque",
+    "title": "Actividad de coyuntura — Clase 01",
+    "section": "Instrucciones: cómo trabajar cada bloque",
+    "text": "Instrucciones: cómo trabajar cada bloque\nPara cada bloque:\n\nLean los datos\nDecidan si la afirmación es verdadera, falsa o depende, y por qué\nAnoten dos datos que respalden su respuesta\n\nAl final integrarán los tres bloques en un diagnóstico y una decisión."
   },
   {
     "objectID": "clases/clase01_actividad_04_coyuntura.html#los-datos",
@@ -980,11 +1036,18 @@
     "text": "Pregunta del bloque 2\n\nCon una brecha de actividad negativa y una demanda interna débil, ¿qué explica una inflación de 4%? ¿Por qué el IPC subyacente está más cerca de la meta que el IPC total?\n\nDiscutan en el grupo y registren:\n\nVeredicto: verdadera / falsa / depende\nSeñal de precios: tranquilizadora / preocupante / de alarma\n¿Qué riesgo de “segunda vuelta” ven? (el IPoM menciona que las remuneraciones por hora se aceleran, p. 45)\n\n\nSegún el IPoM, la inflación sigue “determinada por los movimientos de los precios de los combustibles y su impacto en el componente volátil del IPC” (p. 10). La proyección de convergencia a 3% ocurre “una vez que las fuertes alzas de combustibles de los últimos meses salgan de la base de comparación” (p. 45)."
   },
   {
-    "objectID": "clases/clase01_actividad_04_coyuntura.html#los-datos-2",
-    "href": "clases/clase01_actividad_04_coyuntura.html#los-datos-2",
+    "objectID": "clases/clase01_actividad_04_coyuntura.html#los-datos-12",
+    "href": "clases/clase01_actividad_04_coyuntura.html#los-datos-12",
     "title": "Actividad de coyuntura — Clase 01",
-    "section": "Los datos",
-    "text": "Los datos\n\n\n\n\n\n\n\n\n\nIndicador\nDato\nReferencia\n\n\n\n\nPrincipal riesgo identificado\nEstrechamiento abrupto de las condiciones de financiamiento\nIEF 1S 2026, p. 4\n\n\nBanca: holgura de capital básico (CET1), feb. 2026\n3,2 pp sobre los requerimientos\nIEF 1S 2026, p. 30\n\n\nBanca: capital CET1 que destruiría un escenario de estrés severo\n2,3 pp; seguiría sobre los mínimos\nIEF 1S 2026, p. 32\n\n\nBanca: rentabilidad sobre activos (ROA)\n1,23%, sobre su promedio desde 2010\nIEF 1S 2026, p. 30\n\n\nHogares: deuda y riqueza financiera neta\n46% y 122% del PIB\nIEF 1S 2026, p. 22\n\n\nHogares: deuda impaga en consumo\n10,6%\nIEF 1S 2026, p. 23\n\n\nEmpresas: deuda no bancaria\n103% del PIB (113% en 2024)\nIEF 1S 2026, p. 19\n\n\nEmpresas: impago bancario\n3,6% (2,1% promedio 2016–2019)\nIEF 1S 2026, p. 21\n\n\nInmobiliario: meses para agotar el stock de viviendas terminadas\n19 (7 en 2011–2019)\nIEF 1S 2026, p. 22\n\n\nGobierno central: deuda bruta\n42,6% del PIB a marzo 2026 (41,7% en dic. 2025)\nIEF 1S 2026, p. 25\n\n\nGobierno central: deuda que vence en 5 años\n37% (29% un año antes)\nIEF 1S 2026, p. 25\n\n\n\n\n\nEl IEF advierte que “los efectos reales de la crisis en el Medio Oriente podrían deteriorar la actividad económica y el empleo local, con efecto negativo sobre la capacidad de pago de los usuarios de crédito” (p. 7)."
+    "section": "Los datos (1/2)",
+    "text": "Los datos (1/2)\n\n\n\n\n\n\n\n\n\nIndicador\nDato\nReferencia\n\n\n\n\nPrincipal riesgo identificado\nEstrechamiento abrupto de las condiciones de financiamiento\nIEF 1S 2026, p. 4\n\n\nBanca: holgura de capital básico (CET1), feb. 2026\n3,2 pp sobre los requerimientos\nIEF 1S 2026, p. 30\n\n\nBanca: capital CET1 que destruiría un escenario de estrés severo\n2,3 pp; seguiría sobre los mínimos\nIEF 1S 2026, p. 32\n\n\nBanca: rentabilidad sobre activos (ROA)\n1,23%, sobre su promedio desde 2010\nIEF 1S 2026, p. 30\n\n\nHogares: deuda y riqueza financiera neta\n46% y 122% del PIB\nIEF 1S 2026, p. 22"
+  },
+  {
+    "objectID": "clases/clase01_actividad_04_coyuntura.html#los-datos-22",
+    "href": "clases/clase01_actividad_04_coyuntura.html#los-datos-22",
+    "title": "Actividad de coyuntura — Clase 01",
+    "section": "Los datos (2/2)",
+    "text": "Los datos (2/2)\n\n\n\n\n\n\n\n\n\nIndicador\nDato\nReferencia\n\n\n\n\nHogares: deuda impaga en consumo\n10,6%\nIEF 1S 2026, p. 23\n\n\nEmpresas: deuda no bancaria\n103% del PIB (113% en 2024)\nIEF 1S 2026, p. 19\n\n\nEmpresas: impago bancario\n3,6% (2,1% promedio 2016–2019)\nIEF 1S 2026, p. 21\n\n\nInmobiliario: meses para agotar el stock de viviendas terminadas\n19 (7 en 2011–2019)\nIEF 1S 2026, p. 22\n\n\nGobierno central: deuda bruta\n42,6% del PIB a marzo 2026 (41,7% en dic. 2025)\nIEF 1S 2026, p. 25\n\n\nGobierno central: deuda que vence en 5 años\n37% (29% un año antes)\nIEF 1S 2026, p. 25"
   },
   {
     "objectID": "clases/clase01_actividad_04_coyuntura.html#pregunta-del-bloque-3",
@@ -1603,80 +1666,10 @@
     "text": "Enfoque del curso\nEl objetivo no es solo describir qué miden los indicadores económicos, sino también cómo interpretarlos en contexto, cómo relacionarlos entre sí y cómo usarlos para analizar situaciones económicas concretas."
   },
   {
-    "objectID": "clases/clase01_actividad_04_coyuntura.html#instrucciones-las-tres-afirmaciones",
-    "href": "clases/clase01_actividad_04_coyuntura.html#instrucciones-las-tres-afirmaciones",
-    "title": "Actividad de coyuntura — Clase 01",
-    "section": "Instrucciones: las tres afirmaciones",
-    "text": "Instrucciones: las tres afirmaciones\nEvaluarán tres afirmaciones (formuladas para esta actividad):\n\n\n\n\n\n\n\n\nBloque\nAfirmación\nFuente principal\n\n\n\n\n1\n“Chile está en recesión”\nIPoM\n\n\n2\n“La inflación de 4% se debe a que la demanda está recalentada”\nIPoM\n\n\n3\n“El sistema financiero chileno está en riesgo”\nIEF"
-  },
-  {
-    "objectID": "clases/clase01_actividad_04_coyuntura.html#instrucciones-cómo-trabajar-cada-bloque",
-    "href": "clases/clase01_actividad_04_coyuntura.html#instrucciones-cómo-trabajar-cada-bloque",
-    "title": "Actividad de coyuntura — Clase 01",
-    "section": "Instrucciones: cómo trabajar cada bloque",
-    "text": "Instrucciones: cómo trabajar cada bloque\nPara cada bloque:\n\nLean los datos\nDecidan si la afirmación es verdadera, falsa o depende, y por qué\nAnoten dos datos que respalden su respuesta\n\nAl final integrarán los tres bloques en un diagnóstico y una decisión."
-  },
-  {
-    "objectID": "clases/clase01_actividad_04_coyuntura.html#los-datos-12",
-    "href": "clases/clase01_actividad_04_coyuntura.html#los-datos-12",
-    "title": "Actividad de coyuntura — Clase 01",
-    "section": "Los datos (1/2)",
-    "text": "Los datos (1/2)\n\n\n\n\n\n\n\n\n\nIndicador\nDato\nReferencia\n\n\n\n\nPrincipal riesgo identificado\nEstrechamiento abrupto de las condiciones de financiamiento\nIEF 1S 2026, p. 4\n\n\nBanca: holgura de capital básico (CET1), feb. 2026\n3,2 pp sobre los requerimientos\nIEF 1S 2026, p. 30\n\n\nBanca: capital CET1 que destruiría un escenario de estrés severo\n2,3 pp; seguiría sobre los mínimos\nIEF 1S 2026, p. 32\n\n\nBanca: rentabilidad sobre activos (ROA)\n1,23%, sobre su promedio desde 2010\nIEF 1S 2026, p. 30\n\n\nHogares: deuda y riqueza financiera neta\n46% y 122% del PIB\nIEF 1S 2026, p. 22"
-  },
-  {
-    "objectID": "clases/clase01_actividad_04_coyuntura.html#los-datos-22",
-    "href": "clases/clase01_actividad_04_coyuntura.html#los-datos-22",
-    "title": "Actividad de coyuntura — Clase 01",
-    "section": "Los datos (2/2)",
-    "text": "Los datos (2/2)\n\n\n\n\n\n\n\n\n\nIndicador\nDato\nReferencia\n\n\n\n\nHogares: deuda impaga en consumo\n10,6%\nIEF 1S 2026, p. 23\n\n\nEmpresas: deuda no bancaria\n103% del PIB (113% en 2024)\nIEF 1S 2026, p. 19\n\n\nEmpresas: impago bancario\n3,6% (2,1% promedio 2016–2019)\nIEF 1S 2026, p. 21\n\n\nInmobiliario: meses para agotar el stock de viviendas terminadas\n19 (7 en 2011–2019)\nIEF 1S 2026, p. 22\n\n\nGobierno central: deuda bruta\n42,6% del PIB a marzo 2026 (41,7% en dic. 2025)\nIEF 1S 2026, p. 25\n\n\nGobierno central: deuda que vence en 5 años\n37% (29% un año antes)\nIEF 1S 2026, p. 25"
-  },
-  {
-    "objectID": "clases/clase01_diapositiva.html#por-el-lado-de-la-producción-valor-agregado",
-    "href": "clases/clase01_diapositiva.html#por-el-lado-de-la-producción-valor-agregado",
+    "objectID": "clases/clase01_diapositiva.html#excedente-bruto-de-explotación-ebe",
+    "href": "clases/clase01_diapositiva.html#excedente-bruto-de-explotación-ebe",
     "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
-    "section": "Por el lado de la producción: valor agregado",
-    "text": "Por el lado de la producción: valor agregado\nEl valor agregado bruto (VAB) de una empresa es el valor de lo que produce menos lo que compra a otras empresas para producir (consumo intermedio).\n\nValor agregado no significa utilidad. De ese valor todavía se pagan remuneraciones y otros componentes del ingreso generado por la producción.\n\nEjemplo, el pan de $250:\n\n\n\nEtapa\nVende por\nCompra insumos por\nValor agregado\n\n\n\n\nAgricultor (trigo)\n$100\n$0\n$100\n\n\nMolino (harina)\n$160\n$100\n$60\n\n\nPanadería (pan)\n$250\n$160\n$90\n\n\nTotal\n\n\n$250\n\n\n\nLa suma de los valores agregados es igual al valor del pan final: no se cuenta dos veces el trigo ni la harina."
-  },
-  {
-    "objectID": "clases/clase01_diapositiva.html#del-valor-agregado-al-pib-a-precios-de-mercado",
-    "href": "clases/clase01_diapositiva.html#del-valor-agregado-al-pib-a-precios-de-mercado",
-    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
-    "section": "Del valor agregado al PIB a precios de mercado",
-    "text": "Del valor agregado al PIB a precios de mercado\nPara expresar el PIB a precios de mercado, la fórmula completa es:\n\\[\\boxed{\\begin{aligned} PIB = {} & \\sum VAB_{\\text{a precios básicos}} \\\\ & + \\text{impuestos sobre los productos} \\\\ & - \\text{subvenciones sobre los productos} \\end{aligned}}\\]\nEl ajuste permite pasar de la valoración de los productores a los precios de mercado."
-  },
-  {
-    "objectID": "clases/clase01_diapositiva.html#por-el-lado-de-los-ingresos",
-    "href": "clases/clase01_diapositiva.html#por-el-lado-de-los-ingresos",
-    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
-    "section": "Por el lado de los ingresos",
-    "text": "Por el lado de los ingresos\nEste enfoque pregunta cómo se distribuye el valor generado durante la producción.\n\\[\\boxed{\\begin{aligned} PIB = {} & \\text{remuneraciones} + \\text{excedente bruto de explotación} \\\\ & + \\text{ingreso mixto bruto} \\\\ & + \\text{impuestos netos de subvenciones sobre producción y productos} \\end{aligned}}\\]\n\n\n\n\n\n\n\nComponente\nQué representa\n\n\n\n\nRemuneraciones\nSueldos, salarios y contribuciones sociales de los empleadores\n\n\nExcedente bruto de explotación\nIngreso generado por la producción que corresponde al capital, antes de descontar el consumo de capital fijo. No equivale exactamente a la utilidad contable\n\n\nIngreso mixto bruto\nIngreso de negocios de hogares donde es difícil separar la remuneración del trabajo del dueño y el rendimiento de su capital\n\n\nImpuestos netos de subvenciones\nImpuestos sobre la producción y los productos, menos las subvenciones correspondientes"
-  },
-  {
-    "objectID": "clases/clase01_diapositiva.html#ingreso-mixto-y-bruto",
-    "href": "clases/clase01_diapositiva.html#ingreso-mixto-y-bruto",
-    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
-    "section": "Ingreso mixto y “bruto”",
-    "text": "Ingreso mixto y “bruto”\nIngreso mixto: el ingreso de una persona que trabaja en su propio almacén mezcla su trabajo y el rendimiento del negocio; de ahí el término mixto.\nBruto: la palabra indica que se incluye el consumo de capital fijo, asociado al desgaste y la obsolescencia de los activos productivos.\n\nSi se usan excedente e ingreso mixto netos, hay que añadir ese consumo de capital fijo por separado."
-  },
-  {
-    "objectID": "clases/clase01_diapositiva.html#un-ejemplo-que-conecta-las-tres-miradas-ingresos",
-    "href": "clases/clase01_diapositiva.html#un-ejemplo-que-conecta-las-tres-miradas-ingresos",
-    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
-    "section": "Un ejemplo que conecta las tres miradas: ingresos",
-    "text": "Un ejemplo que conecta las tres miradas: ingresos\nVolvamos al pan de $250. Supongamos que toda la cadena es nacional, el pan se vende a hogares y no hay impuestos ni subvenciones.\nEl valor agregado de $250 se distribuye así:\n\n\n\nEtapa\nRemuneraciones\nExcedente bruto\nValor agregado\n\n\n\n\nAgricultor\n$60\n$40\n$100\n\n\nMolino\n$40\n$20\n$60\n\n\nPanadería\n$70\n$20\n$90\n\n\nTotal\n$170\n$80\n$250"
-  },
-  {
-    "objectID": "clases/clase01_diapositiva.html#tres-enfoques-un-mismo-pib",
-    "href": "clases/clase01_diapositiva.html#tres-enfoques-un-mismo-pib",
-    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
-    "section": "Tres enfoques, un mismo PIB",
-    "text": "Tres enfoques, un mismo PIB\n\n\n\nEnfoque\nCálculo\nPIB\n\n\n\n\nGasto\nLos hogares compran el pan final\n$250\n\n\nProducción\n$100 + $60 + $90 de valor agregado\n$250\n\n\nIngresos\n$170 de remuneraciones + $80 de excedente bruto\n$250\n\n\n\nLa misma producción se observa como una compra de pan, valor creado en una cadena productiva e ingresos generados para quienes participaron en ella."
-  },
-  {
-    "objectID": "clases/clase01_diapositiva.html#una-identidad-contable-no-una-causa",
-    "href": "clases/clase01_diapositiva.html#una-identidad-contable-no-una-causa",
-    "title": "Entorno Económico y Financiero para las Decisiones de Inversión",
-    "section": "Una identidad contable, no una causa",
-    "text": "Una identidad contable, no una causa\nLa igualdad es una identidad contable, no una afirmación causal.\nEscribir \\(PIB = C + I + G + X - M\\) no demuestra que aumentar cualquiera de sus componentes haga subir automáticamente el PIB en la misma cantidad.\n\nPara eso hay que analizar cómo reaccionan la producción, los precios, las importaciones y el resto de la economía."
+    "section": "Excedente bruto de explotación (EBE)",
+    "text": "Excedente bruto de explotación (EBE)\nEl excedente bruto de explotación (EBE) es el ingreso que queda de la producción después de descontar los insumos utilizados, las remuneraciones de los trabajadores y los otros impuestos sobre la producción, netos de subvenciones.\n\nEn el ejemplo del pan, el agricultor genera un valor agregado de $100 y paga $60 de remuneraciones: su EBE es $40."
   }
 ]

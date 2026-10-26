@@ -198,6 +198,14 @@ $$\boxed{\begin{aligned} PIB = {} & \text{remuneraciones} + \text{excedente brut
 
 ------------------------------------------------------------------------
 
+## Excedente bruto de explotación (EBE) {.smaller}
+
+El **excedente bruto de explotación (EBE)** es el ingreso que queda de la producción después de descontar los insumos utilizados, las remuneraciones de los trabajadores y los otros impuestos sobre la producción, netos de subvenciones.
+
+> En el ejemplo del pan, el agricultor genera un valor agregado de \$100 y paga \$60 de remuneraciones: su EBE es \$40.
+
+------------------------------------------------------------------------
+
 ## Ingreso mixto y "bruto"
 
 **Ingreso mixto:** el ingreso de una persona que trabaja en su propio almacén mezcla su trabajo y el rendimiento del negocio; de ahí el término *mixto*.
