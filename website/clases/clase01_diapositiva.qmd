@@ -82,11 +82,9 @@ Para entenderlo necesitamos saber qué mide el IPC, cómo se construye, qué tan
 | Variables nominales y reales | IPC, deflactor, salario real, tipo de cambio |
 | Estabilidad financiera y holguras fiscales | Balance estructural, deuda pública y sistema financiero (CFA, IEF, 2026) |
 
-------------------------------------------------------------------------
-
 # Entorno Económico
 
-## ¿Por qué importa el entorno?
+## ¿Por qué importa el entorno? {.smaller}
 
 El entorno económico es el conjunto de variables económicas y financieras que influyen en la toma de decisiones de personas, empresas y gobiernos.
 
@@ -114,8 +112,6 @@ El entorno económico es el conjunto de variables económicas y financieras que 
 :::
 
 El shock dominante de 2026 es la **guerra en Medio Oriente** (inicio: 28 feb.), que presiona la energía y la inflación, mientras la **demanda interna se desacelera** y el empleo se deteriora.
-
-------------------------------------------------------------------------
 
 # Nivel de Actividad
 
@@ -198,8 +194,6 @@ Indicadores complementarios:
 
 > ¿Qué indicador usarían para saber si un país "va bien"?
 
-------------------------------------------------------------------------
-
 # Mercado Laboral
 
 ## Relación con la actividad
@@ -259,7 +253,7 @@ Un país con mayor actividad tiende a generar más empleo y mejores salarios. La
 
 ------------------------------------------------------------------------
 
-## Indicadores del mercado laboral
+## Indicadores del mercado laboral {.smaller}
 
 $$TP = \frac{\text{Fuerza de trabajo}}{\text{Población en edad de trabajar}}$$
 
@@ -325,7 +319,7 @@ El **desempleo friccional** es estructural a toda economía de mercado: refleja 
 
 > Clark y Oswald (2002): un británico promedio necesitaría recibir **£15.000** para compensar la pérdida de un trabajo que reportaba **£2.000** de ingreso.
 
-![](imagenes/desempleo_estres_scatter.jpeg){fig-align="center" width="60%"}
+![](imagenes/desempleo_estres_scatter.jpeg){fig-align="center" width="50%"}
 
 ::: {style="font-size: 0.75em; color: #666;"}
 Fuente: [The Economy, Core Econ](https://www.core-econ.org/the-economy/book/es/text/13.html)
@@ -364,8 +358,6 @@ Por cada peso pagado en salarios, el empresario se queda con **40 centavos** de 
 - **INE Chile:** [ine.gob.cl](https://www.ine.gob.cl) — Encuesta Nacional de Empleo (ENE), publicación mensual
 - **Observatorio Laboral:** datos sectoriales de empleo y remuneraciones
 - **OIT — ILOSTAT:** [ilostat.ilo.org](https://ilostat.ilo.org) — comparación internacional
-
-------------------------------------------------------------------------
 
 # Variables Nominales y Reales
 
@@ -414,7 +406,7 @@ Fuente: [INE — IPC](https://www.ine.cl/estadisticas/economia/indices-de-precio
 
 ------------------------------------------------------------------------
 
-## IPC en Chile hoy
+## IPC en Chile hoy {.smaller}
 
 | Período | IPC anual | Nota |
 |---|---|---|
@@ -447,7 +439,7 @@ Paasche (deflactor) tiene el problema inverso: subestima porque usa la canasta n
 
 ------------------------------------------------------------------------
 
-## Salario real
+## Salario real {.smaller}
 
 La relación entre precios y salarios:
 
@@ -489,8 +481,6 @@ Donde $e$ = tipo de cambio nominal, $P^*$ = nivel de precios internacional, $P$ 
 Si Chile tiene más inflación que EE.UU. y el tipo de cambio nominal no se mueve, el peso se **aprecia en términos reales** — los productos chilenos se encarecen para el mundo.
 
 ![](imagenes/tcr_historico.png){fig-align="center" width="65%"}
-
-------------------------------------------------------------------------
 
 # Estabilidad financiera y holguras fiscales
 
@@ -558,8 +548,6 @@ Fuente: Banco Central de Chile, *Informe de Estabilidad Financiera*, primer seme
 > Actividad de coyuntura: ¿recesión, inflación o fragilidad financiera?
 > Ver `clase01_actividad_04_coyuntura`
 
-------------------------------------------------------------------------
-
 # Cierre
 
 ## Volvamos al titular {.smaller}
@@ -606,17 +594,22 @@ PIB crece    →   empleo sube   →   salarios nominales suben
 
 ------------------------------------------------------------------------
 
-## Fuentes y referencias {.smaller}
+## Fuentes y referencias (1/2) {.smaller}
 
 - Banco Central de Chile. (2026, septiembre). *Informe de Política Monetaria*. [bcentral.cl](https://www.bcentral.cl)
 - Banco Central de Chile. (2026, mayo). *Informe de Estabilidad Financiera, primer semestre 2026*. [bcentral.cl](https://www.bcentral.cl)
+- INE Chile. (2026, 8 oct.). *Boletín estadístico: Índice de Precios al Consumidor, n° 335*. [ine.cl](https://www.ine.cl)
 - CFA. (2026, 4 mar.). *Informe sobre el desvío de la meta de Balance Estructural de 2025*. [cfachile.cl](https://cfachile.cl)
 - CFA. (2026, 26 mar.). *Informe de Balance Estructural y nivel prudente de deuda, 4T25*. [cfachile.cl](https://cfachile.cl)
+- CFA. (2026, 17 ago.). *Informe sobre Balance Estructural y nivel prudente de deuda: estimaciones 2026-2030 del IFP del segundo trimestre de 2026*. [cfachile.cl](https://cfachile.cl)
+
+------------------------------------------------------------------------
+
+## Fuentes y referencias (2/2) {.smaller}
+
 - CNN Business. (2026, 10 abr.). *CPI report: US inflation tripled last month on record spike in gas prices*. [cnn.com](https://www.cnn.com/2026/04/10/business/live-news/us-cpi-march-inflation-iran)
 - BLS. (2026, 10 abr.). *Consumer Price Index – March 2026*. [bls.gov](https://www.bls.gov/news.release/archives/cpi_04102026.htm)
 - BLS. *Relative importance of motor fuel in the CPI*. [bls.gov](https://www.bls.gov/cpi/factsheets/motor-fuel.htm)
-- CFA. (2026, 17 ago.). *Informe sobre Balance Estructural y nivel prudente de deuda: estimaciones 2026-2030 del IFP del segundo trimestre de 2026*. [cfachile.cl](https://cfachile.cl)
-- INE Chile. (2026, 8 oct.). *Boletín estadístico: Índice de Precios al Consumidor, n° 335*. [ine.cl](https://www.ine.cl)
 - Eurostat. (2025). *EU Labour Force Survey: annual data by sex and age* (tablas lfsa_pganws, lfsa_agan, lfsa_egan, lfsa_ugan). [ec.europa.eu/eurostat](https://ec.europa.eu/eurostat/web/lfs/database)
 - Clark, A. & Oswald, A. (2002). A simple statistical method for measuring how life events affect happiness. *International Journal of Epidemiology*, 31(6), 1139–1144.
 - Core Econ. *The Economy*. [core-econ.org](https://www.core-econ.org/the-economy/book/es/text/13.html)
