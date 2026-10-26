@@ -2,7 +2,8 @@
 title: "Lectura complementaria — Clase 03"
 subtitle: "El modelo de Mundell-Fleming: IS-LM en economías abiertas"
 lang: es
-date: "Mayo 2026"
+date: today
+date-format: "MMMM YYYY"
 format:
   html:
     theme: cosmo

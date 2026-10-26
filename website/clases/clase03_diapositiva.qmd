@@ -2,7 +2,8 @@
 title: "Entorno Económico y Financiero para las Decisiones de Inversión"
 subtitle: "Clase 03: Modelo Keynesiano, consumo e IS-LM"
 lang: es
-date: "Mayo 2026"
+date: today
+date-format: "MMMM YYYY"
 engine: knitr
 format:
   revealjs:
@@ -223,8 +224,8 @@ Intuición: tasas más altas incentivan el ahorro en vez del gasto. Las empresas
 :::
 ::: {.column width="45%"}
 ```{tikz}
-#| fig-align: center
-#| out-width: "100%"
+%| fig-align: center
+%| out-width: "100%"
 \begin{tikzpicture}[scale=0.85, font=\small]
   \draw[->, thick] (0,0) -- (4.2,0) node[right] {$Y$};
   \draw[->, thick] (0,0) -- (0,3.8) node[above] {$r$};
@@ -290,8 +291,8 @@ La LM es el conjunto de equilibrios del mercado monetario para distintos niveles
 **Mercado monetario** — plano $(M/P,\, i)$
 
 ```{tikz}
-#| fig-align: center
-#| out-width: "100%"
+%| fig-align: center
+%| out-width: "100%"
 \begin{tikzpicture}[scale=0.78, font=\small]
   \draw[->, thick] (0,0) -- (3.8,0) node[right] {$M/P$};
   \draw[->, thick] (0,0) -- (0,3.5) node[above] {$i$};
@@ -315,8 +316,8 @@ La LM es el conjunto de equilibrios del mercado monetario para distintos niveles
 **LM resultante** — plano $(Y,\, i)$
 
 ```{tikz}
-#| fig-align: center
-#| out-width: "100%"
+%| fig-align: center
+%| out-width: "100%"
 \begin{tikzpicture}[scale=0.78, font=\small]
   \draw[->, thick] (0,0) -- (3.8,0) node[right] {$Y$};
   \draw[->, thick] (0,0) -- (0,3.5) node[above] {$i$};
@@ -360,8 +361,8 @@ La LM tiene **pendiente positiva** en el plano $(i, Y)$:
 :::
 ::: {.column width="45%"}
 ```{tikz}
-#| fig-align: center
-#| out-width: "100%"
+%| fig-align: center
+%| out-width: "100%"
 \begin{tikzpicture}[scale=0.85, font=\small]
   \draw[->, thick] (0,0) -- (4.2,0) node[right] {$Y$};
   \draw[->, thick] (0,0) -- (0,3.8) node[above] {$i$};
@@ -389,8 +390,8 @@ Un aumento de $\bar{M}$ desplaza la LM a la derecha.
 **Movimiento sobre la curva** — causa: $\uparrow Y$
 
 ```{tikz}
-#| fig-align: center
-#| out-width: "100%"
+%| fig-align: center
+%| out-width: "100%"
 \begin{tikzpicture}[scale=0.75, font=\small]
   \draw[->, thick] (0,0) -- (3.8,0) node[right] {$Y$};
   \draw[->, thick] (0,0) -- (0,3.5) node[above] {$i$};
@@ -412,8 +413,8 @@ $Y\uparrow$ → más transacciones → $M^d\uparrow$ → $i$ sube **sobre** la m
 **Desplazamiento de la curva** — causa: $\uparrow \bar{M}$
 
 ```{tikz}
-#| fig-align: center
-#| out-width: "100%"
+%| fig-align: center
+%| out-width: "100%"
 \begin{tikzpicture}[scale=0.75, font=\small]
   \draw[->, thick] (0,0) -- (3.8,0) node[right] {$Y$};
   \draw[->, thick] (0,0) -- (0,3.5) node[above] {$i$};
@@ -471,8 +472,8 @@ La solución del sistema determina el **par de equilibrio** $(Y^*, i^*)$: el niv
 :::
 ::: {.column width="45%"}
 ```{tikz}
-#| fig-align: center
-#| out-width: "100%"
+%| fig-align: center
+%| out-width: "100%"
 \begin{tikzpicture}[scale=0.85, font=\small]
   \draw[->, thick] (0,0) -- (4.6,0) node[right] {$Y$};
   \draw[->, thick] (0,0) -- (0,3.8) node[above] {$i$};
@@ -516,8 +517,8 @@ La LM se desplaza de LM a LM'. El nuevo equilibrio es C (mayor $Y$, menor $i$).
 :::
 ::: {.column width="45%"}
 ```{tikz}
-#| fig-align: center
-#| out-width: "100%"
+%| fig-align: center
+%| out-width: "100%"
 \begin{tikzpicture}[scale=0.85, font=\small]
   \draw[->, thick] (0,0) -- (4.6,0) node[right] {$Y$};
   \draw[->, thick] (0,0) -- (0,3.8) node[above] {$i$};
