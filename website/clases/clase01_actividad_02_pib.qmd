@@ -2,7 +2,8 @@
 title: "Actividad PIB — Clase 01"
 subtitle: "¿Cuenta o no cuenta en el PIB?"
 lang: es
-date: "Abril 2026"
+date: today
+date-format: "MMMM YYYY"
 format:
   revealjs:
     theme: simple
@@ -36,6 +37,8 @@ Para cada caso:
 
 1. Identifique si **cuenta o no cuenta** en el PIB de Chile
 2. Justifiquen con una razón breve
+
+**Tiempo:** ~15 minutos, en parejas.
 
 ------------------------------------------------------------------------
 
@@ -87,7 +90,7 @@ Cuenta como **Exportaciones (X)**, parte de la demanda externa (XN = X − M).
 
 El cobre es producción **dentro de las fronteras de Chile**, destinada al exterior. Es el componente de mayor peso en las exportaciones chilenas.
 
-> Si China lo compra más barato porque el peso se deprecia, Chile exporta más en términos nominales — pero el volumen físico puede ser el mismo.
+> Si sube el precio del cobre, el valor de las exportaciones aumenta aunque el volumen sea el mismo — por eso el PIB nominal y el real pueden contar historias distintas.
 
 ------------------------------------------------------------------------
 
@@ -133,7 +136,7 @@ Un taxista trabaja de manera informal y no declara sus ingresos al SII.
 
 El servicio de transporte **existe** y tiene valor económico — debería ir como **Consumo (C)**.
 
-El problema es de **medición**, no de definición. El PIB oficial subestima la economía informal, que en Chile representa entre el 20% y 25% del PIB según estimaciones.
+El problema es de **medición**, no de definición. El PIB oficial subestima la economía informal, que en Chile representa cerca del 19% del PIB según estimaciones del Banco Mundial (citadas por Fundación Chile Pacífico, 2025).
 
 > Las cuentas nacionales intentan corregir esto con encuestas de hogares y métodos estadísticos, pero siempre hay un margen no capturado.
 
@@ -181,7 +184,7 @@ Un chileno trabaja como ingeniero en una empresa en Argentina y envía remesas a
 
 El PIB mide producción **dentro del territorio** de Chile. Este ingeniero produce en Argentina → su producción va al PIB argentino.
 
-Sin embargo, **sí cuenta en el PNB de Chile** (Producto Nacional Bruto), que mide la producción de los *residentes* chilenos, estén donde estén.
+Sin embargo, **sí cuenta en el PNB de Chile** (Producto Nacional Bruto), que mide la producción generada con factores de propiedad de *chilenos* (como el trabajo de este ingeniero), estén donde estén.
 
 > Las remesas que envía sí afectan el consumo de su familia en Chile, pero eso ya es un uso del ingreso, no producción nueva.
 

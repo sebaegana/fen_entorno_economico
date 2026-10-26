@@ -8,12 +8,11 @@ En esta sección se agrupan las sesiones del curso y los materiales de apoyo.
 
 ## Clase 01 — Nivel de actividad, mercado laboral y variables nominales
 
+- [Diapositiva 01](clase01_diapositiva)
 - [Actividad de apertura](clase01_actividad_01_apertura)
 - [Actividad PIB — ¿Cuenta o no cuenta?](clase01_actividad_02_pib)
 - [Actividad IPC — Construyamos un índice](clase01_actividad_03_ipc)
-- [Actividad de coyuntura — ¿Chile está en quiebra?](clase01_actividad_04_coyuntura)
-- [Diapositiva 01](clase01_diapositiva)
-- [Notas al docente](clase01_notas_docente)
+- [Actividad de coyuntura — ¿Recesión, inflación o fragilidad financiera?](clase01_actividad_04_coyuntura)
 - [Plan de mejora](clase01_plan_mejora)
 
 ### Materiales de apoyo

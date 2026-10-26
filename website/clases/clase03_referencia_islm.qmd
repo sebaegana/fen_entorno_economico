@@ -2,7 +2,8 @@
 title: "Referencia IS-LM — Variaciones y efectos"
 subtitle: "Economía cerrada y abierta (Mundell-Fleming)"
 lang: es
-date: "Mayo 2026"
+date: today
+date-format: "MMMM YYYY"
 format:
   html:
     theme: cosmo

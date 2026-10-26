@@ -2,7 +2,8 @@
 title: "Actividad IS-LM — Clase 03"
 subtitle: "Ejercicio matemático: derivación y equilibrio"
 lang: es
-date: "Mayo 2026"
+date: today
+date-format: "MMMM YYYY"
 format:
   revealjs:
     theme: simple

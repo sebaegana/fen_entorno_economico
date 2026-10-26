@@ -2,7 +2,8 @@
 title: "Entorno Económico y Financiero para las Decisiones de Inversión"
 subtitle: "Clase 01: Nivel de actividad, mercado laboral y variables nominales"
 lang: es
-date: "Abril 2026"
+date: today
+date-format: "MMMM YYYY"
 format:
   revealjs:
     theme: simple
@@ -57,7 +58,7 @@ format:
 
 ## Hilo conductor de la clase
 
-Partimos con un titular. Al terminar la sesión deberían poder leerlo con precisión.
+Partimos con un titular (actividad `clase01_actividad_01_apertura`). Al terminar la sesión deberían poder leerlo con precisión.
 
 ::: {style="font-size: 1.15em; font-weight: bold; color: #0d6e6e; border-left: 6px solid #0d6e6e; padding-left: 1em; margin: 1em 0;"}
 "US inflation tripled last month on record spike in gas prices"
@@ -79,7 +80,7 @@ Para entenderlo necesitamos saber qué mide el IPC, cómo se construye, qué tan
 | Nivel de actividad | PIB, Imacec, bienestar |
 | Mercado laboral | Clasificación, tasas, Okun |
 | Variables nominales y reales | IPC, deflactor, salario real, tipo de cambio |
-| Situación actual de Chile | Datos reales: IPoM y CFA, 2026 |
+| Estabilidad financiera y holguras fiscales | Balance estructural, deuda pública y sistema financiero (CFA, IEF, 2026) |
 
 ------------------------------------------------------------------------
 
@@ -103,16 +104,16 @@ El entorno económico es el conjunto de variables económicas y financieras que 
 ::: {.smaller}
 | Indicador | Dato | Fuente |
 |---|---|---|
-| Crecimiento PIB 2025 | **+2,5%** real | IPoM, BCCh, mar. 2026 |
-| Proyección PIB 2026 | **1,5 – 2,5%** | IPoM, BCCh, mar. 2026 |
-| Inflación (feb. 2026) | **2,4%** anual | IPoM, BCCh, mar. 2026 |
-| Inflación proyectada (Q2 2026) | **~4%** por combustibles | IPoM, BCCh, mar. 2026 |
-| Tasa de desocupación | Estable, sin cambios | IPoM, BCCh, mar. 2026 |
-| Precio del cobre | US$5,4/lb promedio 2026 | IPoM, BCCh, mar. 2026 |
-| Precio del petróleo | ~US$100/barril (+60% vs. dic.) | IPoM, BCCh, mar. 2026 |
+| Crecimiento PIB 2025 | **+2,5%** real | IPoM, BCCh, sep. 2026, Tabla 3 |
+| Proyección PIB 2026 | **0,25 – 0,75%** (en junio: 1,0 – 1,75%) | IPoM, BCCh, sep. 2026, p. 6 |
+| Inflación (últimos meses) | **~4%** anual | IPoM, BCCh, sep. 2026, p. 15 |
+| Inflación proyectada (dic. 2026) | **4,3%** | IPoM, BCCh, sep. 2026, Tabla 1 |
+| Tasa de desocupación | **9,5%** (9,3% desestacionalizada) | IPoM, BCCh, sep. 2026, p. 5 |
+| Precio del cobre | US$6,1/lb proyectado para 2026 | IPoM, BCCh, sep. 2026, Tabla 2 |
+| Precio del petróleo | ~US$90/barril al cierre del informe | IPoM, BCCh, sep. 2026, p. 10 |
 :::
 
-El shock dominante de 2026 es la **guerra en Medio Oriente** (inicio: 28 feb.), que presiona la energía, la inflación y el tipo de cambio a nivel global y local.
+El shock dominante de 2026 es la **guerra en Medio Oriente** (inicio: 28 feb.), que presiona la energía y la inflación, mientras la **demanda interna se desacelera** y el empleo se deteriora.
 
 ------------------------------------------------------------------------
 
@@ -123,7 +124,7 @@ El shock dominante de 2026 es la **guerra en Medio Oriente** (inicio: 28 feb.), 
 Cuando hablamos de nivel de actividad, preguntamos por la producción de una economía. Las métricas principales son:
 
 - **PIB** (Producto Interno Bruto): valor de la producción **final** de bienes y servicios **dentro del territorio** en un período
-- **PNB** (Producto Nacional Bruto): igual al PIB pero ajustado por la producción de **residentes** nacionales, estén donde estén
+- **PNB** (Producto Nacional Bruto): producción generada con factores (trabajo y capital) **de propiedad de nacionales**, estén donde estén
 
 El ajuste refleja la diferencia entre dónde se produce y quién lo produce.
 
@@ -160,13 +161,13 @@ Donde C = consumo, I = inversión, G = gasto de gobierno, X = exportaciones, M =
 
 ## El Imacec: actividad en tiempo real
 
-El PIB se publica anualmente y con desfase. Para tener información más reciente, el Banco Central de Chile publica el **Imacec** (Índice Mensual de Actividad Económica) con ~30 días de retraso.
+El PIB se publica trimestralmente y con desfase. Para tener información más reciente, el Banco Central de Chile publica el **Imacec** (Índice Mensual de Actividad Económica) con ~30 días de retraso.
 
 Se calcula por el **método de valor agregado** y sirve como termómetro mensual de la economía.
 
 En 2025, el PIB creció **2,5% real** — coherente con lo que el Imacec fue mostrando mes a mes.
 
-> Fuente: [INE — Imacec](https://www.ine.cl) · [Encuesta de Expectativas Económicas, BCCh](https://www.bcentral.cl)
+> Fuente: [Banco Central de Chile — Imacec](https://www.bcentral.cl) · [Encuesta de Expectativas Económicas, BCCh](https://www.bcentral.cl)
 
 ------------------------------------------------------------------------
 
@@ -274,18 +275,22 @@ donde $n$ es el número de ocupados.
 
 ------------------------------------------------------------------------
 
-## En números: Noruega vs. España {.smaller}
+## En números: Noruega vs. España (2025) {.smaller}
 
-| | Noruega | España |
+| Millones de personas, 15 a 64 años | Noruega | España |
 |---|---|---|
-| Población en edad de trabajar (millones) | 3,5 | 37,6 |
-| Fuerza de trabajo | 2,5 | 21,6 |
-| Inactivos | 1,0 | 16,0 |
-| Ocupados | 2,4 | 18,1 |
-| Desocupados | 0,1 | 3,5 |
-| Tasa de participación | 71% | 58% |
-| Tasa de empleo | 69% | 48% |
-| Tasa de desempleo | **4%** | **16%** |
+| Población en edad de trabajar | 3,6 | 32,5 |
+| Fuerza de trabajo | 2,9 | 24,4 |
+| Inactivos | 0,7 | 8,2 |
+| Ocupados | 2,8 | 21,8 |
+| Desocupados | 0,1 | 2,6 |
+| Tasa de participación | 80% | 75% |
+| Tasa de empleo | 77% | 67% |
+| Tasa de desempleo | **4,6%** | **10,6%** |
+
+::: {style="font-size: 0.8em; color: #666;"}
+Fuente: Eurostat, Encuesta de Fuerza de Trabajo de la UE, promedio anual 2025, ambos sexos (tablas `lfsa_pganws`, `lfsa_agan`, `lfsa_egan` y `lfsa_ugan`), consultada el 25 de octubre de 2026. Las tasas se calculan con las cifras originales en miles de personas; las cifras en millones pueden no sumar por redondeo.
+:::
 
 ------------------------------------------------------------------------
 
@@ -344,11 +349,11 @@ Donde $c$ = capital constante (maquinaria), $v$ = capital variable (trabajadores
 
 ## Ejemplo numérico: plusvalía
 
-Empresa: $US$80$ en maquinaria ($c$), $US$50$ en salarios ($v$), vende por $US$150$.
+Empresa: US\$80 en maquinaria ($c$), US\$50 en salarios ($v$), vende por US\$150.
 
 $$s = 150 - (80 + 50) = 20 \quad \Rightarrow \quad \frac{s}{v} = \frac{20}{50} = 0{,}4$$
 
-El empresario retiene el **40%** del producto generado por los trabajadores.
+Por cada peso pagado en salarios, el empresario se queda con **40 centavos** de plusvalía. Del valor nuevo creado por los trabajadores ($v + s = 70$), retiene $20/70 \approx 29\%$.
 
 > ¿En qué sectores esperarían una tasa de plusvalía más alta? ¿La automatización la aumenta o la disminuye?
 
@@ -413,15 +418,16 @@ Fuente: [INE — IPC](https://www.ine.cl/estadisticas/economia/indices-de-precio
 
 | Período | IPC anual | Nota |
 |---|---|---|
-| Noviembre 2025 | 3,4% | IPoM mar. 2026, p. 4 |
-| Febrero 2026 (12 meses) | **2,4%** | Bajo la meta de 3% |
-| Proyección Q2 2026 | **~4%** | Shock de combustibles por guerra |
-| Convergencia a 3% | Q2 2027 | Escenario central IPoM |
+| Diciembre 2025 | 3,5% | IPoM sep. 2026, Tabla 1 |
+| Febrero 2026 (12 meses) | **2,4%** | Bajo la meta de 3% (INE) |
+| Septiembre 2026 (12 meses) | **4,1%** | Shock de combustibles por guerra (INE, boletín IPC n° 335) |
+| Proyección diciembre 2026 | **4,3%** | IPoM sep. 2026, Tabla 1 |
+| Convergencia a 3% | 2T 2027 | Escenario central IPoM |
 
-El IPC subyacente (sin volátiles) fue 3,3% en feb. 2026 (12 meses) — más persistente que el IPC general, con 0% para la variación mensual del mes.
+El IPC subyacente (sin volátiles) se ubica entre 3,2 y 3,4% anual — menos volátil que el IPC total, que sigue la trayectoria de los combustibles.
 
 ::: {style="font-size: 0.8em; color: #666;"}
-Fuente: Banco Central de Chile, IPoM marzo 2026
+Fuente: Banco Central de Chile, IPoM septiembre 2026 (pp. 4, 6, 8 y 15); INE
 :::
 
 ------------------------------------------------------------------------
@@ -486,84 +492,70 @@ Si Chile tiene más inflación que EE.UU. y el tipo de cambio nominal no se muev
 
 ------------------------------------------------------------------------
 
-# Situación Fiscal de Chile
+# Estabilidad financiera y holguras fiscales
 
-## ¿Por qué agregar esta sección?
+## ¿Por qué mirar lo financiero y lo fiscal?
 
-Los indicadores de actividad, empleo y precios describen cómo funciona la economía **hoy**.
+Actividad, empleo y precios describen cómo funciona la economía **hoy**.
 
-La situación fiscal describe **cuánto margen tiene el Estado** para responder a shocks futuros.
+La estabilidad financiera y la situación fiscal describen **cuánto margen hay para absorber shocks**: ¿pueden bancos, hogares, empresas y el Estado resistir un período de actividad débil y financiamiento más caro?
 
-En 2026, este tema es especialmente relevante porque el debate público incluye afirmaciones como *"Chile está en quiebra"* — y los conceptos de esta clase permiten evaluarlas con precisión.
+> Lo veremos con dos informes del Banco Central: el **IPoM** (actividad y precios) y el **IEF** (estabilidad financiera). Son la base de la actividad de coyuntura.
 
 ------------------------------------------------------------------------
 
-## Balance Estructural 2025 {.smaller}
+## Holguras fiscales {.smaller}
 
 :::: {.columns}
-::: {.column width="58%"}
-El **Balance Estructural (BE)** mide el déficit o superávit fiscal eliminando los efectos del ciclo económico y el precio del cobre.
+::: {.column width="48%"}
+**Balance Estructural (BE):** déficit o superávit fiscal sin los efectos del ciclo económico ni del precio del cobre.
 
 | Indicador | Dato |
 |---|---|
 | BE 2025 | **-3,6% del PIB** |
 | Meta original 2025 | -1,1% del PIB |
-| Desvío respecto a la meta | **2,5 pp del PIB (US$8.863 millones)** |
-| Años consecutivos de incumplimiento | **3 años** (2023, 2024, 2025) |
-| Contexto del incumplimiento | Sin crisis ni eventos extraordinarios |
-:::
-::: {.column width="42%"}
-> "La magnitud de este desvío es elevada en términos históricos para un año sin eventos macroeconómicos extraordinarios."
-> — CFA, *Informe sobre el desvío de la meta de BE de 2025*, 4 de marzo de 2026, p. 9
-:::
-::::
-
-------------------------------------------------------------------------
-
-## Deuda y activos {.smaller}
-
-:::: {.columns}
-::: {.column width="50%"}
-| Indicador | Dato |
-|---|---|
-| Deuda bruta / PIB 2025 | **41,7%** |
-| Nivel prudente de deuda | **45% del PIB** |
-| Probabilidad de superar el 45% hacia 2027 | **~50%** |
-| Deuda / PIB en 2007 | 3,9% → **×10 en 17 años** |
-:::
-::: {.column width="50%"}
-| Indicador | Dato |
-|---|---|
-| Activos Tesoro Público (Q2 2025) | US$2.946 millones |
-| Activos Tesoro Público (cierre 2025) | **US$46 millones** |
-| Gasto en intereses 2015 | 0,66% del PIB |
-| Gasto en intereses 2025 | **1,24% del PIB** |
+| Desvío respecto a la meta | **2,5 pp del PIB** (US$8.863 millones) |
+| Incumplimientos consecutivos | **3 años** (2023, 2024, 2025) |
 
 ::: {style="font-size: 0.8em; color: #666;"}
-Fuente: CFA, *Informe de Balance Estructural y nivel prudente de deuda, 4T25*, 26 de marzo de 2026
+Fuente: CFA, *Informe sobre el desvío de la meta de BE de 2025*, 4 de marzo de 2026, p. 4
+:::
+:::
+::: {.column width="52%"}
+**Deuda bruta del gobierno central**
+
+| Indicador | Dato |
+|---|---|
+| Deuda / PIB, diciembre 2025 | **41,7%** |
+| Deuda / PIB, marzo 2026 | **42,6%** |
+| Nivel prudente de deuda | **45% del PIB** |
+| Año en que superaría el 45% (escenario base) | **2029** (45,3%) |
+| Deuda / PIB en 2007 | 3,9% → **×10 en 17 años** (41,7% en 2024) |
+
+::: {style="font-size: 0.8em; color: #666;"}
+Fuentes: Banco Central, *IEF* 1S 2026, p. 25 (deuda 2025 y 2026); CFA, *Informe sobre BE y nivel prudente de deuda*, 17 de agosto de 2026, p. 17 (proyección); CFA, *Informe de BE 4T25*, 26 de marzo de 2026, p. 29 (2007 y 2024)
 :::
 :::
 ::::
 
 ------------------------------------------------------------------------
 
-## Riesgo soberano {.smaller}
+## Estabilidad financiera: ¿qué dice el IEF? {.smaller}
 
 | Indicador | Dato |
 |---|---|
-| Clasificación crediticia (Fitch, sep. 2025) | **A− con perspectiva estable** |
-| Posición en América Latina | **Mejor clasificación de la región** |
-| CDS a 5 años | **Bajos, similares a 2018** |
-| Probabilidad de default (próxima década) | **Prácticamente nula** |
+| Principal riesgo | **Estrechamiento abrupto** de las condiciones de financiamiento (p. 4) |
+| Banca: holgura de capital básico (CET1) | **3,2 pp** sobre los requerimientos; un estrés severo destruiría 2,3 pp (pp. 30 y 32) |
+| Hogares: deuda | **46%** del PIB; riqueza financiera neta de 122% (p. 22) |
+| Empresas: deuda no bancaria | **103%** del PIB (113% en 2024) (p. 19) |
+| Inmobiliario | **19 meses** para agotar el stock de viviendas terminadas (7 en 2011–2019) (p. 22) |
+| Deuda del gobierno central que vence en 5 años | **37%** (29% un año antes) (p. 25) |
 
-La distinción técnica central:
+::: {style="font-size: 0.8em; color: #666;"}
+Fuente: Banco Central de Chile, *Informe de Estabilidad Financiera*, primer semestre 2026 (cierre estadístico: 5 de mayo). Clasificación crediticia: Fitch ratificó **A− con perspectiva estable** el 18 de septiembre de 2026 (vía Ministerio de Hacienda).
+:::
 
-| Concepto | Definición | ¿Aplica a Chile? |
-|---|---|---|
-| **Default / quiebra** | El Estado no puede pagar su deuda | No |
-| **Estrés fiscal** | Déficits persistentes, regla incumplida, activos agotados | Sí |
-
-> Actividad de coyuntura: ¿Chile está en quiebra?
+> Actividad de coyuntura: ¿recesión, inflación o fragilidad financiera?
 > Ver `clase01_actividad_04_coyuntura`
 
 ------------------------------------------------------------------------
@@ -580,8 +572,8 @@ Ahora pueden leer esto con precisión:
 
 - **"Inflation"**: variación del IPC mensual — método Laspeyres, canasta fija
 - **"Tripled"**: el *ritmo* mensual fue inusual (0,9%), no el nivel anual (3,3%)
-- **"Gas prices"**: un bien con 20% de ponderación subió 21% → explica ~4,2 pp del IPC
-- **Conexión con Chile**: el shock de petróleo presiona el IPC local hacia ~4% en Q2 2026, complica el Balance Estructural vía MEPCO, y deprecia el peso
+- **"Gas prices"**: un bien que pesa ~3% de la canasta subió 21% → explica ~0,6 pp de los 0,9 pp del alza mensual (BLS: ficha de combustibles e informe CPI de marzo 2026)
+- **Conexión con Chile**: el shock de petróleo mantiene el IPC local en torno a 4% en 2026, complica el Balance Estructural vía MEPCO, y presiona el tipo de cambio
 
 ------------------------------------------------------------------------
 
@@ -616,10 +608,15 @@ PIB crece    →   empleo sube   →   salarios nominales suben
 
 ## Fuentes y referencias {.smaller}
 
-- Banco Central de Chile. (2026, marzo). *Informe de Política Monetaria*. [bcentral.cl](https://www.bcentral.cl)
+- Banco Central de Chile. (2026, septiembre). *Informe de Política Monetaria*. [bcentral.cl](https://www.bcentral.cl)
+- Banco Central de Chile. (2026, mayo). *Informe de Estabilidad Financiera, primer semestre 2026*. [bcentral.cl](https://www.bcentral.cl)
 - CFA. (2026, 4 mar.). *Informe sobre el desvío de la meta de Balance Estructural de 2025*. [cfachile.cl](https://cfachile.cl)
 - CFA. (2026, 26 mar.). *Informe de Balance Estructural y nivel prudente de deuda, 4T25*. [cfachile.cl](https://cfachile.cl)
-- CNN Business. (2026, 10 abr.). *CPI report: US inflation tripled last month on record spike in gas prices*.
-- INE Chile. *Índice de Precios al Consumidor*. [ine.cl](https://www.ine.cl)
+- CNN Business. (2026, 10 abr.). *CPI report: US inflation tripled last month on record spike in gas prices*. [cnn.com](https://www.cnn.com/2026/04/10/business/live-news/us-cpi-march-inflation-iran)
+- BLS. (2026, 10 abr.). *Consumer Price Index – March 2026*. [bls.gov](https://www.bls.gov/news.release/archives/cpi_04102026.htm)
+- BLS. *Relative importance of motor fuel in the CPI*. [bls.gov](https://www.bls.gov/cpi/factsheets/motor-fuel.htm)
+- CFA. (2026, 17 ago.). *Informe sobre Balance Estructural y nivel prudente de deuda: estimaciones 2026-2030 del IFP del segundo trimestre de 2026*. [cfachile.cl](https://cfachile.cl)
+- INE Chile. (2026, 8 oct.). *Boletín estadístico: Índice de Precios al Consumidor, n° 335*. [ine.cl](https://www.ine.cl)
+- Eurostat. (2025). *EU Labour Force Survey: annual data by sex and age* (tablas lfsa_pganws, lfsa_agan, lfsa_egan, lfsa_ugan). [ec.europa.eu/eurostat](https://ec.europa.eu/eurostat/web/lfs/database)
 - Clark, A. & Oswald, A. (2002). A simple statistical method for measuring how life events affect happiness. *International Journal of Epidemiology*, 31(6), 1139–1144.
 - Core Econ. *The Economy*. [core-econ.org](https://www.core-econ.org/the-economy/book/es/text/13.html)

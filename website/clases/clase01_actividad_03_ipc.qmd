@@ -2,7 +2,8 @@
 title: "Actividad IPC — Clase 01"
 subtitle: "Construyamos un índice de precios paso a paso"
 lang: es
-date: "Abril 2026"
+date: today
+date-format: "MMMM YYYY"
 format:
   revealjs:
     theme: simple
@@ -209,7 +210,7 @@ La bencina subió 50% — pero solo pesa 20% de la canasta.
 
 Su contribución es: $20\% \times 50\% = 10$ puntos porcentuales.
 
-> Este mecanismo es exactamente lo que ocurrió en EE.UU. en marzo 2026: la gasolina subió 21% y fue responsable de la mayor parte del alza del CPI ese mes.
+> Un mecanismo parecido ocurrió en EE.UU. en marzo 2026: la gasolina subió 21% y explicó casi tres cuartos del alza mensual del CPI. Allí pesa solo ~3% de la canasta (no 20% como en nuestro ejemplo), pero un alza de esa magnitud basta para mover el índice.
 
 **La inflación no depende solo de cuánto sube un precio — depende de cuánto pesa ese bien en el gasto de los hogares.**
 
@@ -236,16 +237,29 @@ Piensen en:
 
 ## La canasta real del INE
 
-El IPC oficial de Chile usa una canasta con más de **500 productos** agrupados en 12 divisiones:
+El IPC oficial de Chile usa una canasta agrupada en **13 divisiones** de gasto (base 2023):
 
-| División | Ponderación aproximada |
-|---|:---:|
-| Vivienda y servicios básicos | 33% |
-| Alimentos y bebidas | 20% |
-| Transporte | 13% |
-| Restaurantes y hoteles | 8% |
-| Salud | 6% |
-| Otros | 20% |
+::: {.smaller}
+| División | Ponderación | Variación 12 meses |
+|---|:---:|:---:|
+| Alimentos y bebidas no alcohólicas | 22,2% | +4,3% |
+| Vivienda y servicios básicos | 16,8% | +3,6% |
+| Transporte | 13,5% | **+7,9%** |
+| Salud | 8,2% | +5,1% |
+| Información y comunicación | 6,6% | +1,9% |
+| Restaurantes y alojamiento | 6,2% | +5,6% |
+| Equipamiento y mantención del hogar | 6,2% | +1,5% |
+| Recreación, deportes y cultura | 4,8% | +5,2% |
+| Educación | 4,2% | +5,8% |
+| Bebidas alcohólicas y tabaco | 3,7% | +4,1% |
+| Bienes y servicios diversos | 3,7% | +0,2% |
+| Vestuario y calzado | 2,9% | -3,1% |
+| Seguros y servicios financieros | 1,1% | -9,7% |
+:::
+
+::: {style="font-size: 0.75em; color: #666;"}
+Fuente: INE, Boletín IPC n° 335 (septiembre 2026), base anual 2023=100. Las ponderaciones pueden no sumar 100% por redondeo.
+:::
 
 La canasta se actualiza cada varios años con la Encuesta de Presupuestos Familiares (EPF).
 
@@ -278,5 +292,5 @@ Cuando vean un titular que dice *"la inflación fue X%"*, ahora saben preguntar:
 **Datos reales para explorar:**
 
 - [INE — IPC por división de gasto](https://www.ine.cl/estadisticas/economia/indices-de-precio-e-inflacion/indice-de-precios-al-consumidor)
-- [Calculadora de inflación personal — Banco Central de Chile](https://www.bcentral.cl)
+- [Calculadora de reajuste por IPC — INE](https://www.ine.gob.cl)
 - Ver ejercicio con datos reales: `data/ejercicio 02 IPC.xlsx`
