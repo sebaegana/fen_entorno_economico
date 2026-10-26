@@ -29,7 +29,7 @@ No se necesita saber economía para opinar — la idea es partir desde lo que ya
 
 ------------------------------------------------------------------------
 
-## El titular
+## El titular {.smaller}
 
 ::: {style="font-size: 1.4em; font-weight: bold; color: #0d6e6e; border-left: 6px solid #0d6e6e; padding-left: 1em; margin: 1em 0;"}
 "US inflation tripled last month on record spike in gas prices"
@@ -75,7 +75,7 @@ Piensen en distintos actores:
 
 ------------------------------------------------------------------------
 
-## ¿Por qué este titular?
+## ¿Por qué este titular? {.smaller}
 
 Este caso conecta directamente con los bloques de la clase de hoy:
 

@@ -28,7 +28,6 @@ format:
 **Docentes:**
 
 - Sebastián Egaña Santibáñez
-- Felipe Jaque
 
 **Ayudante:**
 
@@ -49,7 +48,7 @@ format:
 
 **Sebastián Egaña Santibáñez**
 
-- Data Tech Lead & Analytics Translator — LATAM Airlines
+- Data Tech Lead & Data Scientist — LATAM Airlines
 - Correo: [segana@fen.uchile.cl](mailto:segana@fen.uchile.cl)
 - Web: <https://segana.netlify.app>
 - LinkedIn: [enlace](https://www.linkedin.com/in/sebastian-egana-santibanez/)
@@ -152,6 +151,97 @@ Por el lado del gasto:
 $$PIB = C + I + G + (X - M)$$
 
 Donde C = consumo, I = inversión, G = gasto de gobierno, X = exportaciones, M = importaciones.
+
+------------------------------------------------------------------------
+
+## Por el lado de la producción: valor agregado {.smaller}
+
+El **valor agregado bruto (VAB)** de una empresa es el valor de lo que produce menos lo que compra a otras empresas para producir (consumo intermedio).
+
+> **Valor agregado no significa utilidad.** De ese valor todavía se pagan remuneraciones y otros componentes del ingreso generado por la producción.
+
+*Ejemplo, el pan de \$250:*
+
+| Etapa | Vende por | Compra insumos por | Valor agregado |
+|---|---:|---:|---:|
+| Agricultor (trigo) | \$100 | \$0 | \$100 |
+| Molino (harina) | \$160 | \$100 | \$60 |
+| Panadería (pan) | \$250 | \$160 | \$90 |
+| **Total** | | | **\$250** |
+
+La suma de los valores agregados es igual al valor del pan final: no se cuenta dos veces el trigo ni la harina.
+
+------------------------------------------------------------------------
+
+## Del valor agregado al PIB a precios de mercado {.smaller}
+
+Para expresar el PIB a precios de mercado, la fórmula completa es:
+
+$$\boxed{\begin{aligned} PIB = {} & \sum VAB_{\text{a precios básicos}} \\ & + \text{impuestos sobre los productos} \\ & - \text{subvenciones sobre los productos} \end{aligned}}$$
+
+El ajuste permite pasar de la valoración de los productores a los precios de mercado.
+
+------------------------------------------------------------------------
+
+## Por el lado de los ingresos {.smaller}
+
+Este enfoque pregunta **cómo se distribuye el valor generado** durante la producción.
+
+$$\boxed{\begin{aligned} PIB = {} & \text{remuneraciones} + \text{excedente bruto de explotación} \\ & + \text{ingreso mixto bruto} \\ & + \text{impuestos netos de subvenciones sobre producción y productos} \end{aligned}}$$
+
+| Componente | Qué representa |
+|---|---|
+| Remuneraciones | Sueldos, salarios y contribuciones sociales de los empleadores |
+| Excedente bruto de explotación | Ingreso generado por la producción que corresponde al capital, antes de descontar el consumo de capital fijo. No equivale exactamente a la utilidad contable |
+| Ingreso mixto bruto | Ingreso de negocios de hogares donde es difícil separar la remuneración del trabajo del dueño y el rendimiento de su capital |
+| Impuestos netos de subvenciones | Impuestos sobre la producción y los productos, menos las subvenciones correspondientes |
+
+------------------------------------------------------------------------
+
+## Ingreso mixto y "bruto"
+
+**Ingreso mixto:** el ingreso de una persona que trabaja en su propio almacén mezcla su trabajo y el rendimiento del negocio; de ahí el término *mixto*.
+
+**Bruto:** la palabra indica que se incluye el **consumo de capital fijo**, asociado al desgaste y la obsolescencia de los activos productivos.
+
+> Si se usan excedente e ingreso mixto **netos**, hay que añadir ese consumo de capital fijo por separado.
+
+------------------------------------------------------------------------
+
+## Un ejemplo que conecta las tres miradas: ingresos {.smaller}
+
+Volvamos al pan de \$250. Supongamos que toda la cadena es nacional, el pan se vende a hogares y no hay impuestos ni subvenciones.
+
+El valor agregado de \$250 se distribuye así:
+
+| Etapa | Remuneraciones | Excedente bruto | Valor agregado |
+|---|---:|---:|---:|
+| Agricultor | \$60 | \$40 | \$100 |
+| Molino | \$40 | \$20 | \$60 |
+| Panadería | \$70 | \$20 | \$90 |
+| **Total** | **\$170** | **\$80** | **\$250** |
+
+------------------------------------------------------------------------
+
+## Tres enfoques, un mismo PIB {.smaller}
+
+| Enfoque | Cálculo | PIB |
+|---|---|---:|
+| Gasto | Los hogares compran el pan final | \$250 |
+| Producción | \$100 + \$60 + \$90 de valor agregado | \$250 |
+| Ingresos | \$170 de remuneraciones + \$80 de excedente bruto | \$250 |
+
+La misma producción se observa como **una compra de pan**, **valor creado en una cadena productiva** e **ingresos generados** para quienes participaron en ella.
+
+------------------------------------------------------------------------
+
+## Una identidad contable, no una causa {.smaller}
+
+La igualdad es una **identidad contable**, no una afirmación causal.
+
+Escribir $PIB = C + I + G + X - M$ no demuestra que aumentar cualquiera de sus componentes haga subir automáticamente el PIB en la misma cantidad.
+
+> Para eso hay que analizar cómo reaccionan la producción, los precios, las importaciones y el resto de la economía.
 
 ------------------------------------------------------------------------
 
