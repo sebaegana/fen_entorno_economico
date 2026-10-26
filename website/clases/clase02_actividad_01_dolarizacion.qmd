@@ -2,7 +2,8 @@
 title: "Actividad — Dolarización y problemas de balance"
 subtitle: "Clase 02 · Entorno Económico y Financiero para las Decisiones de Inversión"
 lang: es
-date: "Mayo 2026"
+date: today
+date-format: "MMMM YYYY"
 format:
   html:
     theme: cosmo

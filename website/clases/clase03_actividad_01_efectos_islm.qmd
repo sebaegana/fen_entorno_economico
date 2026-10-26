@@ -2,7 +2,8 @@
 title: "Actividad IS-LM — Clase 03"
 subtitle: "Efectos de política monetaria y fiscal"
 lang: es
-date: "Mayo 2026"
+date: today
+date-format: "MMMM YYYY"
 format:
   revealjs:
     theme: simple

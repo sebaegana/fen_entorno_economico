@@ -2,7 +2,8 @@
 title: "Entorno Económico y Financiero para las Decisiones de Inversión"
 subtitle: "Clase 02: Dinero, política monetaria y política fiscal"
 lang: es
-date: "Mayo 2026"
+date: today
+date-format: "MMMM YYYY"
 format:
   revealjs:
     theme: simple
