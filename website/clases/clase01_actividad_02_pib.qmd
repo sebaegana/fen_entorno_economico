@@ -40,8 +40,6 @@ Para cada caso:
 
 **Tiempo:** ~15 minutos, en parejas.
 
-------------------------------------------------------------------------
-
 # Casos
 
 ------------------------------------------------------------------------
@@ -236,13 +234,11 @@ El jubilado ahorró (o el Estado financió) en el pasado; ahora recibe ese flujo
 
 > Cuando el jubilado **gasta** la pensión en bienes y servicios, *ese* gasto sí entra al PIB como **Consumo (C)**.
 
-------------------------------------------------------------------------
-
 # Resumen
 
 ------------------------------------------------------------------------
 
-## ¿Qué aprendimos?
+## ¿Qué aprendimos? {.smaller}
 
 | Caso | ¿Cuenta? | Componente |
 |---|:---:|---|

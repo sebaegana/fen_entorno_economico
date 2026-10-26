@@ -46,8 +46,6 @@ La actividad tiene **tres partes**:
 
 Necesitan papel y calculadora (o el teléfono).
 
-------------------------------------------------------------------------
-
 # Parte 1: Arma tu canasta
 
 ------------------------------------------------------------------------
@@ -80,8 +78,6 @@ Antes de seguir, discutan brevemente:
 - ¿Gastan todos el mismo porcentaje en arriendo? ¿En transporte?
 
 > Esto es exactamente el problema que enfrenta el INE al construir el IPC oficial: una sola canasta debe representar a millones de hogares con patrones de consumo distintos.
-
-------------------------------------------------------------------------
 
 # Parte 2: Calculemos el IPC
 
@@ -179,8 +175,6 @@ $$\pi = \frac{IL_1 - IL_0}{IL_0} \times 100 = \frac{118 - 100}{100} \times 100 =
 
 La canasta que costaba \$100.000 en enero cuesta **\$118.000** en diciembre.
 
-------------------------------------------------------------------------
-
 # Parte 3: Interpretación
 
 ------------------------------------------------------------------------
@@ -235,12 +229,14 @@ Piensen en:
 
 ------------------------------------------------------------------------
 
-## La canasta real del INE
+## La canasta real del INE {.smaller}
 
 El IPC oficial de Chile usa una canasta agrupada en **13 divisiones** de gasto (base 2023):
 
+::::: {.columns}
+::: {.column width="50%"}
 ::: {.smaller}
-| División | Ponderación | Variación 12 meses |
+| División | Pond. | 12 meses |
 |---|:---:|:---:|
 | Alimentos y bebidas no alcohólicas | 22,2% | +4,3% |
 | Vivienda y servicios básicos | 16,8% | +3,6% |
@@ -249,6 +245,12 @@ El IPC oficial de Chile usa una canasta agrupada en **13 divisiones** de gasto (
 | Información y comunicación | 6,6% | +1,9% |
 | Restaurantes y alojamiento | 6,2% | +5,6% |
 | Equipamiento y mantención del hogar | 6,2% | +1,5% |
+:::
+:::
+::: {.column width="50%"}
+::: {.smaller}
+| División | Pond. | 12 meses |
+|---|:---:|:---:|
 | Recreación, deportes y cultura | 4,8% | +5,2% |
 | Educación | 4,2% | +5,8% |
 | Bebidas alcohólicas y tabaco | 3,7% | +4,1% |
@@ -256,6 +258,8 @@ El IPC oficial de Chile usa una canasta agrupada en **13 divisiones** de gasto (
 | Vestuario y calzado | 2,9% | -3,1% |
 | Seguros y servicios financieros | 1,1% | -9,7% |
 :::
+:::
+:::::
 
 ::: {style="font-size: 0.75em; color: #666;"}
 Fuente: INE, Boletín IPC n° 335 (septiembre 2026), base anual 2023=100. Las ponderaciones pueden no sumar 100% por redondeo.
