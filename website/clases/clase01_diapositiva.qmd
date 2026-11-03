@@ -79,7 +79,7 @@ Para entenderlo necesitamos saber qué mide el IPC, cómo se construye, qué tan
 | Nivel de actividad | PIB, Imacec, bienestar |
 | Mercado laboral | Clasificación, tasas, Okun |
 | Variables nominales y reales | IPC, deflactor, salario real, tipo de cambio |
-| Estabilidad financiera y holguras fiscales | Balance estructural, deuda pública y sistema financiero (CFA, IEF, 2026) |
+| Estabilidad financiera | Sistema financiero, endeudamiento de hogares, empresas y gobierno (IEF, 2026) |
 
 # Entorno Económico
 
@@ -114,14 +114,18 @@ El shock dominante de 2026 es la **guerra en Medio Oriente** (inicio: 28 feb.), 
 
 # Nivel de Actividad
 
-## ¿Qué mide el nivel de actividad?
+## ¿Qué mide el nivel de actividad? {.smaller}
 
 Cuando hablamos de nivel de actividad, preguntamos por la producción de una economía. Las métricas principales son:
 
 - **PIB** (Producto Interno Bruto): valor de la producción **final** de bienes y servicios **dentro del territorio** en un período
 - **PNB** (Producto Nacional Bruto): producción generada con factores (trabajo y capital) **de propiedad de nacionales**, estén donde estén
 
-El ajuste refleja la diferencia entre dónde se produce y quién lo produce.
+El ajuste refleja la diferencia entre dónde se produce y quién lo produce:
+
+$$PNB = PIB + \text{ingreso neto de factores del exterior}$$
+
+donde el ingreso neto de factores es lo que los nacionales **reciben** del exterior menos lo que se **paga** a factores extranjeros.
 
 ------------------------------------------------------------------------
 
@@ -138,110 +142,37 @@ El ajuste refleja la diferencia entre dónde se produce y quién lo produce.
 
 ------------------------------------------------------------------------
 
-## 3 formas de medición
+## 3 formas de medición {.smaller}
 
-Los tres métodos deben dar el mismo resultado — son tres ventanas al mismo fenómeno:
+Tres ventanas al mismo fenómeno: deben dar el mismo resultado.
 
-1. **Por el lado del gasto** (la más usada y citada)
-2. **Por el valor agregado o producción** — así se calcula el Imacec
-3. **Por el lado de los ingresos**
+| Enfoque | Pregunta | Fórmula |
+|---|---|---|
+| **Gasto** | ¿Quién compra? | $PIB = C + I + G + (X - M)$ |
+| **Producción** (Imacec) | ¿Cuánto se creó? | $PIB = \sum VAB + \text{imp. netos}$ |
+| **Ingresos** | ¿Quién lo recibe? | $PIB = \text{remun.} + EBE + \text{ing. mixto} + \text{imp. netos}$ |
 
-Por el lado del gasto:
-
-$$PIB = C + I + G + (X - M)$$
-
-Donde C = consumo, I = inversión, G = gasto de gobierno, X = exportaciones, M = importaciones.
-
-------------------------------------------------------------------------
-
-## Por el lado de la producción: valor agregado {.smaller}
-
-El **valor agregado bruto (VAB)** de una empresa es el valor de lo que produce menos lo que compra a otras empresas para producir (consumo intermedio).
-
-> **Valor agregado no significa utilidad.** De ese valor todavía se pagan remuneraciones y otros componentes del ingreso generado por la producción.
-
-*Ejemplo, el pan de \$250:*
-
-| Etapa | Vende por | Compra insumos por | Valor agregado |
-|---|---:|---:|---:|
-| Agricultor (trigo) | \$100 | \$0 | \$100 |
-| Molino (harina) | \$160 | \$100 | \$60 |
-| Panadería (pan) | \$250 | \$160 | \$90 |
-| **Total** | | | **\$250** |
-
-La suma de los valores agregados es igual al valor del pan final: no se cuenta dos veces el trigo ni la harina.
+- **Valor agregado (VAB):** lo que vende una empresa menos lo que compra a otras. *Panadería:* pan \$250 − harina \$160 = **\$90**. No es utilidad: de ahí paga \$70 en sueldos.
+- **Excedente bruto (EBE):** lo que queda del VAB tras pagar remuneraciones: el ingreso del capital. *Panadería:* \$90 − \$70 = **\$20**. Es "bruto" porque no descuenta el desgaste de los activos (ej. el horno).
+- **Ingreso mixto:** negocios donde el dueño trabaja en lo suyo. *Almacén:* \$1.000 − mercadería \$700 = \$300, que mezclan su trabajo y su ganancia.
+- **Impuestos netos:** impuestos a los productos (ej. IVA) menos subvenciones. Si el Estado cobra \$50 por el pan de \$250, los hogares pagan \$300: el PIB a precios de mercado suma esos \$50 al VAB.
 
 ------------------------------------------------------------------------
 
-## Del valor agregado al PIB a precios de mercado {.smaller}
+## Un ejemplo: el pan de \$250 {.smaller}
 
-Para expresar el PIB a precios de mercado, la fórmula completa es:
+| Etapa | Vende por | Insumos | Valor agregado | Remuneraciones | Excedente |
+|---|---:|---:|---:|---:|---:|
+| Agricultor (trigo) | \$100 | \$0 | \$100 | \$60 | \$40 |
+| Molino (harina) | \$160 | \$100 | \$60 | \$40 | \$20 |
+| Panadería (pan) | \$250 | \$160 | \$90 | \$70 | \$20 |
+| **Total** | | | **\$250** | **\$170** | **\$80** |
 
-$$\boxed{\begin{aligned} PIB = {} & \sum VAB_{\text{a precios básicos}} \\ & + \text{impuestos sobre los productos} \\ & - \text{subvenciones sobre los productos} \end{aligned}}$$
+- **Gasto:** los hogares compran el pan final → \$250
+- **Producción:** \$100 + \$60 + \$90 de valor agregado → \$250
+- **Ingresos:** \$170 de remuneraciones + \$80 de excedente → \$250
 
-El ajuste permite pasar de la valoración de los productores a los precios de mercado.
-
-------------------------------------------------------------------------
-
-## Por el lado de los ingresos {.smaller}
-
-Este enfoque pregunta **cómo se distribuye el valor generado** durante la producción.
-
-$$\boxed{\begin{aligned} PIB = {} & \text{remuneraciones} + \text{excedente bruto de explotación} \\ & + \text{ingreso mixto bruto} \\ & + \text{impuestos netos de subvenciones sobre producción y productos} \end{aligned}}$$
-
-| Componente | Qué representa |
-|---|---|
-| Remuneraciones | Sueldos, salarios y contribuciones sociales de los empleadores |
-| Excedente bruto de explotación | Ingreso generado por la producción que corresponde al capital, antes de descontar el consumo de capital fijo. No equivale exactamente a la utilidad contable |
-| Ingreso mixto bruto | Ingreso de negocios de hogares donde es difícil separar la remuneración del trabajo del dueño y el rendimiento de su capital |
-| Impuestos netos de subvenciones | Impuestos sobre la producción y los productos, menos las subvenciones correspondientes |
-
-------------------------------------------------------------------------
-
-## Ingreso mixto y "bruto"
-
-**Ingreso mixto:** el ingreso de una persona que trabaja en su propio almacén mezcla su trabajo y el rendimiento del negocio; de ahí el término *mixto*.
-
-**Bruto:** la palabra indica que se incluye el **consumo de capital fijo**, asociado al desgaste y la obsolescencia de los activos productivos.
-
-> Si se usan excedente e ingreso mixto **netos**, hay que añadir ese consumo de capital fijo por separado.
-
-------------------------------------------------------------------------
-
-## Un ejemplo que conecta las tres miradas: ingresos {.smaller}
-
-Volvamos al pan de \$250. Supongamos que toda la cadena es nacional, el pan se vende a hogares y no hay impuestos ni subvenciones.
-
-El valor agregado de \$250 se distribuye así:
-
-| Etapa | Remuneraciones | Excedente bruto | Valor agregado |
-|---|---:|---:|---:|
-| Agricultor | \$60 | \$40 | \$100 |
-| Molino | \$40 | \$20 | \$60 |
-| Panadería | \$70 | \$20 | \$90 |
-| **Total** | **\$170** | **\$80** | **\$250** |
-
-------------------------------------------------------------------------
-
-## Tres enfoques, un mismo PIB {.smaller}
-
-| Enfoque | Cálculo | PIB |
-|---|---|---:|
-| Gasto | Los hogares compran el pan final | \$250 |
-| Producción | \$100 + \$60 + \$90 de valor agregado | \$250 |
-| Ingresos | \$170 de remuneraciones + \$80 de excedente bruto | \$250 |
-
-La misma producción se observa como **una compra de pan**, **valor creado en una cadena productiva** e **ingresos generados** para quienes participaron en ella.
-
-------------------------------------------------------------------------
-
-## Una identidad contable, no una causa {.smaller}
-
-La igualdad es una **identidad contable**, no una afirmación causal.
-
-Escribir $PIB = C + I + G + X - M$ no demuestra que aumentar cualquiera de sus componentes haga subir automáticamente el PIB en la misma cantidad.
-
-> Para eso hay que analizar cómo reaccionan la producción, los precios, las importaciones y el resto de la economía.
+> Es una **identidad contable**, no una causa: que $PIB = C + I + G + X - M$ no implica que subir un componente suba el PIB en la misma cantidad.
 
 ------------------------------------------------------------------------
 
@@ -253,7 +184,7 @@ Se calcula por el **método de valor agregado** y sirve como termómetro mensual
 
 En 2025, el PIB creció **2,5% real** — coherente con lo que el Imacec fue mostrando mes a mes.
 
-> Fuente: [Banco Central de Chile — Imacec](https://www.bcentral.cl) · [Encuesta de Expectativas Económicas, BCCh](https://www.bcentral.cl)
+> Fuente: [Banco Central de Chile — Imacec](https://www.bcentral.cl/web/banco-central/areas/estadisticas/imacec)
 
 ------------------------------------------------------------------------
 
@@ -308,18 +239,27 @@ Un país con mayor actividad tiende a generar más empleo y mejores salarios. La
 
 ## Clasificación de la población
 
-![](imagenes/mercado_laboral_clasificacion.png){fig-align="center" width="80%"}
+![](imagenes/mercado_laboral_clasificacion.png){fig-align="center" width="70%"}
+
+::: {style="font-size: 0.7em; color: #666;"}
+En el diagrama: *inactivos* = fuera de la fuerza de trabajo; *PEA* = fuerza de trabajo (denominaciones en desuso según INE, *Glosario ENE*, act. 26 sep. 2025).
+:::
 
 ------------------------------------------------------------------------
 
-## Definiciones clave (INE)
+## Definiciones clave (INE) {.smaller}
 
-- **Ocupados:** dedicaron al menos 1 hora en la semana de referencia a producir bienes o servicios a cambio de remuneración
-- **Desocupados:** no ocupados, buscaron trabajo activamente en las últimas 4 semanas y están disponibles para trabajar en las próximas 2
-- **Inactivos:** en edad de trabajar pero no clasificados como ocupados ni desocupados
+Se clasifica a la población en edad de trabajar (15 años o más) según lo que hizo en la **semana de referencia** (de lunes a domingo, la semana anterior a la entrevista):
 
-> El **trabajador desalentado** es inactivo — quiere trabajar pero dejó de buscar.
-> Esto hace que la tasa oficial **subestime** el desempleo real.
+- **Ocupados:** dedicaron al menos 1 hora a producir bienes o servicios a cambio de remuneración o beneficio (en dinero o en especie). Incluye a los **ocupados ausentes**: ausencia temporal, pero con vínculo con su empleo
+- **Desocupados:** no ocupados, buscaron trabajo activamente en las últimas 4 semanas (incluida la de referencia) y están disponibles para comenzar en las próximas 2
+- **Fuera de la fuerza de trabajo** (antes "inactivos"): ni ocupados ni desocupados
+
+> Quien quiere trabajar pero no busca, o no está disponible (como el trabajador desalentado), queda **fuera** de la tasa de desocupación. El INE lo mide aparte, en los indicadores de subutilización (SU3).
+
+::: {style="font-size: 0.8em; color: #666;"}
+Fuente: INE, *Glosario Encuesta Nacional de Empleo* (act. 26 sep. 2025).
+:::
 
 ------------------------------------------------------------------------
 
@@ -338,24 +278,51 @@ Un país con mayor actividad tiende a generar más empleo y mejores salarios. La
 | Criterio | Período de referencia |
 |---|---|
 | No haber trabajado al menos 1 hora | Semana de referencia |
-| Búsqueda activa de trabajo | Últimas 4 semanas |
-| Disponibilidad para trabajar | Próximas 2 semanas |
+| Búsqueda activa de trabajo | Últimas 4 semanas (incluida la de referencia) |
+| Disponibilidad para comenzar a trabajar | Próximas 2 semanas |
+
+::: {style="font-size: 0.8em; color: #666;"}
+Fuente: INE, *Glosario Encuesta Nacional de Empleo* (act. 26 sep. 2025).
+:::
 
 ------------------------------------------------------------------------
 
 ## Indicadores del mercado laboral {.smaller}
 
-$$TP = \frac{\text{Fuerza de trabajo}}{\text{Población en edad de trabajar}}$$
+**Tasa de participación (TP)**, **tasa de ocupación (TO)** y **tasa de desocupación (TD)**:
 
-$$TO = \frac{\text{Ocupados}}{\text{Población en edad de trabajar}}$$
+$$TP = \frac{FT}{PET} \qquad TO = \frac{O}{PET} \qquad TD = \frac{DO}{FT} = \frac{FT - O}{FT}$$
 
-$$u = \frac{\text{Desocupados}}{\text{Fuerza de trabajo}}$$
+PET = población en edad de trabajar; FT = fuerza de trabajo (ocupados + desocupados); O = ocupados; DO = desocupados.
 
-La tasa de desempleo también puede escribirse como:
+> La TD se calcula sobre la **FT**, no sobre la PET: no es el complemento de la TO.
 
-$$u = \frac{FT - n}{FT}$$
+::: {style="font-size: 0.8em; color: #666;"}
+Fuente: INE, *Glosario Encuesta Nacional de Empleo* (act. 26 sep. 2025).
+:::
 
-donde $n$ es el número de ocupados.
+------------------------------------------------------------------------
+
+## Desempleo en sentido amplio: subutilización {.smaller}
+
+La TD es la medida oficial y más estricta. El INE publica otras que suman a quienes no tienen trabajo suficiente:
+
+| Indicador | Numerador | Base |
+|---|---|---|
+| **TD** | DO | FT |
+| **SU1** (comparación internacional) | DO + ID | FT + ID |
+| **SU2** | DO + ID + TPI | FT + ID |
+| **SU3** | DO + ID + FTP | FTA |
+| **SU4** (global) | DO + ID + TPI + FTP | FTA |
+
+- **ID** (iniciadores disponibles): no buscaron porque empezarán pronto un trabajo
+- **TPI** (tiempo parcial involuntario): ocupados con 30 horas o menos que quieren más
+- **FTP** (fuerza de trabajo potencial): quieren trabajar pero no buscan o no están disponibles (ej. desalentados)
+- **FTA** (fuerza de trabajo ampliada) = FT + ID + FTP
+
+::: {style="font-size: 0.8em; color: #666;"}
+Fuente: INE, *Glosario Encuesta Nacional de Empleo* (act. 26 sep. 2025).
+:::
 
 ------------------------------------------------------------------------
 
@@ -365,31 +332,30 @@ donde $n$ es el número de ocupados.
 |---|---|---|
 | Población en edad de trabajar | 3,6 | 32,5 |
 | Fuerza de trabajo | 2,9 | 24,4 |
-| Inactivos | 0,7 | 8,2 |
+| Fuera de la fuerza de trabajo | 0,7 | 8,2 |
 | Ocupados | 2,8 | 21,8 |
 | Desocupados | 0,1 | 2,6 |
 | Tasa de participación | 80% | 75% |
-| Tasa de empleo | 77% | 67% |
-| Tasa de desempleo | **4,6%** | **10,6%** |
+| Tasa de ocupación | 77% | 67% |
+| Tasa de desocupación | **4,6%** | **10,6%** |
 
 ::: {style="font-size: 0.8em; color: #666;"}
-Fuente: Eurostat, Encuesta de Fuerza de Trabajo de la UE, promedio anual 2025, ambos sexos (tablas `lfsa_pganws`, `lfsa_agan`, `lfsa_egan` y `lfsa_ugan`), consultada el 25 de octubre de 2026. Las tasas se calculan con las cifras originales en miles de personas; las cifras en millones pueden no sumar por redondeo.
+Fuente: Eurostat, Encuesta de Fuerza de Trabajo de la UE, promedio anual 2025, ambos sexos (tablas `lfsa_pganws`, `lfsa_agan`, `lfsa_egan` y `lfsa_ugan`), consultada el 25 de octubre de 2026. Los términos siguen el glosario de la ENE del INE (Eurostat: *inactive* = fuera de la fuerza de trabajo; *unemployment* = desocupación). Las tasas se calculan con las cifras originales en miles de personas; las cifras en millones pueden no sumar por redondeo.
 :::
 
 ------------------------------------------------------------------------
 
-## Ley de Okun
+## Ley de Okun {.smaller}
 
-Existe una relación negativa entre el nivel de actividad y el desempleo:
+A mayor crecimiento del PIB, menor tasa de desocupación ($u = TD$), y viceversa:
 
-$$u_t - u_{t-1} = \mu - (y_t - y_{t-1})$$
+$$\Delta u \approx \mu - \Delta y$$
 
-O también: $\Delta u \approx \mu - \Delta y$
+- $\Delta u$: cambio en la tasa de desocupación
+- $\Delta y$: crecimiento del producto
+- $\mu$: crecimiento con el que la desocupación no cambia (absorbe la fuerza de trabajo nueva y la mayor productividad). Si la economía crece más que $\mu$, $u$ baja; si crece menos, sube
 
-Un mayor crecimiento del PIB reduce la tasa de desempleo — y viceversa.
-
-> El problema va más allá de la ecuación: importa la **fuente del crecimiento**.
-> Un boom minero genera poco empleo directo. Un boom de servicios genera mucho más.
+> Importa la **fuente del crecimiento**: un boom minero genera poco empleo directo; uno de servicios, mucho más.
 
 ------------------------------------------------------------------------
 
@@ -437,7 +403,7 @@ Empresa: US\$80 en maquinaria ($c$), US\$50 en salarios ($v$), vende por US\$150
 
 $$s = 150 - (80 + 50) = 20 \quad \Rightarrow \quad \frac{s}{v} = \frac{20}{50} = 0{,}4$$
 
-Por cada peso pagado en salarios, el empresario se queda con **40 centavos** de plusvalía. Del valor nuevo creado por los trabajadores ($v + s = 70$), retiene $20/70 \approx 29\%$.
+Por cada dólar pagado en salarios, el empresario se queda con **40 centavos** de plusvalía. Del valor nuevo creado por los trabajadores ($v + s = 70$), retiene $20/70 \approx 29\%$.
 
 > ¿En qué sectores esperarían una tasa de plusvalía más alta? ¿La automatización la aumenta o la disminuye?
 
@@ -462,19 +428,32 @@ Esta distinción importa porque el valor nominal puede subir simplemente porque 
 
 ------------------------------------------------------------------------
 
-## Inflación: dos medidas
+## Inflación: dos medidas {.smaller}
 
-**Deflactor del PIB** (método Paasche):
+Ambas miden cuánto subieron los precios. Lo que cambia es **con qué cantidades se ponderan** esos precios ($p$ = precio, $q$ = cantidad, $0$ = período base, $t$ = período actual):
 
-$$D = \frac{PIB_{\text{nominal}}}{PIB_{\text{real}}} \times 100$$
+| | Deflactor del PIB (Paasche) | IPC (Laspeyres) |
+|---|---|---|
+| **Canasta** | La del período actual ($q_t$): lo que se produce hoy | La fija del período base ($q_0$): lo que se consumía antes |
+| **Fórmula** | $D = \dfrac{\sum p_t q_t}{\sum p_0 q_t} \times 100 = \dfrac{PIB_{nominal}}{PIB_{real}} \times 100$ | $IL = \dfrac{\sum p_t q_0}{\sum p_0 q_0} \times 100$ |
+| **Pregunta** | ¿Cuánto subieron los precios de lo que producimos hoy? | ¿Cuánto cuesta hoy comprar lo mismo que antes? |
+| **Se usa para** | Pasar el PIB de nominal a real | Medir el costo de vida de los hogares |
 
-Usa la **canasta del período corriente** ($q_t$) — refleja lo que realmente se produce hoy.
+------------------------------------------------------------------------
 
-**IPC** (método Laspeyres):
+## Inflación: un ejemplo con dos bienes {.smaller}
 
-$$IL = \frac{\sum p_t \cdot q_0}{\sum p_0 \cdot q_0} \times 100$$
+| Bien | $p_0$ | $q_0$ | $p_t$ | $q_t$ |
+|---|---:|---:|---:|---:|
+| Pan | \$100 | 10 | \$100 | 12 |
+| Bencina | \$100 | 10 | \$150 | 8 |
 
-Usa una **canasta fija del período base** ($q_0$) — refleja el costo de la misma vida a precios nuevos.
+La bencina sube 50% y la gente compra menos.
+
+- **IPC (Laspeyres):** $(\$150 \cdot 10 + \$100 \cdot 10) / (\$100 \cdot 10 + \$100 \cdot 10) = 2.500 / 2.000$ → **125** (inflación de 25%). Valora la canasta de antes, aunque ya no se compre.
+- **Deflactor (Paasche):** $(\$150 \cdot 8 + \$100 \cdot 12) / (\$100 \cdot 8 + \$100 \cdot 12) = 2.400 / 2.000$ → **120** (inflación de 20%). Valora la canasta de hoy. El numerador es el PIB nominal y el denominador, el PIB real a precios base.
+
+> Las dos son correctas, responden preguntas distintas. La diferencia (25% contra 20%) viene de que los consumidores **sustituyen** bencina por pan.
 
 ------------------------------------------------------------------------
 
@@ -514,15 +493,19 @@ Fuente: Banco Central de Chile, IPoM septiembre 2026 (pp. 4, 6, 8 y 15); INE
 
 ------------------------------------------------------------------------
 
-## Laspeyres: el problema de la sustitución
+## Laspeyres: el problema de la sustitución {.smaller}
 
-Laspeyres asume que los consumidores mantienen la **misma canasta** aunque los precios cambien.
+Cuando un bien se encarece, la gente **sustituye** por otro más barato. En el ejemplo, la bencina sube 50% y se compra menos.
 
-En la práctica, si la bencina sube 50%, muchos dejan de manejar tanto.
+| | IPC (Laspeyres) | Deflactor (Paasche) |
+|---|---|---|
+| **Canasta** | Fija: la de antes | Actual: la de hoy |
+| **Supuesto** | Nadie cambia lo que compra | Ya incluye lo que se dejó de comprar |
+| **Sesgo** | **Sobreestima**: valora comprar *igual* lo que ya no se compra | **Subestima**: la sustitución ya ocurrió y no se ve el costo de adaptarse |
+| **En el ejemplo** | 25% | 20% |
 
-Por eso Laspeyres **tiende a sobreestimar** la inflación: mide el costo de vivir *igual* cuando la gente ajusta su comportamiento.
-
-Paasche (deflactor) tiene el problema inverso: subestima porque usa la canasta nueva, donde ya ocurrió la sustitución.
+- En teoría, el aumento *verdadero* del costo de vida queda **entre** ambas medidas
+- El IPC se usa igual porque solo exige medir los precios de una canasta fija; actualizar esa canasta cada cierto tiempo acota el sesgo
 
 > Actividad: Construyamos un IPC
 > Ver `clase01_actividad_03_ipc`
@@ -531,112 +514,93 @@ Paasche (deflactor) tiene el problema inverso: subestima porque usa la canasta n
 
 ## Salario real {.smaller}
 
-La relación entre precios y salarios:
-
-$$P = \frac{W_n}{W_r} \quad \Rightarrow \quad W_r = \frac{W_n}{P}$$
-
-Como no observamos el nivel de precios directamente, usamos el IPC:
+El **salario real** mide cuántos bienes puede comprar el salario, es decir, su poder adquisitivo. Se obtiene deflactando el salario nominal ($W_n$) con el IPC:
 
 $$W_r = \frac{W_n}{IPC} \times 100$$
 
-> Si el salario nominal sube 5% pero la inflación es 8%, el salario real **cae** 3%.
-> Eso es lo que ocurre cuando el IPC crece más rápido que los ingresos.
+*Ejemplo:* el salario sube 5% y la inflación es 8%.
+
+| | Año 0 | Año 1 | Variación |
+|---|---:|---:|---:|
+| Salario nominal | \$1.000.000 | \$1.050.000 | +5% |
+| IPC | 100 | 108 | +8% |
+| **Salario real** (a precios del año 0) | \$1.000.000 | \$972.222 | **−2,8%** |
+
+> El salario real **cae** cuando el IPC crece más rápido que el salario nominal. Regla rápida: variación real ≈ variación nominal − inflación.
 
 Ver ejercicio en Excel: `data/ejercicio 03 Salario.xlsx`
 
 ------------------------------------------------------------------------
 
-## Tipo de cambio nominal
+## Tipo de cambio nominal {.smaller}
 
-Cuando hablamos del "precio del dólar" nos referimos al **tipo de cambio nominal** ($e$): cuántos pesos cuesta un dólar.
+El "precio del dólar" es el **tipo de cambio nominal** ($e$): cuántos pesos cuesta un dólar.
 
-**Apreciación:** el peso se fortalece → el dólar baja en pesos
+| Si el dólar pasa de \$900 a... | Se llama | El peso | Efecto |
+|---|---|---|---|
+| \$950 (**sube** 5,6%) | **Depreciación** | se debilita | Importar sale más caro; exportar rinde más pesos |
+| \$850 (**baja** 5,6%) | **Apreciación** | se fortalece | Importar sale más barato; exportar rinde menos pesos |
 
-**Depreciación:** el peso se debilita → el dólar sube en pesos
+Se habla de **devaluación/revaluación** cuando el cambio lo decide la autoridad (en un régimen de tipo de cambio fijo). En Chile el tipo de cambio es flotante: lo determina el mercado.
 
-Se habla de **devaluación/revaluación** cuando la variación es por decisión de la autoridad.
-
-![](imagenes/clp_historico.png){fig-align="center" width="78%"}
+![](imagenes/clp_historico.png){fig-align="center" width="48%"}
 
 ------------------------------------------------------------------------
 
-## Tipo de cambio real
+## Tipo de cambio real {.smaller}
 
-El TCR mide el poder de compra de bienes entre países:
+Si el dólar sube 10% pero los precios en Chile también, nada cambió en términos reales. El **TCR** compara el costo de la misma canasta en ambos países, en una misma moneda:
 
-$$TCR = \frac{e \cdot P^*}{P}$$
+- La canasta del exterior cuesta $P^*$ dólares, es decir, $e \cdot P^*$ pesos
+- La canasta chilena cuesta $P$ pesos
 
-Donde $e$ = tipo de cambio nominal, $P^*$ = nivel de precios internacional, $P$ = nivel de precios nacional.
+$$\text{TCR} = \frac{e \cdot P^*}{P}$$
 
-Si Chile tiene más inflación que EE.UU. y el tipo de cambio nominal no se mueve, el peso se **aprecia en términos reales** — los productos chilenos se encarecen para el mundo.
+Se lee: **cuántas canastas chilenas se compran con una canasta del exterior**.
 
-![](imagenes/tcr_historico.png){fig-align="center" width="65%"}
+| | Qué pasa | Chile frente al mundo |
+|---|---|---|
+| **TCR sube** (depreciación real) | Sube $e$, o sube la inflación externa, o baja la chilena | Más barato: favorece a los exportadores |
+| **TCR baja** (apreciación real) | Baja $e$, o baja la inflación externa, o sube la chilena | Más caro: favorece a los importadores |
 
-# Estabilidad financiera y holguras fiscales
+## Tipo de cambio real: un ejemplo {.smaller}
 
-## ¿Por qué mirar lo financiero y lo fiscal?
+Una misma canasta cuesta US\$10 en EE.UU. y \$9.000 en Chile, con el dólar a \$900. Un año después, **Chile tiene 10% de inflación**, EE.UU. no, y el dólar sigue en \$900:
+
+| | Año 0 | Año 1 |
+|---|---:|---:|
+| Precio de la canasta en Chile ($P$) | \$9.000 | \$9.900 |
+| Precio de la canasta en EE.UU. ($P^*$) | US\$10 | US\$10 |
+| Tipo de cambio nominal ($e$) | \$900 | \$900 |
+| **TCR** $= e \cdot P^* / P$ | **1** | **0,91** |
+
+- El TCR **cae 9%**: apreciación real aunque el tipo de cambio nominal no se movió
+- La canasta chilena cuesta ahora US\$11 (9.900 / 900) contra US\$10 en EE.UU.: Chile es más caro para el mundo
+
+> Lo que vemos en la pantalla es el nominal; lo que importa para la competitividad es el real.
+
+------------------------------------------------------------------------
+
+## Tipo de cambio real: evolución
+
+![](imagenes/tcr_historico.png){fig-align="center" width="80%"}
+
+# Estabilidad financiera
+
+## ¿Por qué mirar la estabilidad financiera?
 
 Actividad, empleo y precios describen cómo funciona la economía **hoy**.
 
-La estabilidad financiera y la situación fiscal describen **cuánto margen hay para absorber shocks**: ¿pueden bancos, hogares, empresas y el Estado resistir un período de actividad débil y financiamiento más caro?
+La estabilidad financiera describe **cuánto margen hay para absorber shocks**: ¿pueden bancos, hogares y empresas resistir un período de actividad débil y financiamiento más caro?
 
 > Lo veremos con dos informes del Banco Central: el **IPoM** (actividad y precios) y el **IEF** (estabilidad financiera). Son la base de la actividad de coyuntura.
 
-------------------------------------------------------------------------
-
-## Holguras fiscales {.smaller}
-
-:::: {.columns}
-::: {.column width="48%"}
-**Balance Estructural (BE):** déficit o superávit fiscal sin los efectos del ciclo económico ni del precio del cobre.
-
-| Indicador | Dato |
-|---|---|
-| BE 2025 | **-3,6% del PIB** |
-| Meta original 2025 | -1,1% del PIB |
-| Desvío respecto a la meta | **2,5 pp del PIB** (US$8.863 millones) |
-| Incumplimientos consecutivos | **3 años** (2023, 2024, 2025) |
-
-::: {style="font-size: 0.8em; color: #666;"}
-Fuente: CFA, *Informe sobre el desvío de la meta de BE de 2025*, 4 de marzo de 2026, p. 4
-:::
-:::
-::: {.column width="52%"}
-**Deuda bruta del gobierno central**
-
-| Indicador | Dato |
-|---|---|
-| Deuda / PIB, diciembre 2025 | **41,7%** |
-| Deuda / PIB, marzo 2026 | **42,6%** |
-| Nivel prudente de deuda | **45% del PIB** |
-| Año en que superaría el 45% (escenario base) | **2029** (45,3%) |
-| Deuda / PIB en 2007 | 3,9% → **×10 en 17 años** (41,7% en 2024) |
-
-::: {style="font-size: 0.8em; color: #666;"}
-Fuentes: Banco Central, *IEF* 1S 2026, p. 25 (deuda 2025 y 2026); CFA, *Informe sobre BE y nivel prudente de deuda*, 17 de agosto de 2026, p. 17 (proyección); CFA, *Informe de BE 4T25*, 26 de marzo de 2026, p. 29 (2007 y 2024)
-:::
-:::
-::::
-
-------------------------------------------------------------------------
-
-## Estabilidad financiera: ¿qué dice el IEF? {.smaller}
-
-| Indicador | Dato |
-|---|---|
-| Principal riesgo | **Estrechamiento abrupto** de las condiciones de financiamiento (p. 4) |
-| Banca: holgura de capital básico (CET1) | **3,2 pp** sobre los requerimientos; un estrés severo destruiría 2,3 pp (pp. 30 y 32) |
-| Hogares: deuda | **46%** del PIB; riqueza financiera neta de 122% (p. 22) |
-| Empresas: deuda no bancaria | **103%** del PIB (113% en 2024) (p. 19) |
-| Inmobiliario | **19 meses** para agotar el stock de viviendas terminadas (7 en 2011–2019) (p. 22) |
-| Deuda del gobierno central que vence en 5 años | **37%** (29% un año antes) (p. 25) |
-
-::: {style="font-size: 0.8em; color: #666;"}
-Fuente: Banco Central de Chile, *Informe de Estabilidad Financiera*, primer semestre 2026 (cierre estadístico: 5 de mayo). Clasificación crediticia: Fitch ratificó **A− con perspectiva estable** el 18 de septiembre de 2026 (vía Ministerio de Hacienda).
-:::
-
-> Actividad de coyuntura: ¿recesión, inflación o fragilidad financiera?
+> Actividad de coyuntura: ¿recesión, inflación o fragilidad financiera?  
 > Ver `clase01_actividad_04_coyuntura`
+
+
+
+------------------------------------------------------------------------
 
 # Cierre
 
@@ -651,7 +615,7 @@ Ahora pueden leer esto con precisión:
 - **"Inflation"**: variación del IPC mensual — método Laspeyres, canasta fija
 - **"Tripled"**: el *ritmo* mensual fue inusual (0,9%), no el nivel anual (3,3%)
 - **"Gas prices"**: un bien que pesa ~3% de la canasta subió 21% → explica ~0,6 pp de los 0,9 pp del alza mensual (BLS: ficha de combustibles e informe CPI de marzo 2026)
-- **Conexión con Chile**: el shock de petróleo mantiene el IPC local en torno a 4% en 2026, complica el Balance Estructural vía MEPCO, y presiona el tipo de cambio
+- **Conexión con Chile**: el shock de petróleo mantiene el IPC local en torno a 4% en 2026 y presiona el tipo de cambio
 
 ------------------------------------------------------------------------
 
@@ -689,9 +653,6 @@ PIB crece    →   empleo sube   →   salarios nominales suben
 - Banco Central de Chile. (2026, septiembre). *Informe de Política Monetaria*. [bcentral.cl](https://www.bcentral.cl)
 - Banco Central de Chile. (2026, mayo). *Informe de Estabilidad Financiera, primer semestre 2026*. [bcentral.cl](https://www.bcentral.cl)
 - INE Chile. (2026, 8 oct.). *Boletín estadístico: Índice de Precios al Consumidor, n° 335*. [ine.cl](https://www.ine.cl)
-- CFA. (2026, 4 mar.). *Informe sobre el desvío de la meta de Balance Estructural de 2025*. [cfachile.cl](https://cfachile.cl)
-- CFA. (2026, 26 mar.). *Informe de Balance Estructural y nivel prudente de deuda, 4T25*. [cfachile.cl](https://cfachile.cl)
-- CFA. (2026, 17 ago.). *Informe sobre Balance Estructural y nivel prudente de deuda: estimaciones 2026-2030 del IFP del segundo trimestre de 2026*. [cfachile.cl](https://cfachile.cl)
 
 ------------------------------------------------------------------------
 
@@ -700,6 +661,7 @@ PIB crece    →   empleo sube   →   salarios nominales suben
 - CNN Business. (2026, 10 abr.). *CPI report: US inflation tripled last month on record spike in gas prices*. [cnn.com](https://www.cnn.com/2026/04/10/business/live-news/us-cpi-march-inflation-iran)
 - BLS. (2026, 10 abr.). *Consumer Price Index – March 2026*. [bls.gov](https://www.bls.gov/news.release/archives/cpi_04102026.htm)
 - BLS. *Relative importance of motor fuel in the CPI*. [bls.gov](https://www.bls.gov/cpi/factsheets/motor-fuel.htm)
+- INE Chile. (2025, 26 sep.). *Glosario Encuesta Nacional de Empleo (ENE)*. [ine.gob.cl](https://www.ine.gob.cl/docs/default-source/ocupacion-y-desocupacion/metodologia/otros/glosario-ene.pdf?sfvrsn=e8d50659_5)
 - Eurostat. (2025). *EU Labour Force Survey: annual data by sex and age* (tablas lfsa_pganws, lfsa_agan, lfsa_egan, lfsa_ugan). [ec.europa.eu/eurostat](https://ec.europa.eu/eurostat/web/lfs/database)
 - Clark, A. & Oswald, A. (2002). A simple statistical method for measuring how life events affect happiness. *International Journal of Epidemiology*, 31(6), 1139–1144.
 - Core Econ. *The Economy*. [core-econ.org](https://www.core-econ.org/the-economy/book/es/text/13.html)
